@@ -3,22 +3,78 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Fetch and Extract JSON Array</title>
+<title>Shop Pre-Fetch Utility</title>
+<style>
+    /* Styling for the Shop Pre-Fetch Utility */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #121212; /* Dark background */
+        color: #e0e0e0; /* Light text */
+        margin: 20px;
+        padding: 0;
+    }
+
+    h1 {
+        color: #4CAF50; /* Green highlight for the title */
+        border-bottom: 2px solid #4CAF50;
+        padding-bottom: 10px;
+    }
+
+    #fetchButton {
+        background-color: #007BFF; /* Blue button */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+    #fetchButton:hover {
+        background-color: #0056b3;
+    }
+
+    /* Styles for the extracted JSON content */
+    #result {
+        background-color: #1e1e1e; /* Slightly lighter dark background for code */
+        padding: 15px;
+        border-radius: 8px;
+        white-space: pre-wrap; /* Allows text to wrap */
+        word-break: break-all; /* Prevents overflow with long strings */
+        overflow-x: auto; /* Adds horizontal scroll for very wide lines */
+        font-family: 'Consolas', 'Courier New', monospace; /* Monospace for code */
+        font-size: 14px;
+        line-height: 1.4;
+        max-width: 100%; /* Conforms to screen width */
+        box-sizing: border-box; /* Include padding/border in width */
+    }
+
+    /* Style for error messages */
+    .error {
+        color: #ff4d4d; /* Red color for errors */
+        font-weight: bold;
+    }
+</style>
 </head>
 <body>
-<h1>Fetch and Extract JSON Array Near "SHOP"</h1>
-<button id="fetchButton">Fetch and Extract</button>
-<pre id="result"></pre>
+<h1>Shop Pre-Fetch Utility</h1>
+<button id="fetchButton">Fetch & Extract Shop Data</button>
+<pre id="result">Click the button to fetch and extract the car shop data.</pre>
 
 <script>
 const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/'; 
 
 document.getElementById('fetchButton').addEventListener('click', () => {
-    // The browser now fetches from your Worker, which is same-origin (or allowed via CORS headers)
+    // Clear previous results and show loading
+    document.getElementById('result').textContent = 'Fetching content via Cloudflare Worker...';
+    document.getElementById('result').classList.remove('error');
+
     fetch(workerUrl)
         .then(response => {
             if (!response.ok) {
-                throw new Error(`Worker response not OK: ${response.statusText}`);
+                throw new Error(`Worker response not OK: ${response.statusText} (${response.status})`);
             }
             return response.text();
         })
@@ -40,7 +96,10 @@ document.getElementById('fetchButton').addEventListener('click', () => {
                     // From startIdx, parse until matching closing bracket
                     let stack = 0;
                     let endIdx = startIdx;
-                    for (let i = startIdx; i < data.length; i++) {
+                    // Improved parsing: only search a limited range to prevent endless loops
+                    const maxSearch = Math.min(data.length, pos + 1000); 
+                    
+                    for (let i = startIdx; i < maxSearch; i++) {
                         if (data[i] === '[') {
                             stack++;
                         } else if (data[i] === ']') {
@@ -51,16 +110,33 @@ document.getElementById('fetchButton').addEventListener('click', () => {
                             }
                         }
                     }
-                    const jsonString = data.substring(startIdx, endIdx);
-                    arraysFound.push(jsonString);
+                    
+                    if (stack === 0 && endIdx > startIdx) {
+                         const jsonString = data.substring(startIdx, endIdx);
+                         // Optional: Re-format the raw JSON for better reading (pretty-print)
+                         try {
+                            const jsonArray = JSON.parse(jsonString);
+                            arraysFound.push(JSON.stringify(jsonArray, null, 2)); // 2 space indentation
+                         } catch (e) {
+                             // Fallback to raw string if parsing fails
+                             arraysFound.push(jsonString + ' (Parsing Error)');
+                         }
+                    }
                 }
             });
 
-            document.getElementById('result').textContent = `Extracted ${arraysFound.length} JSON array(s):\n\n` + arraysFound.join('\n\n');
+            if (arraysFound.length > 0) {
+                document.getElementById('result').textContent = 
+                    `✅ Extracted ${arraysFound.length} JSON array(s) near "SHOP":\n\n` + 
+                    arraysFound.join('\n\n' + '-'.repeat(50) + '\n\n');
+            } else {
+                document.getElementById('result').textContent = '⚠️ Could not find the expected JSON array near "SHOP".';
+            }
         })
         .catch(error => {
-            document.getElementById('result').textContent = 'Error fetching the file: ' + error;
-            console.error(error);
+            document.getElementById('result').textContent = '❌ Error fetching or processing the file: ' + error.message;
+            document.getElementById('result').classList.add('error');
+            console.error('Fetch Error:', error);
         });
 });
 </script>
