@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fetch and Extract JSON Array</title>
+</head>
+<body>
+<h1>Fetch and Extract JSON Array Near "SHOP"</h1>
+<button id="fetchButton">Fetch and Extract</button>
+<pre id="result"></pre>
+
+<script>
+document.getElementById('fetchButton').addEventListener('click', () => {
+    fetch('https://www.nitrotype.com/index/code/bootstrap.js')
+        .then(response => response.text())
+        .then(data => {
+            const searchTerm = '"SHOP",';
+            let indices = [];
+            let index = data.indexOf(searchTerm);
+            while (index !== -1) {
+                indices.push(index);
+                index = data.indexOf(searchTerm, index + searchTerm.length);
+            }
+
+            const arraysFound = [];
+
+            indices.forEach(pos => {
+                // Search backwards from the position to find the nearest '['
+                let startIdx = data.lastIndexOf('[', pos);
+                if (startIdx !== -1) {
+                    // From startIdx, parse until matching closing bracket
+                    let stack = 0;
+                    let endIdx = startIdx;
+                    for (let i = startIdx; i < data.length; i++) {
+                        if (data[i] === '[') {
+                            stack++;
+                        } else if (data[i] === ']') {
+                            stack--;
+                            if (stack === 0) {
+                                endIdx = i + 1; // include the closing bracket
+                                break;
+                            }
+                        }
+                    }
+                    const jsonString = data.substring(startIdx, endIdx);
+                    arraysFound.push(jsonString);
+                }
+            });
+
+            document.getElementById('result').textContent = `Extracted ${arraysFound.length} JSON array(s):\n\n` + arraysFound.join('\n\n');
+        })
+        .catch(error => {
+            document.getElementById('result').textContent = 'Error fetching the file: ' + error;
+        });
+});
+</script>
+</body>
+</html>
