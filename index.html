@@ -11,9 +11,17 @@
 <pre id="result"></pre>
 
 <script>
+const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/'; 
+
 document.getElementById('fetchButton').addEventListener('click', () => {
-    fetch('https://www.nitrotype.com/index/code/bootstrap.js')
-        .then(response => response.text())
+    // The browser now fetches from your Worker, which is same-origin (or allowed via CORS headers)
+    fetch(workerUrl)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Worker response not OK: ${response.statusText}`);
+            }
+            return response.text();
+        })
         .then(data => {
             const searchTerm = '"SHOP",';
             let indices = [];
@@ -52,6 +60,7 @@ document.getElementById('fetchButton').addEventListener('click', () => {
         })
         .catch(error => {
             document.getElementById('result').textContent = 'Error fetching the file: ' + error;
+            console.error(error);
         });
 });
 </script>
