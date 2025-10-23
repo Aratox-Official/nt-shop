@@ -3,25 +3,24 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Shop Pre-Fetch Utility</title>
+<title>Nitro Type Detailed Shop Data Extractor</title>
 <style>
-    /* Styling for the Shop Pre-Fetch Utility */
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #121212; /* Dark background */
-        color: #e0e0e0; /* Light text */
+        background-color: #121212;
+        color: #e0e0e0;
         margin: 20px;
         padding: 0;
     }
 
     h1 {
-        color: #4CAF50; /* Green highlight for the title */
+        color: #4CAF50;
         border-bottom: 2px solid #4CAF50;
         padding-bottom: 10px;
     }
 
     #fetchButton {
-        background-color: #007BFF; /* Blue button */
+        background-color: #007BFF;
         color: white;
         border: none;
         padding: 10px 20px;
@@ -36,39 +35,124 @@
         background-color: #0056b3;
     }
 
-    /* Styles for the extracted JSON content */
     #result {
-        background-color: #1e1e1e; /* Slightly lighter dark background for code */
+        background-color: #1e1e1e;
         padding: 15px;
         border-radius: 8px;
-        white-space: pre-wrap; /* Allows text to wrap */
-        word-break: break-all; /* Prevents overflow with long strings */
-        overflow-x: auto; /* Adds horizontal scroll for very wide lines */
-        font-family: 'Consolas', 'Courier New', monospace; /* Monospace for code */
+        white-space: pre-wrap;
+        word-break: break-all;
+        overflow-x: auto;
+        font-family: 'Consolas', 'Courier New', monospace;
         font-size: 14px;
         line-height: 1.4;
-        max-width: 100%; /* Conforms to screen width */
-        box-sizing: border-box; /* Include padding/border in width */
+        max-width: 100%;
+        box-sizing: border-box;
     }
 
-    /* Style for error messages */
     .error {
-        color: #ff4d4d; /* Red color for errors */
+        color: #ff4d4d;
         font-weight: bold;
     }
 </style>
 </head>
 <body>
-<h1>Shop Pre-Fetch Utility</h1>
-<button id="fetchButton">Fetch & Extract Shop Data</button>
-<pre id="result">Click the button to fetch and extract the car shop data.</pre>
+<h1>Nitro Type Detailed Shop Data Extractor</h1>
+<button id="fetchButton">Fetch & Extract Detailed Shop Data</button>
+<pre id="result">Click the button to fetch the daily bootstrap and extract detailed information for all shop items.</pre>
 
 <script>
-const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/'; 
+const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/'; 
+
+function findItemDetailsById(data, id) {
+    const searchPattern = new RegExp(`[^\\d\\w]${id},`, 'g');
+    
+    let match = searchPattern.exec(data);
+    
+    if (!match) return null;
+
+    const pos = match.index + match[0].length - 1; 
+
+    let startIdx = data.lastIndexOf('[', pos);
+    if (startIdx === -1) return null;
+    
+    let stack = 0;
+    let endIdx = -1;
+    const maxSearch = Math.min(data.length, startIdx + 50000); 
+    
+    for (let i = startIdx; i < maxSearch; i++) {
+        if (data[i] === '[') {
+            stack++;
+        } else if (data[i] === ']') {
+            stack--;
+            if (stack === 0) {
+                endIdx = i + 1;
+                break;
+            }
+        }
+    }
+    
+    if (stack === 0 && endIdx > startIdx) {
+        const jsString = data.substring(startIdx, endIdx);
+        
+        try {
+            const itemEntry = (new Function(`return ${jsString}`))();
+            
+            if (Array.isArray(itemEntry) && itemEntry.length > 0 && itemEntry[0] === id) {
+                return itemEntry;
+            }
+        } catch (e) {
+            return null;
+        }
+    }
+    
+    return null;
+}
+
+function extractBootstrapValueByKey(data, key) {
+    const searchTerm = `"${key}",`;
+    
+    let index = data.indexOf(searchTerm);
+    if (index === -1) return null;
+
+    let entryStart = data.lastIndexOf('[', index);
+    if (entryStart === -1) return null;
+
+    let stack = 0;
+    let endIdx = -1;
+    const maxSearch = Math.min(data.length, entryStart + 50000); 
+    
+    for (let i = entryStart; i < maxSearch; i++) {
+        if (data[i] === '[') {
+            stack++;
+        } else if (data[i] === ']') {
+            stack--;
+            if (stack === 0) {
+                endIdx = i + 1;
+                break;
+            }
+        }
+    }
+    
+    if (stack === 0 && endIdx > entryStart) {
+        const jsString = data.substring(entryStart, endIdx);
+        
+        try {
+            const bootstrapEntry = (new Function(`return ${jsString}`))();
+            
+            if (Array.isArray(bootstrapEntry) && bootstrapEntry.length >= 2 && bootstrapEntry[0] === key) {
+                return bootstrapEntry[1];
+            }
+        } catch (e) {
+            console.error(`Parsing failed for key ${key}:`, e);
+            return null;
+        }
+    }
+    
+    return null;
+}
 
 document.getElementById('fetchButton').addEventListener('click', () => {
-    // Clear previous results and show loading
-    document.getElementById('result').textContent = 'Fetching content via Cloudflare Worker...';
+    document.getElementById('result').textContent = 'Fetching and parsing live bootstrap data...';
     document.getElementById('result').classList.remove('error');
 
     fetch(workerUrl)
@@ -79,62 +163,54 @@ document.getElementById('fetchButton').addEventListener('click', () => {
             return response.text();
         })
         .then(data => {
-            const searchTerm = '"SHOP",';
-            let indices = [];
-            let index = data.indexOf(searchTerm);
-            while (index !== -1) {
-                indices.push(index);
-                index = data.indexOf(searchTerm, index + searchTerm.length);
+            const shopList = extractBootstrapValueByKey(data, "SHOP");
+            
+            if (!Array.isArray(shopList) || shopList.length === 0) {
+                document.getElementById('result').textContent = 'Could not find or extract a valid "SHOP" list.';
+                return;
             }
 
-            const arraysFound = [];
+            const detailedShopItems = [];
 
-            indices.forEach(pos => {
-                // Search backwards from the position to find the nearest '['
-                let startIdx = data.lastIndexOf('[', pos);
-                if (startIdx !== -1) {
-                    // From startIdx, parse until matching closing bracket
-                    let stack = 0;
-                    let endIdx = startIdx;
-                    // Improved parsing: only search a limited range to prevent endless loops
-                    const maxSearch = Math.min(data.length, pos + 1000); 
+            for (const shopEntry of shopList) {
+                let itemID = null;
+                if (typeof shopEntry === 'number') {
+                    itemID = shopEntry;
+                } else if (Array.isArray(shopEntry) && typeof shopEntry[0] === 'number') {
+                    itemID = shopEntry[0];
+                }
+
+                if (itemID !== null) {
+                    const itemDetails = findItemDetailsById(data, itemID);
                     
-                    for (let i = startIdx; i < maxSearch; i++) {
-                        if (data[i] === '[') {
-                            stack++;
-                        } else if (data[i] === ']') {
-                            stack--;
-                            if (stack === 0) {
-                                endIdx = i + 1; // include the closing bracket
-                                break;
-                            }
-                        }
-                    }
-                    
-                    if (stack === 0 && endIdx > startIdx) {
-                         const jsonString = data.substring(startIdx, endIdx);
-                         // Optional: Re-format the raw JSON for better reading (pretty-print)
-                         try {
-                            const jsonArray = JSON.parse(jsonString);
-                            arraysFound.push(JSON.stringify(jsonArray, null, 2)); // 2 space indentation
-                         } catch (e) {
-                             // Fallback to raw string if parsing fails
-                             arraysFound.push(jsonString + ' (Parsing Error)');
-                         }
+                    if (itemDetails) {
+                        detailedShopItems.push({
+                            id: itemDetails[0], 
+                            name: itemDetails[1] || 'Unknown Name', 
+                            details: itemDetails, 
+                            shop_entry: shopEntry 
+                        });
+                    } else {
+                         detailedShopItems.push({
+                            id: itemID,
+                            name: 'Item Details Not Found',
+                            details: null,
+                            shop_entry: shopEntry
+                        });
                     }
                 }
-            });
+            }
 
-            if (arraysFound.length > 0) {
-                document.getElementById('result').textContent = 
-                    `✅ Extracted ${arraysFound.length} JSON array(s) near "SHOP":\n\n` + 
-                    arraysFound.join('\n\n' + '-'.repeat(50) + '\n\n');
+            if (detailedShopItems.length > 0) {
+                const prettyJson = JSON.stringify(detailedShopItems, null, 2);
+                document.getElementById('result').textContent = 
+                    `Extracted Detailed Configuration for ${detailedShopItems.length} Shop Item(s):\n\n` + prettyJson;
             } else {
-                document.getElementById('result').textContent = '⚠️ Could not find the expected JSON array near "SHOP".';
+                document.getElementById('result').textContent = 'Extracted the SHOP list, but could not find any detailed data for the items.';
             }
         })
         .catch(error => {
-            document.getElementById('result').textContent = '❌ Error fetching or processing the file: ' + error.message;
+            document.getElementById('result').textContent = 'Error fetching or processing the file: ' + error.message;
             document.getElementById('result').classList.add('error');
             console.error('Fetch Error:', error);
         });
