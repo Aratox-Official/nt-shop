@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Nitro Type Detailed Shop Data Extractor</title>
+<title>Nitro Type Shop String Extractor</title>
 <style>
     body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,13 +12,11 @@
         margin: 20px;
         padding: 0;
     }
-
     h1 {
         color: #4CAF50;
         border-bottom: 2px solid #4CAF50;
         padding-bottom: 10px;
     }
-
     #fetchButton {
         background-color: #007BFF;
         color: white;
@@ -30,11 +28,9 @@
         font-size: 16px;
         transition: background-color 0.3s;
     }
-
     #fetchButton:hover {
         background-color: #0056b3;
     }
-
     #result {
         background-color: #1e1e1e;
         padding: 15px;
@@ -48,7 +44,6 @@
         max-width: 100%;
         box-sizing: border-box;
     }
-
     .error {
         color: #ff4d4d;
         font-weight: bold;
@@ -56,77 +51,14 @@
 </style>
 </head>
 <body>
-<h1>Nitro Type Detailed Shop Data Extractor</h1>
-<button id="fetchButton">Fetch & Extract Detailed Shop Data</button>
-<pre id="result">Click the button to fetch the daily bootstrap and extract detailed information for all shop items.</pre>
-
+<h1>Nitro Type Shop String Extractor</h1>
+<button id="fetchButton">Fetch & Extract "SHOP" String</button>
+<pre id="result">Click the button to fetch the bootstrap and extract the "SHOP" string.</pre>
 <script>
-const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/';  
-const carsJsonUrl = 'https://aratox-official.github.io/cars.json';
+const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/';
 
-let carsData = null;
-
-async function loadCarsData() {
-    if (carsData !== null) return carsData;
-    try {
-        const response = await fetch(carsJsonUrl);
-        if (!response.ok) throw new Error(`Failed to load cars.json: ${response.statusText}`);
-        carsData = await response.json();
-        return carsData;
-    } catch (e) {
-        console.error(e);
-        return null;
-    }
-}
-
-function findItemDetailsById(data, id) {
-    const searchPattern = new RegExp(`[^\\d\\w]${id},`, 'g');
-    
-    let match = searchPattern.exec(data);
-    
-    if (!match) return null;
-
-    const pos = match.index + match[0].length - 1; 
-
-    let startIdx = data.lastIndexOf('[', pos);
-    if (startIdx === -1) return null;
-    
-    let stack = 0;
-    let endIdx = -1;
-    const maxSearch = Math.min(data.length, startIdx + 50000); 
-    
-    for (let i = startIdx; i < maxSearch; i++) {
-        if (data[i] === '[') {
-            stack++;
-        } else if (data[i] === ']') {
-            stack--;
-            if (stack === 0) {
-                endIdx = i + 1;
-                break;
-            }
-        }
-    }
-    
-    if (stack === 0 && endIdx > startIdx) {
-        const jsString = data.substring(startIdx, endIdx);
-        
-        try {
-            const itemEntry = (new Function(`return ${jsString}`))();
-            
-            if (Array.isArray(itemEntry) && itemEntry.length > 0 && itemEntry[0] === id) {
-                return itemEntry;
-            }
-        } catch (e) {
-            return null;
-        }
-    }
-    
-    return null;
-}
-
-function extractBootstrapValueByKey(data, key) {
+async function extractShopString(data, key) {
     const searchTerm = `"${key}",`;
-    
     let index = data.indexOf(searchTerm);
     if (index === -1) return null;
 
@@ -135,8 +67,7 @@ function extractBootstrapValueByKey(data, key) {
 
     let stack = 0;
     let endIdx = -1;
-    const maxSearch = Math.min(data.length, entryStart + 50000); 
-    
+    const maxSearch = Math.min(data.length, entryStart + 50000);
     for (let i = entryStart; i < maxSearch; i++) {
         if (data[i] === '[') {
             stack++;
@@ -148,112 +79,40 @@ function extractBootstrapValueByKey(data, key) {
             }
         }
     }
-    
     if (stack === 0 && endIdx > entryStart) {
         const jsString = data.substring(entryStart, endIdx);
-        
         try {
             const bootstrapEntry = (new Function(`return ${jsString}`))();
-            
             if (Array.isArray(bootstrapEntry) && bootstrapEntry.length >= 2 && bootstrapEntry[0] === key) {
-                return bootstrapEntry[1];
+                if (typeof bootstrapEntry[1] === 'string') {
+                    return bootstrapEntry[1];
+                }
             }
         } catch (e) {
             console.error(`Parsing failed for key ${key}:`, e);
             return null;
         }
     }
-    
     return null;
 }
 
 document.getElementById('fetchButton').addEventListener('click', async () => {
-    document.getElementById('result').textContent = 'Fetching and parsing live bootstrap data...';
+    document.getElementById('result').textContent = 'Fetching bootstrap data...';
     document.getElementById('result').classList.remove('error');
-
     try {
         const response = await fetch(workerUrl);
         if (!response.ok) throw new Error(`Worker response not OK: ${response.statusText} (${response.status})`);
         const data = await response.text();
 
-        const shopList = extractBootstrapValueByKey(data, "SHOP");
-        if (!Array.isArray(shopList) || shopList.length === 0) {
-            document.getElementById('result').textContent = 'Could not find or extract a valid "SHOP" list.';
-            return;
-        }
-
-        let hasCarType = false;
-        for (const shopEntry of shopList) {
-            if (typeof shopEntry === 'object' && shopEntry !== null && shopEntry.type === 'car') {
-                hasCarType = true;
-                break;
-            }
-        }
-
-        if (hasCarType) {
-            await loadCarsData();
-        }
-
-        const detailedShopItems = [];
-
-        for (const shopEntry of shopList) {
-            let itemID = null;
-            if (typeof shopEntry === 'number') {
-                itemID = shopEntry;
-            } else if (Array.isArray(shopEntry) && typeof shopEntry[0] === 'number') {
-                itemID = shopEntry[0];
-            } else if (typeof shopEntry === 'object' && shopEntry !== null && 'id' in shopEntry) {
-                itemID = shopEntry.id;
-            }
-
-            if (itemID !== null) {
-                const itemDetails = findItemDetailsById(data, itemID);
-                if (itemDetails) {
-                    let name = itemDetails[1] || 'Unknown Name';
-
-                    let image = null;
-                    let price = null;
-                    let rarity = null;
-
-                    if (hasCarType && itemDetails.type === 'car' && carsData) {
-                        const carInfo = carsData.find(c => c.id === itemID);
-                        if (carInfo) {
-                            name = carInfo.name || name;
-                            image = carInfo.image || null;
-                            price = carInfo.price || null;
-                            rarity = carInfo.rarity || null;
-                        }
-                    }
-
-                    detailedShopItems.push({
-                        id: itemDetails[0],
-                        name: name,
-                        image: image,
-                        price: price,
-                        rarity: rarity,
-                        details: itemDetails,
-                        shop_entry: shopEntry
-                    });
-                } else {
-                    detailedShopItems.push({
-                        id: itemID,
-                        name: 'Item Details Not Found',
-                        details: null,
-                        shop_entry: shopEntry
-                    });
-                }
-            }
-        }
-
-        if (detailedShopItems.length > 0) {
-            const prettyJson = JSON.stringify(detailedShopItems, null, 2);
-            document.getElementById('result').textContent =
-                `Extracted Detailed Configuration for ${detailedShopItems.length} Shop Item(s):\n\n` + prettyJson;
+        const shopString = await extractShopString(data, "SHOP");
+        if (shopString) {
+            const cleanShop = shopString.replace(/"/g, '').replace(/,$/, '');
+            document.getElementById('result').textContent = `"${cleanShop}"`;
         } else {
-            document.getElementById('result').textContent = 'Extracted the SHOP list, but could not find any detailed data for the items.';
+            document.getElementById('result').textContent = 'Could not find or extract the "SHOP" string.';
         }
     } catch (error) {
-        document.getElementById('result').textContent = 'Error fetching or processing the file: ' + error.message;
+        document.getElementById('result').textContent = 'Error: ' + error.message;
         document.getElementById('result').classList.add('error');
         console.error('Fetch Error:', error);
     }
