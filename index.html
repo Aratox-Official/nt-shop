@@ -3,119 +3,133 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Nitro Type Shop String Extractor</title>
+<title>Nitro Type "SHOP" String Extractor</title>
 <style>
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #121212;
-        color: #e0e0e0;
-        margin: 20px;
-        padding: 0;
-    }
-    h1 {
-        color: #4CAF50;
-        border-bottom: 2px solid #4CAF50;
-        padding-bottom: 10px;
-    }
-    #fetchButton {
-        background-color: #007BFF;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        margin-bottom: 20px;
-        cursor: pointer;
-        border-radius: 5px;
-        font-size: 16px;
-        transition: background-color 0.3s;
-    }
-    #fetchButton:hover {
-        background-color: #0056b3;
-    }
-    #result {
-        background-color: #1e1e1e;
-        padding: 15px;
-        border-radius: 8px;
-        white-space: pre-wrap;
-        word-break: break-all;
-        overflow-x: auto;
-        font-family: 'Consolas', 'Courier New', monospace;
-        font-size: 14px;
-        line-height: 1.4;
-        max-width: 100%;
-        box-sizing: border-box;
-    }
-    .error {
-        color: #ff4d4d;
-        font-weight: bold;
-    }
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 20px;
+    padding: 0;
+}
+h1 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+#fetchButton {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+#fetchButton:hover {
+    background-color: #0056b3;
+}
+#result {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    overflow-x: auto;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.error {
+    color: #ff4d4d;
+    font-weight: bold;
+}
 </style>
 </head>
 <body>
-<h1>Nitro Type Shop String Extractor</h1>
-<button id="fetchButton">Fetch & Extract "SHOP" String</button>
-<pre id="result">Click the button to fetch the bootstrap and extract the "SHOP" string.</pre>
+<h1>Nitro Type "SHOP" String Extractor</h1>
+<button id="fetchButton">Fetch & Extract "SHOP"</button>
+<pre id="result">Click to fetch bootstrap and extract "SHOP".</pre>
 <script>
 const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/';
 
-async function extractShopString(data, key) {
-    const searchTerm = `"${key}",`;
-    let index = data.indexOf(searchTerm);
-    if (index === -1) return null;
+async function findShopString(data) {
+    const pattern = /"SHOP",/;
+    const match = pattern.exec(data);
+    if (!match) {
+        console.error('Pattern "SHOP", not found.');
+        return null;
+    }
 
-    let entryStart = data.lastIndexOf('[', index);
-    if (entryStart === -1) return null;
+    const index = match.index;
+
+    let arrayStart = data.lastIndexOf('[', index);
+    if (arrayStart === -1) {
+        console.error('Array start "[" not found before "SHOP",');
+        return null;
+    }
 
     let stack = 0;
-    let endIdx = -1;
-    const maxSearch = Math.min(data.length, entryStart + 50000);
-    for (let i = entryStart; i < maxSearch; i++) {
-        if (data[i] === '[') {
-            stack++;
-        } else if (data[i] === ']') {
-            stack--;
-            if (stack === 0) {
-                endIdx = i + 1;
-                break;
-            }
+    let arrayEnd = -1;
+    for (let i = arrayStart; i < data.length; i++) {
+        if (data[i] === '[') stack++;
+        else if (data[i] === ']') stack--;
+
+        if (stack === 0) {
+            arrayEnd = i + 1;
+            break;
         }
     }
-    if (stack === 0 && endIdx > entryStart) {
-        const jsString = data.substring(entryStart, endIdx);
-        try {
-            const bootstrapEntry = (new Function(`return ${jsString}`))();
-            if (Array.isArray(bootstrapEntry) && bootstrapEntry.length >= 2 && bootstrapEntry[0] === key) {
-                if (typeof bootstrapEntry[1] === 'string') {
-                    let str = bootstrapEntry[1];
-                    str = str.replace(/^"+|"+$/g, '');
-                    return str;
+
+    if (arrayEnd === -1) {
+        console.error('Array end "]" not found.');
+        return null;
+    }
+
+    const arrayString = data.substring(arrayStart, arrayEnd);
+    try {
+        const arr = JSON.parse(arrayString);
+        if (Array.isArray(arr) && arr.includes('SHOP')) {
+            return 'SHOP';
+        } else {
+            for (const item of arr) {
+                if (typeof item === 'string' && item.trim().replace(/^"|"$/g, '') === 'SHOP') {
+                    return 'SHOP';
                 }
             }
-        } catch (e) {
-            console.error(`Parsing failed for key ${key}:`, e);
-            return null;
         }
+        console.error('"SHOP" not found inside the array after parsing.');
+        return null;
+    } catch (e) {
+        console.error('Error parsing array:', e);
+        return null;
     }
-    return null;
 }
 
 document.getElementById('fetchButton').addEventListener('click', async () => {
-    document.getElementById('result').textContent = 'Fetching bootstrap data...';
-    document.getElementById('result').classList.remove('error');
+    const resultElem = document.getElementById('result');
+    resultElem.textContent = 'Fetching bootstrap data...';
+    resultElem.classList.remove('error');
+
     try {
         const response = await fetch(workerUrl);
-        if (!response.ok) throw new Error(`Worker response not OK: ${response.statusText} (${response.status})`);
+        if (!response.ok) throw new Error(`Response not OK: ${response.status} ${response.statusText}`);
         const data = await response.text();
 
-        const shopString = await extractShopString(data, "SHOP");
-        if (shopString) {
-            document.getElementById('result').textContent = `"${shopString}"`;
+        const shopStr = await findShopString(data);
+        if (shopStr) {
+            resultElem.textContent = `"${shopStr}"`;
         } else {
-            document.getElementById('result').textContent = 'Could not find or extract the "SHOP" string.';
+            resultElem.textContent = 'Could not find "SHOP" in bootstrap data.';
         }
-    } catch (error) {
-        document.getElementById('result').textContent = 'Error: ' + error.message;
-        document.getElementById('result').classList.add('error');
-        console.error('Fetch Error:', error);
+    } catch (err) {
+        resultElem.textContent = 'Error: ' + err.message;
+        resultElem.classList.add('error');
+        console.error('Error fetching or processing:', err);
     }
 });
 </script>
