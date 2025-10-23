@@ -61,7 +61,23 @@
 <pre id="result">Click the button to fetch the daily bootstrap and extract detailed information for all shop items.</pre>
 
 <script>
-const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/'; 
+const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/';  
+const carsJsonUrl = 'https://aratox-official.github.io/cars.json';
+
+let carsData = null;
+
+async function loadCarsData() {
+    if (carsData !== null) return carsData;
+    try {
+        const response = await fetch(carsJsonUrl);
+        if (!response.ok) throw new Error(`Failed to load cars.json: ${response.statusText}`);
+        carsData = await response.json();
+        return carsData;
+    } catch (e) {
+        console.error(e);
+        return null;
+    }
+}
 
 function findItemDetailsById(data, id) {
     const searchPattern = new RegExp(`[^\\d\\w]${id},`, 'g');
@@ -151,69 +167,95 @@ function extractBootstrapValueByKey(data, key) {
     return null;
 }
 
-document.getElementById('fetchButton').addEventListener('click', () => {
+document.getElementById('fetchButton').addEventListener('click', async () => {
     document.getElementById('result').textContent = 'Fetching and parsing live bootstrap data...';
     document.getElementById('result').classList.remove('error');
 
-    fetch(workerUrl)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`Worker response not OK: ${response.statusText} (${response.status})`);
+    try {
+        const response = await fetch(workerUrl);
+        if (!response.ok) throw new Error(`Worker response not OK: ${response.statusText} (${response.status})`);
+        const data = await response.text();
+
+        const shopList = extractBootstrapValueByKey(data, "SHOP");
+        if (!Array.isArray(shopList) || shopList.length === 0) {
+            document.getElementById('result').textContent = 'Could not find or extract a valid "SHOP" list.';
+            return;
+        }
+
+        let hasCarType = false;
+        for (const shopEntry of shopList) {
+            if (typeof shopEntry === 'object' && shopEntry !== null && shopEntry.type === 'car') {
+                hasCarType = true;
+                break;
             }
-            return response.text();
-        })
-        .then(data => {
-            const shopList = extractBootstrapValueByKey(data, "SHOP");
-            
-            if (!Array.isArray(shopList) || shopList.length === 0) {
-                document.getElementById('result').textContent = 'Could not find or extract a valid "SHOP" list.';
-                return;
+        }
+
+        if (hasCarType) {
+            await loadCarsData();
+        }
+
+        const detailedShopItems = [];
+
+        for (const shopEntry of shopList) {
+            let itemID = null;
+            if (typeof shopEntry === 'number') {
+                itemID = shopEntry;
+            } else if (Array.isArray(shopEntry) && typeof shopEntry[0] === 'number') {
+                itemID = shopEntry[0];
+            } else if (typeof shopEntry === 'object' && shopEntry !== null && 'id' in shopEntry) {
+                itemID = shopEntry.id;
             }
 
-            const detailedShopItems = [];
+            if (itemID !== null) {
+                const itemDetails = findItemDetailsById(data, itemID);
+                if (itemDetails) {
+                    let name = itemDetails[1] || 'Unknown Name';
+                    let image = null;
+                    let price = null;
+                    let rarity = null;
 
-            for (const shopEntry of shopList) {
-                let itemID = null;
-                if (typeof shopEntry === 'number') {
-                    itemID = shopEntry;
-                } else if (Array.isArray(shopEntry) && typeof shopEntry[0] === 'number') {
-                    itemID = shopEntry[0];
-                }
-
-                if (itemID !== null) {
-                    const itemDetails = findItemDetailsById(data, itemID);
-                    
-                    if (itemDetails) {
-                        detailedShopItems.push({
-                            id: itemDetails[0], 
-                            name: itemDetails[1] || 'Unknown Name', 
-                            details: itemDetails, 
-                            shop_entry: shopEntry 
-                        });
-                    } else {
-                         detailedShopItems.push({
-                            id: itemID,
-                            name: 'Item Details Not Found',
-                            details: null,
-                            shop_entry: shopEntry
-                        });
+                    if (hasCarType && itemDetails.type === 'car' && carsData) {
+                        const carInfo = carsData.find(c => c.id === itemID);
+                        if (carInfo) {
+                            name = carInfo.name || name;
+                            image = carInfo.image || null;
+                            price = carInfo.price || null;
+                            rarity = carInfo.rarity || null;
+                        }
                     }
+
+                    detailedShopItems.push({
+                        id: itemDetails[0],
+                        name: name,
+                        image: image,
+                        price: price,
+                        rarity: rarity,
+                        details: itemDetails,
+                        shop_entry: shopEntry
+                    });
+                } else {
+                    detailedShopItems.push({
+                        id: itemID,
+                        name: 'Item Details Not Found',
+                        details: null,
+                        shop_entry: shopEntry
+                    });
                 }
             }
+        }
 
-            if (detailedShopItems.length > 0) {
-                const prettyJson = JSON.stringify(detailedShopItems, null, 2);
-                document.getElementById('result').textContent = 
-                    `Extracted Detailed Configuration for ${detailedShopItems.length} Shop Item(s):\n\n` + prettyJson;
-            } else {
-                document.getElementById('result').textContent = 'Extracted the SHOP list, but could not find any detailed data for the items.';
-            }
-        })
-        .catch(error => {
-            document.getElementById('result').textContent = 'Error fetching or processing the file: ' + error.message;
-            document.getElementById('result').classList.add('error');
-            console.error('Fetch Error:', error);
-        });
+        if (detailedShopItems.length > 0) {
+            const prettyJson = JSON.stringify(detailedShopItems, null, 2);
+            document.getElementById('result').textContent =
+                `Extracted Detailed Configuration for ${detailedShopItems.length} Shop Item(s):\n\n` + prettyJson;
+        } else {
+            document.getElementById('result').textContent = 'Extracted the SHOP list, but could not find any detailed data for the items.';
+        }
+    } catch (error) {
+        document.getElementById('result').textContent = 'Error fetching or processing the file: ' + error.message;
+        document.getElementById('result').classList.add('error');
+        console.error('Fetch Error:', error);
+    }
 });
 </script>
 </body>
