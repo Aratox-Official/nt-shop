@@ -1,0 +1,2962 @@
+[
+    {
+        "name": "Corsa Mephisto SS",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/24/Smallcar1.png/revision/latest?cb=20130509121233",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 1
+    },
+    {
+        "name": "Corsa Mephisto",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/db/Mephisto_small.png/revision/latest?cb=20210209112004",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 2
+    },
+    {
+        "name": "Hydrova Rubicorn",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/fb/3_small_1.png/revision/latest?cb=20221018233635",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 3
+    },
+    {
+        "name": "Blitz Picante",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/32/Picante_small.png/revision/latest?cb=20210209112008",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 4
+    },
+    {
+        "name": "Winson Super Sport",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/d7/Bantlyss_small.png/revision/latest?cb=20210209111957",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 5
+    },
+    {
+        "name": "Winson Rolls",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/7a/Therolls_small.png/revision/latest?cb=20210209112013",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 6
+    },
+    {
+        "name": "Velocité Citroen",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/e4/Winstoncitroen_small.png/revision/latest?cb=20210209112016",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 7
+    },
+    {
+        "name": "Velocité Agile",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/12/Winstonagile_small.png/revision/latest?cb=20210209112014",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 8
+    },
+    {
+        "name": "Rental Car",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/81/9_small_1.png/revision/latest?cb=20210301073748",
+        "availability": "N/A",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 9
+    },
+    {
+        "name": "Liberty Accomplished",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b5/Missionaccomplished_small.png/revision/latest?cb=20210209112006",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 10
+    },
+    {
+        "name": "Nitreux Vyrus SS",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/dd/11_small_1.png/revision/latest?cb=20180208012048",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 11
+    },
+    {
+        "name": "Scrapped Convertible",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/28/12_small_1.png/revision/latest?cb=20220116000338",
+        "availability": "N/A",
+        "achievement_or_tier": "N/A",
+        "rarity": "Unknown",
+        "id": 12
+    },
+    {
+        "name": "Blitz B9",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/66/Auttieb9_small.png/revision/latest?cb=20210209111955",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 13
+    },
+    {
+        "name": "Shimura Lance 722",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/98/14_small_1.png/revision/latest?cb=20180213042314",
+        "availability": "Endurance Racing",
+        "achievement_or_tier": "Devoted to Typing",
+        "rarity": "Common",
+        "id": 14
+    },
+    {
+        "name": "Velocité Lion",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/1f/V3_15_small_1.png/revision/latest?cb=20210210013816",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 15
+    },
+    {
+        "name": "Velocité Toad",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/3b/Misouxtoad_small.png/revision/latest?cb=20210209112005",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 16
+    },
+    {
+        "name": "Flux Cooper",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/5e/17_small_1.png/revision/latest?cb=20210502154558",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 17
+    },
+    {
+        "name": "Shimura 350x",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/4/43/Nizza350_small.png/revision/latest?cb=20210208003742",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 18
+    },
+    {
+        "name": "Hydrova One Ace",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/98/Oneace_small.png/revision/latest?cb=20210209112007",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 19
+    },
+    {
+        "name": "Blitz Ace",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/3d/Cougarace_small.png/revision/latest?cb=20210209112001",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 20
+    },
+    {
+        "name": "Winson R/T",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/37/21_small_1.png/revision/latest?cb=20180213042315",
+        "availability": "Nitro Addiction",
+        "achievement_or_tier": "I Skip Sentences",
+        "rarity": "Common",
+        "id": 21
+    },
+    {
+        "name": "Hydrova Howler",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b6/22_small_1.png/revision/latest?cb=20180213042315",
+        "availability": "Hey Big SpenderandShop",
+        "achievement_or_tier": "Cheapo",
+        "rarity": "Common",
+        "id": 22
+    },
+    {
+        "name": "Blitz V-20",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/0/0a/Bensv20_small.png/revision/latest?cb=20210209111958",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 23
+    },
+    {
+        "name": "Blitz C-64",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/e7/24_small_1.png/revision/latest?cb=20180213031614",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 24
+    },
+    {
+        "name": "Blitz Spyder",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/e5/Portchspyder_small.png/revision/latest?cb=20210209112009",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 25
+    },
+    {
+        "name": "Blitz Roadster",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/70/Auttieroadster_small.png/revision/latest?cb=20210209111956",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 26
+    },
+    {
+        "name": "Blitz M2.0",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/cf/Bimmer20_small.png/revision/latest?cb=20210209112000",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 27
+    },
+    {
+        "name": "Blitz 9.0t",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/97/Bimmer9_small.png/revision/latest?cb=20210209111959",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 28
+    },
+    {
+        "name": "Blitz Thunder Cougarbird",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/19/29_small_1.png/revision/latest?cb=20180213031616",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 29
+    },
+    {
+        "name": "Rat Rod Skully",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/fd/30_small_1.png/revision/latest?cb=20180213042316",
+        "availability": "King of the Race",
+        "achievement_or_tier": "Bonkers About Typing",
+        "rarity": "Uncommon",
+        "id": 30
+    },
+    {
+        "name": "Blitz R11",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/a7/31_small_1.png/revision/latest?cb=20180213031617",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 31
+    },
+    {
+        "name": "The Flamerod",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/4/43/33_small_1.png/revision/latest?cb=20180213042316",
+        "availability": "Hey Big Spender",
+        "achievement_or_tier": "Car Collector",
+        "rarity": "Common",
+        "id": 32
+    },
+    {
+        "name": "Koromoto Performo NRX",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/d6/34_small_1.png/revision/latest?cb=20180213031617",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 33
+    },
+    {
+        "name": "Blitz GT3 RS",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/19/35_small_1.png/revision/latest?cb=20180213031618",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 34
+    },
+    {
+        "name": "General Beauregard",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/eb/36_small_1.png/revision/latest?cb=20180213042317",
+        "availability": "N/A",
+        "achievement_or_tier": "Enthusiastic About Typing",
+        "rarity": "Unknown",
+        "id": 35
+    },
+    {
+        "name": "Liberty Ponce de Leon",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/15/36_small_1_2.png/revision/latest?cb=20210506215259",
+        "availability": "Endurance Racing",
+        "achievement_or_tier": "Enthusiastic About Typing",
+        "rarity": "Common",
+        "id": 36
+    },
+    {
+        "name": "Liberty '67 Shellback",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/f1/37_small_1.png/revision/latest?cb=20180213042318",
+        "availability": "King of the Race",
+        "achievement_or_tier": "I'm Crazy About Typing",
+        "rarity": "Uncommon",
+        "id": 37
+    },
+    {
+        "name": "Road Warrior",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/7f/38_small_1.png/revision/latest?cb=20180213031813",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 38
+    },
+    {
+        "name": "Winson Elise",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/69/39_small_1.png/revision/latest?cb=20180213031813",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 39
+    },
+    {
+        "name": "Liberty '69 Shellback RT-500",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/4/4d/Shellbackrt500_small.png/revision/latest?cb=20210209112010",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 40
+    },
+    {
+        "name": "Qombee",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/7b/41_small_1.png/revision/latest?cb=20220119104809",
+        "availability": "N/A",
+        "achievement_or_tier": "N/A",
+        "rarity": "Unknown",
+        "id": 41
+    },
+    {
+        "name": "Winson Gator",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/84/42_small_1.png/revision/latest?cb=20180213042318",
+        "availability": "Savings & EarningsandShop",
+        "achievement_or_tier": "Under Over Achiever",
+        "rarity": "Common",
+        "id": 42
+    },
+    {
+        "name": "Shimura Suprillia",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/20/Suprillia_small.png/revision/latest?cb=20210209112012",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 43
+    },
+    {
+        "name": "The Judge",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b7/44_small_1.png/revision/latest?cb=20180213031815",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 44
+    },
+    {
+        "name": "Liberty Stallion",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/16/Stallion_small.png/revision/latest?cb=20210209112011",
+        "availability": "Hey Big Spender",
+        "achievement_or_tier": "Car Lover",
+        "rarity": "Common",
+        "id": 45
+    },
+    {
+        "name": "The Macro",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/da/46_small_1.png/revision/latest?cb=20180213042319",
+        "availability": "Hey Big Spender",
+        "achievement_or_tier": "Leno",
+        "rarity": "Uncommon",
+        "id": 46
+    },
+    {
+        "name": "Liberty Fastback",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/95/Fastback_small.png/revision/latest?cb=20210210013614",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 47
+    },
+    {
+        "name": "The Covenant",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/bc/48_small_1.png/revision/latest?cb=20180213042320",
+        "availability": "Endurance Racing",
+        "achievement_or_tier": "Obsessed with Typing",
+        "rarity": "Rare",
+        "id": 48
+    },
+    {
+        "name": "The Trifecta",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/19/49_small_1.png/revision/latest?cb=20180213042320",
+        "availability": "King of the Race",
+        "achievement_or_tier": "Bananas About Typing",
+        "rarity": "Common",
+        "id": 49
+    },
+    {
+        "name": "8 Bit Racer",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/f7/50_small_1.png/revision/latest?cb=20210506233618",
+        "availability": "Popularity ContestandShop",
+        "achievement_or_tier": "Nitro Type Elite",
+        "rarity": "Epic",
+        "id": 50
+    },
+    {
+        "name": "Mini Sherman",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/94/51_small_1.png/revision/latest?cb=20180213042321",
+        "availability": "King of the Race",
+        "achievement_or_tier": "You've Gotta Be Kidding",
+        "rarity": "Epic",
+        "id": 51
+    },
+    {
+        "name": "Typiano Pizza Car",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/1c/Typiano_small.png/revision/latest?cb=20210425164849",
+        "availability": "Hittin' the TrackandShop",
+        "achievement_or_tier": "Psycho Racer",
+        "rarity": "Legendary",
+        "id": 52
+    },
+    {
+        "name": "Rocket Man",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/f1/53_small_1.png/revision/latest?cb=20180213042322",
+        "availability": "Winning",
+        "achievement_or_tier": "#WINNING",
+        "rarity": "Uncommon",
+        "id": 53
+    },
+    {
+        "name": "All Terrain Vehicle",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/a3/Atv2_small.png/revision/latest?cb=20210506235307",
+        "availability": "Hey Big Spender",
+        "achievement_or_tier": "Federal Reserve",
+        "rarity": "Common",
+        "id": 54
+    },
+    {
+        "name": "Blitz MP 427",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/32/Mp427_small.png/revision/latest?cb=20210210013615",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Epic",
+        "id": 55
+    },
+    {
+        "name": "Wambulance",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/20/56_small_1.png/revision/latest?cb=20180213042323",
+        "availability": "Endurance Racing",
+        "achievement_or_tier": "Ecstatic About Typing",
+        "rarity": "Rare",
+        "id": 56
+    },
+    {
+        "name": "Hotdog Mobile",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/c8/57_small_1.png/revision/latest?cb=20180213042323",
+        "availability": "Popularity ContestandShop",
+        "achievement_or_tier": "Friend Master",
+        "rarity": "Epic",
+        "id": 57
+    },
+    {
+        "name": "F-35 JSF",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/ff/F35_small.png/revision/latest?cb=20210409231403",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Rare",
+        "id": 58
+    },
+    {
+        "name": "NASA Shuttle",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/4/4d/59_small_1.png/revision/latest?cb=20180319072838",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Epic",
+        "id": 59
+    },
+    {
+        "name": "Flux S1X",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/88/60_small_1.png/revision/latest?cb=20180208012018",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 60
+    },
+    {
+        "name": "Maxxbilt Mack Daddy",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/2f/61_small_1.png/revision/latest?cb=20180213031817",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 61
+    },
+    {
+        "name": "Maxxbilt Big Hauler",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b5/Bighauler_small.png/revision/latest?cb=20220212061541",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 62
+    },
+    {
+        "name": "Maxxbilt Big Blue",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/d6/63_small_1.png/revision/latest?cb=20180213031818",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 63
+    },
+    {
+        "name": "Liberty GT40",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/c3/Gt40_small.png/revision/latest?cb=20210209112003",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 64
+    },
+    {
+        "name": "Liberty Cobra GST-R",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/bb/65_small_1.png/revision/latest?cb=20180213042324",
+        "availability": "Savings & EarningsandShop",
+        "achievement_or_tier": "One = Loneliest #",
+        "rarity": "Uncommon",
+        "id": 65
+    },
+    {
+        "name": "Corsa 8Ω",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/ea/66_small_1.png/revision/latest?cb=20210503044427",
+        "availability": "Savings & EarningsandShop",
+        "achievement_or_tier": "I Hate Cars!",
+        "rarity": "Common",
+        "id": 66
+    },
+    {
+        "name": "Hydrova Buggy 1.0",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b9/67_small_1.png/revision/latest?cb=20180213042325",
+        "availability": "Savings & EarningsandShop",
+        "achievement_or_tier": "Pro Seller",
+        "rarity": "Epic",
+        "id": 67
+    },
+    {
+        "name": "F4U Corsair",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/dc/68_small_1.png/revision/latest?cb=20180213042512",
+        "availability": "King of the Race",
+        "achievement_or_tier": "Corsair",
+        "rarity": "Legendary",
+        "id": 68
+    },
+    {
+        "name": "Rocket Sleigh",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/c0/Rocketsleigh_small.png/revision/latest?cb=20211205215128",
+        "availability": "Shop",
+        "achievement_or_tier": "In the Spirit",
+        "rarity": "Uncommon",
+        "id": 69
+    },
+    {
+        "name": "XMaxx Tree Racer",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/d6/70_small_1.png/revision/latest?cb=20160325201412",
+        "availability": "2012,2014,2015, and2016 Xmaxx EventsandShop",
+        "achievement_or_tier": "Oh Christmas Tree Car",
+        "rarity": "Rare",
+        "id": 70
+    },
+    {
+        "name": "Shadow XMaxx Tree",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/31/71_small_1.png/revision/latest?cb=20160325202759",
+        "availability": "2012 Xmaxx Event",
+        "achievement_or_tier": "All Thru The Night",
+        "rarity": "Legendary",
+        "id": 71
+    },
+    {
+        "name": "Party Sleigh",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/56/72_small_1.png/revision/latest?cb=20160325202835",
+        "availability": "2012and2013 Xmaxx Events",
+        "achievement_or_tier": "That Sleighs Me",
+        "rarity": "Legendary",
+        "id": 72
+    },
+    {
+        "name": "Fonicci Tricolore",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/31/73_small_1.png/revision/latest?cb=20180213042513",
+        "availability": "Cruisin' Back",
+        "achievement_or_tier": "You've Been WAITING",
+        "rarity": "Rare",
+        "id": 73
+    },
+    {
+        "name": "Liberty Monster",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/12/74_small_1.png/revision/latest?cb=20191217141927",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 74
+    },
+    {
+        "name": "Flux Capacitor",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/2c/75_small_1.png/revision/latest?cb=20180213031820",
+        "availability": "Shop",
+        "achievement_or_tier": "Time Traveler",
+        "rarity": "Epic",
+        "id": 75
+    },
+    {
+        "name": "The Gotham",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/28/76_small_1.png/revision/latest?cb=20180213031821",
+        "availability": "Shop",
+        "achievement_or_tier": "Caped Crusader",
+        "rarity": "Legendary",
+        "id": 76
+    },
+    {
+        "name": "The Pirc",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/0/06/77_small_1.png/revision/latest?cb=20180213042513",
+        "availability": "King of the Race",
+        "achievement_or_tier": "Pirc",
+        "rarity": "Epic",
+        "id": 77
+    },
+    {
+        "name": "Koromoto GXRS 1200",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/0/08/78_small_1.png/revision/latest?cb=20200508004515",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 78
+    },
+    {
+        "name": "Bozz EZ Rider",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/32/Ezrider_small.png/revision/latest?cb=20210209112002",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 79
+    },
+    {
+        "name": "Corsa AdventX",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/ec/80_small_1.png/revision/latest?cb=20200508004229",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 80
+    },
+    {
+        "name": "Liberty Classic",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/2c/81_small_1.png/revision/latest?cb=20150602215719",
+        "availability": "Shop",
+        "achievement_or_tier": "Bring on the Sunshine!",
+        "rarity": "Common",
+        "id": 81
+    },
+    {
+        "name": "Hang Ten",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/30/82_small_1.png/revision/latest?cb=20160325202907",
+        "availability": "2013and2014 Summer EventsandShop",
+        "achievement_or_tier": "Surf's Up!",
+        "rarity": "Rare",
+        "id": 82
+    },
+    {
+        "name": "Liberty '41 Woodie Deluxx",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/69/83_small_1.png/revision/latest?cb=20150602215831",
+        "availability": "2013,2014,2015, and2018 Summer EventsandShop",
+        "achievement_or_tier": "BBQs Every Day",
+        "rarity": "Rare",
+        "id": 83
+    },
+    {
+        "name": "Hang Eleven",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/aa/Hang11_small.png/revision/latest?cb=20210502105741",
+        "availability": "2013 Summer EventandShop",
+        "achievement_or_tier": "Drivin' Fancy Cars",
+        "rarity": "Epic",
+        "id": 84
+    },
+    {
+        "name": "Liberty '41 Woodie Sunshine",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/88/85_small_1.png/revision/latest?cb=20160325203123",
+        "availability": "2013 Summer EventandXmaxx Sale",
+        "achievement_or_tier": "BBQs Twice Daily",
+        "rarity": "Epic",
+        "id": 85
+    },
+    {
+        "name": "The Xcelsior V12",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Nitro Type Gold",
+        "achievement_or_tier": "Racing To Gold",
+        "rarity": "Legendary",
+        "id": 86
+    },
+    {
+        "name": "Liberty '68 Roadtripper",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/fb/87_small_1.png/revision/latest?cb=20160325203049",
+        "availability": "2013 Summer EventandShop",
+        "achievement_or_tier": "BBQs Every MealandSummer of 68",
+        "rarity": "Rare",
+        "id": 87
+    },
+    {
+        "name": "Hang Fifteen",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/c7/88_small_1.png/revision/latest?cb=20160325203014",
+        "availability": "2013 Summer EventandXmaxx Sale",
+        "achievement_or_tier": "BBQs Between Meals",
+        "rarity": "Legendary",
+        "id": 88
+    },
+    {
+        "name": "Wach 6",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/e7/89_small_1.png/revision/latest?cb=20191030140526",
+        "availability": "King of the Race",
+        "achievement_or_tier": "Carrie",
+        "rarity": "Rare",
+        "id": 89
+    },
+    {
+        "name": "Liberty F-125",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/fc/90_small_1.png/revision/latest?cb=20210506213120",
+        "availability": "Winning",
+        "achievement_or_tier": "His Other Ride",
+        "rarity": "Uncommon",
+        "id": 90
+    },
+    {
+        "name": "Stingtec Electric",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/62/91_small_1.png/revision/latest?cb=20140818210959",
+        "availability": "Mystery boxandShop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 91
+    },
+    {
+        "name": "Liberty '63 Vette",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/5c/92_small_1.png/revision/latest?cb=20140818211638",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 92
+    },
+    {
+        "name": "Flux M300",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/51/Fluxm300_small.png/revision/latest?cb=20210729063130",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 93
+    },
+    {
+        "name": "Scrapped Liberty Stallion",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/64/94_small_1.png/revision/latest?cb=20140818211809",
+        "availability": "N/A",
+        "achievement_or_tier": "N/A",
+        "rarity": "Unknown",
+        "id": 94
+    },
+    {
+        "name": "Blitz Police Cruiser",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/0/0d/95_small_1.png/revision/latest?cb=20140818211850",
+        "availability": "King of the Race",
+        "achievement_or_tier": "Outback Officer",
+        "rarity": "Uncommon",
+        "id": 95
+    },
+    {
+        "name": "Blitz R-8.1",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/4/4e/Auttier8_small.png/revision/latest?cb=20210216003415",
+        "availability": "Mystery boxandShop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Common",
+        "id": 96
+    },
+    {
+        "name": "Wampus",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/68/97_small_1.png/revision/latest?cb=20210301073553",
+        "availability": "N/A",
+        "achievement_or_tier": "N/A",
+        "rarity": "Legendary",
+        "id": 97
+    },
+    {
+        "name": "Pumpkin Hauler",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/e8/98_small_1.png/revision/latest?cb=20160325203212",
+        "availability": "Shop",
+        "achievement_or_tier": "Spoooooky!andOooOOoOOoOoh!",
+        "rarity": "Uncommon",
+        "id": 98
+    },
+    {
+        "name": "Wreath Racer",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/36/99_small_1.png/revision/latest?cb=20160325203329",
+        "availability": "2013and2014 Xmaxx EventsandShop",
+        "achievement_or_tier": "Keepin it Wreath",
+        "rarity": "Rare",
+        "id": 99
+    },
+    {
+        "name": "Santa's Buggy",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/99/100_small_1.png/revision/latest?cb=20160325203356",
+        "availability": "2013 Xmaxx EventandShop",
+        "achievement_or_tier": "Buggying Out",
+        "rarity": "Epic",
+        "id": 100
+    },
+    {
+        "name": "Travis' Car",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/cb/101_small_1.png/revision/latest?cb=20181204153403",
+        "availability": "Season 50andShop",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Legendary",
+        "id": 101
+    },
+    {
+        "name": "Winson Dark Elf",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/15/102_small_1.png/revision/latest?cb=20160325203438",
+        "availability": "2013and2018 Xmaxx Events,Shop, andSeason 55",
+        "achievement_or_tier": "Dark Elfand Tier 2",
+        "rarity": "Rare",
+        "id": 102
+    },
+    {
+        "name": "The Golden Gift",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "2013,2014,2015,2016,2017, and2018 Xmaxx EventsandXmaxx Sale",
+        "achievement_or_tier": "Thank You Gold Members!",
+        "rarity": "Rare",
+        "id": 103
+    },
+    {
+        "name": "Corndog's Car",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/0/0c/104_small_1.png/revision/latest?cb=20210301073423",
+        "availability": "Admins",
+        "achievement_or_tier": "N/A",
+        "rarity": "Legendary",
+        "id": 104
+    },
+    {
+        "name": "Liberty '14 Mantaray",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/6a/105_small_1.png/revision/latest?cb=20191212141558",
+        "availability": "King of the Race",
+        "achievement_or_tier": "Anne",
+        "rarity": "Rare",
+        "id": 105
+    },
+    {
+        "name": "Fonicci Samsher 458",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/0/04/106_small_1.png/revision/latest?cb=20191212141531",
+        "availability": "Shop",
+        "achievement_or_tier": "Be Like Samsher",
+        "rarity": "Uncommon",
+        "id": 106
+    },
+    {
+        "name": "Fonicci Lacan Hypersport",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/73/107_small_1.png/revision/latest?cb=20191212141613",
+        "availability": "King of the Race",
+        "achievement_or_tier": "Lackin' Nothin'",
+        "rarity": "Uncommon",
+        "id": 107
+    },
+    {
+        "name": "Sun Buggie",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/f1/109_small_1.png/revision/latest?cb=20160325202731",
+        "availability": "2014and2015 Summer EventsandShop",
+        "achievement_or_tier": "Kicking Up Sand",
+        "rarity": "Common",
+        "id": 108
+    },
+    {
+        "name": "Hammer Wheels",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/37/Hammerwheels_small.png/revision/latest?cb=20210305163750",
+        "availability": "2014 Summer EventandShop",
+        "achievement_or_tier": "That a Dolphin?",
+        "rarity": "Legendary",
+        "id": 109
+    },
+    {
+        "name": "Kringle 4000",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/8b/111_small_1.png/revision/latest?cb=20160325203612",
+        "availability": "2014 Xmaxx Event",
+        "achievement_or_tier": "Move Over Rudolph",
+        "rarity": "Rare",
+        "id": 110
+    },
+    {
+        "name": "Buddy's Snowmobile",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/aa/112_small_1.png/revision/latest?cb=20160325201555",
+        "availability": "2014,2015, and2016 Xmaxx EventsandShop",
+        "achievement_or_tier": "Buddy's Ride",
+        "rarity": "Uncommon",
+        "id": 111
+    },
+    {
+        "name": "Kringle 4000 XL",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/7d/113_small_1.png/revision/latest?cb=20160325203643",
+        "availability": "2014 Xmaxx EventandXmaxx Sale",
+        "achievement_or_tier": "Kringle 4000 XL",
+        "rarity": "Rare",
+        "id": 112
+    },
+    {
+        "name": "Buddy's Snowmorocket",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/8d/114_small_1.png/revision/latest?cb=20160325203541",
+        "availability": "2014 Xmaxx Event",
+        "achievement_or_tier": "Buddy's Snowmorocket",
+        "rarity": "Epic",
+        "id": 113
+    },
+    {
+        "name": "Liberty Six Four",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/ef/115_small_1.png/revision/latest?cb=20150710062411",
+        "availability": "2015 Summer Event",
+        "achievement_or_tier": "Surf's Up!",
+        "rarity": "Uncommon",
+        "id": 114
+    },
+    {
+        "name": "Liberty Six Four Plus Three",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/ed/116_small_1.png/revision/latest?cb=20150710062411",
+        "availability": "2015and2016 Summer EventsandShop",
+        "achievement_or_tier": "Add That Up",
+        "rarity": "Uncommon",
+        "id": 115
+    },
+    {
+        "name": "The Midnight Hauler",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/62/117_small_1.png/revision/latest?cb=20151007020205",
+        "availability": "Dealership",
+        "achievement_or_tier": "2spooky4u",
+        "rarity": "Epic",
+        "id": 116
+    },
+    {
+        "name": "The Candy Hauler",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/75/118_small_1.png/revision/latest?cb=20160325193710",
+        "availability": "Shop",
+        "achievement_or_tier": "3spooky5u",
+        "rarity": "Rare",
+        "id": 117
+    },
+    {
+        "name": "Kringle 5000",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/64/119_small_1.png/revision/latest?cb=20160325200941",
+        "availability": "2015 Xmaxx EventandShop",
+        "achievement_or_tier": "Move Over Kringle 4000",
+        "rarity": "Uncommon",
+        "id": 118
+    },
+    {
+        "name": "Wrapped Wracer",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/af/120_small_1.png/revision/latest?cb=20191215230655",
+        "availability": "2015and2016 Xmaxx EventsandShop",
+        "achievement_or_tier": "Keepin it Wrapped",
+        "rarity": "Uncommon",
+        "id": 119
+    },
+    {
+        "name": "Wrapped Wracer GT",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/12/121_small_1.png/revision/latest?cb=20160325201439",
+        "availability": "2015 Xmaxx EventandShop",
+        "achievement_or_tier": "Snow in your Face!",
+        "rarity": "Uncommon",
+        "id": 120
+    },
+    {
+        "name": "Holiday Hero",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/4/40/122_small_1.png/revision/latest?cb=20160325201722",
+        "availability": "ShopandSeason 55",
+        "achievement_or_tier": "The Holiday Heroand Tier 28",
+        "rarity": "Epic",
+        "id": 121
+    },
+    {
+        "name": "Kringle 5000 L.T.",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/6d/123_small_1.png/revision/latest?cb=20160325201626",
+        "availability": "2015 Xmaxx EventandShop",
+        "achievement_or_tier": "L.T. Smash",
+        "rarity": "Rare",
+        "id": 122
+    },
+    {
+        "name": "Blitz McLaro SLR",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/61/124_small_1.png/revision/latest?cb=20160306013336",
+        "availability": "King of the Race",
+        "achievement_or_tier": "I Love Shoes 2",
+        "rarity": "Epic",
+        "id": 123
+    },
+    {
+        "name": "Floaty Blue",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/c1/125_small_1.png/revision/latest?cb=20160607021737",
+        "availability": "2016 Summer EventandShop",
+        "achievement_or_tier": "Yeah Buoy",
+        "rarity": "Rare",
+        "id": 124
+    },
+    {
+        "name": "B.O.A.T.",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/99/126_small_1.png/revision/latest?cb=20160607021818",
+        "availability": "2016and2017 Summer EventsandShop",
+        "achievement_or_tier": "Yachta Yachta",
+        "rarity": "Rare",
+        "id": 125
+    },
+    {
+        "name": "I'm Spicy!",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/70/127_small_1.png/revision/latest?cb=20160621113334",
+        "availability": "2016 Summer Event",
+        "achievement_or_tier": "I'm Spicy!",
+        "rarity": "Rare",
+        "id": 126
+    },
+    {
+        "name": "Y.A.C.H.T.",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b9/128_small_1.png/revision/latest?cb=20161104172715",
+        "availability": "Shop",
+        "achievement_or_tier": "Y.A.C.H.T",
+        "rarity": "Rare",
+        "id": 127
+    },
+    {
+        "name": "Blitz McLaro SLR 12.5",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/e1/129_small_1.png/revision/latest?cb=20161104172758",
+        "availability": "King of the Race",
+        "achievement_or_tier": "I Love Shoes 12.5",
+        "rarity": "Epic",
+        "id": 128
+    },
+    {
+        "name": "Nitr-o'-Lantern",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/cf/130_small_1.png/revision/latest?cb=20161104172804",
+        "availability": "Shop",
+        "achievement_or_tier": "Hallowampus Fanclub",
+        "rarity": "Uncommon",
+        "id": 129
+    },
+    {
+        "name": "Nitr-o'-the-Wisp",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/de/131_small_1.png/revision/latest?cb=20161104172813",
+        "availability": "Shop",
+        "achievement_or_tier": "So Many PumpkinsandSp00ked",
+        "rarity": "Rare",
+        "id": 130
+    },
+    {
+        "name": "XMaxx Xxpress",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/61/132_small_1.png/revision/latest?cb=20161201214039",
+        "availability": "2016 Xmaxx EventandShop",
+        "achievement_or_tier": "Runnin' a Train",
+        "rarity": "Rare",
+        "id": 131
+    },
+    {
+        "name": "XMaxx Xxpress XXL",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/ea/133_small_1.png/revision/latest?cb=20161201214213",
+        "availability": "2016 Xmaxx Event,Xmaxx Sale, andShop",
+        "achievement_or_tier": "How Xxciting!",
+        "rarity": "Rare",
+        "id": 132
+    },
+    {
+        "name": "Gilded Xxpress",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "2016,2017, and2018 Xmaxx EventsandNitro Gold Rocket Recharge",
+        "achievement_or_tier": "Thank You Gold Members!!",
+        "rarity": "Rare",
+        "id": 133
+    },
+    {
+        "name": "Corsa XMaxx LT",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/12/Corsa_xmaxx_small.png/revision/latest?cb=20211129001209",
+        "availability": "2016 Xmaxx Event",
+        "achievement_or_tier": "Lamborgotti Xmaxx LT",
+        "rarity": "Epic",
+        "id": 134
+    },
+    {
+        "name": "Corsa Xmaxx LT-C",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/3c/136_small_1.png/revision/latest?cb=20161215212548",
+        "availability": "2016 Xmaxx Event",
+        "achievement_or_tier": "Lamborgotti Xmaxx LT-C",
+        "rarity": "Epic",
+        "id": 135
+    },
+    {
+        "name": "Blitz McLaro SHS 15.0",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9e/137_small_1.png/revision/latest?cb=20170305024333",
+        "availability": "King of the Race",
+        "achievement_or_tier": "I Love Shoes 15.0",
+        "rarity": "Epic",
+        "id": 136
+    },
+    {
+        "name": "Bozz Strykist 1300",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/aa/Strykist_small.png/revision/latest?cb=20210209112017",
+        "availability": "2017 Summer EventandShop",
+        "achievement_or_tier": "Strykist 1300",
+        "rarity": "Uncommon",
+        "id": 137
+    },
+    {
+        "name": "Range Runner",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/11/139_small_1.png/revision/latest?cb=20170615215511",
+        "availability": "2017 Summer EventandShop",
+        "achievement_or_tier": "Range Runner",
+        "rarity": "Common",
+        "id": 138
+    },
+    {
+        "name": "Bozz Strykist 1300 XT-LR",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/f1/140_small_1.png/revision/latest?cb=20170615215512",
+        "availability": "2017 Summer EventandShop",
+        "achievement_or_tier": "Strykist 1300 XT-LR",
+        "rarity": "Uncommon",
+        "id": 139
+    },
+    {
+        "name": "Track-o'-Lantern",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/af/141_small_1.png/revision/latest?cb=20171021141404",
+        "availability": "Shop",
+        "achievement_or_tier": "Halloweird",
+        "rarity": "Uncommon",
+        "id": 140
+    },
+    {
+        "name": "Gingerbread Racer",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/77/142_small_1.png/revision/latest?cb=20171201153907",
+        "availability": "2017 Xmaxx EventandShop",
+        "achievement_or_tier": "Gingerbread Racer",
+        "rarity": "Rare",
+        "id": 141
+    },
+    {
+        "name": "Gingerbread Racer H&T",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/0/09/143_small_1.png/revision/latest?cb=20171203173830",
+        "availability": "2017 Xmaxx Event",
+        "achievement_or_tier": "Gingerbread Racer H&T",
+        "rarity": "Rare",
+        "id": 142
+    },
+    {
+        "name": "Missile Toe",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/5b/144_small_1.png/revision/latest?cb=20171207224104",
+        "availability": "2017 Xmaxx EventandShop",
+        "achievement_or_tier": "Missile Toe",
+        "rarity": "Uncommon",
+        "id": 143
+    },
+    {
+        "name": "Missile Toe H&T",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/1d/145_small_1.png/revision/latest?cb=20171212163555",
+        "availability": "2017 Xmaxx Event",
+        "achievement_or_tier": "Missile Toe H&T",
+        "rarity": "Rare",
+        "id": 144
+    },
+    {
+        "name": "The Dark Chocolate Knight",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/3a/146_small_1.png/revision/latest?cb=20171215225933",
+        "availability": "Shop",
+        "achievement_or_tier": "The Dark Chocolate Knight",
+        "rarity": "Epic",
+        "id": 145
+    },
+    {
+        "name": "Teggsla",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/55/149_small_1.png/revision/latest?cb=20180316023308",
+        "availability": "Shop",
+        "achievement_or_tier": "Springing Up",
+        "rarity": "Uncommon",
+        "id": 146
+    },
+    {
+        "name": "Egg Beater",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/cc/150_small_1.png/revision/latest?cb=20180316023323",
+        "availability": "2018 Spring Fever EventandShop",
+        "achievement_or_tier": "Egg Beater",
+        "rarity": "Uncommon",
+        "id": 147
+    },
+    {
+        "name": "Eggcedes",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b3/151_small_1.png/revision/latest?cb=20180316023330",
+        "availability": "2018 Spring Fever EventandShop",
+        "achievement_or_tier": "Eggcedes",
+        "rarity": "Uncommon",
+        "id": 148
+    },
+    {
+        "name": "Egg Hauler",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/f8/152_small_1.png/revision/latest?cb=20180316023341",
+        "availability": "Dealership",
+        "achievement_or_tier": "Got Carrot Away",
+        "rarity": "Rare",
+        "id": 149
+    },
+    {
+        "name": "Blitz GT 20.0",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/ce/153_small_1.png/revision/latest?cb=20180404041359",
+        "availability": "King of the Race",
+        "achievement_or_tier": "I Love Shoes 20.0",
+        "rarity": "Epic",
+        "id": 150
+    },
+    {
+        "name": "Rocky Roo",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/c5/154_small_1.png/revision/latest?cb=20180503022726",
+        "availability": "Dealership",
+        "achievement_or_tier": "PAC Basic",
+        "rarity": "Epic",
+        "id": 151
+    },
+    {
+        "name": "NitroPAC",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/58/155_small_1.png/revision/latest?cb=20180503022726",
+        "availability": "Dealership",
+        "achievement_or_tier": "PAC Pro",
+        "rarity": "Epic",
+        "id": 152
+    },
+    {
+        "name": "Matchbox",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/12/156_small_1.png/revision/latest?cb=20180622225554",
+        "availability": "2018 Surf n' Turf EventandShop",
+        "achievement_or_tier": "Matchbox",
+        "rarity": "Uncommon",
+        "id": 153
+    },
+    {
+        "name": "Lucky Number 7",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/8f/157_small_1.png/revision/latest?cb=20180622225555",
+        "availability": "2018 Surf n' Turf EventandShop",
+        "achievement_or_tier": "Lucky Number 7",
+        "rarity": "Rare",
+        "id": 154
+    },
+    {
+        "name": "Easy Breezy",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/3b/158_small_1.png/revision/latest?cb=20180622225555",
+        "availability": "2018 Surf n' Turf EventandShop",
+        "achievement_or_tier": "Easy Breezy",
+        "rarity": "Uncommon",
+        "id": 155
+    },
+    {
+        "name": "HoverJet 5000 Mk. 3",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/c2/159_small_1.png/revision/latest?cb=20180622225556",
+        "availability": "2018 Surf n' Turf EventandShop",
+        "achievement_or_tier": "HoverJet 5000 Mk. 3",
+        "rarity": "Uncommon",
+        "id": 156
+    },
+    {
+        "name": "Golden Breeze",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "2018 Surf n' Turf Event",
+        "achievement_or_tier": "Golden Breeze",
+        "rarity": "Rare",
+        "id": 157
+    },
+    {
+        "name": "B.U.S.",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/a9/161_small_1.png/revision/latest?cb=20180915005239",
+        "availability": "Shop",
+        "achievement_or_tier": "B.U.S. Driver",
+        "rarity": "Uncommon",
+        "id": 158
+    },
+    {
+        "name": "S'cool B.U.S.",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/5c/162_small_1.png/revision/latest?cb=20180915005240",
+        "availability": "Dealership",
+        "achievement_or_tier": "B.U.S. Racer",
+        "rarity": "Epic",
+        "id": 159
+    },
+    {
+        "name": "Konirra AU-79",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "2018and2019 Back 2 School EventsandEarly Bird Renewal Advantage",
+        "achievement_or_tier": "Gold School",
+        "rarity": "Rare",
+        "id": 160
+    },
+    {
+        "name": "The Underachiever",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/4/4a/164_small_1.png/revision/latest?cb=20180915005241",
+        "availability": "2018 Back 2 School EventandShop",
+        "achievement_or_tier": "The Underachiever",
+        "rarity": "Uncommon",
+        "id": 161
+    },
+    {
+        "name": "The Overachiever",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/94/165_small_1.png/revision/latest?cb=20180915005241",
+        "availability": "2018and2019 Back 2 School EventsandShop",
+        "achievement_or_tier": "The Overachiever",
+        "rarity": "Rare",
+        "id": 162
+    },
+    {
+        "name": "The Wildflower",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/e9/166_small_1.png/revision/latest?cb=20181116232842",
+        "availability": "King of the Race",
+        "achievement_or_tier": "The Wildest of Flowers",
+        "rarity": "Legendary",
+        "id": 163
+    },
+    {
+        "name": "Shimura Jolly RS",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/62/167_small_1.png/revision/latest?cb=20181201104911",
+        "availability": "2018 Xmaxx EventandShop",
+        "achievement_or_tier": "Jolly RS",
+        "rarity": "Rare",
+        "id": 164
+    },
+    {
+        "name": "Shimura Jolly GTX LG",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/58/168_small_1.png/revision/latest?cb=20181203190058",
+        "availability": "2018 Xmaxx Event",
+        "achievement_or_tier": "Jolly GTX LG",
+        "rarity": "Rare",
+        "id": 165
+    },
+    {
+        "name": "The Goldray",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "2018 Xmaxx EventandNitro Gold Rocket Recharge",
+        "achievement_or_tier": "Thank You Gold Members!!!",
+        "rarity": "Epic",
+        "id": 166
+    },
+    {
+        "name": "can hav nt g0ld plx?",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/52/170_small_1.png/revision/latest?cb=20181204153514",
+        "availability": "Special Sauce",
+        "achievement_or_tier": "Xmaz spiritz!!!11one!",
+        "rarity": "Legendary",
+        "id": 167
+    },
+    {
+        "name": "Liberty Wraptor",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/3d/171_small_1.png/revision/latest?cb=20181208151739",
+        "availability": "2018 Xmaxx EventandShop",
+        "achievement_or_tier": "The Wraptor",
+        "rarity": "Rare",
+        "id": 168
+    },
+    {
+        "name": "Liberty Unwrapped",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Special SauceandSeason 55",
+        "achievement_or_tier": "Captain Soonand Tier 18",
+        "rarity": "Legendary",
+        "id": 169
+    },
+    {
+        "name": "Liberty Wraptor GG",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/35/173_small_1.png/revision/latest?cb=20181212191230",
+        "availability": "2018 Xmaxx Event",
+        "achievement_or_tier": "The Wraptor GG",
+        "rarity": "Rare",
+        "id": 170
+    },
+    {
+        "name": "The Silent Knight",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/70/174_small_1.png/revision/latest?cb=20181214164021",
+        "availability": "Dealership",
+        "achievement_or_tier": "The Silent Knight",
+        "rarity": "Epic",
+        "id": 171
+    },
+    {
+        "name": "NT Gold",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/8a/175_small_1.png/revision/latest?cb=20181229213218",
+        "availability": "Special Sauce",
+        "achievement_or_tier": "Admin Gold",
+        "rarity": "Legendary",
+        "id": 172
+    },
+    {
+        "name": "Corsa Tiesto",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/be/176_small_1.png/revision/latest?cb=20190312064758",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 173
+    },
+    {
+        "name": "Blitz Cobalt",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/59/Blitz_cobalt1_small.png/revision/latest?cb=20210821062655",
+        "availability": "Season 21andShop",
+        "achievement_or_tier": "Portch Cobalt",
+        "rarity": "Uncommon",
+        "id": 174
+    },
+    {
+        "name": "Corsa 123Ω",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/c2/178_small_1.png/revision/latest?cb=20190516204650",
+        "availability": "Season 21andShop",
+        "achievement_or_tier": "Alpha Romero 123Ω",
+        "rarity": "Uncommon",
+        "id": 175
+    },
+    {
+        "name": "Liberty Travosaurus",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/e9/179_small_1.png/revision/latest?cb=20190607203050",
+        "availability": "Special Sauce",
+        "achievement_or_tier": "Captain Sooner",
+        "rarity": "Rare",
+        "id": 176
+    },
+    {
+        "name": "Fonicci Luminosa",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/1a/Brightidea_small.png/revision/latest?cb=20210402172023",
+        "availability": "Special SauceandShop",
+        "achievement_or_tier": "So Many Lambos!1!!!1",
+        "rarity": "Rare",
+        "id": 177
+    },
+    {
+        "name": "Sandstorm",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/64/181_small_1.png/revision/latest?cb=20190716195035",
+        "availability": "Season 22andShop",
+        "achievement_or_tier": "Sandstorm",
+        "rarity": "Uncommon",
+        "id": 178
+    },
+    {
+        "name": "The Jury",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/67/182_small_1.png/revision/latest?cb=20190716195036",
+        "availability": "Season 22andShop",
+        "achievement_or_tier": "The Jury",
+        "rarity": "Uncommon",
+        "id": 179
+    },
+    {
+        "name": "The Goldfish",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 22andEarly Bird Renewal Advantage",
+        "achievement_or_tier": "Goldfishin'",
+        "rarity": "Rare",
+        "id": 180
+    },
+    {
+        "name": "Shock Value",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/68/184_small_1.png/revision/latest?cb=20190903203024",
+        "availability": "2019 Back 2 School EventandShop",
+        "achievement_or_tier": "Shock Value",
+        "rarity": "Rare",
+        "id": 181
+    },
+    {
+        "name": "Gold Standard",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "2019 Back 2 School Event",
+        "achievement_or_tier": "Gold Standard",
+        "rarity": "Rare",
+        "id": 182
+    },
+    {
+        "name": "Solar Roller",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b9/186_small_1.png/revision/latest?cb=20190903203037",
+        "availability": "2019 Back 2 School EventandShop",
+        "achievement_or_tier": "Solar Roller",
+        "rarity": "Rare",
+        "id": 183
+    },
+    {
+        "name": "H2GO",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/25/187_small_1.png/revision/latest?cb=20190909202347",
+        "availability": "2019 Back 2 School EventandShop",
+        "achievement_or_tier": "H2GO",
+        "rarity": "Rare",
+        "id": 184
+    },
+    {
+        "name": "The DevasTater",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/50/Taterpowered_small.png/revision/latest?cb=20210822043653",
+        "availability": "2019 Back 2 School Event",
+        "achievement_or_tier": "The DevasTater",
+        "rarity": "Rare",
+        "id": 185
+    },
+    {
+        "name": "Creepy Crawler",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/30/189_small_1.png/revision/latest?cb=20191007172106",
+        "availability": "Season 24andShop",
+        "achievement_or_tier": "Creepy Crawler",
+        "rarity": "Uncommon",
+        "id": 186
+    },
+    {
+        "name": "Velocité Goblin",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/75/190_small_1.png/revision/latest?cb=20191007172232",
+        "availability": "Season 24andShop",
+        "achievement_or_tier": "The Goblin",
+        "rarity": "Common",
+        "id": 187
+    },
+    {
+        "name": "Something Wicked",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/bf/191_small_1.png/revision/latest?cb=20191007172330",
+        "availability": "Season 24andShop",
+        "achievement_or_tier": "Something Wicked",
+        "rarity": "Uncommon",
+        "id": 188
+    },
+    {
+        "name": "Frosted Roller",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/a2/192_small_1.png/revision/latest?cb=20191203015103",
+        "availability": "Season 25andShop",
+        "achievement_or_tier": "Frosted Roller",
+        "rarity": "Rare",
+        "id": 189
+    },
+    {
+        "name": "Gingerbread GT",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/3f/193_small_1.png/revision/latest?cb=20191203015113",
+        "availability": "Season 25andShop",
+        "achievement_or_tier": "Gingerbread GT",
+        "rarity": "Rare",
+        "id": 190
+    },
+    {
+        "name": "Holiday Heat",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/7d/194_small_1.png/revision/latest?cb=20191203015142",
+        "availability": "Season 25andShop",
+        "achievement_or_tier": "Holiday Heat",
+        "rarity": "Uncommon",
+        "id": 191
+    },
+    {
+        "name": "Cold Snap",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/f5/195_small_1.png/revision/latest?cb=20191203015125",
+        "availability": "Season 25andSeason 55",
+        "achievement_or_tier": "Cold Snapand Tier 22",
+        "rarity": "Rare",
+        "id": 192
+    },
+    {
+        "name": "The Snowy Knight",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/cf/196_small_1.png/revision/latest?cb=20191203014805",
+        "availability": "Dealership",
+        "achievement_or_tier": "The Snowy Knight",
+        "rarity": "Epic",
+        "id": 193
+    },
+    {
+        "name": "The Rocket Klaus",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 25",
+        "achievement_or_tier": "The Rocket Klaus",
+        "rarity": "Epic",
+        "id": 194
+    },
+    {
+        "name": "Golden Ticket",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 25",
+        "achievement_or_tier": "The Golden Ticket!",
+        "rarity": "Rare",
+        "id": 195
+    },
+    {
+        "name": "Liberty Wavebreaker",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/20/199_small_1.png/revision/latest?cb=20191231060641",
+        "availability": "Season 26andShop",
+        "achievement_or_tier": "Rank 1",
+        "rarity": "Uncommon",
+        "id": 196
+    },
+    {
+        "name": "Liberty Broadwing",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/80/200_small_1.png/revision/latest?cb=20191231060642",
+        "availability": "Season 26andShop",
+        "achievement_or_tier": "Rank 6",
+        "rarity": "Uncommon",
+        "id": 197
+    },
+    {
+        "name": "Blitz Prism i20",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/4/4e/Nye_small.png/revision/latest?cb=20210207215111",
+        "availability": "Season 26andShop",
+        "achievement_or_tier": "Rank 12",
+        "rarity": "Legendary",
+        "id": 198
+    },
+    {
+        "name": "Flux Heartbreaker",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/a4/202_small_1.png/revision/latest?cb=20191231060643",
+        "availability": "Season 26andShop",
+        "achievement_or_tier": "Rank 22",
+        "rarity": "Rare",
+        "id": 199
+    },
+    {
+        "name": "Liberty Danger 9",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Special Sauce",
+        "achievement_or_tier": "Most Dangerous of Bobs",
+        "rarity": "Legendary",
+        "id": 200
+    },
+    {
+        "name": "The Wild 500",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/f5/204_small_1.png/revision/latest?cb=20200320170035",
+        "availability": "King of the Race",
+        "achievement_or_tier": "The Wild Legend",
+        "rarity": "Legendary",
+        "id": 201
+    },
+    {
+        "name": "Shimura Tigreen",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/94/205_small_1.png/revision/latest?cb=20200407153743",
+        "availability": "Season 27andShop",
+        "achievement_or_tier": "Rank 1/Tier 2",
+        "rarity": "Uncommon",
+        "id": 202
+    },
+    {
+        "name": "X1 Eclipse",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/26/206_small_1.png/revision/latest?cb=20200407172905",
+        "availability": "Season 27andShop",
+        "achievement_or_tier": "Rank 6/Tier 7",
+        "rarity": "Uncommon",
+        "id": 203
+    },
+    {
+        "name": "Corsa Error 500",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/21/207_small_1.png/revision/latest?cb=20200407172907",
+        "availability": "Season 27",
+        "achievement_or_tier": "Rank 12/Tier 13",
+        "rarity": "Rare",
+        "id": 204
+    },
+    {
+        "name": "Vapor",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/ec/208_small_1.png/revision/latest?cb=20200407172906",
+        "availability": "Season 27andShop",
+        "achievement_or_tier": "Rank 22/Tier 23",
+        "rarity": "Epic",
+        "id": 205
+    },
+    {
+        "name": "9 Bit Racer",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/dc/209_small_1.png/revision/latest?cb=20200520162847",
+        "availability": "Season 27",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Epic",
+        "id": 206
+    },
+    {
+        "name": "Chompus' Wild Ride",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 28",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Rare",
+        "id": 207
+    },
+    {
+        "name": "Whiplash XS",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/5a/211_small_1.png/revision/latest?cb=20200701192609",
+        "availability": "Season 28andShop",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Uncommon",
+        "id": 208
+    },
+    {
+        "name": "The Hydro Planer",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/8a/212_small_1.png/revision/latest?cb=20200701192609",
+        "availability": "Season 28andShop",
+        "achievement_or_tier": "Tier 7",
+        "rarity": "Uncommon",
+        "id": 209
+    },
+    {
+        "name": "Timber Speeder",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/ae/213_small_1.png/revision/latest?cb=20200701192610",
+        "availability": "Special Sauce",
+        "achievement_or_tier": "Early Season Preview",
+        "rarity": "Rare",
+        "id": 210
+    },
+    {
+        "name": "Wampus' Waffle Wagon",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/a8/214_small_1.png/revision/latest?cb=20200701192610",
+        "availability": "Season 28andShop",
+        "achievement_or_tier": "Tier 23",
+        "rarity": "Rare",
+        "id": 211
+    },
+    {
+        "name": "Webmobile Spider",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 29",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Rare",
+        "id": 212
+    },
+    {
+        "name": "Winson Evar",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/87/216_small_1.png/revision/latest?cb=20200904223837",
+        "availability": "Season 29andShop",
+        "achievement_or_tier": "Tier 7",
+        "rarity": "Uncommon",
+        "id": 213
+    },
+    {
+        "name": "SpaceZ Crew Draco",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b1/217_small_1.png/revision/latest?cb=20200904223837",
+        "availability": "Season 29andShop",
+        "achievement_or_tier": "Tier 15",
+        "rarity": "Rare",
+        "id": 214
+    },
+    {
+        "name": "Flux Sienna",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/85/218_small_1.png/revision/latest?cb=20200904223838",
+        "availability": "Season 29andShop",
+        "achievement_or_tier": "Tier 23",
+        "rarity": "Rare",
+        "id": 215
+    },
+    {
+        "name": "Calculatron",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/4/4a/219_small_1.png/revision/latest?cb=20200904223838",
+        "availability": "Season 29andShop",
+        "achievement_or_tier": "Tier 38",
+        "rarity": "Rare",
+        "id": 216
+    },
+    {
+        "name": "Screw Tank",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/a2/220_small_1.png/revision/latest?cb=20210507010841",
+        "availability": "#NitroFurze Event",
+        "achievement_or_tier": "Screw Tank",
+        "rarity": "Epic",
+        "id": 217
+    },
+    {
+        "name": "Hoverbike",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/6b/221_small_1.png/revision/latest?cb=20210507010903",
+        "availability": "#NitroFurze EventandShop",
+        "achievement_or_tier": "Hoverbike",
+        "rarity": "Epic",
+        "id": 218
+    },
+    {
+        "name": "Jet Bicycle",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/2b/222_small_1.png/revision/latest?cb=20210507010944",
+        "availability": "#NitroFurze Event",
+        "achievement_or_tier": "Jet Bike",
+        "rarity": "Epic",
+        "id": 219
+    },
+    {
+        "name": "Wrapped Flyer",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b7/223_small_1.png/revision/latest?cb=20201202022711",
+        "availability": "Season 30",
+        "achievement_or_tier": "Tier 20",
+        "rarity": "Legendary",
+        "id": 220
+    },
+    {
+        "name": "The Festivitank",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/a2/224_small_1.png/revision/latest?cb=20201202022710",
+        "availability": "Season 30andShop",
+        "achievement_or_tier": "Tier 4",
+        "rarity": "Legendary",
+        "id": 221
+    },
+    {
+        "name": "Maxxbilt Jetro",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b1/Jet_powered_truck_small.png/revision/latest?cb=20210207215055",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Epic",
+        "id": 222
+    },
+    {
+        "name": "Corsa Vengeance",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/cf/Vengeance_small.png/revision/latest?cb=20210213195616",
+        "availability": "Special Sauce,Season 52, andShop",
+        "achievement_or_tier": "Testand Tier 25",
+        "rarity": "Legendary",
+        "id": 223
+    },
+    {
+        "name": "X2 Eclipse",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/59/Crimson_small.png/revision/latest?cb=20210220170200",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Legendary",
+        "id": 224
+    },
+    {
+        "name": "Liberty Redux",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/86/Redux_small.png/revision/latest?cb=20210211174441",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 225
+    },
+    {
+        "name": "Liberty Leo",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9d/Covenant_small.png/revision/latest?cb=20210228000601",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Epic",
+        "id": 226
+    },
+    {
+        "name": "Fonicci Tricolore 2021",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/3e/Zonday2021_small.png/revision/latest?cb=20210217234336",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Rare",
+        "id": 227
+    },
+    {
+        "name": "Winson Gator Ayd",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/61/Gatorayd_small.png/revision/latest?cb=20210213195507",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 228
+    },
+    {
+        "name": "Liberty Glamrod",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/66/Flamerod_small.png/revision/latest?cb=20210213195506",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Epic",
+        "id": 229
+    },
+    {
+        "name": "Winson Linux",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/76/Linuxelipse_small.png/revision/latest?cb=20210220023246",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 230
+    },
+    {
+        "name": "Liberty Warrior NRX",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/13/Roadwarriorrally_small.png/revision/latest?cb=20210317170357",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 231
+    },
+    {
+        "name": "Furious Maxx",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/db/Badrax_small.png/revision/latest?cb=20210224012918",
+        "availability": "Season 32andShop",
+        "achievement_or_tier": "Tier 20",
+        "rarity": "Legendary",
+        "id": 232
+    },
+    {
+        "name": "Blitz M6",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/a7/N6sport_small.png/revision/latest?cb=20210112191445",
+        "availability": "Season 31andShop",
+        "achievement_or_tier": "Tier 12",
+        "rarity": "Epic",
+        "id": 233
+    },
+    {
+        "name": "The Dominator",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/bb/242_small_1.png/revision/latest?cb=20210112191500",
+        "availability": "Season 31andShop",
+        "achievement_or_tier": "Tier 20",
+        "rarity": "Legendary",
+        "id": 234
+    },
+    {
+        "name": "Flux Heartbreaker LV-2",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/17/243_small_1.png/revision/latest?cb=20210112191422",
+        "availability": "Season 31andShop",
+        "achievement_or_tier": "Tier 4",
+        "rarity": "Rare",
+        "id": 235
+    },
+    {
+        "name": "Maxxbilt Ice Hauler",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b3/4812376r287ds_small.png/revision/latest?cb=20210224192118",
+        "availability": "Season 32andShop",
+        "achievement_or_tier": "Tier 4",
+        "rarity": "Rare",
+        "id": 236
+    },
+    {
+        "name": "The Kelvin",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/1e/Thekelvin_small.png/revision/latest?cb=20210228000600",
+        "availability": "Season 54andShop",
+        "achievement_or_tier": "Tier 7",
+        "rarity": "Epic",
+        "id": 237
+    },
+    {
+        "name": "Nitreux Vyrus LR",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9d/Vyzuadk226_small.png/revision/latest?cb=20210303034436",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Rare",
+        "id": 238
+    },
+    {
+        "name": "Corsa Error 503",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/c9/Error503_small.png/revision/latest?cb=20210306234501",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Legendary",
+        "id": 239
+    },
+    {
+        "name": "Shimura Sprinter '90",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b4/Sprinter_small.png/revision/latest?cb=20210311001837",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Rare",
+        "id": 240
+    },
+    {
+        "name": "Koromoto NRX",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/23/Rally_small.png/revision/latest?cb=20210313173630",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Epic",
+        "id": 241
+    },
+    {
+        "name": "Flux M400-R",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/27/Msg01_small.png/revision/latest?cb=20210316165353",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Rare",
+        "id": 242
+    },
+    {
+        "name": "Koromoto DJ Cruiser",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/21/Djcruzer_small.png/revision/latest?cb=20210314194609",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 243
+    },
+    {
+        "name": "Koromoto GT-R",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/74/Gtr1_small.png/revision/latest?cb=20210320184742",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 244
+    },
+    {
+        "name": "Koromoto GT-R LS",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/ea/Gtr50_small.png/revision/latest?cb=20210330203415",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 245
+    },
+    {
+        "name": "Stingtec Technotruck",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/4/45/Technotruck_small.png/revision/latest?cb=20210320184742",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 246
+    },
+    {
+        "name": "Four Leaf Rover",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/3d/Fourleafrover_small.png/revision/latest?cb=20210315164334",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 247
+    },
+    {
+        "name": "Corsa Iris",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/3f/Lambouhuh_small.png/revision/latest?cb=20210327174948",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Rare",
+        "id": 248
+    },
+    {
+        "name": "Sprinter '90 Vapor",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b7/Sprintervapor_small.png/revision/latest?cb=20210328200122",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Rare",
+        "id": 249
+    },
+    {
+        "name": "Winson Track'd",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/c1/Amphibbtly_small.png/revision/latest?cb=20210331234022",
+        "availability": "Season 33andShop",
+        "achievement_or_tier": "Tier 30",
+        "rarity": "Legendary",
+        "id": 250
+    },
+    {
+        "name": "Corsa Mystica",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/78/Corsamystica_small.png/revision/latest?cb=20210330124316",
+        "availability": "Season 33andShop",
+        "achievement_or_tier": "Tier 17",
+        "rarity": "Legendary",
+        "id": 251
+    },
+    {
+        "name": "Stingtec Marianas",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/66/H2ocar_small.png/revision/latest?cb=20210331234107",
+        "availability": "Season 33andShop",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Legendary",
+        "id": 252
+    },
+    {
+        "name": "Stingtec WaterSki",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/78/31423rsdvdas_small.png/revision/latest?cb=20210404163825",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Rare",
+        "id": 253
+    },
+    {
+        "name": "Blitz T8 Roadster",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/4/4f/32rvascl3_small.png/revision/latest?cb=20210413220538",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 254
+    },
+    {
+        "name": "Liberty Demon XRT",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/d1/3214rfdwasc_small.png/revision/latest?cb=20210412205533",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 255
+    },
+    {
+        "name": "Koromoto GT-R Neon",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b0/Neon_small.png/revision/latest?cb=20210410200806",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Epic",
+        "id": 256
+    },
+    {
+        "name": "Mongoose SU-5",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/4/49/Mongoose_small.png/revision/latest?cb=20210424235846",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Legendary",
+        "id": 257
+    },
+    {
+        "name": "Corsa Megalodor",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/dc/Corsamegalodor123_small.png/revision/latest?cb=20210504031427",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Uncommon",
+        "id": 258
+    },
+    {
+        "name": "The Evergreen Steamer",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/2d/Locomotive_small.png/revision/latest?cb=20210509005139",
+        "availability": "Season 54andShop",
+        "achievement_or_tier": "Tier 12",
+        "rarity": "Legendary",
+        "id": 259
+    },
+    {
+        "name": "Bozz Juice'd",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/a1/Jatv1_small.png/revision/latest?cb=20220326204937",
+        "availability": "Season 34andShop",
+        "achievement_or_tier": "Tier 25",
+        "rarity": "Rare",
+        "id": 260
+    },
+    {
+        "name": "Stingtec Thunderboat",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b5/Jet_boat_small.png/revision/latest?cb=20210603113132",
+        "availability": "Season 34andShop",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Epic",
+        "id": 261
+    },
+    {
+        "name": "Blitz Dune Bounder",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/12/Dunebounder_small.png/revision/latest?cb=20210603113132",
+        "availability": "Season 34andShop",
+        "achievement_or_tier": "Tier 5",
+        "rarity": "Uncommon",
+        "id": 262
+    },
+    {
+        "name": "Corsa Contacc",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/8b/Corsapunti_small.png/revision/latest?cb=20210603113132",
+        "availability": "Season 34andShop",
+        "achievement_or_tier": "Tier 32",
+        "rarity": "Rare",
+        "id": 263
+    },
+    {
+        "name": "Liberty Rescue",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/20/Lifeguard_small.png/revision/latest?cb=20210603113131",
+        "availability": "Season 34andShop",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Rare",
+        "id": 264
+    },
+    {
+        "name": "Hydrova OG",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/8d/Libertyog_small.png/revision/latest?cb=20210603113132",
+        "availability": "Season 34andShop",
+        "achievement_or_tier": "Tier 18",
+        "rarity": "Uncommon",
+        "id": 265
+    },
+    {
+        "name": "Flux Memo",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b1/Fluxmemo_small.png/revision/latest?cb=20210821132420",
+        "availability": "Season 35andShop",
+        "achievement_or_tier": "Tier 5",
+        "rarity": "Epic",
+        "id": 266
+    },
+    {
+        "name": "Fully Leaded",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/7d/Fullyleaded_small.png/revision/latest?cb=20210821132244",
+        "availability": "Season 35andShop",
+        "achievement_or_tier": "Tier 34",
+        "rarity": "Legendary",
+        "id": 267
+    },
+    {
+        "name": "Konirra Celebrar EVO",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 35",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Legendary",
+        "id": 268
+    },
+    {
+        "name": "Koromoto Rulebreaker",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/ff/Rulebreaker_small.png/revision/latest?cb=20210821132244",
+        "availability": "Season 35",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Rare",
+        "id": 269
+    },
+    {
+        "name": "S’cool B.U.S. Wildn",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/a8/Jet_bus_small.png/revision/latest?cb=20210821181625",
+        "availability": "Season 35andShop",
+        "achievement_or_tier": "Tier 27",
+        "rarity": "Legendary",
+        "id": 270
+    },
+    {
+        "name": "Evergreen Screamer",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/2e/Scream_small.png/revision/latest?cb=20211002042205",
+        "availability": "Season 49andShop",
+        "achievement_or_tier": "Tier 11",
+        "rarity": "Legendary",
+        "id": 271
+    },
+    {
+        "name": "Ghoul Bus",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/30/Ghoul_bus_small.png/revision/latest?cb=20211002042207",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Legendary",
+        "id": 272
+    },
+    {
+        "name": "Blitz 935 Sunset",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/11/Blitz_935_small.png/revision/latest?cb=20211017102720",
+        "availability": "Season 36",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Epic",
+        "id": 273
+    },
+    {
+        "name": "Cartrod",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/88/Shopping_cart_small.png/revision/latest?cb=20211025064148",
+        "availability": "Season 36andShop",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Epic",
+        "id": 274
+    },
+    {
+        "name": "Hay, a Truck",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 36",
+        "achievement_or_tier": "Tier 5",
+        "rarity": "Rare",
+        "id": 275
+    },
+    {
+        "name": "Harvestall Tractor",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/8a/Tractor_small.png/revision/latest?cb=20211017102717",
+        "availability": "Season 36andShop",
+        "achievement_or_tier": "Tier 20",
+        "rarity": "Rare",
+        "id": 276
+    },
+    {
+        "name": "Liberty S7",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/0/06/Libertys7a_small.png/revision/latest?cb=20211017102720",
+        "availability": "Season 36andShop",
+        "achievement_or_tier": "Tier 30",
+        "rarity": "Epic",
+        "id": 277
+    },
+    {
+        "name": "T. Butler #56",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/c4/Tbutler56a_small.png/revision/latest?cb=20211025035132",
+        "availability": "N/A",
+        "achievement_or_tier": "N/A",
+        "rarity": "Epic",
+        "id": 278
+    },
+    {
+        "name": "Cal Naughton Jr.",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/f0/Abutleer12_small.png/revision/latest?cb=20211025035131",
+        "availability": "Season 52",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Legendary",
+        "id": 279
+    },
+    {
+        "name": "Bobby Ricky #3",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/0/0e/Acrook53_small.png/revision/latest?cb=20211025035130",
+        "availability": "Season 43andShop",
+        "achievement_or_tier": "Tier 10",
+        "rarity": "Epic",
+        "id": 280
+    },
+    {
+        "name": "Titan Stock",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/e0/Ksmith_small.png/revision/latest?cb=20211025035129",
+        "availability": "Season 54",
+        "achievement_or_tier": "Tier 21",
+        "rarity": "Epic",
+        "id": 281
+    },
+    {
+        "name": "Talladega Titan",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9e/Hbonacci8_small.png/revision/latest?cb=20211025035128",
+        "availability": "Season 53",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Epic",
+        "id": 282
+    },
+    {
+        "name": "Thunder Shake",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/63/Kosburn21_small.png/revision/latest?cb=20211025035127",
+        "availability": "Bundles",
+        "achievement_or_tier": "N/A",
+        "rarity": "Legendary",
+        "id": 283
+    },
+    {
+        "name": "Mini Firetruck",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/c5/Minifiretruck_small.png/revision/latest?cb=20211109003248",
+        "availability": "Season 54andShop",
+        "achievement_or_tier": "Tier 1",
+        "rarity": "Rare",
+        "id": 284
+    },
+    {
+        "name": "Graffiti Tank",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/f3/Graffititank.png/revision/latest?cb=20230312075937",
+        "availability": "Season 46andShop",
+        "achievement_or_tier": "Tier 20",
+        "rarity": "Legendary",
+        "id": 285
+    },
+    {
+        "name": "Elfmobile '21",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/1/17/Elfmobile_small.png/revision/latest?cb=20211205215240",
+        "availability": "Shop",
+        "achievement_or_tier": "N/A",
+        "rarity": "Epic",
+        "id": 286
+    },
+    {
+        "name": "Fonicci Candido F8",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/33/Candido_small.png/revision/latest?cb=20211129001224",
+        "availability": "Season 37andShop",
+        "achievement_or_tier": "Tier 5",
+        "rarity": "Epic",
+        "id": 287
+    },
+    {
+        "name": "Party Sleigh Neon",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 37",
+        "achievement_or_tier": "Tier 23",
+        "rarity": "Legendary",
+        "id": 288
+    },
+    {
+        "name": "Lit Locomotive",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/d8/Lit_train_small.png/revision/latest?cb=20211129001327",
+        "availability": "Season 37andShop",
+        "achievement_or_tier": "Tier 33",
+        "rarity": "Rare",
+        "id": 289
+    },
+    {
+        "name": "Snowcat Luxe",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/83/Snowcat_small.png/revision/latest?cb=20211129001238",
+        "availability": "Season 37andShop",
+        "achievement_or_tier": "Tier 7",
+        "rarity": "Epic",
+        "id": 290
+    },
+    {
+        "name": "LED Streetracer",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 37",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Rare",
+        "id": 291
+    },
+    {
+        "name": "Nada Racer",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/4/4d/Nadaracer_small.png/revision/latest?cb=20211129001127",
+        "availability": "Season 37andShop",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Rare",
+        "id": 292
+    },
+    {
+        "name": "Blitz Esperante",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9d/Panoz_small.png/revision/latest?cb=20220203053541",
+        "availability": "Season 38andShop",
+        "achievement_or_tier": "Tier 20",
+        "rarity": "Legendary",
+        "id": 293
+    },
+    {
+        "name": "Heart-Shaped Car",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/f5/Heartbox_small.png/revision/latest?cb=20220203051608",
+        "availability": "Season 38andShop",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Rare",
+        "id": 294
+    },
+    {
+        "name": "Fonicci Zucchero",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 38",
+        "achievement_or_tier": "Tier 5",
+        "rarity": "Epic",
+        "id": 295
+    },
+    {
+        "name": "Ice Cream Truck",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/87/Icecreamtruck321432_small.png/revision/latest?cb=20220202231636",
+        "availability": "Season 38andShop",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Rare",
+        "id": 296
+    },
+    {
+        "name": "Bozz Advent",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 39 Volume 2",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Epic",
+        "id": 297
+    },
+    {
+        "name": "Hydrova Razorback",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/2/25/9678sdafd_small.png/revision/latest?cb=20220501232638",
+        "availability": "Season 39 Volume 1andSeason 54",
+        "achievement_or_tier": "Bonus Tier and Tier 17",
+        "rarity": "Rare",
+        "id": 298
+    },
+    {
+        "name": "Stingtec x427 Super",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/e5/Supercarrier_small.png/revision/latest?cb=20220607061644",
+        "availability": "Season 39 Volume 2",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Legendary",
+        "id": 299
+    },
+    {
+        "name": "Radon 620",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 39 Volume 1",
+        "achievement_or_tier": "Tier 20",
+        "rarity": "Legendary",
+        "id": 300
+    },
+    {
+        "name": "Stingtec Manta",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/8d/Manta_small.png/revision/latest?cb=20220502003049",
+        "availability": "Season 39 Volume 1",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Legendary",
+        "id": 301
+    },
+    {
+        "name": "The Wildflower 750",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/92/Flowerpower_small.png/revision/latest?cb=20220504034001",
+        "availability": "King of the Race",
+        "achievement_or_tier": "The Wildest of Flowers",
+        "rarity": "Legendary",
+        "id": 302
+    },
+    {
+        "name": "Sour Truck",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 39 Volume 2",
+        "achievement_or_tier": "Tier 20",
+        "rarity": "Legendary",
+        "id": 303
+    },
+    {
+        "name": "Corsa Tiesto \"Coldsnap\"",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/d4/Coldsnap_small.png/revision/latest?cb=20220703202401",
+        "availability": "Season 40",
+        "achievement_or_tier": "Tier 19",
+        "rarity": "Epic",
+        "id": 304
+    },
+    {
+        "name": "Liberty Shellback \"Firestorm\"",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/3/3f/Demon_small.png/revision/latest?cb=20220703202402",
+        "availability": "Season 40",
+        "achievement_or_tier": "Tier 10",
+        "rarity": "Epic",
+        "id": 305
+    },
+    {
+        "name": "Koromoto GT-R \"Tempest\"",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/67/Tempest_small.png/revision/latest?cb=20220703202444",
+        "availability": "Season 40",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Epic",
+        "id": 306
+    },
+    {
+        "name": "AU-79 Mk. 18",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 40",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Legendary",
+        "id": 307
+    },
+    {
+        "name": "Winson Velox",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 40",
+        "achievement_or_tier": "Tier 22",
+        "rarity": "Rare",
+        "id": 308
+    },
+    {
+        "name": "Stingtec DL-XT",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/e9/Drone_chariot_small.png/revision/latest?cb=20220814163539",
+        "availability": "Season 41andShop",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Epic",
+        "id": 309
+    },
+    {
+        "name": "Liberty Model H",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 41",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Rare",
+        "id": 310
+    },
+    {
+        "name": "Stingtec Wells GT",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/a0/Time_machine_small.png/revision/latest?cb=20220814163548",
+        "availability": "Season 41",
+        "achievement_or_tier": "Tier 10",
+        "rarity": "Epic",
+        "id": 311
+    },
+    {
+        "name": "S.H.I.P.",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 41",
+        "achievement_or_tier": "Tier 22",
+        "rarity": "Legendary",
+        "id": 312
+    },
+    {
+        "name": "Nitreux Zephyrus",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/e9/Pagani_small.png/revision/latest?cb=20220918175326",
+        "availability": "Season 42",
+        "achievement_or_tier": "Tier 19",
+        "rarity": "Legendary",
+        "id": 313
+    },
+    {
+        "name": "Liberty '81 Chief ST",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/6b/Hawkins_small.png/revision/latest?cb=20220918175317",
+        "availability": "Season 42",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Rare",
+        "id": 314
+    },
+    {
+        "name": "The Nitro Machine",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 42",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Rare",
+        "id": 315
+    },
+    {
+        "name": "Typiano Delivery Van",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/ee/PizzaBoyVan_small.png/revision/latest?cb=20220918175246",
+        "availability": "Season 42andShop",
+        "achievement_or_tier": "Tier 10",
+        "rarity": "Epic",
+        "id": 316
+    },
+    {
+        "name": "Boatie Classic",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 42",
+        "achievement_or_tier": "Tier 22",
+        "rarity": "Epic",
+        "id": 317
+    },
+    {
+        "name": "Flux XR Sport",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/57/413243csdaf_small.png/revision/latest?cb=20221023211229",
+        "availability": "Season 43andShop",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Epic",
+        "id": 318
+    },
+    {
+        "name": "Fonicci Rego",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/bb/Cads34q23_small.png/revision/latest?cb=20221023211508",
+        "availability": "Season 43andShop",
+        "achievement_or_tier": "Tier 20",
+        "rarity": "Rare",
+        "id": 319
+    },
+    {
+        "name": "Nitreux F1",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/76/F1bug_small.png/revision/latest?cb=20221023211729",
+        "availability": "Season 43andShop",
+        "achievement_or_tier": "Tier 23",
+        "rarity": "Legendary",
+        "id": 320
+    },
+    {
+        "name": "Blitz Tetra S1",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/be/324rcds_small.png/revision/latest?cb=20221023201819",
+        "availability": "Season 43andShop",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Rare",
+        "id": 321
+    },
+    {
+        "name": "Liberty YT-5K",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/90/Ytdriver_small.png/revision/latest?cb=20221121185151",
+        "availability": "5,000 YouTube Subscribers",
+        "achievement_or_tier": "N/A",
+        "rarity": "Legendary",
+        "id": 322
+    },
+    {
+        "name": "Blitz Slipstream",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/f/fe/1234132fadsaf_small.png/revision/latest?cb=20221127200608",
+        "availability": "Season 44andShop",
+        "achievement_or_tier": "Tier 19",
+        "rarity": "Epic",
+        "id": 323
+    },
+    {
+        "name": "FestiveZep",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/c2/32sacdf321_small.png/revision/latest?cb=20221127202626",
+        "availability": "Season 44andShop",
+        "achievement_or_tier": "Tier 10",
+        "rarity": "Rare",
+        "id": 324
+    },
+    {
+        "name": "Maxx'd-Out Shadow Tree",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 44",
+        "achievement_or_tier": "Tier 32",
+        "rarity": "Epic",
+        "id": 325
+    },
+    {
+        "name": "Corsa Festivi-X",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 44",
+        "achievement_or_tier": "Tier 27",
+        "rarity": "Legendary",
+        "id": 326
+    },
+    {
+        "name": "The Winter Wonder",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/63/Blizferr_small.png/revision/latest?cb=20221127212153",
+        "availability": "Season 44andShop",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Legendary",
+        "id": 327
+    },
+    {
+        "name": "Frostbite XT",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 44",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Legendary",
+        "id": 328
+    },
+    {
+        "name": "Nitreux Azune",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/5d/Nitreux123_small.png/revision/latest?cb=20230226080944",
+        "availability": "Season 45",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Legendary",
+        "id": 329
+    },
+    {
+        "name": "Zon Bike",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 45",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Rare",
+        "id": 330
+    },
+    {
+        "name": "RMS Unsinkable",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 45",
+        "achievement_or_tier": "Tier 23",
+        "rarity": "Epic",
+        "id": 331
+    },
+    {
+        "name": "Mach 3 Marvel",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/c/c3/Blackbird_small.png/revision/latest?cb=20230113090530",
+        "availability": "Season 45andShop",
+        "achievement_or_tier": "Tier 20",
+        "rarity": "Epic",
+        "id": 332
+    },
+    {
+        "name": "Boogeyman Buster",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/4/4d/Ghost_catcher_small.png/revision/latest?cb=20230226082649",
+        "availability": "Season 45",
+        "achievement_or_tier": "Tier 10",
+        "rarity": "Rare",
+        "id": 333
+    },
+    {
+        "name": "Nitreux Vielleux",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/6/69/Nitreux_Vielleux_Small.png/revision/latest?cb=20230113113925",
+        "availability": "Exclusive",
+        "achievement_or_tier": "N/A",
+        "rarity": "Legendary",
+        "id": 334
+    },
+    {
+        "name": "Mach 10 Maverick",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 46andShop",
+        "achievement_or_tier": "Tier 25",
+        "rarity": "Legendary",
+        "id": 335
+    },
+    {
+        "name": "Fonicci Equinox",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 46andShop",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Epic",
+        "id": 336
+    },
+    {
+        "name": "Winson Maythaw",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/R1dwqdafa_small.png/revision/latest?cb=20230312182158",
+        "availability": "Season 46andShop",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Rare",
+        "id": 337
+    },
+    {
+        "name": "Koromoto Cerberus",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9a/Cerberus_small.png/revision/latest?cb=20230312001624",
+        "availability": "Season 46andShop",
+        "achievement_or_tier": "Tier 10",
+        "rarity": "Rare",
+        "id": 338
+    },
+    {
+        "name": "Viper Vortex",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 47andShop",
+        "achievement_or_tier": "Tier 25",
+        "rarity": "Legendary",
+        "id": 339
+    },
+    {
+        "name": "Swamp Speedster",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/7/75/3241cdsewd_small.png/revision/latest?cb=20230507152839",
+        "availability": "Season 47andShop",
+        "achievement_or_tier": "Tier 10",
+        "rarity": "Epic",
+        "id": 340
+    },
+    {
+        "name": "Feline Fury",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 47andShop",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Rare",
+        "id": 341
+    },
+    {
+        "name": "Expedition Explorer",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b1/342rcxas_small.png/revision/latest?cb=20230507152839",
+        "availability": "Season 47andShop",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Rare",
+        "id": 342
+    },
+    {
+        "name": "Avian Aero",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/d/d5/32ecds22_small.png/revision/latest?cb=20230507152839",
+        "availability": "Season 47andShop",
+        "achievement_or_tier": "Tier 20",
+        "rarity": "Legendary",
+        "id": 343
+    },
+    {
+        "name": "Blitz Excalibur GT",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/93/Amg_small.webp/revision/latest?cb=20230806125905",
+        "availability": "Season 48andShop",
+        "achievement_or_tier": "Tier 11",
+        "rarity": "Legendary",
+        "id": 344
+    },
+    {
+        "name": "Blitz Nebula",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 48andShop",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Epic",
+        "id": 345
+    },
+    {
+        "name": "Konirra Apex",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 48andShop",
+        "achievement_or_tier": "Tier 25",
+        "rarity": "Legendary",
+        "id": 346
+    },
+    {
+        "name": "Stingtec F1",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/0/0d/09fxdytfc_small.png/revision/latest?cb=20230806131155",
+        "availability": "Season 48andShop",
+        "achievement_or_tier": "Tier 2",
+        "rarity": "Legendary",
+        "id": 347
+    },
+    {
+        "name": "Fonicci Aegis",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/e/e7/5r4876rdfutygvjkb_small.png/revision/latest?cb=20230806131533",
+        "availability": "Season 48andShop",
+        "achievement_or_tier": "Tier 22",
+        "rarity": "Epic",
+        "id": 348
+    },
+    {
+        "name": "Gotham Guardian",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 49andShop",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Legendary",
+        "id": 349
+    },
+    {
+        "name": "Fonicci Hyperion SS",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 50andShop",
+        "achievement_or_tier": "Tier 31",
+        "rarity": "Legendary",
+        "id": 350
+    },
+    {
+        "name": "The Darkstar",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Bundles",
+        "achievement_or_tier": "N/A",
+        "rarity": "Legendary",
+        "id": 351
+    },
+    {
+        "name": "Liberty '27 Wing",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Bundles",
+        "achievement_or_tier": "N/A",
+        "rarity": "Epic",
+        "id": 352
+    },
+    {
+        "name": "Blitz Salient",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Bundles",
+        "achievement_or_tier": "N/A",
+        "rarity": "Epic",
+        "id": 353
+    },
+    {
+        "name": "Flux Etherdrive",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Bundles",
+        "achievement_or_tier": "N/A",
+        "rarity": "Legendary",
+        "id": 354
+    },
+    {
+        "name": "Nitreux Quantum",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 51",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Legendary",
+        "id": 355
+    },
+    {
+        "name": "Choppa",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 52",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Legendary",
+        "id": 356
+    },
+    {
+        "name": "Nitrovee MK1",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Bundles",
+        "achievement_or_tier": "N/A",
+        "rarity": "Legendary",
+        "id": 357
+    },
+    {
+        "name": "Nitreux Independence",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 53",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Legendary",
+        "id": 358
+    },
+    {
+        "name": "Corsa Ultima",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/8b/Ultima_small.webp/revision/latest?cb=20240525162954",
+        "availability": "Leagues",
+        "achievement_or_tier": "League Champion Car",
+        "rarity": "Legendary",
+        "id": 359
+    },
+    {
+        "name": "The Wildflower 1 Million",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/b/b1/The_wildflower_1_million_small.webp/revision/latest?cb=20240923025740",
+        "availability": "King of the Race",
+        "achievement_or_tier": "The Ultimate Wildflower",
+        "rarity": "Legendary",
+        "id": 360
+    },
+    {
+        "name": "Titan Dozer",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 54",
+        "achievement_or_tier": "Tier 26",
+        "rarity": "Epic",
+        "id": 361
+    },
+    {
+        "name": "Titan Sentinel",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 54",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Legendary",
+        "id": 362
+    },
+    {
+        "name": "YT-10k",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/5/53/Ytcamaro_small.png/revision/latest?cb=20250216042550",
+        "availability": "Admins",
+        "achievement_or_tier": "N/A",
+        "rarity": "Legendary",
+        "id": 363
+    },
+    {
+        "name": "Fonicci Santasport",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 55",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Legendary",
+        "id": 364
+    },
+    {
+        "name": "Blitz Snowball '25",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/a/a0/Snowball_small.png/revision/latest?cb=20241202134546",
+        "availability": "Season 55",
+        "achievement_or_tier": "Tier 12",
+        "rarity": "Epic",
+        "id": 365
+    },
+    {
+        "name": "Shadow Sleigh",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 55",
+        "achievement_or_tier": "Tier 31",
+        "rarity": "Legendary",
+        "id": 366
+    },
+    {
+        "name": "Koromoto GT-R GT3",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 56",
+        "achievement_or_tier": "Bonus Tier",
+        "rarity": "Legendary",
+        "id": 367
+    },
+    {
+        "name": "Blitz R8",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/9/9f/Gold-up-icon-big.png/revision/latest/scale-to-width-down/16?cb=20200413084555",
+        "availability": "Season 56",
+        "achievement_or_tier": "Tier 7",
+        "rarity": "Rare",
+        "id": 368
+    },
+    {
+        "name": "Blossom CB-900",
+        "image": "https://static.wikia.nocookie.net/nitro-type/images/8/85/Blossom_small.png/revision/latest?cb=20250528171944",
+        "availability": "Spring Showdown",
+        "achievement_or_tier": "No Time to Wilt",
+        "rarity": "Epic",
+        "id": 369
+    },
+    {
+        "name": "Heatline",
+        "image": null,
+        "availability": "Back 2 School 2025",
+        "achievement_or_tier": "Victory Lap",
+        "rarity": "Epic",
+        "id": 370
+    }
+]
