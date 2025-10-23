@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Nitro Type "SHOP" String Extractor</title>
+<title>Nitro Type Full Array Extractor</title>
 <style>
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -51,13 +51,13 @@ h1 {
 </style>
 </head>
 <body>
-<h1>Nitro Type "SHOP" String Extractor</h1>
-<button id="fetchButton">Fetch & Extract "SHOP"</button>
-<pre id="result">Click to fetch bootstrap and extract "SHOP".</pre>
+<h1>Nitro Type Full Array Extractor</h1>
+<button id="fetchButton">Fetch & Extract Array Containing "SHOP"</button>
+<pre id="result">Click to fetch bootstrap and extract the array containing "SHOP".</pre>
 <script>
 const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/';
 
-async function findShopString(data) {
+async function findArrayContainingShop(data) {
     const pattern = /"SHOP",/;
     const match = pattern.exec(data);
     if (!match) {
@@ -67,7 +67,7 @@ async function findShopString(data) {
 
     const index = match.index;
 
-    let arrayStart = data.lastIndexOf('[', index);
+    const arrayStart = data.lastIndexOf('[', index);
     if (arrayStart === -1) {
         console.error('Array start "[" not found before "SHOP",');
         return null;
@@ -77,11 +77,12 @@ async function findShopString(data) {
     let arrayEnd = -1;
     for (let i = arrayStart; i < data.length; i++) {
         if (data[i] === '[') stack++;
-        else if (data[i] === ']') stack--;
-
-        if (stack === 0) {
-            arrayEnd = i + 1;
-            break;
+        else if (data[i] === ']') {
+            stack--;
+            if (stack === 0) {
+                arrayEnd = i + 1;
+                break;
+            }
         }
     }
 
@@ -91,23 +92,7 @@ async function findShopString(data) {
     }
 
     const arrayString = data.substring(arrayStart, arrayEnd);
-    try {
-        const arr = JSON.parse(arrayString);
-        if (Array.isArray(arr) && arr.includes('SHOP')) {
-            return 'SHOP';
-        } else {
-            for (const item of arr) {
-                if (typeof item === 'string' && item.trim().replace(/^"|"$/g, '') === 'SHOP') {
-                    return 'SHOP';
-                }
-            }
-        }
-        console.error('"SHOP" not found inside the array after parsing.');
-        return null;
-    } catch (e) {
-        console.error('Error parsing array:', e);
-        return null;
-    }
+    return arrayString;
 }
 
 document.getElementById('fetchButton').addEventListener('click', async () => {
@@ -120,11 +105,11 @@ document.getElementById('fetchButton').addEventListener('click', async () => {
         if (!response.ok) throw new Error(`Response not OK: ${response.status} ${response.statusText}`);
         const data = await response.text();
 
-        const shopStr = await findShopString(data);
-        if (shopStr) {
-            resultElem.textContent = `"${shopStr}"`;
+        const arrayStr = await findArrayContainingShop(data);
+        if (arrayStr) {
+            resultElem.textContent = arrayStr;
         } else {
-            resultElem.textContent = 'Could not find "SHOP" in bootstrap data.';
+            resultElem.textContent = 'Could not find array containing "SHOP".';
         }
     } catch (err) {
         resultElem.textContent = 'Error: ' + err.message;
