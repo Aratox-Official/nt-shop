@@ -85,7 +85,9 @@ async function extractShopString(data, key) {
             const bootstrapEntry = (new Function(`return ${jsString}`))();
             if (Array.isArray(bootstrapEntry) && bootstrapEntry.length >= 2 && bootstrapEntry[0] === key) {
                 if (typeof bootstrapEntry[1] === 'string') {
-                    return bootstrapEntry[1];
+                    let str = bootstrapEntry[1];
+                    str = str.replace(/^"+|"+$/g, '');
+                    return str;
                 }
             }
         } catch (e) {
@@ -106,8 +108,7 @@ document.getElementById('fetchButton').addEventListener('click', async () => {
 
         const shopString = await extractShopString(data, "SHOP");
         if (shopString) {
-            const cleanShop = shopString.replace(/"/g, '').replace(/,$/, '');
-            document.getElementById('result').textContent = `"${cleanShop}"`;
+            document.getElementById('result').textContent = `"${shopString}"`;
         } else {
             document.getElementById('result').textContent = 'Could not find or extract the "SHOP" string.';
         }
