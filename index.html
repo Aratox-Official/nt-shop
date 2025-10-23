@@ -210,6 +210,7 @@ document.getElementById('fetchButton').addEventListener('click', async () => {
                 const itemDetails = findItemDetailsById(data, itemID);
                 if (itemDetails) {
                     let name = itemDetails[1] || 'Unknown Name';
+
                     let image = null;
                     let price = null;
                     let rarity = null;
