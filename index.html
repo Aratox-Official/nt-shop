@@ -108,16 +108,12 @@ async function findArrayContainingShop(data) {
 }
 
 async function loadCarsJson() {
-    appendLog('Loading cars.json...');
     const response = await fetch('cars.json');
     if (!response.ok) {
-        appendLog('Failed to load cars.json, status: ' + response.status);
         throw new Error(`Error loading cars.json: ${response.status}`);
     }
     const carsData = await response.json();
-    appendLog('Loaded cars.json, total entries: ' + carsData.length);
     allCars = carsData;
-    document.getElementById('extractedCarsData').textContent = JSON.stringify(carsData, null, 2);
     return carsData;
 }
 
