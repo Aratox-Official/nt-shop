@@ -38,6 +38,23 @@ h1 {
     font-family: 'Consolas', 'Courier New', monospace;
     font-size: 14px;
     line-height: 1.4;
+    margin-bottom: 20px;
+}
+#carsData {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-x: auto;
+    font-family: 'Consolas', 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 20px;
+}
+h2 {
+    margin-top: 40px;
+    color: #4CAF50;
 }
 </style>
 </head>
@@ -45,6 +62,10 @@ h1 {
 <h1>Nitro Type Full Array Extractor</h1>
 <button id="fetchButton">Fetch & Extract "SHOP" Array & Find Cars</button>
 <pre id="result">Click to fetch bootstrap data and extract array containing "SHOP".</pre>
+
+<h2>Cars Data (from cars.json)</h2>
+<pre id="carsData">Cars data will appear here after fetching.</pre>
+
 <script>
 const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/';
 
@@ -102,6 +123,8 @@ async function loadCarsJson() {
     }
     const carsData = await response.json();
     appendLog('Loaded cars.json, total entries: ' + carsData.length);
+    // Display the raw cars.json data in the new section
+    document.getElementById('carsData').textContent = JSON.stringify(carsData, null, 2);
     return carsData;
 }
 
