@@ -131,7 +131,8 @@ async function fetchAndProcess() {
 
         const arrayStr = await findArrayContainingShop(data);
         if (arrayStr) {
-            resultElem.textContent = arrayStr;
+            const singleLineArrayStr = arrayStr.replace(/[\n\r]/g, ''); 
+            resultElem.textContent = singleLineArrayStr;
         } else {
             resultElem.textContent = 'Could not find array containing "SHOP".';
         }
@@ -141,7 +142,7 @@ async function fetchAndProcess() {
 
             let arrayData;
             try {
-                arrayData = JSON.parse(arrayStr);
+                arrayData = JSON.parse(arrayStr); 
             } catch (e) {
                 outputText += 'Error parsing array JSON: ' + e.message;
                 resultElem.textContent += outputText;
