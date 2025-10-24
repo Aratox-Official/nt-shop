@@ -135,9 +135,16 @@ async function fetchAndProcess() {
 
         if (carsInArray.length > 0) {
             outputText += 'Cars found in array:\n' + JSON.stringify(carsInArray, null, 2);
-            carsInArray.forEach(car => {
-                console.log(`Found car in array with ID: ${car.id}`);
-            });
+            
+            for (const car of carsInArray) {
+                const carId = car.id;
+                const matchedCar = cars.find(c => c.id === carId);
+                if (matchedCar) {
+                    outputText += `\nCar ID: ${carId}\nName: ${matchedCar.name}\nRarity: ${matchedCar.rarity}\n`;
+                } else {
+                    outputText += `\nCar ID: ${carId} not found in cars.json.\n`;
+                }
+            }
         } else {
             outputText += 'No cars with type "car" found in the array.';
         }
