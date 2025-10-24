@@ -131,19 +131,19 @@ async function fetchAndProcess() {
 
         const arrayStr = await findArrayContainingShop(data);
         if (arrayStr) {
-            resultElem.textContent = arrayStr;
+            resultElem.textContent = 'Extracted Array String: ' + arrayStr;
         } else {
             resultElem.textContent = 'Could not find array containing "SHOP".';
         }
 
         if (arrayStr) {
-            let outputText = 'Extracted Array String: ' + arrayStr + ' ';
+            let outputText = 'Extracted Array String: ' + arrayStr;
 
             let arrayData;
             try {
                 arrayData = JSON.parse(arrayStr);
             } catch (e) {
-                outputText += 'Error parsing array JSON: ' + e.message;
+                outputText += ' Error parsing array JSON: ' + e.message;
                 resultElem.textContent += outputText;
                 return;
             }
@@ -171,7 +171,7 @@ async function fetchAndProcess() {
                         return cars.find(c => c.id === car.id);
                     }).filter(c => c !== undefined);
 
-                    document.getElementById('extractedCarsData').textContent = JSON.stringify(matchedCars, null, 2);
+                    document.getElementById('extractedCarsData').textContent = JSON.stringify(matchedCars);
                 }
             }
         }
