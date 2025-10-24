@@ -52,8 +52,8 @@ h1 {
 </head>
 <body>
 <h1>Nitro Type Full Array Extractor</h1>
-<button id="fetchButton">Load & Extract 'car' Objects from Local JSON</button>
-<pre id="result">Click to load the local cars.json and extract "car" objects.</pre>
+<button id="fetchButton">Fetch & Extract "SHOP" Array & Find Cars</button>
+<pre id="result">Click to fetch bootstrap data and extract array containing "SHOP".</pre>
 <script>
 const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/';
 
@@ -95,33 +95,64 @@ async function findArrayContainingShop(data) {
     return arrayString;
 }
 
-async function loadLocalCars() {
+async function loadCarsJson() {
+    const response = await fetch('cars.json');
+    if (!response.ok) throw new Error(`Error loading cars.json: ${response.status}`);
+    const carsData = await response.json();
+    return carsData;
+}
+
+async function fetchAndProcess() {
+    const resultElem = document.getElementById('result');
+    resultElem.textContent = 'Fetching bootstrap data...';
+    resultElem.classList.remove('error');
+
     try {
-        const response = await fetch('cars.json');
+        const response = await fetch(workerUrl);
         if (!response.ok) throw new Error(`Response not OK: ${response.status} ${response.statusText}`);
-        const data = await response.json();
+        const data = await response.text();
 
-        const cars = data.filter(item => item.type === 'car');
+        const arrayStr = await findArrayContainingShop(data);
+        if (!arrayStr) {
+            resultElem.textContent = 'Could not find array containing "SHOP".';
+            return;
+        }
 
-        document.getElementById('result').textContent = JSON.stringify(cars, null, 2);
+        let outputText = 'Extracted Array String:\n' + arrayStr + '\n\n';
 
-        cars.forEach(car => {
-            console.log(`Found car with ID: ${car.id}`);
-        });
+        let arrayData;
+        try {
+            arrayData = JSON.parse(arrayStr);
+        } catch (e) {
+            outputText += 'Error parsing array JSON: ' + e.message;
+            resultElem.textContent = outputText;
+            return;
+        }
+
+        const cars = await loadCarsJson();
+
+        const carsInArray = arrayData.filter(item => item && item.type === 'car');
+
+        if (carsInArray.length > 0) {
+            outputText += 'Cars found in array:\n' + JSON.stringify(carsInArray, null, 2);
+            carsInArray.forEach(car => {
+                console.log(`Found car in array with ID: ${car.id}`);
+            });
+        } else {
+            outputText += 'No cars with type "car" found in the array.';
+        }
+
+        resultElem.textContent = outputText;
 
     } catch (err) {
-        document.getElementById('result').textContent = 'Error: ' + err.message;
-        document.getElementById('result').classList.add('error');
-        console.error('Error processing cars.json:', err);
+        resultElem.textContent = 'Error: ' + err.message;
+        resultElem.classList.add('error');
+        console.error('Error:', err);
     }
 }
 
 document.getElementById('fetchButton').addEventListener('click', () => {
-    const resultElem = document.getElementById('result');
-    resultElem.textContent = 'Loading local cars.json...';
-    resultElem.classList.remove('error');
-
-    loadLocalCars();
+    fetchAndProcess();
 });
 </script>
 </body>
