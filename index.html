@@ -151,24 +151,23 @@ async function fetchAndProcess() {
             appendLog('Parsed data is not an array.');
         }
 
+        const startIndex = (typeof arrayData[0] === 'string' && arrayData[0] === 'SHOP') ? 1 : 0;
+
         let carsFound = [];
-        if (Array.isArray(arrayData)) {
-            for (const categoryObj of arrayData) {
-                if (categoryObj && categoryObj.items && Array.isArray(categoryObj.items)) {
-                    for (const item of categoryObj.items) {
-                        if (item && item.type === 'car') {
-                            appendLog(`Found car: ID=${item.id}`);
-                            carsFound.push(item);
-                        } else {
-                            appendLog(`Not a car or missing type: ${JSON.stringify(item)}`);
-                        }
+        for (let i = startIndex; i < arrayData.length; i++) {
+            const categoryObj = arrayData[i];
+            if (categoryObj && categoryObj.items && Array.isArray(categoryObj.items)) {
+                for (const item of categoryObj.items) {
+                    if (item && item.type === 'car') {
+                        appendLog(`Found car: ID=${item.id}`);
+                        carsFound.push(item);
+                    } else {
+                        appendLog(`Not a car or missing type: ${JSON.stringify(item)}`);
                     }
-                } else {
-                    appendLog('Category object missing "items" array or is invalid: ' + JSON.stringify(categoryObj));
                 }
+            } else {
+                appendLog('Category object missing "items" array or is invalid: ' + JSON.stringify(categoryObj));
             }
-        } else {
-            appendLog('Main array is not an array.');
         }
 
         appendLog('Total cars found: ' + carsFound.length);
