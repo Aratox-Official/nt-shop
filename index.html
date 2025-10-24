@@ -32,7 +32,7 @@ h1 {
     background-color: #1e1e1e;
     padding: 15px;
     border-radius: 8px;
-    white-space: pre-wrap;
+    white-space: pre; 
     word-break: break-word;
     overflow-x: auto;
     font-family: 'Consolas', 'Courier New', monospace;
@@ -138,7 +138,7 @@ async function fetchAndProcess() {
         }
 
         if (arrayStr) {
-            let outputText = 'Extracted Array String:\n' + arrayStr + '\n\n';
+            let outputText = 'Extracted Array String:\n' + arrayStr + '\n\n'; 
 
             let arrayData;
             try {
