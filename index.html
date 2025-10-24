@@ -52,8 +52,8 @@ h1 {
 </head>
 <body>
 <h1>Nitro Type Full Array Extractor</h1>
-<button id="fetchButton">Fetch & Extract Array Containing "SHOP"</button>
-<pre id="result">Click to fetch bootstrap and extract the array containing "SHOP".</pre>
+<button id="fetchButton">Load & Extract 'car' Objects from Local JSON</button>
+<pre id="result">Click to load the local cars.json and extract "car" objects.</pre>
 <script>
 const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/';
 
@@ -95,27 +95,33 @@ async function findArrayContainingShop(data) {
     return arrayString;
 }
 
-document.getElementById('fetchButton').addEventListener('click', async () => {
+async function loadLocalCars() {
+    try {
+        const response = await fetch('cars.json');
+        if (!response.ok) throw new Error(`Response not OK: ${response.status} ${response.statusText}`);
+        const data = await response.json();
+
+        const cars = data.filter(item => item.type === 'car');
+
+        document.getElementById('result').textContent = JSON.stringify(cars, null, 2);
+
+        cars.forEach(car => {
+            console.log(`Found car with ID: ${car.id}`);
+        });
+
+    } catch (err) {
+        document.getElementById('result').textContent = 'Error: ' + err.message;
+        document.getElementById('result').classList.add('error');
+        console.error('Error processing cars.json:', err);
+    }
+}
+
+document.getElementById('fetchButton').addEventListener('click', () => {
     const resultElem = document.getElementById('result');
-    resultElem.textContent = 'Fetching bootstrap data...';
+    resultElem.textContent = 'Loading local cars.json...';
     resultElem.classList.remove('error');
 
-    try {
-        const response = await fetch(workerUrl);
-        if (!response.ok) throw new Error(`Response not OK: ${response.status} ${response.statusText}`);
-        const data = await response.text();
-
-        const arrayStr = await findArrayContainingShop(data);
-        if (arrayStr) {
-            resultElem.textContent = arrayStr;
-        } else {
-            resultElem.textContent = 'Could not find array containing "SHOP".';
-        }
-    } catch (err) {
-        resultElem.textContent = 'Error: ' + err.message;
-        resultElem.classList.add('error');
-        console.error('Error fetching or processing:', err);
-    }
+    loadLocalCars();
 });
 </script>
 </body>
