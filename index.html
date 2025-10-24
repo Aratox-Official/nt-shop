@@ -76,20 +76,14 @@ function appendLog(message) {
 }
 
 async function findArrayContainingShop(data) {
-    appendLog('Starting findArrayContainingShop...');
     const pattern = /"SHOP",/;
     const match = pattern.exec(data);
     if (!match) {
-        appendLog('Pattern "SHOP", not found.');
         return null;
     }
-    appendLog('Found "SHOP" at index: ' + match.index);
-
     const index = match.index;
     const arrayStart = data.lastIndexOf('[', index);
-    appendLog('Array start "[" at index: ' + arrayStart);
     if (arrayStart === -1) {
-        appendLog('Array start "[" not found before "SHOP"');
         return null;
     }
 
@@ -105,26 +99,20 @@ async function findArrayContainingShop(data) {
             }
         }
     }
-    appendLog('Array end "]" at index: ' + arrayEnd);
     if (arrayEnd === -1) {
-        appendLog('Array end "]" not found.');
         return null;
     }
 
     const arrayString = data.substring(arrayStart, arrayEnd);
-    appendLog('Extracted array string length: ' + arrayString.length);
     return arrayString;
 }
 
 async function loadCarsJson() {
-    appendLog('Loading cars.json...');
     const response = await fetch('cars.json');
     if (!response.ok) {
-        appendLog('Failed to load cars.json, status: ' + response.status);
         throw new Error(`Error loading cars.json: ${response.status}`);
     }
     const carsData = await response.json();
-    appendLog('Loaded cars.json, total entries: ' + carsData.length);
     allCars = carsData;
     document.getElementById('extractedCarsData').textContent = JSON.stringify(carsData, null, 2);
     return carsData;
@@ -133,36 +121,28 @@ async function loadCarsJson() {
 async function fetchAndProcess() {
     const resultElem = document.getElementById('result');
     resultElem.textContent = '';
-    resultElem.classList.remove('error');
 
     try {
-        appendLog('Fetching bootstrap data from worker URL...');
         const response = await fetch(workerUrl);
         if (!response.ok) {
-            appendLog('Response not OK: ' + response.status);
             throw new Error(`Response not OK: ${response.status} ${response.statusText}`);
         }
         const data = await response.text();
-        appendLog('Bootstrap data fetched, length: ' + data.length);
 
         const arrayStr = await findArrayContainingShop(data);
         if (!arrayStr) {
-            appendLog('Could not find array containing "SHOP".');
-            document.getElementById('result').textContent += 'Could not find array containing "SHOP".\n';
+            resultElem.textContent += 'Could not find array containing "SHOP".\n';
             return;
         }
-        appendLog('Array string extracted.');
 
         let outputText = 'Extracted Array String:\n' + arrayStr + '\n\n';
 
         let arrayData;
         try {
             arrayData = JSON.parse(arrayStr);
-            appendLog('Parsed array JSON successfully.');
         } catch (e) {
-            appendLog('Error parsing array JSON: ' + e.message);
             outputText += 'Error parsing array JSON: ' + e.message;
-            document.getElementById('result').textContent += outputText;
+            resultElem.textContent += outputText;
             return;
         }
 
@@ -171,29 +151,16 @@ async function fetchAndProcess() {
         }
 
         if (Array.isArray(arrayData)) {
-            appendLog('Processing main array...');
-            appendLog('Array data length: ' + arrayData.length);
-            for (let i = 0; i < Math.min(3, arrayData.length); i++) {
-                appendLog('Sample object ' + i + ': ' + JSON.stringify(arrayData[i]));
-            }
-
             let carsFound = [];
             for (const categoryObj of arrayData) {
                 if (categoryObj && categoryObj.items && Array.isArray(categoryObj.items)) {
                     for (const item of categoryObj.items) {
                         if (item && item.type === 'car') {
-                            appendLog(`Found car: ID=${item.id}`);
                             carsFound.push(item);
-                        } else {
-                            appendLog(`Not a car or missing type: ${JSON.stringify(item)}`);
                         }
                     }
-                } else {
-                    appendLog('Category object missing "items" array or is invalid: ' + JSON.stringify(categoryObj));
                 }
             }
-
-            appendLog('Total cars found: ' + carsFound.length);
 
             if (carsFound.length > 0) {
                 const cars = await loadCarsJson();
@@ -205,19 +172,16 @@ async function fetchAndProcess() {
                 document.getElementById('extractedCarsData').textContent = JSON.stringify(matchedCars, null, 2);
 
                 let outputDetails = 'Cars found in "SHOP":\n' + JSON.stringify(carsFound, null, 2);
-                document.getElementById('result').textContent += outputDetails;
+                resultElem.textContent += outputDetails;
             } else {
-                appendLog('No cars with type "car" found.');
-                document.getElementById('result').textContent += 'No cars with type "car" found.\n';
+                resultElem.textContent += 'No cars with type "car" found.\n';
             }
         } else {
-            appendLog('Unexpected array structure.');
-            document.getElementById('result').textContent += 'Unexpected array structure.\n';
+            resultElem.textContent += 'Unexpected array structure.\n';
         }
     } catch (err) {
-        appendLog('Error in fetchAndProcess: ' + err);
-        document.getElementById('result').textContent += 'Error: ' + err.message;
-        document.getElementById('result').classList.add('error');
+        resultElem.textContent += 'Error: ' + err.message;
+        resultElem.classList.add('error');
     }
 }
 
