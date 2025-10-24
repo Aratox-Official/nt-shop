@@ -40,7 +40,7 @@ h1 {
     line-height: 1.4;
     margin-bottom: 20px;
 }
-#carsData {
+#extractedCarsData {
     background-color: #1e1e1e;
     padding: 15px;
     border-radius: 8px;
@@ -63,11 +63,13 @@ h2 {
 <button id="fetchButton">Fetch & Extract "SHOP" Array & Find Cars</button>
 <pre id="result">Click to fetch bootstrap data and extract array containing "SHOP".</pre>
 
-<h2>Cars Data (from cars.json)</h2>
-<pre id="carsData">Cars data will appear here after fetching.</pre>
+<h2>Extracted Cars Data</h2>
+<pre id="extractedCarsData">Car details from cars.json will appear here.</pre>
 
 <script>
 const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/';
+
+let allCars = [];
 
 function appendLog(message) {
     document.getElementById('result').textContent += message + '\n';
@@ -123,8 +125,8 @@ async function loadCarsJson() {
     }
     const carsData = await response.json();
     appendLog('Loaded cars.json, total entries: ' + carsData.length);
-    // Display the raw cars.json data in the new section
-    document.getElementById('carsData').textContent = JSON.stringify(carsData, null, 2);
+    allCars = carsData;
+    document.getElementById('extractedCarsData').textContent = JSON.stringify(carsData, null, 2);
     return carsData;
 }
 
@@ -194,21 +196,15 @@ async function fetchAndProcess() {
             appendLog('Total cars found: ' + carsFound.length);
 
             if (carsFound.length > 0) {
-                let outputDetails = 'Cars found:\n' + JSON.stringify(carsFound, null, 2);
                 const cars = await loadCarsJson();
 
-                for (const car of carsFound) {
-                    const carId = car.id;
-                    appendLog('Looking up car ID: ' + carId + ' in cars.json...');
-                    const matchedCar = cars.find(c => c.id === carId);
-                    if (matchedCar) {
-                        appendLog('Found: ' + matchedCar.name + ' (' + matchedCar.rarity + ')');
-                        outputDetails += `\nCar ID: ${carId}\nName: ${matchedCar.name}\nRarity: ${matchedCar.rarity}\n`;
-                    } else {
-                        appendLog('Car ID: ' + carId + ' not found in cars.json');
-                        outputDetails += `\nCar ID: ${carId} not found in cars.json.\n`;
-                    }
-                }
+                const matchedCars = carsFound.map(car => {
+                    return cars.find(c => c.id === car.id);
+                }).filter(c => c !== undefined);
+
+                document.getElementById('extractedCarsData').textContent = JSON.stringify(matchedCars, null, 2);
+
+                let outputDetails = 'Cars found in "SHOP":\n' + JSON.stringify(carsFound, null, 2);
                 document.getElementById('result').textContent += outputDetails;
             } else {
                 appendLog('No cars with type "car" found.');
