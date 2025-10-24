@@ -10,7 +10,6 @@ body {
     background-color: #121212;
     color: #e0e0e0;
     margin: 20px;
-    padding: 0;
 }
 h1 {
     color: #4CAF50;
@@ -57,19 +56,26 @@ h1 {
 <script>
 const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/';
 
+function appendLog(message) {
+    const resultElem = document.getElementById('result');
+    resultElem.textContent += message + '\n';
+}
+
 async function findArrayContainingShop(data) {
+    appendLog('Starting findArrayContainingShop...');
     const pattern = /"SHOP",/;
     const match = pattern.exec(data);
     if (!match) {
-        console.error('Pattern "SHOP", not found.');
+        appendLog('Pattern "SHOP", not found.');
         return null;
     }
+    appendLog('Found "SHOP" at index: ' + match.index);
 
     const index = match.index;
-
     const arrayStart = data.lastIndexOf('[', index);
+    appendLog('Array start "[" at index: ' + arrayStart);
     if (arrayStart === -1) {
-        console.error('Array start "[" not found before "SHOP",');
+        appendLog('Array start "[" not found before "SHOP"');
         return null;
     }
 
@@ -85,76 +91,99 @@ async function findArrayContainingShop(data) {
             }
         }
     }
-
+    appendLog('Array end "]" at index: ' + arrayEnd);
     if (arrayEnd === -1) {
-        console.error('Array end "]" not found.');
+        appendLog('Array end "]" not found.');
         return null;
     }
 
     const arrayString = data.substring(arrayStart, arrayEnd);
+    appendLog('Extracted array string length: ' + arrayString.length);
     return arrayString;
 }
 
 async function loadCarsJson() {
+    appendLog('Loading cars.json...');
     const response = await fetch('cars.json');
-    if (!response.ok) throw new Error(`Error loading cars.json: ${response.status}`);
+    if (!response.ok) {
+        appendLog('Failed to load cars.json, status: ' + response.status);
+        throw new Error(`Error loading cars.json: ${response.status}`);
+    }
     const carsData = await response.json();
+    appendLog('Loaded cars.json, total entries: ' + carsData.length);
     return carsData;
 }
 
 async function fetchAndProcess() {
     const resultElem = document.getElementById('result');
-    resultElem.textContent = 'Fetching bootstrap data...';
+    resultElem.textContent = '';
     resultElem.classList.remove('error');
 
     try {
+        appendLog('Fetching bootstrap data from worker URL...');
         const response = await fetch(workerUrl);
-        if (!response.ok) throw new Error(`Response not OK: ${response.status} ${response.statusText}`);
+        if (!response.ok) {
+            appendLog('Response not OK: ' + response.status);
+            throw new Error(`Response not OK: ${response.status} ${response.statusText}`);
+        }
         const data = await response.text();
+        appendLog('Bootstrap data fetched, length: ' + data.length);
 
         const arrayStr = await findArrayContainingShop(data);
         if (!arrayStr) {
-            resultElem.textContent = 'Could not find array containing "SHOP".';
+            appendLog('Could not find array containing "SHOP".');
+            document.getElementById('result').textContent += 'Could not find array containing "SHOP".\n';
             return;
         }
+        appendLog('Array string extracted.');
 
         let outputText = 'Extracted Array String:\n' + arrayStr + '\n\n';
 
         let arrayData;
         try {
             arrayData = JSON.parse(arrayStr);
+            appendLog('Parsed array JSON successfully.');
         } catch (e) {
+            appendLog('Error parsing array JSON: ' + e.message);
             outputText += 'Error parsing array JSON: ' + e.message;
-            resultElem.textContent = outputText;
+            document.getElementById('result').textContent += outputText;
             return;
         }
 
         const cars = await loadCarsJson();
 
-        const carsInArray = arrayData.filter(item => item && item.type === 'car');
+        const carsInArray = arrayData.filter(item => {
+            const isCar = item && item.type === 'car';
+            appendLog('Filtering item: ' + JSON.stringify(item) + ' | isCar: ' + isCar);
+            return isCar;
+        });
+        appendLog('Total cars with type "car": ' + carsInArray.length);
 
         if (carsInArray.length > 0) {
             outputText += 'Cars found in array:\n' + JSON.stringify(carsInArray, null, 2);
-            
             for (const car of carsInArray) {
                 const carId = car.id;
+                appendLog('Looking up car ID: ' + carId + ' in cars.json...');
                 const matchedCar = cars.find(c => c.id === carId);
                 if (matchedCar) {
+                    appendLog('Found in cars.json: Name=' + matchedCar.name + ', Rarity=' + matchedCar.rarity);
                     outputText += `\nCar ID: ${carId}\nName: ${matchedCar.name}\nRarity: ${matchedCar.rarity}\n`;
                 } else {
+                    appendLog('Car ID: ' + carId + ' not found in cars.json');
                     outputText += `\nCar ID: ${carId} not found in cars.json.\n`;
                 }
             }
         } else {
+            appendLog('No cars with type "car" found.');
             outputText += 'No cars with type "car" found in the array.';
         }
 
-        resultElem.textContent = outputText;
+        document.getElementById('result').textContent += outputText;
 
     } catch (err) {
-        resultElem.textContent = 'Error: ' + err.message;
-        resultElem.classList.add('error');
-        console.error('Error:', err);
+        appendLog('Error caught in fetchAndProcess: ' + err);
+        document.getElementById('result').textContent += 'Error: ' + err.message;
+        document.getElementById('result').classList.add('error');
     }
 }
 
