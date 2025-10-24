@@ -9,7 +9,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #121212;
     color: #e0e0e0;
-    margin: 20px;
 }
 h1 {
     color: #4CAF50;
@@ -25,7 +24,6 @@ h1 {
     cursor: pointer;
     border-radius: 5px;
     font-size: 16px;
-    transition: background-color 0.3s;
 }
 #fetchButton:hover {
     background-color: #0056b3;
@@ -35,17 +33,11 @@ h1 {
     padding: 15px;
     border-radius: 8px;
     white-space: pre-wrap;
-    word-break: break-all;
+    word-break: break-word;
     overflow-x: auto;
     font-family: 'Consolas', 'Courier New', monospace;
     font-size: 14px;
     line-height: 1.4;
-    max-width: 100%;
-    box-sizing: border-box;
-}
-.error {
-    color: #ff4d4d;
-    font-weight: bold;
 }
 </style>
 </head>
@@ -57,8 +49,7 @@ h1 {
 const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/';
 
 function appendLog(message) {
-    const resultElem = document.getElementById('result');
-    resultElem.textContent += message + '\n';
+    document.getElementById('result').textContent += message + '\n';
 }
 
 async function findArrayContainingShop(data) {
@@ -152,36 +143,50 @@ async function fetchAndProcess() {
 
         const cars = await loadCarsJson();
 
-        const carsInArray = arrayData.filter(item => {
-            const isCar = item && item.type === 'car';
-            appendLog('Filtering item: ' + JSON.stringify(item) + ' | isCar: ' + isCar);
-            return isCar;
-        });
-        appendLog('Total cars with type "car": ' + carsInArray.length);
+        let carsFound = [];
+        if (Array.isArray(arrayData)) {
+            appendLog('Processing main array...');
+            for (const categoryObj of arrayData) {
+                if (categoryObj && categoryObj.items && Array.isArray(categoryObj.items)) {
+                    for (const item of categoryObj.items) {
+                        if (item && item.type === 'car') {
+                            appendLog(`Found car: ID=${item.id}`);
+                            carsFound.push(item);
+                        } else {
+                            appendLog(`Not a car or missing type: ${JSON.stringify(item)}`);
+                        }
+                    }
+                } else {
+                    appendLog('Category object missing "items" array or is invalid: ' + JSON.stringify(categoryObj));
+                }
+            }
+        } else {
+            appendLog('Main array is not an array.');
+        }
 
-        if (carsInArray.length > 0) {
-            outputText += 'Cars found in array:\n' + JSON.stringify(carsInArray, null, 2);
-            for (const car of carsInArray) {
+        appendLog('Total cars found: ' + carsFound.length);
+
+        if (carsFound.length > 0) {
+            let outputDetails = 'Cars found:\n' + JSON.stringify(carsFound, null, 2);
+            for (const car of carsFound) {
                 const carId = car.id;
                 appendLog('Looking up car ID: ' + carId + ' in cars.json...');
                 const matchedCar = cars.find(c => c.id === carId);
                 if (matchedCar) {
-                    appendLog('Found in cars.json: Name=' + matchedCar.name + ', Rarity=' + matchedCar.rarity);
-                    outputText += `\nCar ID: ${carId}\nName: ${matchedCar.name}\nRarity: ${matchedCar.rarity}\n`;
+                    appendLog('Found: ' + matchedCar.name + ' (' + matchedCar.rarity + ')');
+                    outputDetails += `\nCar ID: ${carId}\nName: ${matchedCar.name}\nRarity: ${matchedCar.rarity}\n`;
                 } else {
                     appendLog('Car ID: ' + carId + ' not found in cars.json');
-                    outputText += `\nCar ID: ${carId} not found in cars.json.\n`;
+                    outputDetails += `\nCar ID: ${carId} not found in cars.json.\n`;
                 }
             }
+            document.getElementById('result').textContent += outputDetails;
         } else {
             appendLog('No cars with type "car" found.');
-            outputText += 'No cars with type "car" found in the array.';
+            document.getElementById('result').textContent += 'No cars with type "car" found.\n';
         }
-
-        document.getElementById('result').textContent += outputText;
-
     } catch (err) {
-        appendLog('Error caught in fetchAndProcess: ' + err);
+        appendLog('Error in fetchAndProcess: ' + err);
         document.getElementById('result').textContent += 'Error: ' + err.message;
         document.getElementById('result').classList.add('error');
     }
