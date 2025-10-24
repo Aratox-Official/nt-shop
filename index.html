@@ -120,18 +120,20 @@ async function loadCarsJson() {
 
 async function fetchAndProcess() {
     const resultElem = document.getElementById('result');
+    const extractedDataElem = document.getElementById('extractedCarsData');
     resultElem.textContent = '';
+    resultElem.textContent = 'SHOP';
 
     try {
         const response = await fetch(workerUrl);
         if (!response.ok) {
-            throw new Error(`Response not OK: ${response.status} ${response.statusText}`);
+            throw new Error(`Response not OK: ${response.status}`);
         }
         const data = await response.text();
 
         const arrayStr = await findArrayContainingShop(data);
         if (!arrayStr) {
-            resultElem.textContent += 'Could not find array containing "SHOP".\n';
+            resultElem.textContent += '\nCould not find array containing "SHOP".\n';
             return;
         }
 
@@ -169,7 +171,7 @@ async function fetchAndProcess() {
                     return cars.find(c => c.id === car.id);
                 }).filter(c => c !== undefined);
 
-                document.getElementById('extractedCarsData').textContent = JSON.stringify(matchedCars, null, 2);
+                extractedDataElem.textContent = JSON.stringify(matchedCars, null, 2);
 
                 let outputDetails = 'Cars found in "SHOP":\n' + JSON.stringify(carsFound, null, 2);
                 resultElem.textContent += outputDetails;
