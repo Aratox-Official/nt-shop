@@ -141,57 +141,59 @@ async function fetchAndProcess() {
             return;
         }
 
+        if (Array.isArray(arrayData) && arrayData.length > 1) {
+            arrayData = arrayData[1];
+        }
+
         if (Array.isArray(arrayData)) {
             appendLog('Processing main array...');
             appendLog('Array data length: ' + arrayData.length);
             for (let i = 0; i < Math.min(3, arrayData.length); i++) {
                 appendLog('Sample object ' + i + ': ' + JSON.stringify(arrayData[i]));
             }
-        } else {
-            appendLog('Parsed data is not an array.');
-        }
 
-        const startIndex = (typeof arrayData[0] === 'string' && arrayData[0] === 'SHOP') ? 1 : 0;
+            let carsFound = [];
+            for (const categoryObj of arrayData) {
+                if (categoryObj && categoryObj.items && Array.isArray(categoryObj.items)) {
+                    for (const item of categoryObj.items) {
+                        if (item && item.type === 'car') {
+                            appendLog(`Found car: ID=${item.id}`);
+                            carsFound.push(item);
+                        } else {
+                            appendLog(`Not a car or missing type: ${JSON.stringify(item)}`);
+                        }
+                    }
+                } else {
+                    appendLog('Category object missing "items" array or is invalid: ' + JSON.stringify(categoryObj));
+                }
+            }
 
-        let carsFound = [];
-        for (let i = startIndex; i < arrayData.length; i++) {
-            const categoryObj = arrayData[i];
-            if (categoryObj && categoryObj.items && Array.isArray(categoryObj.items)) {
-                for (const item of categoryObj.items) {
-                    if (item && item.type === 'car') {
-                        appendLog(`Found car: ID=${item.id}`);
-                        carsFound.push(item);
+            appendLog('Total cars found: ' + carsFound.length);
+
+            if (carsFound.length > 0) {
+                let outputDetails = 'Cars found:\n' + JSON.stringify(carsFound, null, 2);
+                const cars = await loadCarsJson();
+
+                for (const car of carsFound) {
+                    const carId = car.id;
+                    appendLog('Looking up car ID: ' + carId + ' in cars.json...');
+                    const matchedCar = cars.find(c => c.id === carId);
+                    if (matchedCar) {
+                        appendLog('Found: ' + matchedCar.name + ' (' + matchedCar.rarity + ')');
+                        outputDetails += `\nCar ID: ${carId}\nName: ${matchedCar.name}\nRarity: ${matchedCar.rarity}\n`;
                     } else {
-                        appendLog(`Not a car or missing type: ${JSON.stringify(item)}`);
+                        appendLog('Car ID: ' + carId + ' not found in cars.json');
+                        outputDetails += `\nCar ID: ${carId} not found in cars.json.\n`;
                     }
                 }
+                document.getElementById('result').textContent += outputDetails;
             } else {
-                appendLog('Category object missing "items" array or is invalid: ' + JSON.stringify(categoryObj));
+                appendLog('No cars with type "car" found.');
+                document.getElementById('result').textContent += 'No cars with type "car" found.\n';
             }
-        }
-
-        appendLog('Total cars found: ' + carsFound.length);
-
-        if (carsFound.length > 0) {
-            let outputDetails = 'Cars found:\n' + JSON.stringify(carsFound, null, 2);
-            const cars = await loadCarsJson();
-
-            for (const car of carsFound) {
-                const carId = car.id;
-                appendLog('Looking up car ID: ' + carId + ' in cars.json...');
-                const matchedCar = cars.find(c => c.id === carId);
-                if (matchedCar) {
-                    appendLog('Found: ' + matchedCar.name + ' (' + matchedCar.rarity + ')');
-                    outputDetails += `\nCar ID: ${carId}\nName: ${matchedCar.name}\nRarity: ${matchedCar.rarity}\n`;
-                } else {
-                    appendLog('Car ID: ' + carId + ' not found in cars.json');
-                    outputDetails += `\nCar ID: ${carId} not found in cars.json.\n`;
-                }
-            }
-            document.getElementById('result').textContent += outputDetails;
         } else {
-            appendLog('No cars with type "car" found.');
-            document.getElementById('result').textContent += 'No cars with type "car" found.\n';
+            appendLog('Unexpected array structure.');
+            document.getElementById('result').textContent += 'Unexpected array structure.\n';
         }
     } catch (err) {
         appendLog('Error in fetchAndProcess: ' + err);
