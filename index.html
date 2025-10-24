@@ -141,11 +141,18 @@ async function fetchAndProcess() {
             return;
         }
 
-        const cars = await loadCarsJson();
+        if (Array.isArray(arrayData)) {
+            appendLog('Processing main array...');
+            appendLog('Array data length: ' + arrayData.length);
+            for (let i = 0; i < Math.min(3, arrayData.length); i++) {
+                appendLog('Sample object ' + i + ': ' + JSON.stringify(arrayData[i]));
+            }
+        } else {
+            appendLog('Parsed data is not an array.');
+        }
 
         let carsFound = [];
         if (Array.isArray(arrayData)) {
-            appendLog('Processing main array...');
             for (const categoryObj of arrayData) {
                 if (categoryObj && categoryObj.items && Array.isArray(categoryObj.items)) {
                     for (const item of categoryObj.items) {
@@ -168,6 +175,8 @@ async function fetchAndProcess() {
 
         if (carsFound.length > 0) {
             let outputDetails = 'Cars found:\n' + JSON.stringify(carsFound, null, 2);
+            const cars = await loadCarsJson();
+
             for (const car of carsFound) {
                 const carId = car.id;
                 appendLog('Looking up car ID: ' + carId + ' in cars.json...');
