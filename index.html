@@ -77,10 +77,13 @@ function appendLog(message) {
 }
 
 async function loadData() {
+    console.log('Starting to load cars.json and titles.json...');
     const [carsResponse, titlesResponse] = await Promise.all([
         fetch('cars.json'),
         fetch('titles.json')
     ]);
+    console.log('cars.json response status:', carsResponse.status);
+    console.log('titles.json response status:', titlesResponse.status);
     if (!carsResponse.ok) {
         throw new Error(`Error loading cars.json: ${carsResponse.status}`);
     }
@@ -89,28 +92,37 @@ async function loadData() {
     }
     const carsData = await carsResponse.json();
     const titlesData = await titlesResponse.json();
+    console.log('Loaded cars.json:', carsData);
+    console.log('Loaded titles.json:', titlesData);
     allCars = carsData;
     allTitles = titlesData;
+    console.log('Stored data in allCars and allTitles.');
     return { cars: carsData, titles: titlesData };
 }
 
 async function findArrayContainingShop(data) {
+    console.log('Searching for array containing "SHOP"...');
     const pattern = /"SHOP",/;
     const match = pattern.exec(data);
     if (!match) {
+        console.log('No match for "SHOP" found.');
         return null;
     }
     const index = match.index;
+    console.log('Match found at index:', index);
     const arrayStart = data.lastIndexOf('[', index);
+    console.log('Array start at index:', arrayStart);
     if (arrayStart === -1) {
+        console.log('No array start "[" found before match.');
         return null;
     }
 
     let stack = 0;
     let arrayEnd = -1;
     for (let i = arrayStart; i < data.length; i++) {
-        if (data[i] === '[') stack++;
-        else if (data[i] === ']') {
+        if (data[i] === '[') {
+            stack++;
+        } else if (data[i] === ']') {
             stack--;
             if (stack === 0) {
                 arrayEnd = i + 1;
@@ -118,11 +130,14 @@ async function findArrayContainingShop(data) {
             }
         }
     }
+    console.log('Array end index:', arrayEnd);
     if (arrayEnd === -1) {
+        console.log('No matching closing "]" found for array.');
         return null;
     }
 
     const arrayString = data.substring(arrayStart, arrayEnd);
+    console.log('Extracted array string:', arrayString);
     return arrayString;
 }
 
@@ -132,17 +147,22 @@ async function fetchAndProcess() {
     resultElem.textContent = '';
 
     try {
+        console.log('Fetching bootstrap data...');
         const response = await fetch(workerUrl);
+        console.log('Bootstrap fetch response status:', response.status);
         if (!response.ok) {
             throw new Error(`Response not OK: ${response.status}`);
         }
         const data = await response.text();
+        console.log('Received bootstrap data snippet:', data.substring(0, 200) + '...');
 
         const arrayStr = await findArrayContainingShop(data);
         if (arrayStr) {
             const singleLineArrayStr = arrayStr.replace(/[\n\r]/g, ''); 
+            console.log('Array string found:', singleLineArrayStr);
             resultElem.textContent = singleLineArrayStr;
         } else {
+            console.log('Array containing "SHOP" not found.');
             resultElem.textContent = 'Could not find array containing "SHOP".';
         }
 
@@ -151,7 +171,8 @@ async function fetchAndProcess() {
 
             let arrayData;
             try {
-                arrayData = JSON.parse(arrayStr); 
+                arrayData = JSON.parse(arrayStr);
+                console.log('Parsed array JSON:', arrayData);
             } catch (e) {
                 outputText += 'Error parsing array JSON: ' + e.message;
                 resultElem.textContent += outputText;
@@ -160,25 +181,35 @@ async function fetchAndProcess() {
 
             if (Array.isArray(arrayData) && arrayData.length > 1) {
                 arrayData = arrayData[1];
+                console.log('Nested arrayData:', arrayData);
             }
 
             if (Array.isArray(arrayData)) {
                 let carsFound = [];
                 for (const categoryObj of arrayData) {
-                    if (categoryObj && categoryObj.items && Array.isArray(categoryObj.items)) {
-                        for (const item of categoryObj.items) {
-                            if (item && item.type === 'car') {
-                                carsFound.push(item);
+                    if (categoryObj) {
+                        console.log('Category object:', categoryObj);
+                        if (categoryObj.items && Array.isArray(categoryObj.items)) {
+                            for (const item of categoryObj.items) {
+                                if (item) {
+                                    console.log('Item:', item);
+                                    if (item.type === 'car') {
+                                        console.log('Found car item:', item);
+                                        carsFound.push(item);
+                                    }
+                                }
                             }
                         }
                     }
                 }
-
+                console.log('Cars found:', carsFound);
                 if (carsFound.length > 0) {
                     const matchedCars = carsFound.map(car => {
-                        let matchedCar = allCars.find(c => c.id === car.id);
+                        const matchedCar = allCars.find(c => c.id === car.id);
+                        console.log('Matching car ID:', car.id, 'Found:', matchedCar);
                         if (matchedCar) {
-                            const titleEntry = allTitles.find(t => t.id === matchedCar.id);
+                            const titleEntry = allTitles.find(t => t.id === matchedCar.id && t.type === 'loot');
+                            console.log('Title entry for ID:', matchedCar.id, 'Title:', titleEntry);
                             if (titleEntry && titleEntry.title) {
                                 return { ...matchedCar, title: titleEntry.title };
                             } else {
@@ -187,13 +218,18 @@ async function fetchAndProcess() {
                         }
                         return null;
                     }).filter(c => c !== null);
-
+                    console.log('Final matched cars with titles:', matchedCars);
                     document.getElementById('extractedCarsData').textContent = JSON.stringify(matchedCars, null, 2);
+                } else {
+                    console.log('No cars found in array data.');
                 }
+            } else {
+                console.log('Array data is not an array.');
             }
         }
 
     } catch (err) {
+        console.log('Error during fetch and process:', err);
         resultElem.textContent = 'Error: ' + err.message;
     }
 }
@@ -203,6 +239,7 @@ document.getElementById('fetchButton').addEventListener('click', () => {
         fetchAndProcess();
     }).catch(err => {
         document.getElementById('result').textContent = 'Error loading data: ' + err.message;
+        console.log('Error loading data:', err);
     });
 });
 </script>
