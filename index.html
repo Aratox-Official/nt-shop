@@ -70,9 +70,28 @@ h2 {
 const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/';
 
 let allCars = [];
+let allTitles = [];
 
 function appendLog(message) {
     document.getElementById('result').textContent += message + '\n';
+}
+
+async function loadData() {
+    const [carsResponse, titlesResponse] = await Promise.all([
+        fetch('cars.json'),
+        fetch('titles.json')
+    ]);
+    if (!carsResponse.ok) {
+        throw new Error(`Error loading cars.json: ${carsResponse.status}`);
+    }
+    if (!titlesResponse.ok) {
+        throw new Error(`Error loading titles.json: ${titlesResponse.status}`);
+    }
+    const carsData = await carsResponse.json();
+    const titlesData = await titlesResponse.json();
+    allCars = carsData;
+    allTitles = titlesData;
+    return { cars: carsData, titles: titlesData };
 }
 
 async function findArrayContainingShop(data) {
@@ -105,16 +124,6 @@ async function findArrayContainingShop(data) {
 
     const arrayString = data.substring(arrayStart, arrayEnd);
     return arrayString;
-}
-
-async function loadCarsJson() {
-    const response = await fetch('cars.json');
-    if (!response.ok) {
-        throw new Error(`Error loading cars.json: ${response.status}`);
-    }
-    const carsData = await response.json();
-    allCars = carsData;
-    return carsData;
 }
 
 async function fetchAndProcess() {
@@ -166,11 +175,18 @@ async function fetchAndProcess() {
                 }
 
                 if (carsFound.length > 0) {
-                    const cars = await loadCarsJson();
-
                     const matchedCars = carsFound.map(car => {
-                        return cars.find(c => c.id === car.id);
-                    }).filter(c => c !== undefined);
+                        let matchedCar = allCars.find(c => c.id === car.id);
+                        if (matchedCar) {
+                            const titleEntry = allTitles.find(t => t.id === matchedCar.id);
+                            if (titleEntry && titleEntry.title) {
+                                return { ...matchedCar, title: titleEntry.title };
+                            } else {
+                                return matchedCar;
+                            }
+                        }
+                        return null;
+                    }).filter(c => c !== null);
 
                     document.getElementById('extractedCarsData').textContent = JSON.stringify(matchedCars, null, 2);
                 }
@@ -183,7 +199,11 @@ async function fetchAndProcess() {
 }
 
 document.getElementById('fetchButton').addEventListener('click', () => {
-    fetchAndProcess();
+    loadData().then(() => {
+        fetchAndProcess();
+    }).catch(err => {
+        document.getElementById('result').textContent = 'Error loading data: ' + err.message;
+    });
 });
 </script>
 </body>
