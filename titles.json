@@ -1,0 +1,3056 @@
+[
+    {
+        "name": "\"The ATM Machine\"",
+        "description": "Savings & Earnings",
+        "achievement_or_tier": "72",
+        "id": 1
+    },
+    {
+        "name": "\"Millionaire\"",
+        "description": "Savings & Earnings",
+        "achievement_or_tier": "73",
+        "id": 2
+    },
+    {
+        "name": "\"Big Spender\"",
+        "description": "Hey Big Spender",
+        "achievement_or_tier": "74",
+        "id": 3
+    },
+    {
+        "name": "\"Filthy Rich\"",
+        "description": "Hey Big Spender",
+        "achievement_or_tier": "75",
+        "id": 4
+    },
+    {
+        "name": "\"Endurance Racer\"",
+        "description": "Hittin' the Track",
+        "achievement_or_tier": "76",
+        "id": 5
+    },
+    {
+        "name": "\"Crazy About Typing\"",
+        "description": "King of the Race",
+        "achievement_or_tier": "77",
+        "id": 6
+    },
+    {
+        "name": "\"The Practicer\"",
+        "description": "Endurance Racing",
+        "achievement_or_tier": "78",
+        "id": 7
+    },
+    {
+        "name": "\"Practice Makes Perfect\"",
+        "description": "Endurance Racing",
+        "achievement_or_tier": "79",
+        "id": 8
+    },
+    {
+        "name": "\"Lord of the Practice\"",
+        "description": "Endurance Racing",
+        "achievement_or_tier": "80",
+        "id": 9
+    },
+    {
+        "name": "\"Word Skipper\"",
+        "description": "Nitro Addiction",
+        "achievement_or_tier": "81",
+        "id": 10
+    },
+    {
+        "name": "\"[SKIPWRD]\"",
+        "description": "Nitro Addiction",
+        "achievement_or_tier": "82",
+        "id": 11
+    },
+    {
+        "name": "\"I Hate Words\"",
+        "description": "Nitro Addiction",
+        "achievement_or_tier": "83",
+        "id": 12
+    },
+    {
+        "name": "\"I Love Nitros\"",
+        "description": "Nitro Addiction",
+        "achievement_or_tier": "84",
+        "id": 13
+    },
+    {
+        "name": "\"Epic Word Skippage\"",
+        "description": "Nitro Addiction",
+        "achievement_or_tier": "85",
+        "id": 14
+    },
+    {
+        "name": "\"Epic Nitro User\"",
+        "description": "Nitro Addiction",
+        "achievement_or_tier": "86",
+        "id": 15
+    },
+    {
+        "name": "\"The Mad Hatter\"",
+        "description": "Winning",
+        "achievement_or_tier": "87",
+        "id": 16
+    },
+    {
+        "name": "\"Mega Winner\"",
+        "description": "Winning",
+        "achievement_or_tier": "88",
+        "id": 17
+    },
+    {
+        "name": "\"Lucky Number 7\"",
+        "description": "WinningandShop",
+        "achievement_or_tier": "89",
+        "id": 18
+    },
+    {
+        "name": "\"Unstoppable\"",
+        "description": "Winning",
+        "achievement_or_tier": "90",
+        "id": 19
+    },
+    {
+        "name": "\"God Mode\"",
+        "description": "Winning",
+        "achievement_or_tier": "91",
+        "id": 20
+    },
+    {
+        "name": "\"First Trimester\"",
+        "description": "Long Hauling",
+        "achievement_or_tier": "92",
+        "id": 21
+    },
+    {
+        "name": "\"Olde School\"",
+        "description": "Long Hauling",
+        "achievement_or_tier": "93",
+        "id": 22
+    },
+    {
+        "name": "\"Original Gangster\"",
+        "description": "Long Hauling",
+        "achievement_or_tier": "94",
+        "id": 23
+    },
+    {
+        "name": "\"I Have Friends\"",
+        "description": "Popularity Contest",
+        "achievement_or_tier": "95",
+        "id": 24
+    },
+    {
+        "name": "\"I Like Friends\"",
+        "description": "Popularity Contest",
+        "achievement_or_tier": "96",
+        "id": 25
+    },
+    {
+        "name": "\"I'm Friendly!\"",
+        "description": "Popularity Contest",
+        "achievement_or_tier": "97",
+        "id": 26
+    },
+    {
+        "name": "\"Sports Coupe Driver\"",
+        "description": "Movin' On Up",
+        "achievement_or_tier": "98",
+        "id": 27
+    },
+    {
+        "name": "\"Muscle Car Driver\"",
+        "description": "Movin' On Up",
+        "achievement_or_tier": "99",
+        "id": 28
+    },
+    {
+        "name": "\"Sports Car Driver\"",
+        "description": "Movin' On Up",
+        "achievement_or_tier": "100",
+        "id": 29
+    },
+    {
+        "name": "\"Luxury Car Driver\"",
+        "description": "Movin' On Up",
+        "achievement_or_tier": "101",
+        "id": 30
+    },
+    {
+        "name": "\"Super Luxury Driver\"",
+        "description": "Movin' On Up",
+        "achievement_or_tier": "102",
+        "id": 31
+    },
+    {
+        "name": "\"Exotic Car Driver\"",
+        "description": "Movin' On Up",
+        "achievement_or_tier": "103",
+        "id": 32
+    },
+    {
+        "name": "\"Super Sport Driver\"",
+        "description": "Movin' On Up",
+        "achievement_or_tier": "104",
+        "id": 33
+    },
+    {
+        "name": "\"Race Car Driver\"",
+        "description": "Movin' On Up",
+        "achievement_or_tier": "105",
+        "id": 34
+    },
+    {
+        "name": "\"Under Achiever\"",
+        "description": "Savings & Earnings",
+        "achievement_or_tier": "106",
+        "id": 35
+    },
+    {
+        "name": "\"Pilot\"",
+        "description": "Movin' On Up",
+        "achievement_or_tier": "107",
+        "id": 36
+    },
+    {
+        "name": "\"Used Car Salesman\"",
+        "description": "Savings & Earnings",
+        "achievement_or_tier": "108",
+        "id": 37
+    },
+    {
+        "name": "\"People Like Me\"",
+        "description": "Popularity Contest",
+        "achievement_or_tier": "109",
+        "id": 38
+    },
+    {
+        "name": "\"People Love Me\"",
+        "description": "Popularity Contest",
+        "achievement_or_tier": "110",
+        "id": 39
+    },
+    {
+        "name": "\"Astronaut\"",
+        "description": "Hey Big Spender",
+        "achievement_or_tier": "111",
+        "id": 40
+    },
+    {
+        "name": "\"In the Spirit\"",
+        "description": "2012,2013,2014,2015,2016,2017and2018 Xmaxx EventsandSeason 25",
+        "achievement_or_tier": "112",
+        "id": 41
+    },
+    {
+        "name": "\"Merry Christmas!\"",
+        "description": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
+        "achievement_or_tier": "113",
+        "id": 42
+    },
+    {
+        "name": "\"Happy Hanukkah!\"",
+        "description": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
+        "achievement_or_tier": "114",
+        "id": 43
+    },
+    {
+        "name": "\"Heri za Kwanzaa!\"",
+        "description": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
+        "achievement_or_tier": "115",
+        "id": 44
+    },
+    {
+        "name": "\"Joyous Festivus!\"",
+        "description": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
+        "achievement_or_tier": "116",
+        "id": 45
+    },
+    {
+        "name": "\"Christmas Elf\"",
+        "description": "2012 Xmaxx Event",
+        "achievement_or_tier": "117",
+        "id": 46
+    },
+    {
+        "name": "\"Holiday Winner\"",
+        "description": "2012 Xmaxx Event",
+        "achievement_or_tier": "118",
+        "id": 47
+    },
+    {
+        "name": "\"Holiday Hooligan\"",
+        "description": "2012 Xmaxx Event",
+        "achievement_or_tier": "119",
+        "id": 48
+    },
+    {
+        "name": "\"Holiday Ham\"",
+        "description": "2012 Xmaxx Event",
+        "achievement_or_tier": "120",
+        "id": 49
+    },
+    {
+        "name": "\"Holiday Hacker\"",
+        "description": "2012 Xmaxx Event",
+        "achievement_or_tier": "121",
+        "id": 50
+    },
+    {
+        "name": "\"♪ Let It Snow ♪\"",
+        "description": "2012 Xmaxx Event",
+        "achievement_or_tier": "122",
+        "id": 51
+    },
+    {
+        "name": "\"Oppa Xmaxx Style!\"",
+        "description": "2012 Xmaxx Event",
+        "achievement_or_tier": "123",
+        "id": 52
+    },
+    {
+        "name": "\"Keyboard Cat\"",
+        "description": "Endurance Racing",
+        "achievement_or_tier": "124",
+        "id": 53
+    },
+    {
+        "name": "\"Nitro Type Master\"",
+        "description": "Endurance Racing",
+        "achievement_or_tier": "125",
+        "id": 54
+    },
+    {
+        "name": "\"Emperor\"",
+        "description": "Endurance Racing",
+        "achievement_or_tier": "126",
+        "id": 55
+    },
+    {
+        "name": "\"Empress\"",
+        "description": "Endurance Racing",
+        "achievement_or_tier": "127",
+        "id": 56
+    },
+    {
+        "name": "\"Mystery Man\"",
+        "description": "Cruisin' Back",
+        "achievement_or_tier": "128",
+        "id": 57
+    },
+    {
+        "name": "\"Box Collector\"",
+        "description": "Cruisin' Back",
+        "achievement_or_tier": "129",
+        "id": 58
+    },
+    {
+        "name": "\"The Caped Crusader\"",
+        "description": "Hey Big Spender",
+        "achievement_or_tier": "130",
+        "id": 59
+    },
+    {
+        "name": "\"Time Traveler\"",
+        "description": "Hey Big Spender",
+        "achievement_or_tier": "131",
+        "id": 60
+    },
+    {
+        "name": "\"Celebrity\"",
+        "description": "Movin' On Up",
+        "achievement_or_tier": "132",
+        "id": 61
+    },
+    {
+        "name": "\"Summer Rider\"",
+        "description": "2013,2014,2015,2016,2017and2018 Summer EventsandShop",
+        "achievement_or_tier": "133",
+        "id": 62
+    },
+    {
+        "name": "\"California Dreamin'\"",
+        "description": "2013,2014and2015 Summer EventsandShop",
+        "achievement_or_tier": "134",
+        "id": 63
+    },
+    {
+        "name": "\"Endless Summer\"",
+        "description": "2013 Summer Event",
+        "achievement_or_tier": "135",
+        "id": 64
+    },
+    {
+        "name": "Season 35",
+        "description": "Tier 18",
+        "achievement_or_tier": null,
+        "id": 65
+    },
+    {
+        "name": "\"My Popsicle Melted\"",
+        "description": "2013and2014 Summer EventsandShop",
+        "achievement_or_tier": "136",
+        "id": 66
+    },
+    {
+        "name": "\"Oppa Sunburn Style!\"",
+        "description": "2013and2014 Summer Events",
+        "achievement_or_tier": "137",
+        "id": 67
+    },
+    {
+        "name": "\"Summer Hacker\"",
+        "description": "2013 Summer Event",
+        "achievement_or_tier": "138",
+        "id": 68
+    },
+    {
+        "name": "\"I Have No Tan!\"",
+        "description": "2013 Summer Event",
+        "achievement_or_tier": "139",
+        "id": 69
+    },
+    {
+        "name": "\"Solid Gold\"",
+        "description": "Nitro Type Gold",
+        "achievement_or_tier": "140",
+        "id": 70
+    },
+    {
+        "name": "\"Hippie\"",
+        "description": "2013 Summer Event",
+        "achievement_or_tier": "141",
+        "id": 71
+    },
+    {
+        "name": "\"RIP\"",
+        "description": "Hey Big SpenderandShop",
+        "achievement_or_tier": "142",
+        "id": 72
+    },
+    {
+        "name": "\"wow. such gifting\"",
+        "description": "2013 Xmaxx EventandShop",
+        "achievement_or_tier": "143",
+        "id": 73
+    },
+    {
+        "name": "\"The Snow Man\"",
+        "description": "2013 Xmaxx Event",
+        "achievement_or_tier": "144",
+        "id": 74
+    },
+    {
+        "name": "\"♪ Oh Nitro Tree ♪\"",
+        "description": "2013 Xmaxx Event",
+        "achievement_or_tier": "145",
+        "id": 75
+    },
+    {
+        "name": "\"Frosty\"",
+        "description": "2013 Xmaxx Event",
+        "achievement_or_tier": "146",
+        "id": 76
+    },
+    {
+        "name": "\"Cold As Ice\"",
+        "description": "2013 Xmaxx Event",
+        "achievement_or_tier": "147",
+        "id": 77
+    },
+    {
+        "name": "\"Typing Nightmare\"",
+        "description": "Endurance Racing",
+        "achievement_or_tier": "148",
+        "id": 78
+    },
+    {
+        "name": "\"Wampus Thwamper\"",
+        "description": "Winning",
+        "achievement_or_tier": "149",
+        "id": 79
+    },
+    {
+        "name": "\"Catty Wampus\"",
+        "description": "Winning",
+        "achievement_or_tier": "150",
+        "id": 80
+    },
+    {
+        "name": "\"The Smasher\"",
+        "description": "Hey Big Spender",
+        "achievement_or_tier": "151",
+        "id": 81
+    },
+    {
+        "name": "\"Typing Demon\"",
+        "description": "Endurance Racing",
+        "achievement_or_tier": "152",
+        "id": 82
+    },
+    {
+        "name": "\"Summer Champ\"",
+        "description": "2014 Summer Event",
+        "achievement_or_tier": "153",
+        "id": 83
+    },
+    {
+        "name": "\"Hot Hot Hot!\"",
+        "description": "2014 Summer EventandShop",
+        "achievement_or_tier": "154",
+        "id": 84
+    },
+    {
+        "name": "\"Grim Reaper\"",
+        "description": "Hey Big Spender",
+        "achievement_or_tier": "155",
+        "id": 85
+    },
+    {
+        "name": "\"Raw Racing Recruit\"",
+        "description": "So Easy, Why Wait?",
+        "achievement_or_tier": "156",
+        "id": 86
+    },
+    {
+        "name": "\"Sick Sleigh, Bro\"",
+        "description": "2014 Xmaxx Event",
+        "achievement_or_tier": "157",
+        "id": 87
+    },
+    {
+        "name": "\"♪ So Delightful ♪\"",
+        "description": "2014 Xmaxx EventandShop",
+        "achievement_or_tier": "158",
+        "id": 88
+    },
+    {
+        "name": "\"Iced Out\"",
+        "description": "2014 Xmaxx Event",
+        "achievement_or_tier": "159",
+        "id": 89
+    },
+    {
+        "name": "\"i luv nitrontip!1\"",
+        "description": "2014 Xmaxx Event",
+        "achievement_or_tier": "160",
+        "id": 90
+    },
+    {
+        "name": "\"#kringled\"",
+        "description": "2014 Xmaxx Event",
+        "achievement_or_tier": "161",
+        "id": 91
+    },
+    {
+        "name": "\"Huge Baller\"",
+        "description": "Nitro Type Gold",
+        "achievement_or_tier": "162",
+        "id": 92
+    },
+    {
+        "name": "\"Haulin' Cash\"",
+        "description": "Nitro Type Gold",
+        "achievement_or_tier": "163",
+        "id": 93
+    },
+    {
+        "name": "\"Ca$h Collector\"",
+        "description": "Nitro Type Gold",
+        "achievement_or_tier": "164",
+        "id": 94
+    },
+    {
+        "name": "\"Schools Out!\"",
+        "description": "2015 Summer EventandShop",
+        "achievement_or_tier": "165",
+        "id": 95
+    },
+    {
+        "name": "\"California Roll\"",
+        "description": "2015 Summer Event",
+        "achievement_or_tier": "166",
+        "id": 96
+    },
+    {
+        "name": "\"Drives Fancy Cars\"",
+        "description": "2015 Summer Event",
+        "achievement_or_tier": "167",
+        "id": 97
+    },
+    {
+        "name": "\"Burnin' Rubber\"",
+        "description": "2015 Summer EventandShop",
+        "achievement_or_tier": "168",
+        "id": 98
+    },
+    {
+        "name": "\"2spooky4u\"",
+        "description": "2015 Halloween Event",
+        "achievement_or_tier": "169",
+        "id": 99
+    },
+    {
+        "name": "\"Fear Me\"",
+        "description": "2015 Halloween Event",
+        "achievement_or_tier": "170",
+        "id": 100
+    },
+    {
+        "name": "\"3spooky5u\"",
+        "description": "2015 Halloween Event",
+        "achievement_or_tier": "171",
+        "id": 101
+    },
+    {
+        "name": "\"Boo!\"",
+        "description": "2015 Halloween EventandShop",
+        "achievement_or_tier": "172",
+        "id": 102
+    },
+    {
+        "name": "\"Reindeer Games\"",
+        "description": "2015 Xmaxx Event",
+        "achievement_or_tier": "173",
+        "id": 103
+    },
+    {
+        "name": "\"♪ Naughty or Nice ♪\"",
+        "description": "2015and2016 Xmaxx Events",
+        "achievement_or_tier": "174",
+        "id": 104
+    },
+    {
+        "name": "\"Frozen\"",
+        "description": "2015 Xmaxx Event",
+        "achievement_or_tier": "175",
+        "id": 105
+    },
+    {
+        "name": "\"Velocity Wrapper\"",
+        "description": "2015 Xmaxx Event",
+        "achievement_or_tier": "176",
+        "id": 106
+    },
+    {
+        "name": "\"Holiday Hero\"",
+        "description": "2015and2016 Xmaxx Events",
+        "achievement_or_tier": "177",
+        "id": 107
+    },
+    {
+        "name": "Season 55",
+        "description": "Tier 24",
+        "achievement_or_tier": null,
+        "id": 108
+    },
+    {
+        "name": "\"The Codfather\"",
+        "description": "2016 Summer Event",
+        "achievement_or_tier": "178",
+        "id": 109
+    },
+    {
+        "name": "\"Fairy Codmother\"",
+        "description": "2016 Summer Event",
+        "achievement_or_tier": "179",
+        "id": 110
+    },
+    {
+        "name": "\"Seaworthy\"",
+        "description": "2016 Summer Event",
+        "achievement_or_tier": "180",
+        "id": 111
+    },
+    {
+        "name": "\"Sea Captain\"",
+        "description": "2016 Summer Event",
+        "achievement_or_tier": "181",
+        "id": 112
+    },
+    {
+        "name": "\"Fleet Admiral\"",
+        "description": "2016 Summer EventandShop",
+        "achievement_or_tier": "182",
+        "id": 113
+    },
+    {
+        "name": "\"Cod Squad\"",
+        "description": "2016 Summer Event",
+        "achievement_or_tier": "183",
+        "id": 114
+    },
+    {
+        "name": "\"Moar Pumpkins!\"",
+        "description": "2016and2017 Hallowampus Events",
+        "achievement_or_tier": "184",
+        "id": 115
+    },
+    {
+        "name": "\"Truck Driver\"",
+        "description": "Movin' On Up",
+        "achievement_or_tier": "185",
+        "id": 116
+    },
+    {
+        "name": "\"Motorcycle Rider\"",
+        "description": "Movin' On Up",
+        "achievement_or_tier": "186",
+        "id": 117
+    },
+    {
+        "name": "\"Rail Rider\"",
+        "description": "2016 Xmaxx Event",
+        "achievement_or_tier": "187",
+        "id": 118
+    },
+    {
+        "name": "\"Well Trained\"",
+        "description": "2016 Xmaxx EventandShop",
+        "achievement_or_tier": "188",
+        "id": 119
+    },
+    {
+        "name": "\"Loco Motive\"",
+        "description": "2016 Xmaxx Event",
+        "achievement_or_tier": "189",
+        "id": 120
+    },
+    {
+        "name": "Season 54",
+        "description": "Tier 16",
+        "achievement_or_tier": null,
+        "id": 121
+    },
+    {
+        "name": "\"Conductor\"",
+        "description": "2016 Xmaxx Event",
+        "achievement_or_tier": "190",
+        "id": 122
+    },
+    {
+        "name": "\"Nitro Pup\"",
+        "description": "Mascot Love!",
+        "achievement_or_tier": "191",
+        "id": 123
+    },
+    {
+        "name": "\"Nitro Dog\"",
+        "description": "Mascot Love!",
+        "achievement_or_tier": "192",
+        "id": 124
+    },
+    {
+        "name": "\"Top Dog\"",
+        "description": "Mascot Love!andShop",
+        "achievement_or_tier": "193",
+        "id": 125
+    },
+    {
+        "name": "\"Bug Smasher\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "194",
+        "id": 126
+    },
+    {
+        "name": "\"Easy Rider\"",
+        "description": "2017 Summer EventandShop",
+        "achievement_or_tier": "195",
+        "id": 127
+    },
+    {
+        "name": "\"Track Day Rider\"",
+        "description": "2017 Summer Event",
+        "achievement_or_tier": "196",
+        "id": 128
+    },
+    {
+        "name": "\"Faster 'n You\"",
+        "description": "2017 Summer Event",
+        "achievement_or_tier": "197",
+        "id": 129
+    },
+    {
+        "name": "\"Two Tired\"",
+        "description": "2017 Summer Event",
+        "achievement_or_tier": "198",
+        "id": 130
+    },
+    {
+        "name": "\"Hoonigan\"",
+        "description": "2017 Summer Event",
+        "achievement_or_tier": "199",
+        "id": 131
+    },
+    {
+        "name": "\"Weekend Racer\"",
+        "description": "2017 Summer Event",
+        "achievement_or_tier": "200",
+        "id": 132
+    },
+    {
+        "name": "\"Hallowampus Fanclub\"",
+        "description": "2017 Hallowampus Event",
+        "achievement_or_tier": "201",
+        "id": 133
+    },
+    {
+        "name": "\"Sp00ked\"",
+        "description": "2017 Hallowampus Event",
+        "achievement_or_tier": "202",
+        "id": 134
+    },
+    {
+        "name": "\"Halloweird\"",
+        "description": "2017 Hallowampus Event",
+        "achievement_or_tier": "203",
+        "id": 135
+    },
+    {
+        "name": "\"Creepin' it Real\"",
+        "description": "2017 Hallowampus Event",
+        "achievement_or_tier": "204",
+        "id": 136
+    },
+    {
+        "name": "\"Pumpkin Spiced\"",
+        "description": "2017 Hallowampus Event",
+        "achievement_or_tier": "205",
+        "id": 137
+    },
+    {
+        "name": "\"Snow Baller\"",
+        "description": "2017 Xmaxx Event",
+        "achievement_or_tier": "206",
+        "id": 138
+    },
+    {
+        "name": "\"#elfie\"",
+        "description": "2017 Xmaxx EventandShop",
+        "achievement_or_tier": "207",
+        "id": 139
+    },
+    {
+        "name": "\"Up to Snow Good\"",
+        "description": "2017 Xmaxx Event",
+        "achievement_or_tier": "208",
+        "id": 140
+    },
+    {
+        "name": "Season 30",
+        "description": "Tier 17",
+        "achievement_or_tier": null,
+        "id": 141
+    },
+    {
+        "name": "\"Silent Nitro\"",
+        "description": "2017 Xmaxx EventandShop",
+        "achievement_or_tier": "209",
+        "id": 142
+    },
+    {
+        "name": "\"Acute Tinselitis\"",
+        "description": "2017 Xmaxx Event",
+        "achievement_or_tier": "210",
+        "id": 143
+    },
+    {
+        "name": "\"Rudolph Racing\"",
+        "description": "2017 Xmaxx Event",
+        "achievement_or_tier": "211",
+        "id": 144
+    },
+    {
+        "name": "Season 55",
+        "description": "Tier 27",
+        "achievement_or_tier": null,
+        "id": 145
+    },
+    {
+        "name": "\"Chocolate Knight\"",
+        "description": "2017 Xmaxx Event",
+        "achievement_or_tier": "212",
+        "id": 146
+    },
+    {
+        "name": "\"Spring-a-round\"",
+        "description": "2018 Spring Fever Event",
+        "achievement_or_tier": "213",
+        "id": 147
+    },
+    {
+        "name": "\"Crackin' Up\"",
+        "description": "2018 Spring Fever Event",
+        "achievement_or_tier": "214",
+        "id": 148
+    },
+    {
+        "name": "\"Eggsecutive\"",
+        "description": "2018 Spring Fever EventandShop",
+        "achievement_or_tier": "215",
+        "id": 149
+    },
+    {
+        "name": "\"Rocky\"",
+        "description": "2018 PAC Event",
+        "achievement_or_tier": "216",
+        "id": 150
+    },
+    {
+        "name": "\"PAC-Man\"",
+        "description": "2018 PAC Event",
+        "achievement_or_tier": "217",
+        "id": 151
+    },
+    {
+        "name": "\"Ms.PAC-Man\"",
+        "description": "2018 PAC Event",
+        "achievement_or_tier": "218",
+        "id": 152
+    },
+    {
+        "name": "\"PAC Rat\"",
+        "description": "2018 PAC Event",
+        "achievement_or_tier": "219",
+        "id": 153
+    },
+    {
+        "name": "\"The Force\"",
+        "description": "2018 PAC Event",
+        "achievement_or_tier": "220",
+        "id": 154
+    },
+    {
+        "name": "\"Y.A.C.H.T.\"",
+        "description": "2018 Surf n' Turf Event",
+        "achievement_or_tier": "222",
+        "id": 155
+    },
+    {
+        "name": "\"Surf n' Turf\"",
+        "description": "2018 Surf n' Turf Event",
+        "achievement_or_tier": "223",
+        "id": 156
+    },
+    {
+        "name": "\"Baked Racing Recruit\"",
+        "description": "2018 Surf n' Turf Event",
+        "achievement_or_tier": "224",
+        "id": 157
+    },
+    {
+        "name": "\"Sweaty Typer\"",
+        "description": "2018 Surf n' Turf Event",
+        "achievement_or_tier": "225",
+        "id": 158
+    },
+    {
+        "name": "\"Brainfreeze\"",
+        "description": "2018 Surf n' Turf EventandShop",
+        "achievement_or_tier": "226",
+        "id": 159
+    },
+    {
+        "name": "\"I-Scream\"",
+        "description": "2018 Surf n' Turf Event",
+        "achievement_or_tier": "227",
+        "id": 160
+    },
+    {
+        "name": "\"Moderator\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "228",
+        "id": 161
+    },
+    {
+        "name": "\"B.U.S. Driver\"",
+        "description": "2018and2019 Back 2 School Events",
+        "achievement_or_tier": "229",
+        "id": 162
+    },
+    {
+        "name": "\"B.U.S. Racer\"",
+        "description": "2018and2019 Back 2 School Events",
+        "achievement_or_tier": "230",
+        "id": 163
+    },
+    {
+        "name": "\"A+ Typist\"",
+        "description": "2018 Back 2 School Event",
+        "achievement_or_tier": "231",
+        "id": 164
+    },
+    {
+        "name": "\"Tilted Typist\"",
+        "description": "2018 Back 2 School Event",
+        "achievement_or_tier": "232",
+        "id": 165
+    },
+    {
+        "name": "\"Extracurricular!\"",
+        "description": "2018 Back 2 School EventandShop",
+        "achievement_or_tier": "233",
+        "id": 166
+    },
+    {
+        "name": "\"Honor Roller\"",
+        "description": "2018 Back 2 School Event",
+        "achievement_or_tier": "234",
+        "id": 167
+    },
+    {
+        "name": "\"Typing Class Hero\"",
+        "description": "2018 Back 2 School Event",
+        "achievement_or_tier": "235",
+        "id": 168
+    },
+    {
+        "name": "\"The Graduate\"",
+        "description": "2018 Back 2 School Event",
+        "achievement_or_tier": "236",
+        "id": 169
+    },
+    {
+        "name": "\"Three Commas Club\"",
+        "description": "So Easy, Why Wait?",
+        "achievement_or_tier": "237",
+        "id": 170
+    },
+    {
+        "name": "\"Nitro Type Legend\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "238",
+        "id": 171
+    },
+    {
+        "name": "\"The Silent Knight\"",
+        "description": "2018 Xmaxx Event",
+        "achievement_or_tier": "239",
+        "id": 172
+    },
+    {
+        "name": "\"Jolly Saint Typist\"",
+        "description": "2018 Xmaxx Event",
+        "achievement_or_tier": "240",
+        "id": 173
+    },
+    {
+        "name": "\"Hygge\"",
+        "description": "2018 Xmaxx Event",
+        "achievement_or_tier": "241",
+        "id": 174
+    },
+    {
+        "name": "\"Fleece Navidad\"",
+        "description": "2018 Xmaxx Event",
+        "achievement_or_tier": "242",
+        "id": 175
+    },
+    {
+        "name": "\"Snowtorious\"",
+        "description": "2018 Xmaxx Event",
+        "achievement_or_tier": "243",
+        "id": 176
+    },
+    {
+        "name": "\"Winter Besties\"",
+        "description": "2018 Xmaxx Event",
+        "achievement_or_tier": "244",
+        "id": 177
+    },
+    {
+        "name": "\"Makin' it Rein\"",
+        "description": "2018 Xmaxx Event",
+        "achievement_or_tier": "245",
+        "id": 178
+    },
+    {
+        "name": "\"Momatile\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "246",
+        "id": 179
+    },
+    {
+        "name": "\"Goliath\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "247",
+        "id": 180
+    },
+    {
+        "name": "\"Soon™\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "248",
+        "id": 181
+    },
+    {
+        "name": "\"Record Keeper\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "249",
+        "id": 182
+    },
+    {
+        "name": "\"Never Exhausted\"",
+        "description": "Season 21andShop",
+        "achievement_or_tier": "250",
+        "id": 183
+    },
+    {
+        "name": "\"Nitro Burnout\"",
+        "description": "Season 21",
+        "achievement_or_tier": "251",
+        "id": 184
+    },
+    {
+        "name": "Season 54",
+        "description": "Tier 11",
+        "achievement_or_tier": null,
+        "id": 185
+    },
+    {
+        "name": "\"Tide Down\"",
+        "description": "Season 22",
+        "achievement_or_tier": "252",
+        "id": 186
+    },
+    {
+        "name": "\"I Have Fans!\"",
+        "description": "Season 22andShop",
+        "achievement_or_tier": "253",
+        "id": 187
+    },
+    {
+        "name": "\"Note Taker\"",
+        "description": "2019 Back 2 School Event",
+        "achievement_or_tier": "254",
+        "id": 188
+    },
+    {
+        "name": "\"Teacher's Pet\"",
+        "description": "2019 Back 2 School Event",
+        "achievement_or_tier": "255",
+        "id": 189
+    },
+    {
+        "name": "\"eRacer\"",
+        "description": "2019 Back 2 School Event",
+        "achievement_or_tier": "256",
+        "id": 190
+    },
+    {
+        "name": "\"Valedictorian\"",
+        "description": "2019 Back 2 School Event",
+        "achievement_or_tier": "257",
+        "id": 191
+    },
+    {
+        "name": "\"Nitro Scholar\"",
+        "description": "2019 Back 2 School Event",
+        "achievement_or_tier": "258",
+        "id": 192
+    },
+    {
+        "name": "\"Verified YouTuber\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "259",
+        "id": 193
+    },
+    {
+        "name": "\"Little Monster\"",
+        "description": "Season 24",
+        "achievement_or_tier": "260",
+        "id": 194
+    },
+    {
+        "name": "\"Count Track-ula\"",
+        "description": "Season 24",
+        "achievement_or_tier": "261",
+        "id": 195
+    },
+    {
+        "name": "\"Travis Broke Something\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "262",
+        "id": 196
+    },
+    {
+        "name": "\"Red Nosed Typist\"",
+        "description": "Season 25",
+        "achievement_or_tier": "263",
+        "id": 197
+    },
+    {
+        "name": "\"XMaxxed!\"",
+        "description": "Season 25",
+        "achievement_or_tier": "264",
+        "id": 198
+    },
+    {
+        "name": "\"Snap, Crackle, Pop\"",
+        "description": "Season 25",
+        "achievement_or_tier": "265",
+        "id": 199
+    },
+    {
+        "name": "\"X to the Maxx\"",
+        "description": "Season 25",
+        "achievement_or_tier": "266",
+        "id": 200
+    },
+    {
+        "name": "\"The Snowy Knight\"",
+        "description": "Season 25",
+        "achievement_or_tier": "267",
+        "id": 201
+    },
+    {
+        "name": "\"Secret Admirer\"",
+        "description": "Season 26andShop",
+        "achievement_or_tier": "268",
+        "id": 202
+    },
+    {
+        "name": "\"Happy New Year!\"",
+        "description": "Season 26andShop",
+        "achievement_or_tier": "269",
+        "id": 203
+    },
+    {
+        "name": "\"Valentypist\"",
+        "description": "Season 26andShop",
+        "achievement_or_tier": "270",
+        "id": 204
+    },
+    {
+        "name": "\"Heart Throb\"",
+        "description": "Season 26",
+        "achievement_or_tier": "271",
+        "id": 205
+    },
+    {
+        "name": "\"Bionic\"",
+        "description": "Season 27",
+        "achievement_or_tier": "272",
+        "id": 206
+    },
+    {
+        "name": "\"A E S T H E T I C\"",
+        "description": "Season 27andShop",
+        "achievement_or_tier": "273",
+        "id": 207
+    },
+    {
+        "name": "\"Shattered\"",
+        "description": "Season 27andShop",
+        "achievement_or_tier": "274",
+        "id": 208
+    },
+    {
+        "name": "\"NITRO.EXE\"",
+        "description": "Season 27andShop",
+        "achievement_or_tier": "275",
+        "id": 209
+    },
+    {
+        "name": "\"TypEd1tor\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "276",
+        "id": 210
+    },
+    {
+        "name": "\"Nitro Pioneer\"",
+        "description": "Season 27",
+        "achievement_or_tier": "277",
+        "id": 211
+    },
+    {
+        "name": "\"Gold Rusher\"",
+        "description": "Season 28",
+        "achievement_or_tier": "278",
+        "id": 212
+    },
+    {
+        "name": "\"Cuts the Line\"",
+        "description": "Season 28andShop",
+        "achievement_or_tier": "279",
+        "id": 213
+    },
+    {
+        "name": "\"Tornado Typist\"",
+        "description": "Season 28",
+        "achievement_or_tier": "280",
+        "id": 214
+    },
+    {
+        "name": "\"Exhibit A\"",
+        "description": "Season 28",
+        "achievement_or_tier": "281",
+        "id": 215
+    },
+    {
+        "name": "\"Full Throttle\"",
+        "description": "Season 28",
+        "achievement_or_tier": "282",
+        "id": 216
+    },
+    {
+        "name": "\"Olympic Gold Medalist\"",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "283",
+        "id": 217
+    },
+    {
+        "name": "\"Olympic Silver Medalist\"",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "284",
+        "id": 218
+    },
+    {
+        "name": "\"Olympic Bronze Medalist\"",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "285",
+        "id": 219
+    },
+    {
+        "name": "\"International Olympic Committee\"",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "286",
+        "id": 220
+    },
+    {
+        "name": "\"Comeback Kid\"",
+        "description": "Season 29andShop",
+        "achievement_or_tier": "287",
+        "id": 221
+    },
+    {
+        "name": "\"Photo Finisher\"",
+        "description": "Season 29andShop",
+        "achievement_or_tier": "288",
+        "id": 222
+    },
+    {
+        "name": "\"No Nitros Needed\"",
+        "description": "Season 29andShop",
+        "achievement_or_tier": "289",
+        "id": 223
+    },
+    {
+        "name": "\"Turboducken\"",
+        "description": "Season 29andShop",
+        "achievement_or_tier": "290",
+        "id": 224
+    },
+    {
+        "name": "\"WPM Wonderkid\"",
+        "description": "Season 29andShop",
+        "achievement_or_tier": "291",
+        "id": 225
+    },
+    {
+        "name": "\"BUG XPLOSION\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "292",
+        "id": 226
+    },
+    {
+        "name": "\"#NitroFurze\"",
+        "description": "#NitroFurze Event",
+        "achievement_or_tier": "293",
+        "id": 227
+    },
+    {
+        "name": "\"Wampus' Little Helper\"",
+        "description": "Season 30",
+        "achievement_or_tier": "294",
+        "id": 228
+    },
+    {
+        "name": "\"Sleigh All Day\"",
+        "description": "Season 30",
+        "achievement_or_tier": "295",
+        "id": 229
+    },
+    {
+        "name": "\"Competitor Team\"",
+        "description": "Seasons 1-12 and 14-18",
+        "achievement_or_tier": "297",
+        "id": 230
+    },
+    {
+        "name": "\"Has Friends\"",
+        "description": "Popularity Contest",
+        "achievement_or_tier": "299",
+        "id": 231
+    },
+    {
+        "name": "\"The Founder\"",
+        "description": "Admins",
+        "achievement_or_tier": "300",
+        "id": 232
+    },
+    {
+        "name": "\"Challenger Team\"",
+        "description": "Seasons 1-12 and 14-18",
+        "achievement_or_tier": "301",
+        "id": 233
+    },
+    {
+        "name": "\"Rival Team\"",
+        "description": "Seasons 1-12 and 14-18",
+        "achievement_or_tier": "302",
+        "id": 234
+    },
+    {
+        "name": "\"PAC Contender\"",
+        "description": "Season 13",
+        "achievement_or_tier": "304",
+        "id": 235
+    },
+    {
+        "name": "\"Contestant\"",
+        "description": "Seasons 1-12 and 14-18",
+        "achievement_or_tier": "305",
+        "id": 236
+    },
+    {
+        "name": "\"Champion Team\"",
+        "description": "Seasons 1-12 and 14-18",
+        "achievement_or_tier": "307",
+        "id": 237
+    },
+    {
+        "name": "\"Gamma PAC\"",
+        "description": "Season 13",
+        "achievement_or_tier": "311",
+        "id": 238
+    },
+    {
+        "name": "\"Competitor\"",
+        "description": "Seasons 1-12 and 14-18",
+        "achievement_or_tier": "312",
+        "id": 239
+    },
+    {
+        "name": "\"Champion\"",
+        "description": "Seasons 1-12 and 14-18",
+        "achievement_or_tier": "313",
+        "id": 240
+    },
+    {
+        "name": "\"Rival\"",
+        "description": "Seasons 1-12 and 14-18",
+        "achievement_or_tier": "314",
+        "id": 241
+    },
+    {
+        "name": "\"Beta PAC\"",
+        "description": "Season 13",
+        "achievement_or_tier": "321",
+        "id": 242
+    },
+    {
+        "name": "\"Like a Jet PAC\"",
+        "description": "Season 13",
+        "achievement_or_tier": "322",
+        "id": 243
+    },
+    {
+        "name": "\"Challenger\"",
+        "description": "Seasons 1-12 and 14-18",
+        "achievement_or_tier": "326",
+        "id": 244
+    },
+    {
+        "name": "\"Alpha PAC\"",
+        "description": "Season 13",
+        "achievement_or_tier": "329",
+        "id": 245
+    },
+    {
+        "name": "\"PAC Racer\"",
+        "description": "Season 13",
+        "achievement_or_tier": "330",
+        "id": 246
+    },
+    {
+        "name": "\"2015 Gold Olympian\"",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "331",
+        "id": 247
+    },
+    {
+        "name": "\"PACking a Punch\"",
+        "description": "Season 13",
+        "achievement_or_tier": "332",
+        "id": 248
+    },
+    {
+        "name": "\"I Dig Bugs\"",
+        "description": "Nitro Type 2.0Testing",
+        "achievement_or_tier": "333",
+        "id": 249
+    },
+    {
+        "name": "\"2015 Silver Olympian\"",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "334",
+        "id": 250
+    },
+    {
+        "name": "\"Nitro Type Moderator\"",
+        "description": "Moderators",
+        "achievement_or_tier": "335",
+        "id": 251
+    },
+    {
+        "name": "\"2016 Bronze Olympian\"",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "336",
+        "id": 252
+    },
+    {
+        "name": "\"2016 Gold Olympian\"",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "337",
+        "id": 253
+    },
+    {
+        "name": "\"The Friendly Helper\"",
+        "description": "Admins",
+        "achievement_or_tier": "338",
+        "id": 254
+    },
+    {
+        "name": "\"Super Luxury Car Driver\"",
+        "description": "N/A",
+        "achievement_or_tier": "339",
+        "id": 255
+    },
+    {
+        "name": "\"Super Sport Car Driver\"",
+        "description": "N/A",
+        "achievement_or_tier": "340",
+        "id": 256
+    },
+    {
+        "name": "\"Security Consultant\"",
+        "description": "Admins",
+        "achievement_or_tier": "341",
+        "id": 257
+    },
+    {
+        "name": "Nitro Type Olympics",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "342",
+        "id": 258
+    },
+    {
+        "name": "Nitro Type Olympics",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "343",
+        "id": 259
+    },
+    {
+        "name": "Nitro Type Olympics",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "344",
+        "id": 260
+    },
+    {
+        "name": "\"Brace for ImPAC\"",
+        "description": "Season 13",
+        "achievement_or_tier": "345",
+        "id": 261
+    },
+    {
+        "name": "Nitro Type Olympics",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "346",
+        "id": 262
+    },
+    {
+        "name": "\"Six Zero Racer\"",
+        "description": "N/A",
+        "achievement_or_tier": "347",
+        "id": 263
+    },
+    {
+        "name": "\"2016 Silver Olympian\"",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "348",
+        "id": 264
+    },
+    {
+        "name": "\"Friends Love Me\"",
+        "description": "Popularity Contest",
+        "achievement_or_tier": "350",
+        "id": 265
+    },
+    {
+        "name": "\"Winner\"",
+        "description": "Custom Car Drawing",
+        "achievement_or_tier": "351",
+        "id": 266
+    },
+    {
+        "name": "\"2015 Bronze Olympian\"",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "352",
+        "id": 267
+    },
+    {
+        "name": "\"Ultimate Racer\"",
+        "description": "Season 31andShop",
+        "achievement_or_tier": "353",
+        "id": 268
+    },
+    {
+        "name": "\"Cupid's Arrow\"",
+        "description": "Season 31andShop",
+        "achievement_or_tier": "354",
+        "id": 269
+    },
+    {
+        "name": "\"Not a Bot\"",
+        "description": "Season 31andShop",
+        "achievement_or_tier": "355",
+        "id": 270
+    },
+    {
+        "name": "\"Olympics Founder\"",
+        "description": "Nitro Type Olympics",
+        "achievement_or_tier": "356",
+        "id": 271
+    },
+    {
+        "name": "\"Ferret Parent\"",
+        "description": "Shop",
+        "achievement_or_tier": "357",
+        "id": 272
+    },
+    {
+        "name": "\"All your base are belong to Us!!\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "358",
+        "id": 273
+    },
+    {
+        "name": "\"All Night Racer\"",
+        "description": "Shop",
+        "achievement_or_tier": "359",
+        "id": 274
+    },
+    {
+        "name": "\"First!\"",
+        "description": "Shop",
+        "achievement_or_tier": "360",
+        "id": 275
+    },
+    {
+        "name": "\"Wampus Patrol\"",
+        "description": "Shop",
+        "achievement_or_tier": "361",
+        "id": 276
+    },
+    {
+        "name": "\"Typing Machine\"",
+        "description": "Shop",
+        "achievement_or_tier": "362",
+        "id": 277
+    },
+    {
+        "name": "\"Breaker of Winds\"",
+        "description": "Shop",
+        "achievement_or_tier": "363",
+        "id": 278
+    },
+    {
+        "name": "\"Down to the Wire\"",
+        "description": "Shop",
+        "achievement_or_tier": "364",
+        "id": 279
+    },
+    {
+        "name": "\"Speeeed!\"",
+        "description": "Shop",
+        "achievement_or_tier": "365",
+        "id": 280
+    },
+    {
+        "name": "\"Title Collector\"",
+        "description": "Shop",
+        "achievement_or_tier": "366",
+        "id": 281
+    },
+    {
+        "name": "\"Insert Title Here\"",
+        "description": "Shop",
+        "achievement_or_tier": "367",
+        "id": 282
+    },
+    {
+        "name": "\"Vroooom?\"",
+        "description": "Shop",
+        "achievement_or_tier": "368",
+        "id": 283
+    },
+    {
+        "name": "\"Let's Gooooo!\"",
+        "description": "Shop",
+        "achievement_or_tier": "369",
+        "id": 284
+    },
+    {
+        "name": "\"Neato\"",
+        "description": "Shop",
+        "achievement_or_tier": "370",
+        "id": 285
+    },
+    {
+        "name": "\"Auto Fashionista\"",
+        "description": "Shop",
+        "achievement_or_tier": "371",
+        "id": 286
+    },
+    {
+        "name": "\"Auto Avenger\"",
+        "description": "Shop",
+        "achievement_or_tier": "372",
+        "id": 287
+    },
+    {
+        "name": "\"Oh Em Gee!\"",
+        "description": "Shop",
+        "achievement_or_tier": "373",
+        "id": 288
+    },
+    {
+        "name": "\"Nitro Hoarder\"",
+        "description": "Shop",
+        "achievement_or_tier": "374",
+        "id": 289
+    },
+    {
+        "name": "\"Nitro Rich\"",
+        "description": "Shop",
+        "achievement_or_tier": "375",
+        "id": 290
+    },
+    {
+        "name": "\"I Love Dogs\"",
+        "description": "Shop",
+        "achievement_or_tier": "376",
+        "id": 291
+    },
+    {
+        "name": "\"I Love Cats\"",
+        "description": "Shop",
+        "achievement_or_tier": "377",
+        "id": 292
+    },
+    {
+        "name": "\"Top Tier\"",
+        "description": "Shop",
+        "achievement_or_tier": "378",
+        "id": 293
+    },
+    {
+        "name": "\"Winter Warrior\"",
+        "description": "Season 32andShop",
+        "achievement_or_tier": "379",
+        "id": 294
+    },
+    {
+        "name": "\"Ice Road Racer\"",
+        "description": "Season 32andShop",
+        "achievement_or_tier": "382",
+        "id": 295
+    },
+    {
+        "name": "\"Nitro Libre\"",
+        "description": "Season 32andShop",
+        "achievement_or_tier": "385",
+        "id": 296
+    },
+    {
+        "name": "\"Yo\"",
+        "description": "Shop",
+        "achievement_or_tier": "386",
+        "id": 297
+    },
+    {
+        "name": "\"Peace, Love, Nitros\"",
+        "description": "Shop",
+        "achievement_or_tier": "387",
+        "id": 298
+    },
+    {
+        "name": "\"Keyboard Smasher\"",
+        "description": "Shop",
+        "achievement_or_tier": "388",
+        "id": 299
+    },
+    {
+        "name": "\"Nitro Type Savior\"",
+        "description": "N/A",
+        "achievement_or_tier": "389",
+        "id": 300
+    },
+    {
+        "name": "\"3-2-1 GO!\"",
+        "description": "Shop",
+        "achievement_or_tier": "392",
+        "id": 301
+    },
+    {
+        "name": "\"I Like Turtles\"",
+        "description": "N/A",
+        "achievement_or_tier": "401",
+        "id": 302
+    },
+    {
+        "name": "\"Luck o' the Irish\"",
+        "description": "Shop",
+        "achievement_or_tier": "404",
+        "id": 303
+    },
+    {
+        "name": "\"Happy Saint Patty's!\"",
+        "description": "Shop",
+        "achievement_or_tier": "405",
+        "id": 304
+    },
+    {
+        "name": "\"Keep Calm & Shamrock On\"",
+        "description": "Shop",
+        "achievement_or_tier": "406",
+        "id": 305
+    },
+    {
+        "name": "\"Clutch Typer\"",
+        "description": "Shop",
+        "achievement_or_tier": "407",
+        "id": 306
+    },
+    {
+        "name": "\"Backseat Driver\"",
+        "description": "Shop",
+        "achievement_or_tier": "408",
+        "id": 307
+    },
+    {
+        "name": "\"Drift King\"",
+        "description": "Shop",
+        "achievement_or_tier": "409",
+        "id": 308
+    },
+    {
+        "name": "\"Drift Queen\"",
+        "description": "Shop",
+        "achievement_or_tier": "410",
+        "id": 309
+    },
+    {
+        "name": "\"Leadfoot\"",
+        "description": "Shop",
+        "achievement_or_tier": "411",
+        "id": 310
+    },
+    {
+        "name": "\"Speed Demon\"",
+        "description": "Shop",
+        "achievement_or_tier": "412",
+        "id": 311
+    },
+    {
+        "name": "\"Sunday Driver\"",
+        "description": "Shop",
+        "achievement_or_tier": "413",
+        "id": 312
+    },
+    {
+        "name": "\"Car Collector\"",
+        "description": "Shop",
+        "achievement_or_tier": "414",
+        "id": 313
+    },
+    {
+        "name": "\"Verified Twitch Streamer\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "415",
+        "id": 314
+    },
+    {
+        "name": "\"I Love Frogs\"",
+        "description": "Shop",
+        "achievement_or_tier": "416",
+        "id": 315
+    },
+    {
+        "name": "\"✅ Verified Nitro Admin\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "417",
+        "id": 316
+    },
+    {
+        "name": "\"Motorcycle Maniac\"",
+        "description": "Shop",
+        "achievement_or_tier": "418",
+        "id": 317
+    },
+    {
+        "name": "\"Taco Lover\"",
+        "description": "Shop",
+        "achievement_or_tier": "420",
+        "id": 318
+    },
+    {
+        "name": "\":D\"",
+        "description": "Shop",
+        "achievement_or_tier": "421",
+        "id": 319
+    },
+    {
+        "name": "\"Happy Vibes :)\"",
+        "description": "Shop",
+        "achievement_or_tier": "422",
+        "id": 320
+    },
+    {
+        "name": "\"Nitro Booster\"",
+        "description": "Shop",
+        "achievement_or_tier": "423",
+        "id": 321
+    },
+    {
+        "name": "\"The Prankster\"",
+        "description": "Shop",
+        "achievement_or_tier": "424",
+        "id": 322
+    },
+    {
+        "name": "\"Potaytoes\"",
+        "description": "Shop",
+        "achievement_or_tier": "429",
+        "id": 323
+    },
+    {
+        "name": "\"Lightspeed\"",
+        "description": "Shop",
+        "achievement_or_tier": "430",
+        "id": 324
+    },
+    {
+        "name": "\"Pachycephalosaur\"",
+        "description": "Shop",
+        "achievement_or_tier": "431",
+        "id": 325
+    },
+    {
+        "name": "\"Unda da Sea\"",
+        "description": "Season 33andShop",
+        "achievement_or_tier": "435",
+        "id": 326
+    },
+    {
+        "name": "\"Aquarian Conqueror\"",
+        "description": "Season 33andShop",
+        "achievement_or_tier": "436",
+        "id": 327
+    },
+    {
+        "name": "\"Bubbly!\"",
+        "description": "Season 33andShop",
+        "achievement_or_tier": "437",
+        "id": 328
+    },
+    {
+        "name": "\"Sea Student\"",
+        "description": "Season 33andShop",
+        "achievement_or_tier": "438",
+        "id": 329
+    },
+    {
+        "name": "\"Shanty Life 4 Me\"",
+        "description": "Season 33andShop",
+        "achievement_or_tier": "439",
+        "id": 330
+    },
+    {
+        "name": "\"Cash Packager\"",
+        "description": "Cash Store",
+        "achievement_or_tier": "443",
+        "id": 331
+    },
+    {
+        "name": "\"Bucket Lister\"",
+        "description": "Cash Store",
+        "achievement_or_tier": "444",
+        "id": 332
+    },
+    {
+        "name": "\"Lil' Cash Dabbler\"",
+        "description": "Cash Store",
+        "achievement_or_tier": "445",
+        "id": 333
+    },
+    {
+        "name": "\"Please Subscribe\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "473",
+        "id": 334
+    },
+    {
+        "name": "\"Josh!\"",
+        "description": "Shop",
+        "achievement_or_tier": "499",
+        "id": 335
+    },
+    {
+        "name": "\"Trailblazer\"",
+        "description": "Season 34andShop",
+        "achievement_or_tier": "506",
+        "id": 336
+    },
+    {
+        "name": "\"Trail Master\"",
+        "description": "Season 34andShop",
+        "achievement_or_tier": "507",
+        "id": 337
+    },
+    {
+        "name": "\"Trail Angel\"",
+        "description": "Season 34andShop",
+        "achievement_or_tier": "508",
+        "id": 338
+    },
+    {
+        "name": "\"Bushwacker\"",
+        "description": "Season 34andShop",
+        "achievement_or_tier": "509",
+        "id": 339
+    },
+    {
+        "name": "\"Single-tracker\"",
+        "description": "Season 34andShop",
+        "achievement_or_tier": "512",
+        "id": 340
+    },
+    {
+        "name": "\"Captain of the Guard\"",
+        "description": "N/A",
+        "achievement_or_tier": "517",
+        "id": 341
+    },
+    {
+        "name": "\"For the Win!\"",
+        "description": "Season 35",
+        "achievement_or_tier": "536",
+        "id": 342
+    },
+    {
+        "name": "\"Bootstrapper\"",
+        "description": "Season 35",
+        "achievement_or_tier": "539",
+        "id": 343
+    },
+    {
+        "name": "\"Golden Student\"",
+        "description": "Season 35",
+        "achievement_or_tier": "540",
+        "id": 344
+    },
+    {
+        "name": "\"Oops!\"",
+        "description": "Season 35andShop",
+        "achievement_or_tier": "542",
+        "id": 345
+    },
+    {
+        "name": "\"The One and Only Zav\"",
+        "description": "N/A",
+        "achievement_or_tier": "557",
+        "id": 346
+    },
+    {
+        "name": "\"Scaredy-Cat\"",
+        "description": "Shop",
+        "achievement_or_tier": "560",
+        "id": 347
+    },
+    {
+        "name": "\"Hallow Hunter\"",
+        "description": "Shop",
+        "achievement_or_tier": "561",
+        "id": 348
+    },
+    {
+        "name": "\"Trick or Typer\"",
+        "description": "Shop",
+        "achievement_or_tier": "562",
+        "id": 349
+    },
+    {
+        "name": "\"Boo-Ya!\"",
+        "description": "Shop",
+        "achievement_or_tier": "563",
+        "id": 350
+    },
+    {
+        "name": "\"Ghoul Gamer\"",
+        "description": "Shop",
+        "achievement_or_tier": "564",
+        "id": 351
+    },
+    {
+        "name": "\"Scare Master\"",
+        "description": "Shop",
+        "achievement_or_tier": "565",
+        "id": 352
+    },
+    {
+        "name": "\"Equinox Enthusiast\"",
+        "description": "Season 36",
+        "achievement_or_tier": "573",
+        "id": 353
+    },
+    {
+        "name": "\"A-maize-ing\"",
+        "description": "Season 36",
+        "achievement_or_tier": "574",
+        "id": 354
+    },
+    {
+        "name": "\"Raking in Wins\"",
+        "description": "Season 36",
+        "achievement_or_tier": "575",
+        "id": 355
+    },
+    {
+        "name": "\"Un-be-leaf-able!\"",
+        "description": "Season 36andShop",
+        "achievement_or_tier": "576",
+        "id": 356
+    },
+    {
+        "name": "\"Turkey Roaster\"",
+        "description": "Season 36",
+        "achievement_or_tier": "577",
+        "id": 357
+    },
+    {
+        "name": "\"Speed Champion\"",
+        "description": "Discord Speed competition",
+        "achievement_or_tier": "583",
+        "id": 358
+    },
+    {
+        "name": "\"Qwerty Quester\"",
+        "description": "Shop",
+        "achievement_or_tier": "584",
+        "id": 359
+    },
+    {
+        "name": "\"Colemak Conqueror\"",
+        "description": "Shop",
+        "achievement_or_tier": "585",
+        "id": 360
+    },
+    {
+        "name": "\"Dvorak Destroyer\"",
+        "description": "Shop",
+        "achievement_or_tier": "586",
+        "id": 361
+    },
+    {
+        "name": "\"♪ O, Enter Key ♪\"",
+        "description": "Season 37",
+        "achievement_or_tier": "591",
+        "id": 362
+    },
+    {
+        "name": "\"Breaking the Ice\"",
+        "description": "Season 37",
+        "achievement_or_tier": "592",
+        "id": 363
+    },
+    {
+        "name": "\"Heart & Solstice\"",
+        "description": "Season 37",
+        "achievement_or_tier": "593",
+        "id": 364
+    },
+    {
+        "name": "\"Elf-Taught Typist\"",
+        "description": "Season 37andShop",
+        "achievement_or_tier": "594",
+        "id": 365
+    },
+    {
+        "name": "\"Lighting Up The Night\"",
+        "description": "Season 37",
+        "achievement_or_tier": "595",
+        "id": 366
+    },
+    {
+        "name": "\"Bon Appéti​t\"",
+        "description": "Season 38",
+        "achievement_or_tier": "601",
+        "id": 367
+    },
+    {
+        "name": "\"Small Fry\"",
+        "description": "Season 38",
+        "achievement_or_tier": "602",
+        "id": 368
+    },
+    {
+        "name": "\"Pasta La Vista!\"",
+        "description": "Season 38",
+        "achievement_or_tier": "603",
+        "id": 369
+    },
+    {
+        "name": "\"What's Cookin'?\"",
+        "description": "Season 38",
+        "achievement_or_tier": "604",
+        "id": 370
+    },
+    {
+        "name": "\"Executive Chef\"",
+        "description": "Season 38",
+        "achievement_or_tier": "605",
+        "id": 371
+    },
+    {
+        "name": "\"The One and Only Agu\"",
+        "description": "N/A",
+        "achievement_or_tier": "615",
+        "id": 372
+    },
+    {
+        "name": "\"Verified TikToker\"",
+        "description": "Special Sauce",
+        "achievement_or_tier": "617",
+        "id": 373
+    },
+    {
+        "name": "\"The Commentator\"",
+        "description": "N/A",
+        "achievement_or_tier": "618",
+        "id": 374
+    },
+    {
+        "name": "\"Retro Racer\"",
+        "description": "Season 39 Volume 1",
+        "achievement_or_tier": "626",
+        "id": 375
+    },
+    {
+        "name": "\"Problem Solver\"",
+        "description": "Season 39 Volume 1andShop",
+        "achievement_or_tier": "628",
+        "id": 376
+    },
+    {
+        "name": "\"Spring Vibin'\"",
+        "description": "Season 39 Volume 1andShop",
+        "achievement_or_tier": "629",
+        "id": 377
+    },
+    {
+        "name": "\"Ready Racer One\"",
+        "description": "Season 39 Volume 1",
+        "achievement_or_tier": "630",
+        "id": 378
+    },
+    {
+        "name": "\"May The 4th Be With You\"",
+        "description": "Shop",
+        "achievement_or_tier": "641",
+        "id": 379
+    },
+    {
+        "name": "\"2022 Grad\"",
+        "description": "Shop",
+        "achievement_or_tier": "643",
+        "id": 380
+    },
+    {
+        "name": "\"Speedrunner\"",
+        "description": "Season 39 Volume 2",
+        "achievement_or_tier": "646",
+        "id": 381
+    },
+    {
+        "name": "\"WASD Warrior\"",
+        "description": "Season 39 Volume 2",
+        "achievement_or_tier": "647",
+        "id": 382
+    },
+    {
+        "name": "\"Continue?\"",
+        "description": "Season 39 Volume 2andShop",
+        "achievement_or_tier": "648",
+        "id": 383
+    },
+    {
+        "name": "\"Combo Breaker\"",
+        "description": "Season 39 Volume 2",
+        "achievement_or_tier": "649",
+        "id": 384
+    },
+    {
+        "name": "\"I Race Friends\"",
+        "description": "Popularity Contest",
+        "achievement_or_tier": "653",
+        "id": 385
+    },
+    {
+        "name": "\"Bringing the Heat\"",
+        "description": "Season 40",
+        "achievement_or_tier": "662",
+        "id": 386
+    },
+    {
+        "name": "\"Inferno Racer\"",
+        "description": "Season 40",
+        "achievement_or_tier": "663",
+        "id": 387
+    },
+    {
+        "name": "\"Vacationer\"",
+        "description": "Season 40andShop",
+        "achievement_or_tier": "664",
+        "id": 388
+    },
+    {
+        "name": "\"Wave Breaker\"",
+        "description": "Season 40",
+        "achievement_or_tier": "665",
+        "id": 389
+    },
+    {
+        "name": "\"Yeah, Buoy!\"",
+        "description": "Season 40andShop",
+        "achievement_or_tier": "666",
+        "id": 390
+    },
+    {
+        "name": "\"Goth Moth\"",
+        "description": "N/A",
+        "achievement_or_tier": "671",
+        "id": 391
+    },
+    {
+        "name": "\"Tyrannosaurus Typist\"",
+        "description": "Season 41",
+        "achievement_or_tier": "673",
+        "id": 392
+    },
+    {
+        "name": "\"Barbarian\"",
+        "description": "Season 41",
+        "achievement_or_tier": "674",
+        "id": 393
+    },
+    {
+        "name": "\"Scallywag\"",
+        "description": "Season 41andShop",
+        "achievement_or_tier": "675",
+        "id": 394
+    },
+    {
+        "name": "\"Pharaoh\"",
+        "description": "Season 41",
+        "achievement_or_tier": "676",
+        "id": 395
+    },
+    {
+        "name": "\"Imperator\"",
+        "description": "Season 41",
+        "achievement_or_tier": "677",
+        "id": 396
+    },
+    {
+        "name": "\"You'll Never Beat Me!\"",
+        "description": "The Wampus",
+        "achievement_or_tier": "685",
+        "id": 397
+    },
+    {
+        "name": "\"I'm Ready\"",
+        "description": "Season 42",
+        "achievement_or_tier": "693",
+        "id": 398
+    },
+    {
+        "name": "\"Aye-aye Captain!\"",
+        "description": "Season 42",
+        "achievement_or_tier": "694",
+        "id": 399
+    },
+    {
+        "name": "\"Broadcaster\"",
+        "description": "Season 42",
+        "achievement_or_tier": "695",
+        "id": 400
+    },
+    {
+        "name": "\"Where's the remote?\"",
+        "description": "Season 42andShop",
+        "achievement_or_tier": "696",
+        "id": 401
+    },
+    {
+        "name": "\"Asst to the Regional Manager\"",
+        "description": "N/A",
+        "achievement_or_tier": "697",
+        "id": 402
+    },
+    {
+        "name": "\"World's Best Boss\"",
+        "description": "Season 42",
+        "achievement_or_tier": "698",
+        "id": 403
+    },
+    {
+        "name": "\"Turbo Typist\"",
+        "description": "Season 43andShop",
+        "achievement_or_tier": "704",
+        "id": 404
+    },
+    {
+        "name": "\"Pit Crew\"",
+        "description": "Season 43",
+        "achievement_or_tier": "705",
+        "id": 405
+    },
+    {
+        "name": "\"On Your Marks\"",
+        "description": "Season 43",
+        "achievement_or_tier": "706",
+        "id": 406
+    },
+    {
+        "name": "\"Rally Master\"",
+        "description": "Season 43andShop",
+        "achievement_or_tier": "707",
+        "id": 407
+    },
+    {
+        "name": "\"Need 4 Speed\"",
+        "description": "Season 43",
+        "achievement_or_tier": "708",
+        "id": 408
+    },
+    {
+        "name": "\"Sp3llchekcer\"",
+        "description": "Spell Checking",
+        "achievement_or_tier": "712",
+        "id": 409
+    },
+    {
+        "name": "\"Blizzard Blitzer!\"",
+        "description": "Season 44",
+        "achievement_or_tier": "722",
+        "id": 410
+    },
+    {
+        "name": "\"Red-Nosed Racer\"",
+        "description": "Season 44",
+        "achievement_or_tier": "723",
+        "id": 411
+    },
+    {
+        "name": "\"♪ Rockin’ Around the XMaxx Tree ♪\"",
+        "description": "Season 44",
+        "achievement_or_tier": "724",
+        "id": 412
+    },
+    {
+        "name": "\"The Mammoth\"",
+        "description": "Season 44",
+        "achievement_or_tier": "725",
+        "id": 413
+    },
+    {
+        "name": "\"On Thin Ice\"",
+        "description": "Season 44",
+        "achievement_or_tier": "726",
+        "id": 414
+    },
+    {
+        "name": "\"Verified Tweeter\"",
+        "description": "Twitter",
+        "achievement_or_tier": "727",
+        "id": 415
+    },
+    {
+        "name": "\"Galactic Guardian\"",
+        "description": "Shop",
+        "achievement_or_tier": "732",
+        "id": 416
+    },
+    {
+        "name": "\"Grab the Popcorn!\"",
+        "description": "Season 45",
+        "achievement_or_tier": "733",
+        "id": 417
+    },
+    {
+        "name": "\"The Wicked Witch\"",
+        "description": "Season 45",
+        "achievement_or_tier": "734",
+        "id": 418
+    },
+    {
+        "name": "\"Great Scott!\"",
+        "description": "Season 45",
+        "achievement_or_tier": "735",
+        "id": 419
+    },
+    {
+        "name": "\"Secret Agent\"",
+        "description": "Season 45",
+        "achievement_or_tier": "736",
+        "id": 420
+    },
+    {
+        "name": "\"Ghost Getter\"",
+        "description": "Season 45",
+        "achievement_or_tier": "737",
+        "id": 421
+    },
+    {
+        "name": "\"Legendary\"",
+        "description": "Most Deserving",
+        "achievement_or_tier": "745",
+        "id": 422
+    },
+    {
+        "name": "\"Goblin Mode\"",
+        "description": "Shop",
+        "achievement_or_tier": "746",
+        "id": 423
+    },
+    {
+        "name": "\"Ninja\"",
+        "description": "Shop",
+        "achievement_or_tier": "747",
+        "id": 424
+    },
+    {
+        "name": "\"Extraterrestrial\"",
+        "description": "Shop",
+        "achievement_or_tier": "748",
+        "id": 425
+    },
+    {
+        "name": "\"Petal Pusher\"",
+        "description": "Season 46",
+        "achievement_or_tier": "754",
+        "id": 426
+    },
+    {
+        "name": "\"Seasonal Racer\"",
+        "description": "Season 46",
+        "achievement_or_tier": "755",
+        "id": 427
+    },
+    {
+        "name": "\"March Madness Champ\"",
+        "description": "Season 46",
+        "achievement_or_tier": "756",
+        "id": 428
+    },
+    {
+        "name": "\"Fast Forward\"",
+        "description": "Season 46",
+        "achievement_or_tier": "757",
+        "id": 429
+    },
+    {
+        "name": "\"Fast and Flora\"",
+        "description": "Season 46",
+        "achievement_or_tier": "758",
+        "id": 430
+    },
+    {
+        "name": "\"Spring into Speed\"",
+        "description": "Season 46",
+        "achievement_or_tier": "759",
+        "id": 431
+    },
+    {
+        "name": "\"Extracurricular\"",
+        "description": "N/A",
+        "achievement_or_tier": "770",
+        "id": 432
+    },
+    {
+        "name": "\"Roar to Victory\"",
+        "description": "Season 47",
+        "achievement_or_tier": "780",
+        "id": 433
+    },
+    {
+        "name": "\"Leader of the Pack\"",
+        "description": "Season 47",
+        "achievement_or_tier": "781",
+        "id": 434
+    },
+    {
+        "name": "\"Wild Thang\"",
+        "description": "Season 47",
+        "achievement_or_tier": "782",
+        "id": 435
+    },
+    {
+        "name": "\"Savanna Speedster\"",
+        "description": "Season 47",
+        "achievement_or_tier": "783",
+        "id": 436
+    },
+    {
+        "name": "\"Ferocious Finisher\"",
+        "description": "Season 47",
+        "achievement_or_tier": "784",
+        "id": 437
+    },
+    {
+        "name": "\"Speed Scholar\"",
+        "description": "Season 48",
+        "achievement_or_tier": "800",
+        "id": 438
+    },
+    {
+        "name": "\"Algebra Ace\"",
+        "description": "Season 48",
+        "achievement_or_tier": "801",
+        "id": 439
+    },
+    {
+        "name": "\"Race Day Prodigy\"",
+        "description": "Season 48",
+        "achievement_or_tier": "802",
+        "id": 440
+    },
+    {
+        "name": "\"Fast Track Flyer\"",
+        "description": "Season 48",
+        "achievement_or_tier": "803",
+        "id": 441
+    },
+    {
+        "name": "\"Field Trip Speedrunner\"",
+        "description": "Season 48",
+        "achievement_or_tier": "804",
+        "id": 442
+    },
+    {
+        "name": "\"Number Cruncher\"",
+        "description": "Season 48",
+        "achievement_or_tier": "805",
+        "id": 443
+    },
+    {
+        "name": "\"Batty\"",
+        "description": "Season 49",
+        "achievement_or_tier": "812",
+        "id": 444
+    },
+    {
+        "name": "\"Spectral Speedster\"",
+        "description": "Season 49",
+        "achievement_or_tier": "813",
+        "id": 445
+    },
+    {
+        "name": "\"Witchy Wheeler\"",
+        "description": "Season 49",
+        "achievement_or_tier": "814",
+        "id": 446
+    },
+    {
+        "name": "\"Ghoul's Gold\"",
+        "description": "Season 49",
+        "achievement_or_tier": "815",
+        "id": 447
+    },
+    {
+        "name": "\"Pumpkin Peddler\"",
+        "description": "Season 49",
+        "achievement_or_tier": "816",
+        "id": 448
+    },
+    {
+        "name": "\"Square Deal Speedster\"",
+        "description": "Box o' Cash Bundle",
+        "achievement_or_tier": "821",
+        "id": 449
+    },
+    {
+        "name": "\"Can-Do Dynamo\"",
+        "description": "Trash Can o' Cash Bundle",
+        "achievement_or_tier": "822",
+        "id": 450
+    },
+    {
+        "name": "\"Loaded Lorry Legend\"",
+        "description": "Truck o' Cash Bundle",
+        "achievement_or_tier": "823",
+        "id": 451
+    },
+    {
+        "name": "\"Rolling Royalty Racer\"",
+        "description": "Huge Ball o' Cash Bundle",
+        "achievement_or_tier": "824",
+        "id": 452
+    },
+    {
+        "name": "\"Nitro Wealthy\"",
+        "description": "N/A",
+        "achievement_or_tier": "827",
+        "id": 453
+    },
+    {
+        "name": "\"Nitro-Opulent\"",
+        "description": "Nitro Fortune Cash Pack",
+        "achievement_or_tier": "828",
+        "id": 454
+    },
+    {
+        "name": "\"Nitro Prosperous\"",
+        "description": "N/A",
+        "achievement_or_tier": "829",
+        "id": 455
+    },
+    {
+        "name": "\"Ghostly Gearhead\"",
+        "description": "Season 49",
+        "achievement_or_tier": "835",
+        "id": 456
+    },
+    {
+        "name": "\"The Diamond Racer\"",
+        "description": "Xmaxx Sale",
+        "achievement_or_tier": "836",
+        "id": 457
+    },
+    {
+        "name": "\"Jingle Jockey\"",
+        "description": "Season 50",
+        "achievement_or_tier": "837",
+        "id": 458
+    },
+    {
+        "name": "\"Frosty Flyer\"",
+        "description": "Season 50",
+        "achievement_or_tier": "838",
+        "id": 459
+    },
+    {
+        "name": "\"Reindeer Racer\"",
+        "description": "Season 50",
+        "achievement_or_tier": "839",
+        "id": 460
+    },
+    {
+        "name": "\"Festive Flash\"",
+        "description": "Season 50",
+        "achievement_or_tier": "840",
+        "id": 461
+    },
+    {
+        "name": "\"North Pole Navigator\"",
+        "description": "Season 50",
+        "achievement_or_tier": "841",
+        "id": 462
+    },
+    {
+        "name": "\"Candy Cane Cruiser\"",
+        "description": "Season 50",
+        "achievement_or_tier": "842",
+        "id": 463
+    },
+    {
+        "name": "\"Sorcerer of Speed\"",
+        "description": "Season 51",
+        "achievement_or_tier": "855",
+        "id": 464
+    },
+    {
+        "name": "\"Phantom Fingers\"",
+        "description": "Season 51",
+        "achievement_or_tier": "856",
+        "id": 465
+    },
+    {
+        "name": "\"Mystic Racer\"",
+        "description": "Season 51",
+        "achievement_or_tier": "857",
+        "id": 466
+    },
+    {
+        "name": "\"Magical Maestro\"",
+        "description": "Season 51",
+        "achievement_or_tier": "858",
+        "id": 467
+    },
+    {
+        "name": "\"Dragon Tamer\"",
+        "description": "Season 51",
+        "achievement_or_tier": "859",
+        "id": 468
+    },
+    {
+        "name": "\"Titan of the Track\"",
+        "description": "Season 51",
+        "achievement_or_tier": "860",
+        "id": 469
+    },
+    {
+        "name": "\"Spring Streaker\"",
+        "description": "Season 52",
+        "achievement_or_tier": "866",
+        "id": 470
+    },
+    {
+        "name": "\"April Ace\"",
+        "description": "Season 52",
+        "achievement_or_tier": "867",
+        "id": 471
+    },
+    {
+        "name": "\"Raindrop Racer\"",
+        "description": "Season 52",
+        "achievement_or_tier": "868",
+        "id": 472
+    },
+    {
+        "name": "\"Eggstra Speedy\"",
+        "description": "Season 52",
+        "achievement_or_tier": "869",
+        "id": 473
+    },
+    {
+        "name": "\"Blossom Blazer\"",
+        "description": "Season 52",
+        "achievement_or_tier": "870",
+        "id": 474
+    },
+    {
+        "name": "\"Dewdrop Drifter\"",
+        "description": "Season 52",
+        "achievement_or_tier": "871",
+        "id": 475
+    },
+    {
+        "name": "\"RoboCop\"",
+        "description": "N/A",
+        "achievement_or_tier": "872",
+        "id": 476
+    },
+    {
+        "name": "\"Shocking\"",
+        "description": "Early Bird Renewal Advantage",
+        "achievement_or_tier": "873",
+        "id": 477
+    },
+    {
+        "name": "\"Turbo Tycoon\"",
+        "description": "Nitro Fortune Cash Pack",
+        "achievement_or_tier": "874",
+        "id": 478
+    },
+    {
+        "name": "\"Heatwave Hero\"",
+        "description": "Season 53",
+        "achievement_or_tier": "885",
+        "id": 479
+    },
+    {
+        "name": "\"2024 Grad\"",
+        "description": "Shop",
+        "achievement_or_tier": "890",
+        "id": 480
+    },
+    {
+        "name": "\"Learner Leader\"",
+        "description": "Leagues",
+        "achievement_or_tier": "892",
+        "id": 481
+    },
+    {
+        "name": "\"Novice Navigator\"",
+        "description": "Leagues",
+        "achievement_or_tier": "893",
+        "id": 482
+    },
+    {
+        "name": "\"Rookie Racer\"",
+        "description": "Leagues",
+        "achievement_or_tier": "894",
+        "id": 483
+    },
+    {
+        "name": "\"Pro Pacer\"",
+        "description": "Leagues",
+        "achievement_or_tier": "895",
+        "id": 484
+    },
+    {
+        "name": "\"Ace Acccelerator\"",
+        "description": "Leagues",
+        "achievement_or_tier": "896",
+        "id": 485
+    },
+    {
+        "name": "\"Expert Extraordinaire\"",
+        "description": "Leagues",
+        "achievement_or_tier": "897",
+        "id": 486
+    },
+    {
+        "name": "\"Champion Chaser\"",
+        "description": "Leagues",
+        "achievement_or_tier": "898",
+        "id": 487
+    },
+    {
+        "name": "\"Master Motorist\"",
+        "description": "Leagues",
+        "achievement_or_tier": "899",
+        "id": 488
+    },
+    {
+        "name": "\"Epic Engager\"",
+        "description": "Leagues",
+        "achievement_or_tier": "900",
+        "id": 489
+    },
+    {
+        "name": "\"Legendary Lapper\"",
+        "description": "Leagues",
+        "achievement_or_tier": "901",
+        "id": 490
+    },
+    {
+        "name": "\"League Champion\"",
+        "description": "Leagues",
+        "achievement_or_tier": "902",
+        "id": 491
+    },
+    {
+        "name": "\"404 Not Found\"",
+        "description": "Shop",
+        "achievement_or_tier": "913",
+        "id": 492
+    },
+    {
+        "name": "\"Mechanic\"",
+        "description": "Season 54",
+        "achievement_or_tier": "918",
+        "id": 493
+    },
+    {
+        "name": "\"Gear Grinder\"",
+        "description": "Season 54",
+        "achievement_or_tier": "919",
+        "id": 494
+    },
+    {
+        "name": "\"Heavy Hauler\"",
+        "description": "Season 54",
+        "achievement_or_tier": "920",
+        "id": 495
+    },
+    {
+        "name": "\"Hydraulic Hero\"",
+        "description": "Season 54",
+        "achievement_or_tier": "921",
+        "id": 496
+    },
+    {
+        "name": "\"Son of Corndog\"",
+        "description": "Admins",
+        "achievement_or_tier": "924",
+        "id": 497
+    },
+    {
+        "name": "\"2icy4u\"",
+        "description": "Season 55",
+        "achievement_or_tier": "925",
+        "id": 498
+    },
+    {
+        "name": "\"Santa's Lil' Helper\"",
+        "description": "Season 55",
+        "achievement_or_tier": "928",
+        "id": 499
+    },
+    {
+        "name": "\"On The Nice List\"",
+        "description": "Season 55",
+        "achievement_or_tier": "929",
+        "id": 500
+    },
+    {
+        "name": "\"Yuletide Spirit\"",
+        "description": "Season 55",
+        "achievement_or_tier": "930",
+        "id": 501
+    },
+    {
+        "name": "\"Operation: Typing\"",
+        "description": "N/A",
+        "achievement_or_tier": "934",
+        "id": 502
+    },
+    {
+        "name": "\"Overdrive\"",
+        "description": "Season 56",
+        "achievement_or_tier": "940",
+        "id": 503
+    },
+    {
+        "name": "\"Encore\"",
+        "description": "Season 56",
+        "achievement_or_tier": "941",
+        "id": 504
+    },
+    {
+        "name": "\"Spring Speedster\"",
+        "description": "Spring Showdown",
+        "achievement_or_tier": "946",
+        "id": 505
+    },
+    {
+        "name": "\"Green Streak\"",
+        "description": "Spring Showdown",
+        "achievement_or_tier": "950",
+        "id": 506
+    },
+    {
+        "name": "\"Eternal Spring\"",
+        "description": "Spring Showdown",
+        "achievement_or_tier": "951",
+        "id": 507
+    },
+    {
+        "name": "\"Flora Fury\"",
+        "description": "Spring Showdown",
+        "achievement_or_tier": "952",
+        "id": 508
+    },
+    {
+        "name": "\"2025 Grad\"",
+        "description": "Shop",
+        "achievement_or_tier": "954",
+        "id": 509
+    }
+]
