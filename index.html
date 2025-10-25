@@ -73,27 +73,21 @@ let allCars = [];
 let allTitles = [];
 
 async function loadData() {
-    console.log('Starting to load cars.json and titles.json...');
+    console.log('Loading cars.json and titles.json...');
     const [carsResponse, titlesResponse] = await Promise.all([
         fetch('cars.json'),
         fetch('titles.json')
     ]);
-    console.log('cars.json response status:', carsResponse.status);
-    console.log('titles.json response status:', titlesResponse.status);
     if (!carsResponse.ok) {
         throw new Error(`Error loading cars.json: ${carsResponse.status}`);
     }
     if (!titlesResponse.ok) {
         throw new Error(`Error loading titles.json: ${titlesResponse.status}`);
     }
-    const carsData = await carsResponse.json();
-    const titlesData = await titlesResponse.json();
-    console.log('Loaded cars.json:', carsData);
-    console.log('Loaded titles.json:', titlesData);
-    allCars = carsData;
-    allTitles = titlesData;
-    console.log('Stored data in allCars and allTitles.');
-    return { cars: carsData, titles: titlesData };
+    allCars = await carsResponse.json();
+    allTitles = await titlesResponse.json();
+    console.log('Loaded cars:', allCars);
+    console.log('Loaded titles:', allTitles);
 }
 
 async function findArrayContainingShop(data) {
@@ -101,24 +95,20 @@ async function findArrayContainingShop(data) {
     const pattern = /"SHOP",/;
     const match = pattern.exec(data);
     if (!match) {
-        console.log('No match for "SHOP" found.');
+        console.log('No array containing "SHOP" found.');
         return null;
     }
     const index = match.index;
-    console.log('Match found at index:', index);
     const arrayStart = data.lastIndexOf('[', index);
-    console.log('Array start at index:', arrayStart);
     if (arrayStart === -1) {
-        console.log('No array start "[" found before match.');
+        console.log('No array start "[" found.');
         return null;
     }
-
     let stack = 0;
     let arrayEnd = -1;
-    for (let i = arrayStart; i < data.length; i++) {
-        if (data[i] === '[') {
-            stack++;
-        } else if (data[i] === ']') {
+    for (let i = arrayStart; i &lt; data.length; i++) {
+        if (data[i] === '[') stack++;
+        else if (data[i] === ']') {
             stack--;
             if (stack === 0) {
                 arrayEnd = i + 1;
@@ -126,105 +116,85 @@ async function findArrayContainingShop(data) {
             }
         }
     }
-    console.log('Array end index:', arrayEnd);
     if (arrayEnd === -1) {
-        console.log('No matching closing "]" found for array.');
+        console.log('No closing bracket for array.');
         return null;
     }
-
-    const arrayString = data.substring(arrayStart, arrayEnd);
-    console.log('Extracted array string:', arrayString);
-    return arrayString;
+    const arrayStr = data.substring(arrayStart, arrayEnd);
+    console.log('Extracted array:', arrayStr);
+    return arrayStr;
 }
 
 async function fetchAndProcess() {
-    const resultElem = document.getElementById('result');
-    const extractedDataElem = document.getElementById('extractedCarsData');
-    resultElem.textContent = '';
+    const resultPre = document.getElementById('result');
+    const carsPre = document.getElementById('extractedCarsData');
+    resultPre.textContent = '';
 
     try {
         console.log('Fetching bootstrap data...');
         const response = await fetch(workerUrl);
-        console.log('Bootstrap fetch response status:', response.status);
-        if (!response.ok) {
-            throw new Error(`Response not OK: ${response.status}`);
-        }
+        if (!response.ok) throw new Error(`Response not OK: ${response.status}`);
         const data = await response.text();
         console.log('Received bootstrap data snippet:', data.substring(0, 200) + '...');
-
         const arrayStr = await findArrayContainingShop(data);
-        if (arrayStr) {
-            const singleLineArrayStr = arrayStr.replace(/[\n\r]/g, ''); 
-            console.log('Array string found:', singleLineArrayStr);
-            resultElem.textContent = singleLineArrayStr;
-        } else {
-            console.log('Array containing "SHOP" not found.');
-            resultElem.textContent = 'Could not find array containing "SHOP".';
+        if (!arrayStr) {
+            resultPre.textContent = 'Could not find array containing "SHOP".';
+            return;
+        }
+        resultPre.textContent = arrayStr.replace(/[\n\r]/g, '');
+
+        let arrayData;
+        try {
+            arrayData = JSON.parse(arrayStr);
+        } catch (e) {
+            resultPre.textContent += 'Error parsing array JSON: ' + e.message;
+            return;
         }
 
-        if (arrayStr) {
-            let outputText = 'Extracted Array String:\n' + arrayStr + '\n\n'; 
+        if (Array.isArray(arrayData) && arrayData.length > 1) {
+            arrayData = arrayData[1];
+        }
 
-            let arrayData;
-            try {
-                arrayData = JSON.parse(arrayStr);
-                console.log('Parsed array JSON:', arrayData);
-            } catch (e) {
-                outputText += 'Error parsing array JSON: ' + e.message;
-                resultElem.textContent += outputText;
-                return;
-            }
+        if (!Array.isArray(arrayData)) {
+            console.log('Array data is not an array.');
+            return;
+        }
 
-            if (Array.isArray(arrayData) && arrayData.length > 1) {
-                arrayData = arrayData[1];
-                console.log('Nested arrayData:', arrayData);
-            }
-
-            if (Array.isArray(arrayData)) {
-                let carsFound = [];
-                for (const categoryObj of arrayData) {
-                    if (categoryObj) {
-                        console.log('Category object:', categoryObj);
-                        if (categoryObj.items && Array.isArray(categoryObj.items)) {
-                            for (const item of categoryObj.items) {
-                                if (item) {
-                                    console.log('Item:', item);
-                                    if (item.type === 'car') {
-                                        console.log('Found car item:', item);
-                                        carsFound.push(item);
-                                    }
-                                }
-                            }
-                        }
+        let carsItems = [];
+        for (const category of arrayData) {
+            if (category && category.items && Array.isArray(category.items)) {
+                for (const item of category.items) {
+                    if (item && item.type === 'car') {
+                        carsItems.push(item);
+                        console.log('Found car item:', item);
                     }
                 }
-                console.log('Cars found:', carsFound);
-                if (carsFound.length > 0) {
-                    const matchedCars = carsFound.map(shopItem => {
-                        const titleEntry = allTitles.find(t => t.id === shopItem.id && t.type === 'loot');
-                        const matchedCar = allCars.find(c => c.id === shopItem.id);
-                        if (matchedCar) {
-                            if (titleEntry && titleEntry.title) {
-                                return { ...matchedCar, title: titleEntry.title };
-                            } else {
-                                return matchedCar;
-                            }
-                        }
-                        return null;
-                    }).filter(c => c !== null);
-                    console.log('Final matched cars with titles:', matchedCars);
-                    document.getElementById('extractedCarsData').textContent = JSON.stringify(matchedCars, null, 2);
-                } else {
-                    console.log('No cars found in array data.');
-                }
-            } else {
-                console.log('Array data is not an array.');
             }
         }
+        console.log('Cars items:', carsItems);
 
+        if (carsItems.length > 0) {
+            const matchedCars = carsItems.map(shopItem => {
+                const carData = allCars.find(c => c.id === shopItem.id);
+                const titleEntry = allTitles.find(t => t.id === shopItem.id && t.type === 'loot');
+                if (carData) {
+                    if (titleEntry && titleEntry.title) {
+                        return { ...carData, title: titleEntry.title };
+                    } else {
+                        return { ...carData };
+                    }
+                }
+                return null;
+            }).filter(c => c !== null);
+
+            console.log('Matched cars with titles:', matchedCars);
+            carsPre.textContent = JSON.stringify(matchedCars, null, 2);
+        } else {
+            console.log('No car items found.');
+        }
     } catch (err) {
-        console.log('Error during fetch and process:', err);
-        resultElem.textContent = 'Error: ' + err.message;
+        console.error('Error during fetch and process:', err);
+        document.getElementById('result').textContent = 'Error: ' + err.message;
     }
 }
 
