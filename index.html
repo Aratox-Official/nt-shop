@@ -72,10 +72,6 @@ const workerUrl = 'https://cors-proxy-nitrotype.aratox-business.workers.dev/';
 let allCars = [];
 let allTitles = [];
 
-function appendLog(message) {
-    document.getElementById('result').textContent += message + '\n';
-}
-
 async function loadData() {
     console.log('Starting to load cars.json and titles.json...');
     const [carsResponse, titlesResponse] = await Promise.all([
@@ -206,7 +202,7 @@ async function fetchAndProcess() {
                 if (carsFound.length > 0) {
                     const matchedCars = carsFound.map(car => {
                         const matchedCar = allCars.find(c => c.id === car.id);
-                        console.log('Matching car ID:', car.id, 'Found:', matchedCar);
+                        console.log('Matching car ID:', car.id, 'Found in cars.json:', matchedCar);
                         if (matchedCar) {
                             const titleEntry = allTitles.find(t => t.id === matchedCar.id && t.type === 'loot');
                             console.log('Title entry for ID:', matchedCar.id, 'Title:', titleEntry);
