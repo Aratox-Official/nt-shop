@@ -1,3056 +1,3056 @@
 [
     {
-        "name": "\"The ATM Machine\"",
-        "description": "Savings & Earnings",
-        "achievement_or_tier": "72",
-        "id": 1
+        "title": "\"The ATM Machine\"",
+        "availability": "Savings & Earnings",
+        "id": "72",
+        "placeholder": 1
     },
     {
-        "name": "\"Millionaire\"",
-        "description": "Savings & Earnings",
-        "achievement_or_tier": "73",
-        "id": 2
+        "title": "\"Millionaire\"",
+        "availability": "Savings & Earnings",
+        "id": "73",
+        "placeholder": 2
     },
     {
-        "name": "\"Big Spender\"",
-        "description": "Hey Big Spender",
-        "achievement_or_tier": "74",
-        "id": 3
+        "title": "\"Big Spender\"",
+        "availability": "Hey Big Spender",
+        "id": "74",
+        "placeholder": 3
     },
     {
-        "name": "\"Filthy Rich\"",
-        "description": "Hey Big Spender",
-        "achievement_or_tier": "75",
-        "id": 4
+        "title": "\"Filthy Rich\"",
+        "availability": "Hey Big Spender",
+        "id": "75",
+        "placeholder": 4
     },
     {
-        "name": "\"Endurance Racer\"",
-        "description": "Hittin' the Track",
-        "achievement_or_tier": "76",
-        "id": 5
+        "title": "\"Endurance Racer\"",
+        "availability": "Hittin' the Track",
+        "id": "76",
+        "placeholder": 5
     },
     {
-        "name": "\"Crazy About Typing\"",
-        "description": "King of the Race",
-        "achievement_or_tier": "77",
-        "id": 6
+        "title": "\"Crazy About Typing\"",
+        "availability": "King of the Race",
+        "id": "77",
+        "placeholder": 6
     },
     {
-        "name": "\"The Practicer\"",
-        "description": "Endurance Racing",
-        "achievement_or_tier": "78",
-        "id": 7
+        "title": "\"The Practicer\"",
+        "availability": "Endurance Racing",
+        "id": "78",
+        "placeholder": 7
     },
     {
-        "name": "\"Practice Makes Perfect\"",
-        "description": "Endurance Racing",
-        "achievement_or_tier": "79",
-        "id": 8
+        "title": "\"Practice Makes Perfect\"",
+        "availability": "Endurance Racing",
+        "id": "79",
+        "placeholder": 8
     },
     {
-        "name": "\"Lord of the Practice\"",
-        "description": "Endurance Racing",
-        "achievement_or_tier": "80",
-        "id": 9
+        "title": "\"Lord of the Practice\"",
+        "availability": "Endurance Racing",
+        "id": "80",
+        "placeholder": 9
     },
     {
-        "name": "\"Word Skipper\"",
-        "description": "Nitro Addiction",
-        "achievement_or_tier": "81",
-        "id": 10
+        "title": "\"Word Skipper\"",
+        "availability": "Nitro Addiction",
+        "id": "81",
+        "placeholder": 10
     },
     {
-        "name": "\"[SKIPWRD]\"",
-        "description": "Nitro Addiction",
-        "achievement_or_tier": "82",
-        "id": 11
+        "title": "\"[SKIPWRD]\"",
+        "availability": "Nitro Addiction",
+        "id": "82",
+        "placeholder": 11
     },
     {
-        "name": "\"I Hate Words\"",
-        "description": "Nitro Addiction",
-        "achievement_or_tier": "83",
-        "id": 12
+        "title": "\"I Hate Words\"",
+        "availability": "Nitro Addiction",
+        "id": "83",
+        "placeholder": 12
     },
     {
-        "name": "\"I Love Nitros\"",
-        "description": "Nitro Addiction",
-        "achievement_or_tier": "84",
-        "id": 13
+        "title": "\"I Love Nitros\"",
+        "availability": "Nitro Addiction",
+        "id": "84",
+        "placeholder": 13
     },
     {
-        "name": "\"Epic Word Skippage\"",
-        "description": "Nitro Addiction",
-        "achievement_or_tier": "85",
-        "id": 14
+        "title": "\"Epic Word Skippage\"",
+        "availability": "Nitro Addiction",
+        "id": "85",
+        "placeholder": 14
     },
     {
-        "name": "\"Epic Nitro User\"",
-        "description": "Nitro Addiction",
-        "achievement_or_tier": "86",
-        "id": 15
+        "title": "\"Epic Nitro User\"",
+        "availability": "Nitro Addiction",
+        "id": "86",
+        "placeholder": 15
     },
     {
-        "name": "\"The Mad Hatter\"",
-        "description": "Winning",
-        "achievement_or_tier": "87",
-        "id": 16
+        "title": "\"The Mad Hatter\"",
+        "availability": "Winning",
+        "id": "87",
+        "placeholder": 16
     },
     {
-        "name": "\"Mega Winner\"",
-        "description": "Winning",
-        "achievement_or_tier": "88",
-        "id": 17
+        "title": "\"Mega Winner\"",
+        "availability": "Winning",
+        "id": "88",
+        "placeholder": 17
     },
     {
-        "name": "\"Lucky Number 7\"",
-        "description": "WinningandShop",
-        "achievement_or_tier": "89",
-        "id": 18
+        "title": "\"Lucky Number 7\"",
+        "availability": "WinningandShop",
+        "id": "89",
+        "placeholder": 18
     },
     {
-        "name": "\"Unstoppable\"",
-        "description": "Winning",
-        "achievement_or_tier": "90",
-        "id": 19
+        "title": "\"Unstoppable\"",
+        "availability": "Winning",
+        "id": "90",
+        "placeholder": 19
     },
     {
-        "name": "\"God Mode\"",
-        "description": "Winning",
-        "achievement_or_tier": "91",
-        "id": 20
+        "title": "\"God Mode\"",
+        "availability": "Winning",
+        "id": "91",
+        "placeholder": 20
     },
     {
-        "name": "\"First Trimester\"",
-        "description": "Long Hauling",
-        "achievement_or_tier": "92",
-        "id": 21
+        "title": "\"First Trimester\"",
+        "availability": "Long Hauling",
+        "id": "92",
+        "placeholder": 21
     },
     {
-        "name": "\"Olde School\"",
-        "description": "Long Hauling",
-        "achievement_or_tier": "93",
-        "id": 22
+        "title": "\"Olde School\"",
+        "availability": "Long Hauling",
+        "id": "93",
+        "placeholder": 22
     },
     {
-        "name": "\"Original Gangster\"",
-        "description": "Long Hauling",
-        "achievement_or_tier": "94",
-        "id": 23
+        "title": "\"Original Gangster\"",
+        "availability": "Long Hauling",
+        "id": "94",
+        "placeholder": 23
     },
     {
-        "name": "\"I Have Friends\"",
-        "description": "Popularity Contest",
-        "achievement_or_tier": "95",
-        "id": 24
+        "title": "\"I Have Friends\"",
+        "availability": "Popularity Contest",
+        "id": "95",
+        "placeholder": 24
     },
     {
-        "name": "\"I Like Friends\"",
-        "description": "Popularity Contest",
-        "achievement_or_tier": "96",
-        "id": 25
+        "title": "\"I Like Friends\"",
+        "availability": "Popularity Contest",
+        "id": "96",
+        "placeholder": 25
     },
     {
-        "name": "\"I'm Friendly!\"",
-        "description": "Popularity Contest",
-        "achievement_or_tier": "97",
-        "id": 26
+        "title": "\"I'm Friendly!\"",
+        "availability": "Popularity Contest",
+        "id": "97",
+        "placeholder": 26
     },
     {
-        "name": "\"Sports Coupe Driver\"",
-        "description": "Movin' On Up",
-        "achievement_or_tier": "98",
-        "id": 27
+        "title": "\"Sports Coupe Driver\"",
+        "availability": "Movin' On Up",
+        "id": "98",
+        "placeholder": 27
     },
     {
-        "name": "\"Muscle Car Driver\"",
-        "description": "Movin' On Up",
-        "achievement_or_tier": "99",
-        "id": 28
+        "title": "\"Muscle Car Driver\"",
+        "availability": "Movin' On Up",
+        "id": "99",
+        "placeholder": 28
     },
     {
-        "name": "\"Sports Car Driver\"",
-        "description": "Movin' On Up",
-        "achievement_or_tier": "100",
-        "id": 29
+        "title": "\"Sports Car Driver\"",
+        "availability": "Movin' On Up",
+        "id": "100",
+        "placeholder": 29
     },
     {
-        "name": "\"Luxury Car Driver\"",
-        "description": "Movin' On Up",
-        "achievement_or_tier": "101",
-        "id": 30
+        "title": "\"Luxury Car Driver\"",
+        "availability": "Movin' On Up",
+        "id": "101",
+        "placeholder": 30
     },
     {
-        "name": "\"Super Luxury Driver\"",
-        "description": "Movin' On Up",
-        "achievement_or_tier": "102",
-        "id": 31
+        "title": "\"Super Luxury Driver\"",
+        "availability": "Movin' On Up",
+        "id": "102",
+        "placeholder": 31
     },
     {
-        "name": "\"Exotic Car Driver\"",
-        "description": "Movin' On Up",
-        "achievement_or_tier": "103",
-        "id": 32
+        "title": "\"Exotic Car Driver\"",
+        "availability": "Movin' On Up",
+        "id": "103",
+        "placeholder": 32
     },
     {
-        "name": "\"Super Sport Driver\"",
-        "description": "Movin' On Up",
-        "achievement_or_tier": "104",
-        "id": 33
+        "title": "\"Super Sport Driver\"",
+        "availability": "Movin' On Up",
+        "id": "104",
+        "placeholder": 33
     },
     {
-        "name": "\"Race Car Driver\"",
-        "description": "Movin' On Up",
-        "achievement_or_tier": "105",
-        "id": 34
+        "title": "\"Race Car Driver\"",
+        "availability": "Movin' On Up",
+        "id": "105",
+        "placeholder": 34
     },
     {
-        "name": "\"Under Achiever\"",
-        "description": "Savings & Earnings",
-        "achievement_or_tier": "106",
-        "id": 35
+        "title": "\"Under Achiever\"",
+        "availability": "Savings & Earnings",
+        "id": "106",
+        "placeholder": 35
     },
     {
-        "name": "\"Pilot\"",
-        "description": "Movin' On Up",
-        "achievement_or_tier": "107",
-        "id": 36
+        "title": "\"Pilot\"",
+        "availability": "Movin' On Up",
+        "id": "107",
+        "placeholder": 36
     },
     {
-        "name": "\"Used Car Salesman\"",
-        "description": "Savings & Earnings",
-        "achievement_or_tier": "108",
-        "id": 37
+        "title": "\"Used Car Salesman\"",
+        "availability": "Savings & Earnings",
+        "id": "108",
+        "placeholder": 37
     },
     {
-        "name": "\"People Like Me\"",
-        "description": "Popularity Contest",
-        "achievement_or_tier": "109",
-        "id": 38
+        "title": "\"People Like Me\"",
+        "availability": "Popularity Contest",
+        "id": "109",
+        "placeholder": 38
     },
     {
-        "name": "\"People Love Me\"",
-        "description": "Popularity Contest",
-        "achievement_or_tier": "110",
-        "id": 39
+        "title": "\"People Love Me\"",
+        "availability": "Popularity Contest",
+        "id": "110",
+        "placeholder": 39
     },
     {
-        "name": "\"Astronaut\"",
-        "description": "Hey Big Spender",
-        "achievement_or_tier": "111",
-        "id": 40
+        "title": "\"Astronaut\"",
+        "availability": "Hey Big Spender",
+        "id": "111",
+        "placeholder": 40
     },
     {
-        "name": "\"In the Spirit\"",
-        "description": "2012,2013,2014,2015,2016,2017and2018 Xmaxx EventsandSeason 25",
-        "achievement_or_tier": "112",
-        "id": 41
+        "title": "\"In the Spirit\"",
+        "availability": "2012,2013,2014,2015,2016,2017and2018 Xmaxx EventsandSeason 25",
+        "id": "112",
+        "placeholder": 41
     },
     {
-        "name": "\"Merry Christmas!\"",
-        "description": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
-        "achievement_or_tier": "113",
-        "id": 42
+        "title": "\"Merry Christmas!\"",
+        "availability": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
+        "id": "113",
+        "placeholder": 42
     },
     {
-        "name": "\"Happy Hanukkah!\"",
-        "description": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
-        "achievement_or_tier": "114",
-        "id": 43
+        "title": "\"Happy Hanukkah!\"",
+        "availability": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
+        "id": "114",
+        "placeholder": 43
     },
     {
-        "name": "\"Heri za Kwanzaa!\"",
-        "description": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
-        "achievement_or_tier": "115",
-        "id": 44
+        "title": "\"Heri za Kwanzaa!\"",
+        "availability": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
+        "id": "115",
+        "placeholder": 44
     },
     {
-        "name": "\"Joyous Festivus!\"",
-        "description": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
-        "achievement_or_tier": "116",
-        "id": 45
+        "title": "\"Joyous Festivus!\"",
+        "availability": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
+        "id": "116",
+        "placeholder": 45
     },
     {
-        "name": "\"Christmas Elf\"",
-        "description": "2012 Xmaxx Event",
-        "achievement_or_tier": "117",
-        "id": 46
+        "title": "\"Christmas Elf\"",
+        "availability": "2012 Xmaxx Event",
+        "id": "117",
+        "placeholder": 46
     },
     {
-        "name": "\"Holiday Winner\"",
-        "description": "2012 Xmaxx Event",
-        "achievement_or_tier": "118",
-        "id": 47
+        "title": "\"Holiday Winner\"",
+        "availability": "2012 Xmaxx Event",
+        "id": "118",
+        "placeholder": 47
     },
     {
-        "name": "\"Holiday Hooligan\"",
-        "description": "2012 Xmaxx Event",
-        "achievement_or_tier": "119",
-        "id": 48
+        "title": "\"Holiday Hooligan\"",
+        "availability": "2012 Xmaxx Event",
+        "id": "119",
+        "placeholder": 48
     },
     {
-        "name": "\"Holiday Ham\"",
-        "description": "2012 Xmaxx Event",
-        "achievement_or_tier": "120",
-        "id": 49
+        "title": "\"Holiday Ham\"",
+        "availability": "2012 Xmaxx Event",
+        "id": "120",
+        "placeholder": 49
     },
     {
-        "name": "\"Holiday Hacker\"",
-        "description": "2012 Xmaxx Event",
-        "achievement_or_tier": "121",
-        "id": 50
+        "title": "\"Holiday Hacker\"",
+        "availability": "2012 Xmaxx Event",
+        "id": "121",
+        "placeholder": 50
     },
     {
-        "name": "\"♪ Let It Snow ♪\"",
-        "description": "2012 Xmaxx Event",
-        "achievement_or_tier": "122",
-        "id": 51
+        "title": "\"♪ Let It Snow ♪\"",
+        "availability": "2012 Xmaxx Event",
+        "id": "122",
+        "placeholder": 51
     },
     {
-        "name": "\"Oppa Xmaxx Style!\"",
-        "description": "2012 Xmaxx Event",
-        "achievement_or_tier": "123",
-        "id": 52
+        "title": "\"Oppa Xmaxx Style!\"",
+        "availability": "2012 Xmaxx Event",
+        "id": "123",
+        "placeholder": 52
     },
     {
-        "name": "\"Keyboard Cat\"",
-        "description": "Endurance Racing",
-        "achievement_or_tier": "124",
-        "id": 53
+        "title": "\"Keyboard Cat\"",
+        "availability": "Endurance Racing",
+        "id": "124",
+        "placeholder": 53
     },
     {
-        "name": "\"Nitro Type Master\"",
-        "description": "Endurance Racing",
-        "achievement_or_tier": "125",
-        "id": 54
+        "title": "\"Nitro Type Master\"",
+        "availability": "Endurance Racing",
+        "id": "125",
+        "placeholder": 54
     },
     {
-        "name": "\"Emperor\"",
-        "description": "Endurance Racing",
-        "achievement_or_tier": "126",
-        "id": 55
+        "title": "\"Emperor\"",
+        "availability": "Endurance Racing",
+        "id": "126",
+        "placeholder": 55
     },
     {
-        "name": "\"Empress\"",
-        "description": "Endurance Racing",
-        "achievement_or_tier": "127",
-        "id": 56
+        "title": "\"Empress\"",
+        "availability": "Endurance Racing",
+        "id": "127",
+        "placeholder": 56
     },
     {
-        "name": "\"Mystery Man\"",
-        "description": "Cruisin' Back",
-        "achievement_or_tier": "128",
-        "id": 57
+        "title": "\"Mystery Man\"",
+        "availability": "Cruisin' Back",
+        "id": "128",
+        "placeholder": 57
     },
     {
-        "name": "\"Box Collector\"",
-        "description": "Cruisin' Back",
-        "achievement_or_tier": "129",
-        "id": 58
+        "title": "\"Box Collector\"",
+        "availability": "Cruisin' Back",
+        "id": "129",
+        "placeholder": 58
     },
     {
-        "name": "\"The Caped Crusader\"",
-        "description": "Hey Big Spender",
-        "achievement_or_tier": "130",
-        "id": 59
+        "title": "\"The Caped Crusader\"",
+        "availability": "Hey Big Spender",
+        "id": "130",
+        "placeholder": 59
     },
     {
-        "name": "\"Time Traveler\"",
-        "description": "Hey Big Spender",
-        "achievement_or_tier": "131",
-        "id": 60
+        "title": "\"Time Traveler\"",
+        "availability": "Hey Big Spender",
+        "id": "131",
+        "placeholder": 60
     },
     {
-        "name": "\"Celebrity\"",
-        "description": "Movin' On Up",
-        "achievement_or_tier": "132",
-        "id": 61
+        "title": "\"Celebrity\"",
+        "availability": "Movin' On Up",
+        "id": "132",
+        "placeholder": 61
     },
     {
-        "name": "\"Summer Rider\"",
-        "description": "2013,2014,2015,2016,2017and2018 Summer EventsandShop",
-        "achievement_or_tier": "133",
-        "id": 62
+        "title": "\"Summer Rider\"",
+        "availability": "2013,2014,2015,2016,2017and2018 Summer EventsandShop",
+        "id": "133",
+        "placeholder": 62
     },
     {
-        "name": "\"California Dreamin'\"",
-        "description": "2013,2014and2015 Summer EventsandShop",
-        "achievement_or_tier": "134",
-        "id": 63
+        "title": "\"California Dreamin'\"",
+        "availability": "2013,2014and2015 Summer EventsandShop",
+        "id": "134",
+        "placeholder": 63
     },
     {
-        "name": "\"Endless Summer\"",
-        "description": "2013 Summer Event",
-        "achievement_or_tier": "135",
-        "id": 64
+        "title": "\"Endless Summer\"",
+        "availability": "2013 Summer Event",
+        "id": "135",
+        "placeholder": 64
     },
     {
-        "name": "Season 35",
-        "description": "Tier 18",
-        "achievement_or_tier": null,
-        "id": 65
+        "title": "Season 35",
+        "availability": "Tier 18",
+        "id": null,
+        "placeholder": 65
     },
     {
-        "name": "\"My Popsicle Melted\"",
-        "description": "2013and2014 Summer EventsandShop",
-        "achievement_or_tier": "136",
-        "id": 66
+        "title": "\"My Popsicle Melted\"",
+        "availability": "2013and2014 Summer EventsandShop",
+        "id": "136",
+        "placeholder": 66
     },
     {
-        "name": "\"Oppa Sunburn Style!\"",
-        "description": "2013and2014 Summer Events",
-        "achievement_or_tier": "137",
-        "id": 67
+        "title": "\"Oppa Sunburn Style!\"",
+        "availability": "2013and2014 Summer Events",
+        "id": "137",
+        "placeholder": 67
     },
     {
-        "name": "\"Summer Hacker\"",
-        "description": "2013 Summer Event",
-        "achievement_or_tier": "138",
-        "id": 68
+        "title": "\"Summer Hacker\"",
+        "availability": "2013 Summer Event",
+        "id": "138",
+        "placeholder": 68
     },
     {
-        "name": "\"I Have No Tan!\"",
-        "description": "2013 Summer Event",
-        "achievement_or_tier": "139",
-        "id": 69
+        "title": "\"I Have No Tan!\"",
+        "availability": "2013 Summer Event",
+        "id": "139",
+        "placeholder": 69
     },
     {
-        "name": "\"Solid Gold\"",
-        "description": "Nitro Type Gold",
-        "achievement_or_tier": "140",
-        "id": 70
+        "title": "\"Solid Gold\"",
+        "availability": "Nitro Type Gold",
+        "id": "140",
+        "placeholder": 70
     },
     {
-        "name": "\"Hippie\"",
-        "description": "2013 Summer Event",
-        "achievement_or_tier": "141",
-        "id": 71
+        "title": "\"Hippie\"",
+        "availability": "2013 Summer Event",
+        "id": "141",
+        "placeholder": 71
     },
     {
-        "name": "\"RIP\"",
-        "description": "Hey Big SpenderandShop",
-        "achievement_or_tier": "142",
-        "id": 72
+        "title": "\"RIP\"",
+        "availability": "Hey Big SpenderandShop",
+        "id": "142",
+        "placeholder": 72
     },
     {
-        "name": "\"wow. such gifting\"",
-        "description": "2013 Xmaxx EventandShop",
-        "achievement_or_tier": "143",
-        "id": 73
+        "title": "\"wow. such gifting\"",
+        "availability": "2013 Xmaxx EventandShop",
+        "id": "143",
+        "placeholder": 73
     },
     {
-        "name": "\"The Snow Man\"",
-        "description": "2013 Xmaxx Event",
-        "achievement_or_tier": "144",
-        "id": 74
+        "title": "\"The Snow Man\"",
+        "availability": "2013 Xmaxx Event",
+        "id": "144",
+        "placeholder": 74
     },
     {
-        "name": "\"♪ Oh Nitro Tree ♪\"",
-        "description": "2013 Xmaxx Event",
-        "achievement_or_tier": "145",
-        "id": 75
+        "title": "\"♪ Oh Nitro Tree ♪\"",
+        "availability": "2013 Xmaxx Event",
+        "id": "145",
+        "placeholder": 75
     },
     {
-        "name": "\"Frosty\"",
-        "description": "2013 Xmaxx Event",
-        "achievement_or_tier": "146",
-        "id": 76
+        "title": "\"Frosty\"",
+        "availability": "2013 Xmaxx Event",
+        "id": "146",
+        "placeholder": 76
     },
     {
-        "name": "\"Cold As Ice\"",
-        "description": "2013 Xmaxx Event",
-        "achievement_or_tier": "147",
-        "id": 77
+        "title": "\"Cold As Ice\"",
+        "availability": "2013 Xmaxx Event",
+        "id": "147",
+        "placeholder": 77
     },
     {
-        "name": "\"Typing Nightmare\"",
-        "description": "Endurance Racing",
-        "achievement_or_tier": "148",
-        "id": 78
+        "title": "\"Typing Nightmare\"",
+        "availability": "Endurance Racing",
+        "id": "148",
+        "placeholder": 78
     },
     {
-        "name": "\"Wampus Thwamper\"",
-        "description": "Winning",
-        "achievement_or_tier": "149",
-        "id": 79
+        "title": "\"Wampus Thwamper\"",
+        "availability": "Winning",
+        "id": "149",
+        "placeholder": 79
     },
     {
-        "name": "\"Catty Wampus\"",
-        "description": "Winning",
-        "achievement_or_tier": "150",
-        "id": 80
+        "title": "\"Catty Wampus\"",
+        "availability": "Winning",
+        "id": "150",
+        "placeholder": 80
     },
     {
-        "name": "\"The Smasher\"",
-        "description": "Hey Big Spender",
-        "achievement_or_tier": "151",
-        "id": 81
+        "title": "\"The Smasher\"",
+        "availability": "Hey Big Spender",
+        "id": "151",
+        "placeholder": 81
     },
     {
-        "name": "\"Typing Demon\"",
-        "description": "Endurance Racing",
-        "achievement_or_tier": "152",
-        "id": 82
+        "title": "\"Typing Demon\"",
+        "availability": "Endurance Racing",
+        "id": "152",
+        "placeholder": 82
     },
     {
-        "name": "\"Summer Champ\"",
-        "description": "2014 Summer Event",
-        "achievement_or_tier": "153",
-        "id": 83
+        "title": "\"Summer Champ\"",
+        "availability": "2014 Summer Event",
+        "id": "153",
+        "placeholder": 83
     },
     {
-        "name": "\"Hot Hot Hot!\"",
-        "description": "2014 Summer EventandShop",
-        "achievement_or_tier": "154",
-        "id": 84
+        "title": "\"Hot Hot Hot!\"",
+        "availability": "2014 Summer EventandShop",
+        "id": "154",
+        "placeholder": 84
     },
     {
-        "name": "\"Grim Reaper\"",
-        "description": "Hey Big Spender",
-        "achievement_or_tier": "155",
-        "id": 85
+        "title": "\"Grim Reaper\"",
+        "availability": "Hey Big Spender",
+        "id": "155",
+        "placeholder": 85
     },
     {
-        "name": "\"Raw Racing Recruit\"",
-        "description": "So Easy, Why Wait?",
-        "achievement_or_tier": "156",
-        "id": 86
+        "title": "\"Raw Racing Recruit\"",
+        "availability": "So Easy, Why Wait?",
+        "id": "156",
+        "placeholder": 86
     },
     {
-        "name": "\"Sick Sleigh, Bro\"",
-        "description": "2014 Xmaxx Event",
-        "achievement_or_tier": "157",
-        "id": 87
+        "title": "\"Sick Sleigh, Bro\"",
+        "availability": "2014 Xmaxx Event",
+        "id": "157",
+        "placeholder": 87
     },
     {
-        "name": "\"♪ So Delightful ♪\"",
-        "description": "2014 Xmaxx EventandShop",
-        "achievement_or_tier": "158",
-        "id": 88
+        "title": "\"♪ So Delightful ♪\"",
+        "availability": "2014 Xmaxx EventandShop",
+        "id": "158",
+        "placeholder": 88
     },
     {
-        "name": "\"Iced Out\"",
-        "description": "2014 Xmaxx Event",
-        "achievement_or_tier": "159",
-        "id": 89
+        "title": "\"Iced Out\"",
+        "availability": "2014 Xmaxx Event",
+        "id": "159",
+        "placeholder": 89
     },
     {
-        "name": "\"i luv nitrontip!1\"",
-        "description": "2014 Xmaxx Event",
-        "achievement_or_tier": "160",
-        "id": 90
+        "title": "\"i luv nitrontip!1\"",
+        "availability": "2014 Xmaxx Event",
+        "id": "160",
+        "placeholder": 90
     },
     {
-        "name": "\"#kringled\"",
-        "description": "2014 Xmaxx Event",
-        "achievement_or_tier": "161",
-        "id": 91
+        "title": "\"#kringled\"",
+        "availability": "2014 Xmaxx Event",
+        "id": "161",
+        "placeholder": 91
     },
     {
-        "name": "\"Huge Baller\"",
-        "description": "Nitro Type Gold",
-        "achievement_or_tier": "162",
-        "id": 92
+        "title": "\"Huge Baller\"",
+        "availability": "Nitro Type Gold",
+        "id": "162",
+        "placeholder": 92
     },
     {
-        "name": "\"Haulin' Cash\"",
-        "description": "Nitro Type Gold",
-        "achievement_or_tier": "163",
-        "id": 93
+        "title": "\"Haulin' Cash\"",
+        "availability": "Nitro Type Gold",
+        "id": "163",
+        "placeholder": 93
     },
     {
-        "name": "\"Ca$h Collector\"",
-        "description": "Nitro Type Gold",
-        "achievement_or_tier": "164",
-        "id": 94
+        "title": "\"Ca$h Collector\"",
+        "availability": "Nitro Type Gold",
+        "id": "164",
+        "placeholder": 94
     },
     {
-        "name": "\"Schools Out!\"",
-        "description": "2015 Summer EventandShop",
-        "achievement_or_tier": "165",
-        "id": 95
+        "title": "\"Schools Out!\"",
+        "availability": "2015 Summer EventandShop",
+        "id": "165",
+        "placeholder": 95
     },
     {
-        "name": "\"California Roll\"",
-        "description": "2015 Summer Event",
-        "achievement_or_tier": "166",
-        "id": 96
+        "title": "\"California Roll\"",
+        "availability": "2015 Summer Event",
+        "id": "166",
+        "placeholder": 96
     },
     {
-        "name": "\"Drives Fancy Cars\"",
-        "description": "2015 Summer Event",
-        "achievement_or_tier": "167",
-        "id": 97
+        "title": "\"Drives Fancy Cars\"",
+        "availability": "2015 Summer Event",
+        "id": "167",
+        "placeholder": 97
     },
     {
-        "name": "\"Burnin' Rubber\"",
-        "description": "2015 Summer EventandShop",
-        "achievement_or_tier": "168",
-        "id": 98
+        "title": "\"Burnin' Rubber\"",
+        "availability": "2015 Summer EventandShop",
+        "id": "168",
+        "placeholder": 98
     },
     {
-        "name": "\"2spooky4u\"",
-        "description": "2015 Halloween Event",
-        "achievement_or_tier": "169",
-        "id": 99
+        "title": "\"2spooky4u\"",
+        "availability": "2015 Halloween Event",
+        "id": "169",
+        "placeholder": 99
     },
     {
-        "name": "\"Fear Me\"",
-        "description": "2015 Halloween Event",
-        "achievement_or_tier": "170",
-        "id": 100
+        "title": "\"Fear Me\"",
+        "availability": "2015 Halloween Event",
+        "id": "170",
+        "placeholder": 100
     },
     {
-        "name": "\"3spooky5u\"",
-        "description": "2015 Halloween Event",
-        "achievement_or_tier": "171",
-        "id": 101
+        "title": "\"3spooky5u\"",
+        "availability": "2015 Halloween Event",
+        "id": "171",
+        "placeholder": 101
     },
     {
-        "name": "\"Boo!\"",
-        "description": "2015 Halloween EventandShop",
-        "achievement_or_tier": "172",
-        "id": 102
+        "title": "\"Boo!\"",
+        "availability": "2015 Halloween EventandShop",
+        "id": "172",
+        "placeholder": 102
     },
     {
-        "name": "\"Reindeer Games\"",
-        "description": "2015 Xmaxx Event",
-        "achievement_or_tier": "173",
-        "id": 103
+        "title": "\"Reindeer Games\"",
+        "availability": "2015 Xmaxx Event",
+        "id": "173",
+        "placeholder": 103
     },
     {
-        "name": "\"♪ Naughty or Nice ♪\"",
-        "description": "2015and2016 Xmaxx Events",
-        "achievement_or_tier": "174",
-        "id": 104
+        "title": "\"♪ Naughty or Nice ♪\"",
+        "availability": "2015and2016 Xmaxx Events",
+        "id": "174",
+        "placeholder": 104
     },
     {
-        "name": "\"Frozen\"",
-        "description": "2015 Xmaxx Event",
-        "achievement_or_tier": "175",
-        "id": 105
+        "title": "\"Frozen\"",
+        "availability": "2015 Xmaxx Event",
+        "id": "175",
+        "placeholder": 105
     },
     {
-        "name": "\"Velocity Wrapper\"",
-        "description": "2015 Xmaxx Event",
-        "achievement_or_tier": "176",
-        "id": 106
+        "title": "\"Velocity Wrapper\"",
+        "availability": "2015 Xmaxx Event",
+        "id": "176",
+        "placeholder": 106
     },
     {
-        "name": "\"Holiday Hero\"",
-        "description": "2015and2016 Xmaxx Events",
-        "achievement_or_tier": "177",
-        "id": 107
+        "title": "\"Holiday Hero\"",
+        "availability": "2015and2016 Xmaxx Events",
+        "id": "177",
+        "placeholder": 107
     },
     {
-        "name": "Season 55",
-        "description": "Tier 24",
-        "achievement_or_tier": null,
-        "id": 108
+        "title": "Season 55",
+        "availability": "Tier 24",
+        "id": null,
+        "placeholder": 108
     },
     {
-        "name": "\"The Codfather\"",
-        "description": "2016 Summer Event",
-        "achievement_or_tier": "178",
-        "id": 109
+        "title": "\"The Codfather\"",
+        "availability": "2016 Summer Event",
+        "id": "178",
+        "placeholder": 109
     },
     {
-        "name": "\"Fairy Codmother\"",
-        "description": "2016 Summer Event",
-        "achievement_or_tier": "179",
-        "id": 110
+        "title": "\"Fairy Codmother\"",
+        "availability": "2016 Summer Event",
+        "id": "179",
+        "placeholder": 110
     },
     {
-        "name": "\"Seaworthy\"",
-        "description": "2016 Summer Event",
-        "achievement_or_tier": "180",
-        "id": 111
+        "title": "\"Seaworthy\"",
+        "availability": "2016 Summer Event",
+        "id": "180",
+        "placeholder": 111
     },
     {
-        "name": "\"Sea Captain\"",
-        "description": "2016 Summer Event",
-        "achievement_or_tier": "181",
-        "id": 112
+        "title": "\"Sea Captain\"",
+        "availability": "2016 Summer Event",
+        "id": "181",
+        "placeholder": 112
     },
     {
-        "name": "\"Fleet Admiral\"",
-        "description": "2016 Summer EventandShop",
-        "achievement_or_tier": "182",
-        "id": 113
+        "title": "\"Fleet Admiral\"",
+        "availability": "2016 Summer EventandShop",
+        "id": "182",
+        "placeholder": 113
     },
     {
-        "name": "\"Cod Squad\"",
-        "description": "2016 Summer Event",
-        "achievement_or_tier": "183",
-        "id": 114
+        "title": "\"Cod Squad\"",
+        "availability": "2016 Summer Event",
+        "id": "183",
+        "placeholder": 114
     },
     {
-        "name": "\"Moar Pumpkins!\"",
-        "description": "2016and2017 Hallowampus Events",
-        "achievement_or_tier": "184",
-        "id": 115
+        "title": "\"Moar Pumpkins!\"",
+        "availability": "2016and2017 Hallowampus Events",
+        "id": "184",
+        "placeholder": 115
     },
     {
-        "name": "\"Truck Driver\"",
-        "description": "Movin' On Up",
-        "achievement_or_tier": "185",
-        "id": 116
+        "title": "\"Truck Driver\"",
+        "availability": "Movin' On Up",
+        "id": "185",
+        "placeholder": 116
     },
     {
-        "name": "\"Motorcycle Rider\"",
-        "description": "Movin' On Up",
-        "achievement_or_tier": "186",
-        "id": 117
+        "title": "\"Motorcycle Rider\"",
+        "availability": "Movin' On Up",
+        "id": "186",
+        "placeholder": 117
     },
     {
-        "name": "\"Rail Rider\"",
-        "description": "2016 Xmaxx Event",
-        "achievement_or_tier": "187",
-        "id": 118
+        "title": "\"Rail Rider\"",
+        "availability": "2016 Xmaxx Event",
+        "id": "187",
+        "placeholder": 118
     },
     {
-        "name": "\"Well Trained\"",
-        "description": "2016 Xmaxx EventandShop",
-        "achievement_or_tier": "188",
-        "id": 119
+        "title": "\"Well Trained\"",
+        "availability": "2016 Xmaxx EventandShop",
+        "id": "188",
+        "placeholder": 119
     },
     {
-        "name": "\"Loco Motive\"",
-        "description": "2016 Xmaxx Event",
-        "achievement_or_tier": "189",
-        "id": 120
+        "title": "\"Loco Motive\"",
+        "availability": "2016 Xmaxx Event",
+        "id": "189",
+        "placeholder": 120
     },
     {
-        "name": "Season 54",
-        "description": "Tier 16",
-        "achievement_or_tier": null,
-        "id": 121
+        "title": "Season 54",
+        "availability": "Tier 16",
+        "id": null,
+        "placeholder": 121
     },
     {
-        "name": "\"Conductor\"",
-        "description": "2016 Xmaxx Event",
-        "achievement_or_tier": "190",
-        "id": 122
+        "title": "\"Conductor\"",
+        "availability": "2016 Xmaxx Event",
+        "id": "190",
+        "placeholder": 122
     },
     {
-        "name": "\"Nitro Pup\"",
-        "description": "Mascot Love!",
-        "achievement_or_tier": "191",
-        "id": 123
+        "title": "\"Nitro Pup\"",
+        "availability": "Mascot Love!",
+        "id": "191",
+        "placeholder": 123
     },
     {
-        "name": "\"Nitro Dog\"",
-        "description": "Mascot Love!",
-        "achievement_or_tier": "192",
-        "id": 124
+        "title": "\"Nitro Dog\"",
+        "availability": "Mascot Love!",
+        "id": "192",
+        "placeholder": 124
     },
     {
-        "name": "\"Top Dog\"",
-        "description": "Mascot Love!andShop",
-        "achievement_or_tier": "193",
-        "id": 125
+        "title": "\"Top Dog\"",
+        "availability": "Mascot Love!andShop",
+        "id": "193",
+        "placeholder": 125
     },
     {
-        "name": "\"Bug Smasher\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "194",
-        "id": 126
+        "title": "\"Bug Smasher\"",
+        "availability": "Special Sauce",
+        "id": "194",
+        "placeholder": 126
     },
     {
-        "name": "\"Easy Rider\"",
-        "description": "2017 Summer EventandShop",
-        "achievement_or_tier": "195",
-        "id": 127
+        "title": "\"Easy Rider\"",
+        "availability": "2017 Summer EventandShop",
+        "id": "195",
+        "placeholder": 127
     },
     {
-        "name": "\"Track Day Rider\"",
-        "description": "2017 Summer Event",
-        "achievement_or_tier": "196",
-        "id": 128
+        "title": "\"Track Day Rider\"",
+        "availability": "2017 Summer Event",
+        "id": "196",
+        "placeholder": 128
     },
     {
-        "name": "\"Faster 'n You\"",
-        "description": "2017 Summer Event",
-        "achievement_or_tier": "197",
-        "id": 129
+        "title": "\"Faster 'n You\"",
+        "availability": "2017 Summer Event",
+        "id": "197",
+        "placeholder": 129
     },
     {
-        "name": "\"Two Tired\"",
-        "description": "2017 Summer Event",
-        "achievement_or_tier": "198",
-        "id": 130
+        "title": "\"Two Tired\"",
+        "availability": "2017 Summer Event",
+        "id": "198",
+        "placeholder": 130
     },
     {
-        "name": "\"Hoonigan\"",
-        "description": "2017 Summer Event",
-        "achievement_or_tier": "199",
-        "id": 131
+        "title": "\"Hoonigan\"",
+        "availability": "2017 Summer Event",
+        "id": "199",
+        "placeholder": 131
     },
     {
-        "name": "\"Weekend Racer\"",
-        "description": "2017 Summer Event",
-        "achievement_or_tier": "200",
-        "id": 132
+        "title": "\"Weekend Racer\"",
+        "availability": "2017 Summer Event",
+        "id": "200",
+        "placeholder": 132
     },
     {
-        "name": "\"Hallowampus Fanclub\"",
-        "description": "2017 Hallowampus Event",
-        "achievement_or_tier": "201",
-        "id": 133
+        "title": "\"Hallowampus Fanclub\"",
+        "availability": "2017 Hallowampus Event",
+        "id": "201",
+        "placeholder": 133
     },
     {
-        "name": "\"Sp00ked\"",
-        "description": "2017 Hallowampus Event",
-        "achievement_or_tier": "202",
-        "id": 134
+        "title": "\"Sp00ked\"",
+        "availability": "2017 Hallowampus Event",
+        "id": "202",
+        "placeholder": 134
     },
     {
-        "name": "\"Halloweird\"",
-        "description": "2017 Hallowampus Event",
-        "achievement_or_tier": "203",
-        "id": 135
+        "title": "\"Halloweird\"",
+        "availability": "2017 Hallowampus Event",
+        "id": "203",
+        "placeholder": 135
     },
     {
-        "name": "\"Creepin' it Real\"",
-        "description": "2017 Hallowampus Event",
-        "achievement_or_tier": "204",
-        "id": 136
+        "title": "\"Creepin' it Real\"",
+        "availability": "2017 Hallowampus Event",
+        "id": "204",
+        "placeholder": 136
     },
     {
-        "name": "\"Pumpkin Spiced\"",
-        "description": "2017 Hallowampus Event",
-        "achievement_or_tier": "205",
-        "id": 137
+        "title": "\"Pumpkin Spiced\"",
+        "availability": "2017 Hallowampus Event",
+        "id": "205",
+        "placeholder": 137
     },
     {
-        "name": "\"Snow Baller\"",
-        "description": "2017 Xmaxx Event",
-        "achievement_or_tier": "206",
-        "id": 138
+        "title": "\"Snow Baller\"",
+        "availability": "2017 Xmaxx Event",
+        "id": "206",
+        "placeholder": 138
     },
     {
-        "name": "\"#elfie\"",
-        "description": "2017 Xmaxx EventandShop",
-        "achievement_or_tier": "207",
-        "id": 139
+        "title": "\"#elfie\"",
+        "availability": "2017 Xmaxx EventandShop",
+        "id": "207",
+        "placeholder": 139
     },
     {
-        "name": "\"Up to Snow Good\"",
-        "description": "2017 Xmaxx Event",
-        "achievement_or_tier": "208",
-        "id": 140
+        "title": "\"Up to Snow Good\"",
+        "availability": "2017 Xmaxx Event",
+        "id": "208",
+        "placeholder": 140
     },
     {
-        "name": "Season 30",
-        "description": "Tier 17",
-        "achievement_or_tier": null,
-        "id": 141
+        "title": "Season 30",
+        "availability": "Tier 17",
+        "id": null,
+        "placeholder": 141
     },
     {
-        "name": "\"Silent Nitro\"",
-        "description": "2017 Xmaxx EventandShop",
-        "achievement_or_tier": "209",
-        "id": 142
+        "title": "\"Silent Nitro\"",
+        "availability": "2017 Xmaxx EventandShop",
+        "id": "209",
+        "placeholder": 142
     },
     {
-        "name": "\"Acute Tinselitis\"",
-        "description": "2017 Xmaxx Event",
-        "achievement_or_tier": "210",
-        "id": 143
+        "title": "\"Acute Tinselitis\"",
+        "availability": "2017 Xmaxx Event",
+        "id": "210",
+        "placeholder": 143
     },
     {
-        "name": "\"Rudolph Racing\"",
-        "description": "2017 Xmaxx Event",
-        "achievement_or_tier": "211",
-        "id": 144
+        "title": "\"Rudolph Racing\"",
+        "availability": "2017 Xmaxx Event",
+        "id": "211",
+        "placeholder": 144
     },
     {
-        "name": "Season 55",
-        "description": "Tier 27",
-        "achievement_or_tier": null,
-        "id": 145
+        "title": "Season 55",
+        "availability": "Tier 27",
+        "id": null,
+        "placeholder": 145
     },
     {
-        "name": "\"Chocolate Knight\"",
-        "description": "2017 Xmaxx Event",
-        "achievement_or_tier": "212",
-        "id": 146
+        "title": "\"Chocolate Knight\"",
+        "availability": "2017 Xmaxx Event",
+        "id": "212",
+        "placeholder": 146
     },
     {
-        "name": "\"Spring-a-round\"",
-        "description": "2018 Spring Fever Event",
-        "achievement_or_tier": "213",
-        "id": 147
+        "title": "\"Spring-a-round\"",
+        "availability": "2018 Spring Fever Event",
+        "id": "213",
+        "placeholder": 147
     },
     {
-        "name": "\"Crackin' Up\"",
-        "description": "2018 Spring Fever Event",
-        "achievement_or_tier": "214",
-        "id": 148
+        "title": "\"Crackin' Up\"",
+        "availability": "2018 Spring Fever Event",
+        "id": "214",
+        "placeholder": 148
     },
     {
-        "name": "\"Eggsecutive\"",
-        "description": "2018 Spring Fever EventandShop",
-        "achievement_or_tier": "215",
-        "id": 149
+        "title": "\"Eggsecutive\"",
+        "availability": "2018 Spring Fever EventandShop",
+        "id": "215",
+        "placeholder": 149
     },
     {
-        "name": "\"Rocky\"",
-        "description": "2018 PAC Event",
-        "achievement_or_tier": "216",
-        "id": 150
+        "title": "\"Rocky\"",
+        "availability": "2018 PAC Event",
+        "id": "216",
+        "placeholder": 150
     },
     {
-        "name": "\"PAC-Man\"",
-        "description": "2018 PAC Event",
-        "achievement_or_tier": "217",
-        "id": 151
+        "title": "\"PAC-Man\"",
+        "availability": "2018 PAC Event",
+        "id": "217",
+        "placeholder": 151
     },
     {
-        "name": "\"Ms.PAC-Man\"",
-        "description": "2018 PAC Event",
-        "achievement_or_tier": "218",
-        "id": 152
+        "title": "\"Ms.PAC-Man\"",
+        "availability": "2018 PAC Event",
+        "id": "218",
+        "placeholder": 152
     },
     {
-        "name": "\"PAC Rat\"",
-        "description": "2018 PAC Event",
-        "achievement_or_tier": "219",
-        "id": 153
+        "title": "\"PAC Rat\"",
+        "availability": "2018 PAC Event",
+        "id": "219",
+        "placeholder": 153
     },
     {
-        "name": "\"The Force\"",
-        "description": "2018 PAC Event",
-        "achievement_or_tier": "220",
-        "id": 154
+        "title": "\"The Force\"",
+        "availability": "2018 PAC Event",
+        "id": "220",
+        "placeholder": 154
     },
     {
-        "name": "\"Y.A.C.H.T.\"",
-        "description": "2018 Surf n' Turf Event",
-        "achievement_or_tier": "222",
-        "id": 155
+        "title": "\"Y.A.C.H.T.\"",
+        "availability": "2018 Surf n' Turf Event",
+        "id": "222",
+        "placeholder": 155
     },
     {
-        "name": "\"Surf n' Turf\"",
-        "description": "2018 Surf n' Turf Event",
-        "achievement_or_tier": "223",
-        "id": 156
+        "title": "\"Surf n' Turf\"",
+        "availability": "2018 Surf n' Turf Event",
+        "id": "223",
+        "placeholder": 156
     },
     {
-        "name": "\"Baked Racing Recruit\"",
-        "description": "2018 Surf n' Turf Event",
-        "achievement_or_tier": "224",
-        "id": 157
+        "title": "\"Baked Racing Recruit\"",
+        "availability": "2018 Surf n' Turf Event",
+        "id": "224",
+        "placeholder": 157
     },
     {
-        "name": "\"Sweaty Typer\"",
-        "description": "2018 Surf n' Turf Event",
-        "achievement_or_tier": "225",
-        "id": 158
+        "title": "\"Sweaty Typer\"",
+        "availability": "2018 Surf n' Turf Event",
+        "id": "225",
+        "placeholder": 158
     },
     {
-        "name": "\"Brainfreeze\"",
-        "description": "2018 Surf n' Turf EventandShop",
-        "achievement_or_tier": "226",
-        "id": 159
+        "title": "\"Brainfreeze\"",
+        "availability": "2018 Surf n' Turf EventandShop",
+        "id": "226",
+        "placeholder": 159
     },
     {
-        "name": "\"I-Scream\"",
-        "description": "2018 Surf n' Turf Event",
-        "achievement_or_tier": "227",
-        "id": 160
+        "title": "\"I-Scream\"",
+        "availability": "2018 Surf n' Turf Event",
+        "id": "227",
+        "placeholder": 160
     },
     {
-        "name": "\"Moderator\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "228",
-        "id": 161
+        "title": "\"Moderator\"",
+        "availability": "Special Sauce",
+        "id": "228",
+        "placeholder": 161
     },
     {
-        "name": "\"B.U.S. Driver\"",
-        "description": "2018and2019 Back 2 School Events",
-        "achievement_or_tier": "229",
-        "id": 162
+        "title": "\"B.U.S. Driver\"",
+        "availability": "2018and2019 Back 2 School Events",
+        "id": "229",
+        "placeholder": 162
     },
     {
-        "name": "\"B.U.S. Racer\"",
-        "description": "2018and2019 Back 2 School Events",
-        "achievement_or_tier": "230",
-        "id": 163
+        "title": "\"B.U.S. Racer\"",
+        "availability": "2018and2019 Back 2 School Events",
+        "id": "230",
+        "placeholder": 163
     },
     {
-        "name": "\"A+ Typist\"",
-        "description": "2018 Back 2 School Event",
-        "achievement_or_tier": "231",
-        "id": 164
+        "title": "\"A+ Typist\"",
+        "availability": "2018 Back 2 School Event",
+        "id": "231",
+        "placeholder": 164
     },
     {
-        "name": "\"Tilted Typist\"",
-        "description": "2018 Back 2 School Event",
-        "achievement_or_tier": "232",
-        "id": 165
+        "title": "\"Tilted Typist\"",
+        "availability": "2018 Back 2 School Event",
+        "id": "232",
+        "placeholder": 165
     },
     {
-        "name": "\"Extracurricular!\"",
-        "description": "2018 Back 2 School EventandShop",
-        "achievement_or_tier": "233",
-        "id": 166
+        "title": "\"Extracurricular!\"",
+        "availability": "2018 Back 2 School EventandShop",
+        "id": "233",
+        "placeholder": 166
     },
     {
-        "name": "\"Honor Roller\"",
-        "description": "2018 Back 2 School Event",
-        "achievement_or_tier": "234",
-        "id": 167
+        "title": "\"Honor Roller\"",
+        "availability": "2018 Back 2 School Event",
+        "id": "234",
+        "placeholder": 167
     },
     {
-        "name": "\"Typing Class Hero\"",
-        "description": "2018 Back 2 School Event",
-        "achievement_or_tier": "235",
-        "id": 168
+        "title": "\"Typing Class Hero\"",
+        "availability": "2018 Back 2 School Event",
+        "id": "235",
+        "placeholder": 168
     },
     {
-        "name": "\"The Graduate\"",
-        "description": "2018 Back 2 School Event",
-        "achievement_or_tier": "236",
-        "id": 169
+        "title": "\"The Graduate\"",
+        "availability": "2018 Back 2 School Event",
+        "id": "236",
+        "placeholder": 169
     },
     {
-        "name": "\"Three Commas Club\"",
-        "description": "So Easy, Why Wait?",
-        "achievement_or_tier": "237",
-        "id": 170
+        "title": "\"Three Commas Club\"",
+        "availability": "So Easy, Why Wait?",
+        "id": "237",
+        "placeholder": 170
     },
     {
-        "name": "\"Nitro Type Legend\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "238",
-        "id": 171
+        "title": "\"Nitro Type Legend\"",
+        "availability": "Special Sauce",
+        "id": "238",
+        "placeholder": 171
     },
     {
-        "name": "\"The Silent Knight\"",
-        "description": "2018 Xmaxx Event",
-        "achievement_or_tier": "239",
-        "id": 172
+        "title": "\"The Silent Knight\"",
+        "availability": "2018 Xmaxx Event",
+        "id": "239",
+        "placeholder": 172
     },
     {
-        "name": "\"Jolly Saint Typist\"",
-        "description": "2018 Xmaxx Event",
-        "achievement_or_tier": "240",
-        "id": 173
+        "title": "\"Jolly Saint Typist\"",
+        "availability": "2018 Xmaxx Event",
+        "id": "240",
+        "placeholder": 173
     },
     {
-        "name": "\"Hygge\"",
-        "description": "2018 Xmaxx Event",
-        "achievement_or_tier": "241",
-        "id": 174
+        "title": "\"Hygge\"",
+        "availability": "2018 Xmaxx Event",
+        "id": "241",
+        "placeholder": 174
     },
     {
-        "name": "\"Fleece Navidad\"",
-        "description": "2018 Xmaxx Event",
-        "achievement_or_tier": "242",
-        "id": 175
+        "title": "\"Fleece Navidad\"",
+        "availability": "2018 Xmaxx Event",
+        "id": "242",
+        "placeholder": 175
     },
     {
-        "name": "\"Snowtorious\"",
-        "description": "2018 Xmaxx Event",
-        "achievement_or_tier": "243",
-        "id": 176
+        "title": "\"Snowtorious\"",
+        "availability": "2018 Xmaxx Event",
+        "id": "243",
+        "placeholder": 176
     },
     {
-        "name": "\"Winter Besties\"",
-        "description": "2018 Xmaxx Event",
-        "achievement_or_tier": "244",
-        "id": 177
+        "title": "\"Winter Besties\"",
+        "availability": "2018 Xmaxx Event",
+        "id": "244",
+        "placeholder": 177
     },
     {
-        "name": "\"Makin' it Rein\"",
-        "description": "2018 Xmaxx Event",
-        "achievement_or_tier": "245",
-        "id": 178
+        "title": "\"Makin' it Rein\"",
+        "availability": "2018 Xmaxx Event",
+        "id": "245",
+        "placeholder": 178
     },
     {
-        "name": "\"Momatile\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "246",
-        "id": 179
+        "title": "\"Momatile\"",
+        "availability": "Special Sauce",
+        "id": "246",
+        "placeholder": 179
     },
     {
-        "name": "\"Goliath\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "247",
-        "id": 180
+        "title": "\"Goliath\"",
+        "availability": "Special Sauce",
+        "id": "247",
+        "placeholder": 180
     },
     {
-        "name": "\"Soon™\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "248",
-        "id": 181
+        "title": "\"Soon™\"",
+        "availability": "Special Sauce",
+        "id": "248",
+        "placeholder": 181
     },
     {
-        "name": "\"Record Keeper\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "249",
-        "id": 182
+        "title": "\"Record Keeper\"",
+        "availability": "Special Sauce",
+        "id": "249",
+        "placeholder": 182
     },
     {
-        "name": "\"Never Exhausted\"",
-        "description": "Season 21andShop",
-        "achievement_or_tier": "250",
-        "id": 183
+        "title": "\"Never Exhausted\"",
+        "availability": "Season 21andShop",
+        "id": "250",
+        "placeholder": 183
     },
     {
-        "name": "\"Nitro Burnout\"",
-        "description": "Season 21",
-        "achievement_or_tier": "251",
-        "id": 184
+        "title": "\"Nitro Burnout\"",
+        "availability": "Season 21",
+        "id": "251",
+        "placeholder": 184
     },
     {
-        "name": "Season 54",
-        "description": "Tier 11",
-        "achievement_or_tier": null,
-        "id": 185
+        "title": "Season 54",
+        "availability": "Tier 11",
+        "id": null,
+        "placeholder": 185
     },
     {
-        "name": "\"Tide Down\"",
-        "description": "Season 22",
-        "achievement_or_tier": "252",
-        "id": 186
+        "title": "\"Tide Down\"",
+        "availability": "Season 22",
+        "id": "252",
+        "placeholder": 186
     },
     {
-        "name": "\"I Have Fans!\"",
-        "description": "Season 22andShop",
-        "achievement_or_tier": "253",
-        "id": 187
+        "title": "\"I Have Fans!\"",
+        "availability": "Season 22andShop",
+        "id": "253",
+        "placeholder": 187
     },
     {
-        "name": "\"Note Taker\"",
-        "description": "2019 Back 2 School Event",
-        "achievement_or_tier": "254",
-        "id": 188
+        "title": "\"Note Taker\"",
+        "availability": "2019 Back 2 School Event",
+        "id": "254",
+        "placeholder": 188
     },
     {
-        "name": "\"Teacher's Pet\"",
-        "description": "2019 Back 2 School Event",
-        "achievement_or_tier": "255",
-        "id": 189
+        "title": "\"Teacher's Pet\"",
+        "availability": "2019 Back 2 School Event",
+        "id": "255",
+        "placeholder": 189
     },
     {
-        "name": "\"eRacer\"",
-        "description": "2019 Back 2 School Event",
-        "achievement_or_tier": "256",
-        "id": 190
+        "title": "\"eRacer\"",
+        "availability": "2019 Back 2 School Event",
+        "id": "256",
+        "placeholder": 190
     },
     {
-        "name": "\"Valedictorian\"",
-        "description": "2019 Back 2 School Event",
-        "achievement_or_tier": "257",
-        "id": 191
+        "title": "\"Valedictorian\"",
+        "availability": "2019 Back 2 School Event",
+        "id": "257",
+        "placeholder": 191
     },
     {
-        "name": "\"Nitro Scholar\"",
-        "description": "2019 Back 2 School Event",
-        "achievement_or_tier": "258",
-        "id": 192
+        "title": "\"Nitro Scholar\"",
+        "availability": "2019 Back 2 School Event",
+        "id": "258",
+        "placeholder": 192
     },
     {
-        "name": "\"Verified YouTuber\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "259",
-        "id": 193
+        "title": "\"Verified YouTuber\"",
+        "availability": "Special Sauce",
+        "id": "259",
+        "placeholder": 193
     },
     {
-        "name": "\"Little Monster\"",
-        "description": "Season 24",
-        "achievement_or_tier": "260",
-        "id": 194
+        "title": "\"Little Monster\"",
+        "availability": "Season 24",
+        "id": "260",
+        "placeholder": 194
     },
     {
-        "name": "\"Count Track-ula\"",
-        "description": "Season 24",
-        "achievement_or_tier": "261",
-        "id": 195
+        "title": "\"Count Track-ula\"",
+        "availability": "Season 24",
+        "id": "261",
+        "placeholder": 195
     },
     {
-        "name": "\"Travis Broke Something\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "262",
-        "id": 196
+        "title": "\"Travis Broke Something\"",
+        "availability": "Special Sauce",
+        "id": "262",
+        "placeholder": 196
     },
     {
-        "name": "\"Red Nosed Typist\"",
-        "description": "Season 25",
-        "achievement_or_tier": "263",
-        "id": 197
+        "title": "\"Red Nosed Typist\"",
+        "availability": "Season 25",
+        "id": "263",
+        "placeholder": 197
     },
     {
-        "name": "\"XMaxxed!\"",
-        "description": "Season 25",
-        "achievement_or_tier": "264",
-        "id": 198
+        "title": "\"XMaxxed!\"",
+        "availability": "Season 25",
+        "id": "264",
+        "placeholder": 198
     },
     {
-        "name": "\"Snap, Crackle, Pop\"",
-        "description": "Season 25",
-        "achievement_or_tier": "265",
-        "id": 199
+        "title": "\"Snap, Crackle, Pop\"",
+        "availability": "Season 25",
+        "id": "265",
+        "placeholder": 199
     },
     {
-        "name": "\"X to the Maxx\"",
-        "description": "Season 25",
-        "achievement_or_tier": "266",
-        "id": 200
+        "title": "\"X to the Maxx\"",
+        "availability": "Season 25",
+        "id": "266",
+        "placeholder": 200
     },
     {
-        "name": "\"The Snowy Knight\"",
-        "description": "Season 25",
-        "achievement_or_tier": "267",
-        "id": 201
+        "title": "\"The Snowy Knight\"",
+        "availability": "Season 25",
+        "id": "267",
+        "placeholder": 201
     },
     {
-        "name": "\"Secret Admirer\"",
-        "description": "Season 26andShop",
-        "achievement_or_tier": "268",
-        "id": 202
+        "title": "\"Secret Admirer\"",
+        "availability": "Season 26andShop",
+        "id": "268",
+        "placeholder": 202
     },
     {
-        "name": "\"Happy New Year!\"",
-        "description": "Season 26andShop",
-        "achievement_or_tier": "269",
-        "id": 203
+        "title": "\"Happy New Year!\"",
+        "availability": "Season 26andShop",
+        "id": "269",
+        "placeholder": 203
     },
     {
-        "name": "\"Valentypist\"",
-        "description": "Season 26andShop",
-        "achievement_or_tier": "270",
-        "id": 204
+        "title": "\"Valentypist\"",
+        "availability": "Season 26andShop",
+        "id": "270",
+        "placeholder": 204
     },
     {
-        "name": "\"Heart Throb\"",
-        "description": "Season 26",
-        "achievement_or_tier": "271",
-        "id": 205
+        "title": "\"Heart Throb\"",
+        "availability": "Season 26",
+        "id": "271",
+        "placeholder": 205
     },
     {
-        "name": "\"Bionic\"",
-        "description": "Season 27",
-        "achievement_or_tier": "272",
-        "id": 206
+        "title": "\"Bionic\"",
+        "availability": "Season 27",
+        "id": "272",
+        "placeholder": 206
     },
     {
-        "name": "\"A E S T H E T I C\"",
-        "description": "Season 27andShop",
-        "achievement_or_tier": "273",
-        "id": 207
+        "title": "\"A E S T H E T I C\"",
+        "availability": "Season 27andShop",
+        "id": "273",
+        "placeholder": 207
     },
     {
-        "name": "\"Shattered\"",
-        "description": "Season 27andShop",
-        "achievement_or_tier": "274",
-        "id": 208
+        "title": "\"Shattered\"",
+        "availability": "Season 27andShop",
+        "id": "274",
+        "placeholder": 208
     },
     {
-        "name": "\"NITRO.EXE\"",
-        "description": "Season 27andShop",
-        "achievement_or_tier": "275",
-        "id": 209
+        "title": "\"NITRO.EXE\"",
+        "availability": "Season 27andShop",
+        "id": "275",
+        "placeholder": 209
     },
     {
-        "name": "\"TypEd1tor\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "276",
-        "id": 210
+        "title": "\"TypEd1tor\"",
+        "availability": "Special Sauce",
+        "id": "276",
+        "placeholder": 210
     },
     {
-        "name": "\"Nitro Pioneer\"",
-        "description": "Season 27",
-        "achievement_or_tier": "277",
-        "id": 211
+        "title": "\"Nitro Pioneer\"",
+        "availability": "Season 27",
+        "id": "277",
+        "placeholder": 211
     },
     {
-        "name": "\"Gold Rusher\"",
-        "description": "Season 28",
-        "achievement_or_tier": "278",
-        "id": 212
+        "title": "\"Gold Rusher\"",
+        "availability": "Season 28",
+        "id": "278",
+        "placeholder": 212
     },
     {
-        "name": "\"Cuts the Line\"",
-        "description": "Season 28andShop",
-        "achievement_or_tier": "279",
-        "id": 213
+        "title": "\"Cuts the Line\"",
+        "availability": "Season 28andShop",
+        "id": "279",
+        "placeholder": 213
     },
     {
-        "name": "\"Tornado Typist\"",
-        "description": "Season 28",
-        "achievement_or_tier": "280",
-        "id": 214
+        "title": "\"Tornado Typist\"",
+        "availability": "Season 28",
+        "id": "280",
+        "placeholder": 214
     },
     {
-        "name": "\"Exhibit A\"",
-        "description": "Season 28",
-        "achievement_or_tier": "281",
-        "id": 215
+        "title": "\"Exhibit A\"",
+        "availability": "Season 28",
+        "id": "281",
+        "placeholder": 215
     },
     {
-        "name": "\"Full Throttle\"",
-        "description": "Season 28",
-        "achievement_or_tier": "282",
-        "id": 216
+        "title": "\"Full Throttle\"",
+        "availability": "Season 28",
+        "id": "282",
+        "placeholder": 216
     },
     {
-        "name": "\"Olympic Gold Medalist\"",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "283",
-        "id": 217
+        "title": "\"Olympic Gold Medalist\"",
+        "availability": "Nitro Type Olympics",
+        "id": "283",
+        "placeholder": 217
     },
     {
-        "name": "\"Olympic Silver Medalist\"",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "284",
-        "id": 218
+        "title": "\"Olympic Silver Medalist\"",
+        "availability": "Nitro Type Olympics",
+        "id": "284",
+        "placeholder": 218
     },
     {
-        "name": "\"Olympic Bronze Medalist\"",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "285",
-        "id": 219
+        "title": "\"Olympic Bronze Medalist\"",
+        "availability": "Nitro Type Olympics",
+        "id": "285",
+        "placeholder": 219
     },
     {
-        "name": "\"International Olympic Committee\"",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "286",
-        "id": 220
+        "title": "\"International Olympic Committee\"",
+        "availability": "Nitro Type Olympics",
+        "id": "286",
+        "placeholder": 220
     },
     {
-        "name": "\"Comeback Kid\"",
-        "description": "Season 29andShop",
-        "achievement_or_tier": "287",
-        "id": 221
+        "title": "\"Comeback Kid\"",
+        "availability": "Season 29andShop",
+        "id": "287",
+        "placeholder": 221
     },
     {
-        "name": "\"Photo Finisher\"",
-        "description": "Season 29andShop",
-        "achievement_or_tier": "288",
-        "id": 222
+        "title": "\"Photo Finisher\"",
+        "availability": "Season 29andShop",
+        "id": "288",
+        "placeholder": 222
     },
     {
-        "name": "\"No Nitros Needed\"",
-        "description": "Season 29andShop",
-        "achievement_or_tier": "289",
-        "id": 223
+        "title": "\"No Nitros Needed\"",
+        "availability": "Season 29andShop",
+        "id": "289",
+        "placeholder": 223
     },
     {
-        "name": "\"Turboducken\"",
-        "description": "Season 29andShop",
-        "achievement_or_tier": "290",
-        "id": 224
+        "title": "\"Turboducken\"",
+        "availability": "Season 29andShop",
+        "id": "290",
+        "placeholder": 224
     },
     {
-        "name": "\"WPM Wonderkid\"",
-        "description": "Season 29andShop",
-        "achievement_or_tier": "291",
-        "id": 225
+        "title": "\"WPM Wonderkid\"",
+        "availability": "Season 29andShop",
+        "id": "291",
+        "placeholder": 225
     },
     {
-        "name": "\"BUG XPLOSION\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "292",
-        "id": 226
+        "title": "\"BUG XPLOSION\"",
+        "availability": "Special Sauce",
+        "id": "292",
+        "placeholder": 226
     },
     {
-        "name": "\"#NitroFurze\"",
-        "description": "#NitroFurze Event",
-        "achievement_or_tier": "293",
-        "id": 227
+        "title": "\"#NitroFurze\"",
+        "availability": "#NitroFurze Event",
+        "id": "293",
+        "placeholder": 227
     },
     {
-        "name": "\"Wampus' Little Helper\"",
-        "description": "Season 30",
-        "achievement_or_tier": "294",
-        "id": 228
+        "title": "\"Wampus' Little Helper\"",
+        "availability": "Season 30",
+        "id": "294",
+        "placeholder": 228
     },
     {
-        "name": "\"Sleigh All Day\"",
-        "description": "Season 30",
-        "achievement_or_tier": "295",
-        "id": 229
+        "title": "\"Sleigh All Day\"",
+        "availability": "Season 30",
+        "id": "295",
+        "placeholder": 229
     },
     {
-        "name": "\"Competitor Team\"",
-        "description": "Seasons 1-12 and 14-18",
-        "achievement_or_tier": "297",
-        "id": 230
+        "title": "\"Competitor Team\"",
+        "availability": "Seasons 1-12 and 14-18",
+        "id": "297",
+        "placeholder": 230
     },
     {
-        "name": "\"Has Friends\"",
-        "description": "Popularity Contest",
-        "achievement_or_tier": "299",
-        "id": 231
+        "title": "\"Has Friends\"",
+        "availability": "Popularity Contest",
+        "id": "299",
+        "placeholder": 231
     },
     {
-        "name": "\"The Founder\"",
-        "description": "Admins",
-        "achievement_or_tier": "300",
-        "id": 232
+        "title": "\"The Founder\"",
+        "availability": "Admins",
+        "id": "300",
+        "placeholder": 232
     },
     {
-        "name": "\"Challenger Team\"",
-        "description": "Seasons 1-12 and 14-18",
-        "achievement_or_tier": "301",
-        "id": 233
+        "title": "\"Challenger Team\"",
+        "availability": "Seasons 1-12 and 14-18",
+        "id": "301",
+        "placeholder": 233
     },
     {
-        "name": "\"Rival Team\"",
-        "description": "Seasons 1-12 and 14-18",
-        "achievement_or_tier": "302",
-        "id": 234
+        "title": "\"Rival Team\"",
+        "availability": "Seasons 1-12 and 14-18",
+        "id": "302",
+        "placeholder": 234
     },
     {
-        "name": "\"PAC Contender\"",
-        "description": "Season 13",
-        "achievement_or_tier": "304",
-        "id": 235
+        "title": "\"PAC Contender\"",
+        "availability": "Season 13",
+        "id": "304",
+        "placeholder": 235
     },
     {
-        "name": "\"Contestant\"",
-        "description": "Seasons 1-12 and 14-18",
-        "achievement_or_tier": "305",
-        "id": 236
+        "title": "\"Contestant\"",
+        "availability": "Seasons 1-12 and 14-18",
+        "id": "305",
+        "placeholder": 236
     },
     {
-        "name": "\"Champion Team\"",
-        "description": "Seasons 1-12 and 14-18",
-        "achievement_or_tier": "307",
-        "id": 237
+        "title": "\"Champion Team\"",
+        "availability": "Seasons 1-12 and 14-18",
+        "id": "307",
+        "placeholder": 237
     },
     {
-        "name": "\"Gamma PAC\"",
-        "description": "Season 13",
-        "achievement_or_tier": "311",
-        "id": 238
+        "title": "\"Gamma PAC\"",
+        "availability": "Season 13",
+        "id": "311",
+        "placeholder": 238
     },
     {
-        "name": "\"Competitor\"",
-        "description": "Seasons 1-12 and 14-18",
-        "achievement_or_tier": "312",
-        "id": 239
+        "title": "\"Competitor\"",
+        "availability": "Seasons 1-12 and 14-18",
+        "id": "312",
+        "placeholder": 239
     },
     {
-        "name": "\"Champion\"",
-        "description": "Seasons 1-12 and 14-18",
-        "achievement_or_tier": "313",
-        "id": 240
+        "title": "\"Champion\"",
+        "availability": "Seasons 1-12 and 14-18",
+        "id": "313",
+        "placeholder": 240
     },
     {
-        "name": "\"Rival\"",
-        "description": "Seasons 1-12 and 14-18",
-        "achievement_or_tier": "314",
-        "id": 241
+        "title": "\"Rival\"",
+        "availability": "Seasons 1-12 and 14-18",
+        "id": "314",
+        "placeholder": 241
     },
     {
-        "name": "\"Beta PAC\"",
-        "description": "Season 13",
-        "achievement_or_tier": "321",
-        "id": 242
+        "title": "\"Beta PAC\"",
+        "availability": "Season 13",
+        "id": "321",
+        "placeholder": 242
     },
     {
-        "name": "\"Like a Jet PAC\"",
-        "description": "Season 13",
-        "achievement_or_tier": "322",
-        "id": 243
+        "title": "\"Like a Jet PAC\"",
+        "availability": "Season 13",
+        "id": "322",
+        "placeholder": 243
     },
     {
-        "name": "\"Challenger\"",
-        "description": "Seasons 1-12 and 14-18",
-        "achievement_or_tier": "326",
-        "id": 244
+        "title": "\"Challenger\"",
+        "availability": "Seasons 1-12 and 14-18",
+        "id": "326",
+        "placeholder": 244
     },
     {
-        "name": "\"Alpha PAC\"",
-        "description": "Season 13",
-        "achievement_or_tier": "329",
-        "id": 245
+        "title": "\"Alpha PAC\"",
+        "availability": "Season 13",
+        "id": "329",
+        "placeholder": 245
     },
     {
-        "name": "\"PAC Racer\"",
-        "description": "Season 13",
-        "achievement_or_tier": "330",
-        "id": 246
+        "title": "\"PAC Racer\"",
+        "availability": "Season 13",
+        "id": "330",
+        "placeholder": 246
     },
     {
-        "name": "\"2015 Gold Olympian\"",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "331",
-        "id": 247
+        "title": "\"2015 Gold Olympian\"",
+        "availability": "Nitro Type Olympics",
+        "id": "331",
+        "placeholder": 247
     },
     {
-        "name": "\"PACking a Punch\"",
-        "description": "Season 13",
-        "achievement_or_tier": "332",
-        "id": 248
+        "title": "\"PACking a Punch\"",
+        "availability": "Season 13",
+        "id": "332",
+        "placeholder": 248
     },
     {
-        "name": "\"I Dig Bugs\"",
-        "description": "Nitro Type 2.0Testing",
-        "achievement_or_tier": "333",
-        "id": 249
+        "title": "\"I Dig Bugs\"",
+        "availability": "Nitro Type 2.0Testing",
+        "id": "333",
+        "placeholder": 249
     },
     {
-        "name": "\"2015 Silver Olympian\"",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "334",
-        "id": 250
+        "title": "\"2015 Silver Olympian\"",
+        "availability": "Nitro Type Olympics",
+        "id": "334",
+        "placeholder": 250
     },
     {
-        "name": "\"Nitro Type Moderator\"",
-        "description": "Moderators",
-        "achievement_or_tier": "335",
-        "id": 251
+        "title": "\"Nitro Type Moderator\"",
+        "availability": "Moderators",
+        "id": "335",
+        "placeholder": 251
     },
     {
-        "name": "\"2016 Bronze Olympian\"",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "336",
-        "id": 252
+        "title": "\"2016 Bronze Olympian\"",
+        "availability": "Nitro Type Olympics",
+        "id": "336",
+        "placeholder": 252
     },
     {
-        "name": "\"2016 Gold Olympian\"",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "337",
-        "id": 253
+        "title": "\"2016 Gold Olympian\"",
+        "availability": "Nitro Type Olympics",
+        "id": "337",
+        "placeholder": 253
     },
     {
-        "name": "\"The Friendly Helper\"",
-        "description": "Admins",
-        "achievement_or_tier": "338",
-        "id": 254
+        "title": "\"The Friendly Helper\"",
+        "availability": "Admins",
+        "id": "338",
+        "placeholder": 254
     },
     {
-        "name": "\"Super Luxury Car Driver\"",
-        "description": "N/A",
-        "achievement_or_tier": "339",
-        "id": 255
+        "title": "\"Super Luxury Car Driver\"",
+        "availability": "N/A",
+        "id": "339",
+        "placeholder": 255
     },
     {
-        "name": "\"Super Sport Car Driver\"",
-        "description": "N/A",
-        "achievement_or_tier": "340",
-        "id": 256
+        "title": "\"Super Sport Car Driver\"",
+        "availability": "N/A",
+        "id": "340",
+        "placeholder": 256
     },
     {
-        "name": "\"Security Consultant\"",
-        "description": "Admins",
-        "achievement_or_tier": "341",
-        "id": 257
+        "title": "\"Security Consultant\"",
+        "availability": "Admins",
+        "id": "341",
+        "placeholder": 257
     },
     {
-        "name": "Nitro Type Olympics",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "342",
-        "id": 258
+        "title": "Nitro Type Olympics",
+        "availability": "Nitro Type Olympics",
+        "id": "342",
+        "placeholder": 258
     },
     {
-        "name": "Nitro Type Olympics",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "343",
-        "id": 259
+        "title": "Nitro Type Olympics",
+        "availability": "Nitro Type Olympics",
+        "id": "343",
+        "placeholder": 259
     },
     {
-        "name": "Nitro Type Olympics",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "344",
-        "id": 260
+        "title": "Nitro Type Olympics",
+        "availability": "Nitro Type Olympics",
+        "id": "344",
+        "placeholder": 260
     },
     {
-        "name": "\"Brace for ImPAC\"",
-        "description": "Season 13",
-        "achievement_or_tier": "345",
-        "id": 261
+        "title": "\"Brace for ImPAC\"",
+        "availability": "Season 13",
+        "id": "345",
+        "placeholder": 261
     },
     {
-        "name": "Nitro Type Olympics",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "346",
-        "id": 262
+        "title": "Nitro Type Olympics",
+        "availability": "Nitro Type Olympics",
+        "id": "346",
+        "placeholder": 262
     },
     {
-        "name": "\"Six Zero Racer\"",
-        "description": "N/A",
-        "achievement_or_tier": "347",
-        "id": 263
+        "title": "\"Six Zero Racer\"",
+        "availability": "N/A",
+        "id": "347",
+        "placeholder": 263
     },
     {
-        "name": "\"2016 Silver Olympian\"",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "348",
-        "id": 264
+        "title": "\"2016 Silver Olympian\"",
+        "availability": "Nitro Type Olympics",
+        "id": "348",
+        "placeholder": 264
     },
     {
-        "name": "\"Friends Love Me\"",
-        "description": "Popularity Contest",
-        "achievement_or_tier": "350",
-        "id": 265
+        "title": "\"Friends Love Me\"",
+        "availability": "Popularity Contest",
+        "id": "350",
+        "placeholder": 265
     },
     {
-        "name": "\"Winner\"",
-        "description": "Custom Car Drawing",
-        "achievement_or_tier": "351",
-        "id": 266
+        "title": "\"Winner\"",
+        "availability": "Custom Car Drawing",
+        "id": "351",
+        "placeholder": 266
     },
     {
-        "name": "\"2015 Bronze Olympian\"",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "352",
-        "id": 267
+        "title": "\"2015 Bronze Olympian\"",
+        "availability": "Nitro Type Olympics",
+        "id": "352",
+        "placeholder": 267
     },
     {
-        "name": "\"Ultimate Racer\"",
-        "description": "Season 31andShop",
-        "achievement_or_tier": "353",
-        "id": 268
+        "title": "\"Ultimate Racer\"",
+        "availability": "Season 31andShop",
+        "id": "353",
+        "placeholder": 268
     },
     {
-        "name": "\"Cupid's Arrow\"",
-        "description": "Season 31andShop",
-        "achievement_or_tier": "354",
-        "id": 269
+        "title": "\"Cupid's Arrow\"",
+        "availability": "Season 31andShop",
+        "id": "354",
+        "placeholder": 269
     },
     {
-        "name": "\"Not a Bot\"",
-        "description": "Season 31andShop",
-        "achievement_or_tier": "355",
-        "id": 270
+        "title": "\"Not a Bot\"",
+        "availability": "Season 31andShop",
+        "id": "355",
+        "placeholder": 270
     },
     {
-        "name": "\"Olympics Founder\"",
-        "description": "Nitro Type Olympics",
-        "achievement_or_tier": "356",
-        "id": 271
+        "title": "\"Olympics Founder\"",
+        "availability": "Nitro Type Olympics",
+        "id": "356",
+        "placeholder": 271
     },
     {
-        "name": "\"Ferret Parent\"",
-        "description": "Shop",
-        "achievement_or_tier": "357",
-        "id": 272
+        "title": "\"Ferret Parent\"",
+        "availability": "Shop",
+        "id": "357",
+        "placeholder": 272
     },
     {
-        "name": "\"All your base are belong to Us!!\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "358",
-        "id": 273
+        "title": "\"All your base are belong to Us!!\"",
+        "availability": "Special Sauce",
+        "id": "358",
+        "placeholder": 273
     },
     {
-        "name": "\"All Night Racer\"",
-        "description": "Shop",
-        "achievement_or_tier": "359",
-        "id": 274
+        "title": "\"All Night Racer\"",
+        "availability": "Shop",
+        "id": "359",
+        "placeholder": 274
     },
     {
-        "name": "\"First!\"",
-        "description": "Shop",
-        "achievement_or_tier": "360",
-        "id": 275
+        "title": "\"First!\"",
+        "availability": "Shop",
+        "id": "360",
+        "placeholder": 275
     },
     {
-        "name": "\"Wampus Patrol\"",
-        "description": "Shop",
-        "achievement_or_tier": "361",
-        "id": 276
+        "title": "\"Wampus Patrol\"",
+        "availability": "Shop",
+        "id": "361",
+        "placeholder": 276
     },
     {
-        "name": "\"Typing Machine\"",
-        "description": "Shop",
-        "achievement_or_tier": "362",
-        "id": 277
+        "title": "\"Typing Machine\"",
+        "availability": "Shop",
+        "id": "362",
+        "placeholder": 277
     },
     {
-        "name": "\"Breaker of Winds\"",
-        "description": "Shop",
-        "achievement_or_tier": "363",
-        "id": 278
+        "title": "\"Breaker of Winds\"",
+        "availability": "Shop",
+        "id": "363",
+        "placeholder": 278
     },
     {
-        "name": "\"Down to the Wire\"",
-        "description": "Shop",
-        "achievement_or_tier": "364",
-        "id": 279
+        "title": "\"Down to the Wire\"",
+        "availability": "Shop",
+        "id": "364",
+        "placeholder": 279
     },
     {
-        "name": "\"Speeeed!\"",
-        "description": "Shop",
-        "achievement_or_tier": "365",
-        "id": 280
+        "title": "\"Speeeed!\"",
+        "availability": "Shop",
+        "id": "365",
+        "placeholder": 280
     },
     {
-        "name": "\"Title Collector\"",
-        "description": "Shop",
-        "achievement_or_tier": "366",
-        "id": 281
+        "title": "\"Title Collector\"",
+        "availability": "Shop",
+        "id": "366",
+        "placeholder": 281
     },
     {
-        "name": "\"Insert Title Here\"",
-        "description": "Shop",
-        "achievement_or_tier": "367",
-        "id": 282
+        "title": "\"Insert Title Here\"",
+        "availability": "Shop",
+        "id": "367",
+        "placeholder": 282
     },
     {
-        "name": "\"Vroooom?\"",
-        "description": "Shop",
-        "achievement_or_tier": "368",
-        "id": 283
+        "title": "\"Vroooom?\"",
+        "availability": "Shop",
+        "id": "368",
+        "placeholder": 283
     },
     {
-        "name": "\"Let's Gooooo!\"",
-        "description": "Shop",
-        "achievement_or_tier": "369",
-        "id": 284
+        "title": "\"Let's Gooooo!\"",
+        "availability": "Shop",
+        "id": "369",
+        "placeholder": 284
     },
     {
-        "name": "\"Neato\"",
-        "description": "Shop",
-        "achievement_or_tier": "370",
-        "id": 285
+        "title": "\"Neato\"",
+        "availability": "Shop",
+        "id": "370",
+        "placeholder": 285
     },
     {
-        "name": "\"Auto Fashionista\"",
-        "description": "Shop",
-        "achievement_or_tier": "371",
-        "id": 286
+        "title": "\"Auto Fashionista\"",
+        "availability": "Shop",
+        "id": "371",
+        "placeholder": 286
     },
     {
-        "name": "\"Auto Avenger\"",
-        "description": "Shop",
-        "achievement_or_tier": "372",
-        "id": 287
+        "title": "\"Auto Avenger\"",
+        "availability": "Shop",
+        "id": "372",
+        "placeholder": 287
     },
     {
-        "name": "\"Oh Em Gee!\"",
-        "description": "Shop",
-        "achievement_or_tier": "373",
-        "id": 288
+        "title": "\"Oh Em Gee!\"",
+        "availability": "Shop",
+        "id": "373",
+        "placeholder": 288
     },
     {
-        "name": "\"Nitro Hoarder\"",
-        "description": "Shop",
-        "achievement_or_tier": "374",
-        "id": 289
+        "title": "\"Nitro Hoarder\"",
+        "availability": "Shop",
+        "id": "374",
+        "placeholder": 289
     },
     {
-        "name": "\"Nitro Rich\"",
-        "description": "Shop",
-        "achievement_or_tier": "375",
-        "id": 290
+        "title": "\"Nitro Rich\"",
+        "availability": "Shop",
+        "id": "375",
+        "placeholder": 290
     },
     {
-        "name": "\"I Love Dogs\"",
-        "description": "Shop",
-        "achievement_or_tier": "376",
-        "id": 291
+        "title": "\"I Love Dogs\"",
+        "availability": "Shop",
+        "id": "376",
+        "placeholder": 291
     },
     {
-        "name": "\"I Love Cats\"",
-        "description": "Shop",
-        "achievement_or_tier": "377",
-        "id": 292
+        "title": "\"I Love Cats\"",
+        "availability": "Shop",
+        "id": "377",
+        "placeholder": 292
     },
     {
-        "name": "\"Top Tier\"",
-        "description": "Shop",
-        "achievement_or_tier": "378",
-        "id": 293
+        "title": "\"Top Tier\"",
+        "availability": "Shop",
+        "id": "378",
+        "placeholder": 293
     },
     {
-        "name": "\"Winter Warrior\"",
-        "description": "Season 32andShop",
-        "achievement_or_tier": "379",
-        "id": 294
+        "title": "\"Winter Warrior\"",
+        "availability": "Season 32andShop",
+        "id": "379",
+        "placeholder": 294
     },
     {
-        "name": "\"Ice Road Racer\"",
-        "description": "Season 32andShop",
-        "achievement_or_tier": "382",
-        "id": 295
+        "title": "\"Ice Road Racer\"",
+        "availability": "Season 32andShop",
+        "id": "382",
+        "placeholder": 295
     },
     {
-        "name": "\"Nitro Libre\"",
-        "description": "Season 32andShop",
-        "achievement_or_tier": "385",
-        "id": 296
+        "title": "\"Nitro Libre\"",
+        "availability": "Season 32andShop",
+        "id": "385",
+        "placeholder": 296
     },
     {
-        "name": "\"Yo\"",
-        "description": "Shop",
-        "achievement_or_tier": "386",
-        "id": 297
+        "title": "\"Yo\"",
+        "availability": "Shop",
+        "id": "386",
+        "placeholder": 297
     },
     {
-        "name": "\"Peace, Love, Nitros\"",
-        "description": "Shop",
-        "achievement_or_tier": "387",
-        "id": 298
+        "title": "\"Peace, Love, Nitros\"",
+        "availability": "Shop",
+        "id": "387",
+        "placeholder": 298
     },
     {
-        "name": "\"Keyboard Smasher\"",
-        "description": "Shop",
-        "achievement_or_tier": "388",
-        "id": 299
+        "title": "\"Keyboard Smasher\"",
+        "availability": "Shop",
+        "id": "388",
+        "placeholder": 299
     },
     {
-        "name": "\"Nitro Type Savior\"",
-        "description": "N/A",
-        "achievement_or_tier": "389",
-        "id": 300
+        "title": "\"Nitro Type Savior\"",
+        "availability": "N/A",
+        "id": "389",
+        "placeholder": 300
     },
     {
-        "name": "\"3-2-1 GO!\"",
-        "description": "Shop",
-        "achievement_or_tier": "392",
-        "id": 301
+        "title": "\"3-2-1 GO!\"",
+        "availability": "Shop",
+        "id": "392",
+        "placeholder": 301
     },
     {
-        "name": "\"I Like Turtles\"",
-        "description": "N/A",
-        "achievement_or_tier": "401",
-        "id": 302
+        "title": "\"I Like Turtles\"",
+        "availability": "N/A",
+        "id": "401",
+        "placeholder": 302
     },
     {
-        "name": "\"Luck o' the Irish\"",
-        "description": "Shop",
-        "achievement_or_tier": "404",
-        "id": 303
+        "title": "\"Luck o' the Irish\"",
+        "availability": "Shop",
+        "id": "404",
+        "placeholder": 303
     },
     {
-        "name": "\"Happy Saint Patty's!\"",
-        "description": "Shop",
-        "achievement_or_tier": "405",
-        "id": 304
+        "title": "\"Happy Saint Patty's!\"",
+        "availability": "Shop",
+        "id": "405",
+        "placeholder": 304
     },
     {
-        "name": "\"Keep Calm & Shamrock On\"",
-        "description": "Shop",
-        "achievement_or_tier": "406",
-        "id": 305
+        "title": "\"Keep Calm & Shamrock On\"",
+        "availability": "Shop",
+        "id": "406",
+        "placeholder": 305
     },
     {
-        "name": "\"Clutch Typer\"",
-        "description": "Shop",
-        "achievement_or_tier": "407",
-        "id": 306
+        "title": "\"Clutch Typer\"",
+        "availability": "Shop",
+        "id": "407",
+        "placeholder": 306
     },
     {
-        "name": "\"Backseat Driver\"",
-        "description": "Shop",
-        "achievement_or_tier": "408",
-        "id": 307
+        "title": "\"Backseat Driver\"",
+        "availability": "Shop",
+        "id": "408",
+        "placeholder": 307
     },
     {
-        "name": "\"Drift King\"",
-        "description": "Shop",
-        "achievement_or_tier": "409",
-        "id": 308
+        "title": "\"Drift King\"",
+        "availability": "Shop",
+        "id": "409",
+        "placeholder": 308
     },
     {
-        "name": "\"Drift Queen\"",
-        "description": "Shop",
-        "achievement_or_tier": "410",
-        "id": 309
+        "title": "\"Drift Queen\"",
+        "availability": "Shop",
+        "id": "410",
+        "placeholder": 309
     },
     {
-        "name": "\"Leadfoot\"",
-        "description": "Shop",
-        "achievement_or_tier": "411",
-        "id": 310
+        "title": "\"Leadfoot\"",
+        "availability": "Shop",
+        "id": "411",
+        "placeholder": 310
     },
     {
-        "name": "\"Speed Demon\"",
-        "description": "Shop",
-        "achievement_or_tier": "412",
-        "id": 311
+        "title": "\"Speed Demon\"",
+        "availability": "Shop",
+        "id": "412",
+        "placeholder": 311
     },
     {
-        "name": "\"Sunday Driver\"",
-        "description": "Shop",
-        "achievement_or_tier": "413",
-        "id": 312
+        "title": "\"Sunday Driver\"",
+        "availability": "Shop",
+        "id": "413",
+        "placeholder": 312
     },
     {
-        "name": "\"Car Collector\"",
-        "description": "Shop",
-        "achievement_or_tier": "414",
-        "id": 313
+        "title": "\"Car Collector\"",
+        "availability": "Shop",
+        "id": "414",
+        "placeholder": 313
     },
     {
-        "name": "\"Verified Twitch Streamer\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "415",
-        "id": 314
+        "title": "\"Verified Twitch Streamer\"",
+        "availability": "Special Sauce",
+        "id": "415",
+        "placeholder": 314
     },
     {
-        "name": "\"I Love Frogs\"",
-        "description": "Shop",
-        "achievement_or_tier": "416",
-        "id": 315
+        "title": "\"I Love Frogs\"",
+        "availability": "Shop",
+        "id": "416",
+        "placeholder": 315
     },
     {
-        "name": "\"✅ Verified Nitro Admin\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "417",
-        "id": 316
+        "title": "\"✅ Verified Nitro Admin\"",
+        "availability": "Special Sauce",
+        "id": "417",
+        "placeholder": 316
     },
     {
-        "name": "\"Motorcycle Maniac\"",
-        "description": "Shop",
-        "achievement_or_tier": "418",
-        "id": 317
+        "title": "\"Motorcycle Maniac\"",
+        "availability": "Shop",
+        "id": "418",
+        "placeholder": 317
     },
     {
-        "name": "\"Taco Lover\"",
-        "description": "Shop",
-        "achievement_or_tier": "420",
-        "id": 318
+        "title": "\"Taco Lover\"",
+        "availability": "Shop",
+        "id": "420",
+        "placeholder": 318
     },
     {
-        "name": "\":D\"",
-        "description": "Shop",
-        "achievement_or_tier": "421",
-        "id": 319
+        "title": "\":D\"",
+        "availability": "Shop",
+        "id": "421",
+        "placeholder": 319
     },
     {
-        "name": "\"Happy Vibes :)\"",
-        "description": "Shop",
-        "achievement_or_tier": "422",
-        "id": 320
+        "title": "\"Happy Vibes :)\"",
+        "availability": "Shop",
+        "id": "422",
+        "placeholder": 320
     },
     {
-        "name": "\"Nitro Booster\"",
-        "description": "Shop",
-        "achievement_or_tier": "423",
-        "id": 321
+        "title": "\"Nitro Booster\"",
+        "availability": "Shop",
+        "id": "423",
+        "placeholder": 321
     },
     {
-        "name": "\"The Prankster\"",
-        "description": "Shop",
-        "achievement_or_tier": "424",
-        "id": 322
+        "title": "\"The Prankster\"",
+        "availability": "Shop",
+        "id": "424",
+        "placeholder": 322
     },
     {
-        "name": "\"Potaytoes\"",
-        "description": "Shop",
-        "achievement_or_tier": "429",
-        "id": 323
+        "title": "\"Potaytoes\"",
+        "availability": "Shop",
+        "id": "429",
+        "placeholder": 323
     },
     {
-        "name": "\"Lightspeed\"",
-        "description": "Shop",
-        "achievement_or_tier": "430",
-        "id": 324
+        "title": "\"Lightspeed\"",
+        "availability": "Shop",
+        "id": "430",
+        "placeholder": 324
     },
     {
-        "name": "\"Pachycephalosaur\"",
-        "description": "Shop",
-        "achievement_or_tier": "431",
-        "id": 325
+        "title": "\"Pachycephalosaur\"",
+        "availability": "Shop",
+        "id": "431",
+        "placeholder": 325
     },
     {
-        "name": "\"Unda da Sea\"",
-        "description": "Season 33andShop",
-        "achievement_or_tier": "435",
-        "id": 326
+        "title": "\"Unda da Sea\"",
+        "availability": "Season 33andShop",
+        "id": "435",
+        "placeholder": 326
     },
     {
-        "name": "\"Aquarian Conqueror\"",
-        "description": "Season 33andShop",
-        "achievement_or_tier": "436",
-        "id": 327
+        "title": "\"Aquarian Conqueror\"",
+        "availability": "Season 33andShop",
+        "id": "436",
+        "placeholder": 327
     },
     {
-        "name": "\"Bubbly!\"",
-        "description": "Season 33andShop",
-        "achievement_or_tier": "437",
-        "id": 328
+        "title": "\"Bubbly!\"",
+        "availability": "Season 33andShop",
+        "id": "437",
+        "placeholder": 328
     },
     {
-        "name": "\"Sea Student\"",
-        "description": "Season 33andShop",
-        "achievement_or_tier": "438",
-        "id": 329
+        "title": "\"Sea Student\"",
+        "availability": "Season 33andShop",
+        "id": "438",
+        "placeholder": 329
     },
     {
-        "name": "\"Shanty Life 4 Me\"",
-        "description": "Season 33andShop",
-        "achievement_or_tier": "439",
-        "id": 330
+        "title": "\"Shanty Life 4 Me\"",
+        "availability": "Season 33andShop",
+        "id": "439",
+        "placeholder": 330
     },
     {
-        "name": "\"Cash Packager\"",
-        "description": "Cash Store",
-        "achievement_or_tier": "443",
-        "id": 331
+        "title": "\"Cash Packager\"",
+        "availability": "Cash Store",
+        "id": "443",
+        "placeholder": 331
     },
     {
-        "name": "\"Bucket Lister\"",
-        "description": "Cash Store",
-        "achievement_or_tier": "444",
-        "id": 332
+        "title": "\"Bucket Lister\"",
+        "availability": "Cash Store",
+        "id": "444",
+        "placeholder": 332
     },
     {
-        "name": "\"Lil' Cash Dabbler\"",
-        "description": "Cash Store",
-        "achievement_or_tier": "445",
-        "id": 333
+        "title": "\"Lil' Cash Dabbler\"",
+        "availability": "Cash Store",
+        "id": "445",
+        "placeholder": 333
     },
     {
-        "name": "\"Please Subscribe\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "473",
-        "id": 334
+        "title": "\"Please Subscribe\"",
+        "availability": "Special Sauce",
+        "id": "473",
+        "placeholder": 334
     },
     {
-        "name": "\"Josh!\"",
-        "description": "Shop",
-        "achievement_or_tier": "499",
-        "id": 335
+        "title": "\"Josh!\"",
+        "availability": "Shop",
+        "id": "499",
+        "placeholder": 335
     },
     {
-        "name": "\"Trailblazer\"",
-        "description": "Season 34andShop",
-        "achievement_or_tier": "506",
-        "id": 336
+        "title": "\"Trailblazer\"",
+        "availability": "Season 34andShop",
+        "id": "506",
+        "placeholder": 336
     },
     {
-        "name": "\"Trail Master\"",
-        "description": "Season 34andShop",
-        "achievement_or_tier": "507",
-        "id": 337
+        "title": "\"Trail Master\"",
+        "availability": "Season 34andShop",
+        "id": "507",
+        "placeholder": 337
     },
     {
-        "name": "\"Trail Angel\"",
-        "description": "Season 34andShop",
-        "achievement_or_tier": "508",
-        "id": 338
+        "title": "\"Trail Angel\"",
+        "availability": "Season 34andShop",
+        "id": "508",
+        "placeholder": 338
     },
     {
-        "name": "\"Bushwacker\"",
-        "description": "Season 34andShop",
-        "achievement_or_tier": "509",
-        "id": 339
+        "title": "\"Bushwacker\"",
+        "availability": "Season 34andShop",
+        "id": "509",
+        "placeholder": 339
     },
     {
-        "name": "\"Single-tracker\"",
-        "description": "Season 34andShop",
-        "achievement_or_tier": "512",
-        "id": 340
+        "title": "\"Single-tracker\"",
+        "availability": "Season 34andShop",
+        "id": "512",
+        "placeholder": 340
     },
     {
-        "name": "\"Captain of the Guard\"",
-        "description": "N/A",
-        "achievement_or_tier": "517",
-        "id": 341
+        "title": "\"Captain of the Guard\"",
+        "availability": "N/A",
+        "id": "517",
+        "placeholder": 341
     },
     {
-        "name": "\"For the Win!\"",
-        "description": "Season 35",
-        "achievement_or_tier": "536",
-        "id": 342
+        "title": "\"For the Win!\"",
+        "availability": "Season 35",
+        "id": "536",
+        "placeholder": 342
     },
     {
-        "name": "\"Bootstrapper\"",
-        "description": "Season 35",
-        "achievement_or_tier": "539",
-        "id": 343
+        "title": "\"Bootstrapper\"",
+        "availability": "Season 35",
+        "id": "539",
+        "placeholder": 343
     },
     {
-        "name": "\"Golden Student\"",
-        "description": "Season 35",
-        "achievement_or_tier": "540",
-        "id": 344
+        "title": "\"Golden Student\"",
+        "availability": "Season 35",
+        "id": "540",
+        "placeholder": 344
     },
     {
-        "name": "\"Oops!\"",
-        "description": "Season 35andShop",
-        "achievement_or_tier": "542",
-        "id": 345
+        "title": "\"Oops!\"",
+        "availability": "Season 35andShop",
+        "id": "542",
+        "placeholder": 345
     },
     {
-        "name": "\"The One and Only Zav\"",
-        "description": "N/A",
-        "achievement_or_tier": "557",
-        "id": 346
+        "title": "\"The One and Only Zav\"",
+        "availability": "N/A",
+        "id": "557",
+        "placeholder": 346
     },
     {
-        "name": "\"Scaredy-Cat\"",
-        "description": "Shop",
-        "achievement_or_tier": "560",
-        "id": 347
+        "title": "\"Scaredy-Cat\"",
+        "availability": "Shop",
+        "id": "560",
+        "placeholder": 347
     },
     {
-        "name": "\"Hallow Hunter\"",
-        "description": "Shop",
-        "achievement_or_tier": "561",
-        "id": 348
+        "title": "\"Hallow Hunter\"",
+        "availability": "Shop",
+        "id": "561",
+        "placeholder": 348
     },
     {
-        "name": "\"Trick or Typer\"",
-        "description": "Shop",
-        "achievement_or_tier": "562",
-        "id": 349
+        "title": "\"Trick or Typer\"",
+        "availability": "Shop",
+        "id": "562",
+        "placeholder": 349
     },
     {
-        "name": "\"Boo-Ya!\"",
-        "description": "Shop",
-        "achievement_or_tier": "563",
-        "id": 350
+        "title": "\"Boo-Ya!\"",
+        "availability": "Shop",
+        "id": "563",
+        "placeholder": 350
     },
     {
-        "name": "\"Ghoul Gamer\"",
-        "description": "Shop",
-        "achievement_or_tier": "564",
-        "id": 351
+        "title": "\"Ghoul Gamer\"",
+        "availability": "Shop",
+        "id": "564",
+        "placeholder": 351
     },
     {
-        "name": "\"Scare Master\"",
-        "description": "Shop",
-        "achievement_or_tier": "565",
-        "id": 352
+        "title": "\"Scare Master\"",
+        "availability": "Shop",
+        "id": "565",
+        "placeholder": 352
     },
     {
-        "name": "\"Equinox Enthusiast\"",
-        "description": "Season 36",
-        "achievement_or_tier": "573",
-        "id": 353
+        "title": "\"Equinox Enthusiast\"",
+        "availability": "Season 36",
+        "id": "573",
+        "placeholder": 353
     },
     {
-        "name": "\"A-maize-ing\"",
-        "description": "Season 36",
-        "achievement_or_tier": "574",
-        "id": 354
+        "title": "\"A-maize-ing\"",
+        "availability": "Season 36",
+        "id": "574",
+        "placeholder": 354
     },
     {
-        "name": "\"Raking in Wins\"",
-        "description": "Season 36",
-        "achievement_or_tier": "575",
-        "id": 355
+        "title": "\"Raking in Wins\"",
+        "availability": "Season 36",
+        "id": "575",
+        "placeholder": 355
     },
     {
-        "name": "\"Un-be-leaf-able!\"",
-        "description": "Season 36andShop",
-        "achievement_or_tier": "576",
-        "id": 356
+        "title": "\"Un-be-leaf-able!\"",
+        "availability": "Season 36andShop",
+        "id": "576",
+        "placeholder": 356
     },
     {
-        "name": "\"Turkey Roaster\"",
-        "description": "Season 36",
-        "achievement_or_tier": "577",
-        "id": 357
+        "title": "\"Turkey Roaster\"",
+        "availability": "Season 36",
+        "id": "577",
+        "placeholder": 357
     },
     {
-        "name": "\"Speed Champion\"",
-        "description": "Discord Speed competition",
-        "achievement_or_tier": "583",
-        "id": 358
+        "title": "\"Speed Champion\"",
+        "availability": "Discord Speed competition",
+        "id": "583",
+        "placeholder": 358
     },
     {
-        "name": "\"Qwerty Quester\"",
-        "description": "Shop",
-        "achievement_or_tier": "584",
-        "id": 359
+        "title": "\"Qwerty Quester\"",
+        "availability": "Shop",
+        "id": "584",
+        "placeholder": 359
     },
     {
-        "name": "\"Colemak Conqueror\"",
-        "description": "Shop",
-        "achievement_or_tier": "585",
-        "id": 360
+        "title": "\"Colemak Conqueror\"",
+        "availability": "Shop",
+        "id": "585",
+        "placeholder": 360
     },
     {
-        "name": "\"Dvorak Destroyer\"",
-        "description": "Shop",
-        "achievement_or_tier": "586",
-        "id": 361
+        "title": "\"Dvorak Destroyer\"",
+        "availability": "Shop",
+        "id": "586",
+        "placeholder": 361
     },
     {
-        "name": "\"♪ O, Enter Key ♪\"",
-        "description": "Season 37",
-        "achievement_or_tier": "591",
-        "id": 362
+        "title": "\"♪ O, Enter Key ♪\"",
+        "availability": "Season 37",
+        "id": "591",
+        "placeholder": 362
     },
     {
-        "name": "\"Breaking the Ice\"",
-        "description": "Season 37",
-        "achievement_or_tier": "592",
-        "id": 363
+        "title": "\"Breaking the Ice\"",
+        "availability": "Season 37",
+        "id": "592",
+        "placeholder": 363
     },
     {
-        "name": "\"Heart & Solstice\"",
-        "description": "Season 37",
-        "achievement_or_tier": "593",
-        "id": 364
+        "title": "\"Heart & Solstice\"",
+        "availability": "Season 37",
+        "id": "593",
+        "placeholder": 364
     },
     {
-        "name": "\"Elf-Taught Typist\"",
-        "description": "Season 37andShop",
-        "achievement_or_tier": "594",
-        "id": 365
+        "title": "\"Elf-Taught Typist\"",
+        "availability": "Season 37andShop",
+        "id": "594",
+        "placeholder": 365
     },
     {
-        "name": "\"Lighting Up The Night\"",
-        "description": "Season 37",
-        "achievement_or_tier": "595",
-        "id": 366
+        "title": "\"Lighting Up The Night\"",
+        "availability": "Season 37",
+        "id": "595",
+        "placeholder": 366
     },
     {
-        "name": "\"Bon Appéti​t\"",
-        "description": "Season 38",
-        "achievement_or_tier": "601",
-        "id": 367
+        "title": "\"Bon Appéti​t\"",
+        "availability": "Season 38",
+        "id": "601",
+        "placeholder": 367
     },
     {
-        "name": "\"Small Fry\"",
-        "description": "Season 38",
-        "achievement_or_tier": "602",
-        "id": 368
+        "title": "\"Small Fry\"",
+        "availability": "Season 38",
+        "id": "602",
+        "placeholder": 368
     },
     {
-        "name": "\"Pasta La Vista!\"",
-        "description": "Season 38",
-        "achievement_or_tier": "603",
-        "id": 369
+        "title": "\"Pasta La Vista!\"",
+        "availability": "Season 38",
+        "id": "603",
+        "placeholder": 369
     },
     {
-        "name": "\"What's Cookin'?\"",
-        "description": "Season 38",
-        "achievement_or_tier": "604",
-        "id": 370
+        "title": "\"What's Cookin'?\"",
+        "availability": "Season 38",
+        "id": "604",
+        "placeholder": 370
     },
     {
-        "name": "\"Executive Chef\"",
-        "description": "Season 38",
-        "achievement_or_tier": "605",
-        "id": 371
+        "title": "\"Executive Chef\"",
+        "availability": "Season 38",
+        "id": "605",
+        "placeholder": 371
     },
     {
-        "name": "\"The One and Only Agu\"",
-        "description": "N/A",
-        "achievement_or_tier": "615",
-        "id": 372
+        "title": "\"The One and Only Agu\"",
+        "availability": "N/A",
+        "id": "615",
+        "placeholder": 372
     },
     {
-        "name": "\"Verified TikToker\"",
-        "description": "Special Sauce",
-        "achievement_or_tier": "617",
-        "id": 373
+        "title": "\"Verified TikToker\"",
+        "availability": "Special Sauce",
+        "id": "617",
+        "placeholder": 373
     },
     {
-        "name": "\"The Commentator\"",
-        "description": "N/A",
-        "achievement_or_tier": "618",
-        "id": 374
+        "title": "\"The Commentator\"",
+        "availability": "N/A",
+        "id": "618",
+        "placeholder": 374
     },
     {
-        "name": "\"Retro Racer\"",
-        "description": "Season 39 Volume 1",
-        "achievement_or_tier": "626",
-        "id": 375
+        "title": "\"Retro Racer\"",
+        "availability": "Season 39 Volume 1",
+        "id": "626",
+        "placeholder": 375
     },
     {
-        "name": "\"Problem Solver\"",
-        "description": "Season 39 Volume 1andShop",
-        "achievement_or_tier": "628",
-        "id": 376
+        "title": "\"Problem Solver\"",
+        "availability": "Season 39 Volume 1andShop",
+        "id": "628",
+        "placeholder": 376
     },
     {
-        "name": "\"Spring Vibin'\"",
-        "description": "Season 39 Volume 1andShop",
-        "achievement_or_tier": "629",
-        "id": 377
+        "title": "\"Spring Vibin'\"",
+        "availability": "Season 39 Volume 1andShop",
+        "id": "629",
+        "placeholder": 377
     },
     {
-        "name": "\"Ready Racer One\"",
-        "description": "Season 39 Volume 1",
-        "achievement_or_tier": "630",
-        "id": 378
+        "title": "\"Ready Racer One\"",
+        "availability": "Season 39 Volume 1",
+        "id": "630",
+        "placeholder": 378
     },
     {
-        "name": "\"May The 4th Be With You\"",
-        "description": "Shop",
-        "achievement_or_tier": "641",
-        "id": 379
+        "title": "\"May The 4th Be With You\"",
+        "availability": "Shop",
+        "id": "641",
+        "placeholder": 379
     },
     {
-        "name": "\"2022 Grad\"",
-        "description": "Shop",
-        "achievement_or_tier": "643",
-        "id": 380
+        "title": "\"2022 Grad\"",
+        "availability": "Shop",
+        "id": "643",
+        "placeholder": 380
     },
     {
-        "name": "\"Speedrunner\"",
-        "description": "Season 39 Volume 2",
-        "achievement_or_tier": "646",
-        "id": 381
+        "title": "\"Speedrunner\"",
+        "availability": "Season 39 Volume 2",
+        "id": "646",
+        "placeholder": 381
     },
     {
-        "name": "\"WASD Warrior\"",
-        "description": "Season 39 Volume 2",
-        "achievement_or_tier": "647",
-        "id": 382
+        "title": "\"WASD Warrior\"",
+        "availability": "Season 39 Volume 2",
+        "id": "647",
+        "placeholder": 382
     },
     {
-        "name": "\"Continue?\"",
-        "description": "Season 39 Volume 2andShop",
-        "achievement_or_tier": "648",
-        "id": 383
+        "title": "\"Continue?\"",
+        "availability": "Season 39 Volume 2andShop",
+        "id": "648",
+        "placeholder": 383
     },
     {
-        "name": "\"Combo Breaker\"",
-        "description": "Season 39 Volume 2",
-        "achievement_or_tier": "649",
-        "id": 384
+        "title": "\"Combo Breaker\"",
+        "availability": "Season 39 Volume 2",
+        "id": "649",
+        "placeholder": 384
     },
     {
-        "name": "\"I Race Friends\"",
-        "description": "Popularity Contest",
-        "achievement_or_tier": "653",
-        "id": 385
+        "title": "\"I Race Friends\"",
+        "availability": "Popularity Contest",
+        "id": "653",
+        "placeholder": 385
     },
     {
-        "name": "\"Bringing the Heat\"",
-        "description": "Season 40",
-        "achievement_or_tier": "662",
-        "id": 386
+        "title": "\"Bringing the Heat\"",
+        "availability": "Season 40",
+        "id": "662",
+        "placeholder": 386
     },
     {
-        "name": "\"Inferno Racer\"",
-        "description": "Season 40",
-        "achievement_or_tier": "663",
-        "id": 387
+        "title": "\"Inferno Racer\"",
+        "availability": "Season 40",
+        "id": "663",
+        "placeholder": 387
     },
     {
-        "name": "\"Vacationer\"",
-        "description": "Season 40andShop",
-        "achievement_or_tier": "664",
-        "id": 388
+        "title": "\"Vacationer\"",
+        "availability": "Season 40andShop",
+        "id": "664",
+        "placeholder": 388
     },
     {
-        "name": "\"Wave Breaker\"",
-        "description": "Season 40",
-        "achievement_or_tier": "665",
-        "id": 389
+        "title": "\"Wave Breaker\"",
+        "availability": "Season 40",
+        "id": "665",
+        "placeholder": 389
     },
     {
-        "name": "\"Yeah, Buoy!\"",
-        "description": "Season 40andShop",
-        "achievement_or_tier": "666",
-        "id": 390
+        "title": "\"Yeah, Buoy!\"",
+        "availability": "Season 40andShop",
+        "id": "666",
+        "placeholder": 390
     },
     {
-        "name": "\"Goth Moth\"",
-        "description": "N/A",
-        "achievement_or_tier": "671",
-        "id": 391
+        "title": "\"Goth Moth\"",
+        "availability": "N/A",
+        "id": "671",
+        "placeholder": 391
     },
     {
-        "name": "\"Tyrannosaurus Typist\"",
-        "description": "Season 41",
-        "achievement_or_tier": "673",
-        "id": 392
+        "title": "\"Tyrannosaurus Typist\"",
+        "availability": "Season 41",
+        "id": "673",
+        "placeholder": 392
     },
     {
-        "name": "\"Barbarian\"",
-        "description": "Season 41",
-        "achievement_or_tier": "674",
-        "id": 393
+        "title": "\"Barbarian\"",
+        "availability": "Season 41",
+        "id": "674",
+        "placeholder": 393
     },
     {
-        "name": "\"Scallywag\"",
-        "description": "Season 41andShop",
-        "achievement_or_tier": "675",
-        "id": 394
+        "title": "\"Scallywag\"",
+        "availability": "Season 41andShop",
+        "id": "675",
+        "placeholder": 394
     },
     {
-        "name": "\"Pharaoh\"",
-        "description": "Season 41",
-        "achievement_or_tier": "676",
-        "id": 395
+        "title": "\"Pharaoh\"",
+        "availability": "Season 41",
+        "id": "676",
+        "placeholder": 395
     },
     {
-        "name": "\"Imperator\"",
-        "description": "Season 41",
-        "achievement_or_tier": "677",
-        "id": 396
+        "title": "\"Imperator\"",
+        "availability": "Season 41",
+        "id": "677",
+        "placeholder": 396
     },
     {
-        "name": "\"You'll Never Beat Me!\"",
-        "description": "The Wampus",
-        "achievement_or_tier": "685",
-        "id": 397
+        "title": "\"You'll Never Beat Me!\"",
+        "availability": "The Wampus",
+        "id": "685",
+        "placeholder": 397
     },
     {
-        "name": "\"I'm Ready\"",
-        "description": "Season 42",
-        "achievement_or_tier": "693",
-        "id": 398
+        "title": "\"I'm Ready\"",
+        "availability": "Season 42",
+        "id": "693",
+        "placeholder": 398
     },
     {
-        "name": "\"Aye-aye Captain!\"",
-        "description": "Season 42",
-        "achievement_or_tier": "694",
-        "id": 399
+        "title": "\"Aye-aye Captain!\"",
+        "availability": "Season 42",
+        "id": "694",
+        "placeholder": 399
     },
     {
-        "name": "\"Broadcaster\"",
-        "description": "Season 42",
-        "achievement_or_tier": "695",
-        "id": 400
+        "title": "\"Broadcaster\"",
+        "availability": "Season 42",
+        "id": "695",
+        "placeholder": 400
     },
     {
-        "name": "\"Where's the remote?\"",
-        "description": "Season 42andShop",
-        "achievement_or_tier": "696",
-        "id": 401
+        "title": "\"Where's the remote?\"",
+        "availability": "Season 42andShop",
+        "id": "696",
+        "placeholder": 401
     },
     {
-        "name": "\"Asst to the Regional Manager\"",
-        "description": "N/A",
-        "achievement_or_tier": "697",
-        "id": 402
+        "title": "\"Asst to the Regional Manager\"",
+        "availability": "N/A",
+        "id": "697",
+        "placeholder": 402
     },
     {
-        "name": "\"World's Best Boss\"",
-        "description": "Season 42",
-        "achievement_or_tier": "698",
-        "id": 403
+        "title": "\"World's Best Boss\"",
+        "availability": "Season 42",
+        "id": "698",
+        "placeholder": 403
     },
     {
-        "name": "\"Turbo Typist\"",
-        "description": "Season 43andShop",
-        "achievement_or_tier": "704",
-        "id": 404
+        "title": "\"Turbo Typist\"",
+        "availability": "Season 43andShop",
+        "id": "704",
+        "placeholder": 404
     },
     {
-        "name": "\"Pit Crew\"",
-        "description": "Season 43",
-        "achievement_or_tier": "705",
-        "id": 405
+        "title": "\"Pit Crew\"",
+        "availability": "Season 43",
+        "id": "705",
+        "placeholder": 405
     },
     {
-        "name": "\"On Your Marks\"",
-        "description": "Season 43",
-        "achievement_or_tier": "706",
-        "id": 406
+        "title": "\"On Your Marks\"",
+        "availability": "Season 43",
+        "id": "706",
+        "placeholder": 406
     },
     {
-        "name": "\"Rally Master\"",
-        "description": "Season 43andShop",
-        "achievement_or_tier": "707",
-        "id": 407
+        "title": "\"Rally Master\"",
+        "availability": "Season 43andShop",
+        "id": "707",
+        "placeholder": 407
     },
     {
-        "name": "\"Need 4 Speed\"",
-        "description": "Season 43",
-        "achievement_or_tier": "708",
-        "id": 408
+        "title": "\"Need 4 Speed\"",
+        "availability": "Season 43",
+        "id": "708",
+        "placeholder": 408
     },
     {
-        "name": "\"Sp3llchekcer\"",
-        "description": "Spell Checking",
-        "achievement_or_tier": "712",
-        "id": 409
+        "title": "\"Sp3llchekcer\"",
+        "availability": "Spell Checking",
+        "id": "712",
+        "placeholder": 409
     },
     {
-        "name": "\"Blizzard Blitzer!\"",
-        "description": "Season 44",
-        "achievement_or_tier": "722",
-        "id": 410
+        "title": "\"Blizzard Blitzer!\"",
+        "availability": "Season 44",
+        "id": "722",
+        "placeholder": 410
     },
     {
-        "name": "\"Red-Nosed Racer\"",
-        "description": "Season 44",
-        "achievement_or_tier": "723",
-        "id": 411
+        "title": "\"Red-Nosed Racer\"",
+        "availability": "Season 44",
+        "id": "723",
+        "placeholder": 411
     },
     {
-        "name": "\"♪ Rockin’ Around the XMaxx Tree ♪\"",
-        "description": "Season 44",
-        "achievement_or_tier": "724",
-        "id": 412
+        "title": "\"♪ Rockin’ Around the XMaxx Tree ♪\"",
+        "availability": "Season 44",
+        "id": "724",
+        "placeholder": 412
     },
     {
-        "name": "\"The Mammoth\"",
-        "description": "Season 44",
-        "achievement_or_tier": "725",
-        "id": 413
+        "title": "\"The Mammoth\"",
+        "availability": "Season 44",
+        "id": "725",
+        "placeholder": 413
     },
     {
-        "name": "\"On Thin Ice\"",
-        "description": "Season 44",
-        "achievement_or_tier": "726",
-        "id": 414
+        "title": "\"On Thin Ice\"",
+        "availability": "Season 44",
+        "id": "726",
+        "placeholder": 414
     },
     {
-        "name": "\"Verified Tweeter\"",
-        "description": "Twitter",
-        "achievement_or_tier": "727",
-        "id": 415
+        "title": "\"Verified Tweeter\"",
+        "availability": "Twitter",
+        "id": "727",
+        "placeholder": 415
     },
     {
-        "name": "\"Galactic Guardian\"",
-        "description": "Shop",
-        "achievement_or_tier": "732",
-        "id": 416
+        "title": "\"Galactic Guardian\"",
+        "availability": "Shop",
+        "id": "732",
+        "placeholder": 416
     },
     {
-        "name": "\"Grab the Popcorn!\"",
-        "description": "Season 45",
-        "achievement_or_tier": "733",
-        "id": 417
+        "title": "\"Grab the Popcorn!\"",
+        "availability": "Season 45",
+        "id": "733",
+        "placeholder": 417
     },
     {
-        "name": "\"The Wicked Witch\"",
-        "description": "Season 45",
-        "achievement_or_tier": "734",
-        "id": 418
+        "title": "\"The Wicked Witch\"",
+        "availability": "Season 45",
+        "id": "734",
+        "placeholder": 418
     },
     {
-        "name": "\"Great Scott!\"",
-        "description": "Season 45",
-        "achievement_or_tier": "735",
-        "id": 419
+        "title": "\"Great Scott!\"",
+        "availability": "Season 45",
+        "id": "735",
+        "placeholder": 419
     },
     {
-        "name": "\"Secret Agent\"",
-        "description": "Season 45",
-        "achievement_or_tier": "736",
-        "id": 420
+        "title": "\"Secret Agent\"",
+        "availability": "Season 45",
+        "id": "736",
+        "placeholder": 420
     },
     {
-        "name": "\"Ghost Getter\"",
-        "description": "Season 45",
-        "achievement_or_tier": "737",
-        "id": 421
+        "title": "\"Ghost Getter\"",
+        "availability": "Season 45",
+        "id": "737",
+        "placeholder": 421
     },
     {
-        "name": "\"Legendary\"",
-        "description": "Most Deserving",
-        "achievement_or_tier": "745",
-        "id": 422
+        "title": "\"Legendary\"",
+        "availability": "Most Deserving",
+        "id": "745",
+        "placeholder": 422
     },
     {
-        "name": "\"Goblin Mode\"",
-        "description": "Shop",
-        "achievement_or_tier": "746",
-        "id": 423
+        "title": "\"Goblin Mode\"",
+        "availability": "Shop",
+        "id": "746",
+        "placeholder": 423
     },
     {
-        "name": "\"Ninja\"",
-        "description": "Shop",
-        "achievement_or_tier": "747",
-        "id": 424
+        "title": "\"Ninja\"",
+        "availability": "Shop",
+        "id": "747",
+        "placeholder": 424
     },
     {
-        "name": "\"Extraterrestrial\"",
-        "description": "Shop",
-        "achievement_or_tier": "748",
-        "id": 425
+        "title": "\"Extraterrestrial\"",
+        "availability": "Shop",
+        "id": "748",
+        "placeholder": 425
     },
     {
-        "name": "\"Petal Pusher\"",
-        "description": "Season 46",
-        "achievement_or_tier": "754",
-        "id": 426
+        "title": "\"Petal Pusher\"",
+        "availability": "Season 46",
+        "id": "754",
+        "placeholder": 426
     },
     {
-        "name": "\"Seasonal Racer\"",
-        "description": "Season 46",
-        "achievement_or_tier": "755",
-        "id": 427
+        "title": "\"Seasonal Racer\"",
+        "availability": "Season 46",
+        "id": "755",
+        "placeholder": 427
     },
     {
-        "name": "\"March Madness Champ\"",
-        "description": "Season 46",
-        "achievement_or_tier": "756",
-        "id": 428
+        "title": "\"March Madness Champ\"",
+        "availability": "Season 46",
+        "id": "756",
+        "placeholder": 428
     },
     {
-        "name": "\"Fast Forward\"",
-        "description": "Season 46",
-        "achievement_or_tier": "757",
-        "id": 429
+        "title": "\"Fast Forward\"",
+        "availability": "Season 46",
+        "id": "757",
+        "placeholder": 429
     },
     {
-        "name": "\"Fast and Flora\"",
-        "description": "Season 46",
-        "achievement_or_tier": "758",
-        "id": 430
+        "title": "\"Fast and Flora\"",
+        "availability": "Season 46",
+        "id": "758",
+        "placeholder": 430
     },
     {
-        "name": "\"Spring into Speed\"",
-        "description": "Season 46",
-        "achievement_or_tier": "759",
-        "id": 431
+        "title": "\"Spring into Speed\"",
+        "availability": "Season 46",
+        "id": "759",
+        "placeholder": 431
     },
     {
-        "name": "\"Extracurricular\"",
-        "description": "N/A",
-        "achievement_or_tier": "770",
-        "id": 432
+        "title": "\"Extracurricular\"",
+        "availability": "N/A",
+        "id": "770",
+        "placeholder": 432
     },
     {
-        "name": "\"Roar to Victory\"",
-        "description": "Season 47",
-        "achievement_or_tier": "780",
-        "id": 433
+        "title": "\"Roar to Victory\"",
+        "availability": "Season 47",
+        "id": "780",
+        "placeholder": 433
     },
     {
-        "name": "\"Leader of the Pack\"",
-        "description": "Season 47",
-        "achievement_or_tier": "781",
-        "id": 434
+        "title": "\"Leader of the Pack\"",
+        "availability": "Season 47",
+        "id": "781",
+        "placeholder": 434
     },
     {
-        "name": "\"Wild Thang\"",
-        "description": "Season 47",
-        "achievement_or_tier": "782",
-        "id": 435
+        "title": "\"Wild Thang\"",
+        "availability": "Season 47",
+        "id": "782",
+        "placeholder": 435
     },
     {
-        "name": "\"Savanna Speedster\"",
-        "description": "Season 47",
-        "achievement_or_tier": "783",
-        "id": 436
+        "title": "\"Savanna Speedster\"",
+        "availability": "Season 47",
+        "id": "783",
+        "placeholder": 436
     },
     {
-        "name": "\"Ferocious Finisher\"",
-        "description": "Season 47",
-        "achievement_or_tier": "784",
-        "id": 437
+        "title": "\"Ferocious Finisher\"",
+        "availability": "Season 47",
+        "id": "784",
+        "placeholder": 437
     },
     {
-        "name": "\"Speed Scholar\"",
-        "description": "Season 48",
-        "achievement_or_tier": "800",
-        "id": 438
+        "title": "\"Speed Scholar\"",
+        "availability": "Season 48",
+        "id": "800",
+        "placeholder": 438
     },
     {
-        "name": "\"Algebra Ace\"",
-        "description": "Season 48",
-        "achievement_or_tier": "801",
-        "id": 439
+        "title": "\"Algebra Ace\"",
+        "availability": "Season 48",
+        "id": "801",
+        "placeholder": 439
     },
     {
-        "name": "\"Race Day Prodigy\"",
-        "description": "Season 48",
-        "achievement_or_tier": "802",
-        "id": 440
+        "title": "\"Race Day Prodigy\"",
+        "availability": "Season 48",
+        "id": "802",
+        "placeholder": 440
     },
     {
-        "name": "\"Fast Track Flyer\"",
-        "description": "Season 48",
-        "achievement_or_tier": "803",
-        "id": 441
+        "title": "\"Fast Track Flyer\"",
+        "availability": "Season 48",
+        "id": "803",
+        "placeholder": 441
     },
     {
-        "name": "\"Field Trip Speedrunner\"",
-        "description": "Season 48",
-        "achievement_or_tier": "804",
-        "id": 442
+        "title": "\"Field Trip Speedrunner\"",
+        "availability": "Season 48",
+        "id": "804",
+        "placeholder": 442
     },
     {
-        "name": "\"Number Cruncher\"",
-        "description": "Season 48",
-        "achievement_or_tier": "805",
-        "id": 443
+        "title": "\"Number Cruncher\"",
+        "availability": "Season 48",
+        "id": "805",
+        "placeholder": 443
     },
     {
-        "name": "\"Batty\"",
-        "description": "Season 49",
-        "achievement_or_tier": "812",
-        "id": 444
+        "title": "\"Batty\"",
+        "availability": "Season 49",
+        "id": "812",
+        "placeholder": 444
     },
     {
-        "name": "\"Spectral Speedster\"",
-        "description": "Season 49",
-        "achievement_or_tier": "813",
-        "id": 445
+        "title": "\"Spectral Speedster\"",
+        "availability": "Season 49",
+        "id": "813",
+        "placeholder": 445
     },
     {
-        "name": "\"Witchy Wheeler\"",
-        "description": "Season 49",
-        "achievement_or_tier": "814",
-        "id": 446
+        "title": "\"Witchy Wheeler\"",
+        "availability": "Season 49",
+        "id": "814",
+        "placeholder": 446
     },
     {
-        "name": "\"Ghoul's Gold\"",
-        "description": "Season 49",
-        "achievement_or_tier": "815",
-        "id": 447
+        "title": "\"Ghoul's Gold\"",
+        "availability": "Season 49",
+        "id": "815",
+        "placeholder": 447
     },
     {
-        "name": "\"Pumpkin Peddler\"",
-        "description": "Season 49",
-        "achievement_or_tier": "816",
-        "id": 448
+        "title": "\"Pumpkin Peddler\"",
+        "availability": "Season 49",
+        "id": "816",
+        "placeholder": 448
     },
     {
-        "name": "\"Square Deal Speedster\"",
-        "description": "Box o' Cash Bundle",
-        "achievement_or_tier": "821",
-        "id": 449
+        "title": "\"Square Deal Speedster\"",
+        "availability": "Box o' Cash Bundle",
+        "id": "821",
+        "placeholder": 449
     },
     {
-        "name": "\"Can-Do Dynamo\"",
-        "description": "Trash Can o' Cash Bundle",
-        "achievement_or_tier": "822",
-        "id": 450
+        "title": "\"Can-Do Dynamo\"",
+        "availability": "Trash Can o' Cash Bundle",
+        "id": "822",
+        "placeholder": 450
     },
     {
-        "name": "\"Loaded Lorry Legend\"",
-        "description": "Truck o' Cash Bundle",
-        "achievement_or_tier": "823",
-        "id": 451
+        "title": "\"Loaded Lorry Legend\"",
+        "availability": "Truck o' Cash Bundle",
+        "id": "823",
+        "placeholder": 451
     },
     {
-        "name": "\"Rolling Royalty Racer\"",
-        "description": "Huge Ball o' Cash Bundle",
-        "achievement_or_tier": "824",
-        "id": 452
+        "title": "\"Rolling Royalty Racer\"",
+        "availability": "Huge Ball o' Cash Bundle",
+        "id": "824",
+        "placeholder": 452
     },
     {
-        "name": "\"Nitro Wealthy\"",
-        "description": "N/A",
-        "achievement_or_tier": "827",
-        "id": 453
+        "title": "\"Nitro Wealthy\"",
+        "availability": "N/A",
+        "id": "827",
+        "placeholder": 453
     },
     {
-        "name": "\"Nitro-Opulent\"",
-        "description": "Nitro Fortune Cash Pack",
-        "achievement_or_tier": "828",
-        "id": 454
+        "title": "\"Nitro-Opulent\"",
+        "availability": "Nitro Fortune Cash Pack",
+        "id": "828",
+        "placeholder": 454
     },
     {
-        "name": "\"Nitro Prosperous\"",
-        "description": "N/A",
-        "achievement_or_tier": "829",
-        "id": 455
+        "title": "\"Nitro Prosperous\"",
+        "availability": "N/A",
+        "id": "829",
+        "placeholder": 455
     },
     {
-        "name": "\"Ghostly Gearhead\"",
-        "description": "Season 49",
-        "achievement_or_tier": "835",
-        "id": 456
+        "title": "\"Ghostly Gearhead\"",
+        "availability": "Season 49",
+        "id": "835",
+        "placeholder": 456
     },
     {
-        "name": "\"The Diamond Racer\"",
-        "description": "Xmaxx Sale",
-        "achievement_or_tier": "836",
-        "id": 457
+        "title": "\"The Diamond Racer\"",
+        "availability": "Xmaxx Sale",
+        "id": "836",
+        "placeholder": 457
     },
     {
-        "name": "\"Jingle Jockey\"",
-        "description": "Season 50",
-        "achievement_or_tier": "837",
-        "id": 458
+        "title": "\"Jingle Jockey\"",
+        "availability": "Season 50",
+        "id": "837",
+        "placeholder": 458
     },
     {
-        "name": "\"Frosty Flyer\"",
-        "description": "Season 50",
-        "achievement_or_tier": "838",
-        "id": 459
+        "title": "\"Frosty Flyer\"",
+        "availability": "Season 50",
+        "id": "838",
+        "placeholder": 459
     },
     {
-        "name": "\"Reindeer Racer\"",
-        "description": "Season 50",
-        "achievement_or_tier": "839",
-        "id": 460
+        "title": "\"Reindeer Racer\"",
+        "availability": "Season 50",
+        "id": "839",
+        "placeholder": 460
     },
     {
-        "name": "\"Festive Flash\"",
-        "description": "Season 50",
-        "achievement_or_tier": "840",
-        "id": 461
+        "title": "\"Festive Flash\"",
+        "availability": "Season 50",
+        "id": "840",
+        "placeholder": 461
     },
     {
-        "name": "\"North Pole Navigator\"",
-        "description": "Season 50",
-        "achievement_or_tier": "841",
-        "id": 462
+        "title": "\"North Pole Navigator\"",
+        "availability": "Season 50",
+        "id": "841",
+        "placeholder": 462
     },
     {
-        "name": "\"Candy Cane Cruiser\"",
-        "description": "Season 50",
-        "achievement_or_tier": "842",
-        "id": 463
+        "title": "\"Candy Cane Cruiser\"",
+        "availability": "Season 50",
+        "id": "842",
+        "placeholder": 463
     },
     {
-        "name": "\"Sorcerer of Speed\"",
-        "description": "Season 51",
-        "achievement_or_tier": "855",
-        "id": 464
+        "title": "\"Sorcerer of Speed\"",
+        "availability": "Season 51",
+        "id": "855",
+        "placeholder": 464
     },
     {
-        "name": "\"Phantom Fingers\"",
-        "description": "Season 51",
-        "achievement_or_tier": "856",
-        "id": 465
+        "title": "\"Phantom Fingers\"",
+        "availability": "Season 51",
+        "id": "856",
+        "placeholder": 465
     },
     {
-        "name": "\"Mystic Racer\"",
-        "description": "Season 51",
-        "achievement_or_tier": "857",
-        "id": 466
+        "title": "\"Mystic Racer\"",
+        "availability": "Season 51",
+        "id": "857",
+        "placeholder": 466
     },
     {
-        "name": "\"Magical Maestro\"",
-        "description": "Season 51",
-        "achievement_or_tier": "858",
-        "id": 467
+        "title": "\"Magical Maestro\"",
+        "availability": "Season 51",
+        "id": "858",
+        "placeholder": 467
     },
     {
-        "name": "\"Dragon Tamer\"",
-        "description": "Season 51",
-        "achievement_or_tier": "859",
-        "id": 468
+        "title": "\"Dragon Tamer\"",
+        "availability": "Season 51",
+        "id": "859",
+        "placeholder": 468
     },
     {
-        "name": "\"Titan of the Track\"",
-        "description": "Season 51",
-        "achievement_or_tier": "860",
-        "id": 469
+        "title": "\"Titan of the Track\"",
+        "availability": "Season 51",
+        "id": "860",
+        "placeholder": 469
     },
     {
-        "name": "\"Spring Streaker\"",
-        "description": "Season 52",
-        "achievement_or_tier": "866",
-        "id": 470
+        "title": "\"Spring Streaker\"",
+        "availability": "Season 52",
+        "id": "866",
+        "placeholder": 470
     },
     {
-        "name": "\"April Ace\"",
-        "description": "Season 52",
-        "achievement_or_tier": "867",
-        "id": 471
+        "title": "\"April Ace\"",
+        "availability": "Season 52",
+        "id": "867",
+        "placeholder": 471
     },
     {
-        "name": "\"Raindrop Racer\"",
-        "description": "Season 52",
-        "achievement_or_tier": "868",
-        "id": 472
+        "title": "\"Raindrop Racer\"",
+        "availability": "Season 52",
+        "id": "868",
+        "placeholder": 472
     },
     {
-        "name": "\"Eggstra Speedy\"",
-        "description": "Season 52",
-        "achievement_or_tier": "869",
-        "id": 473
+        "title": "\"Eggstra Speedy\"",
+        "availability": "Season 52",
+        "id": "869",
+        "placeholder": 473
     },
     {
-        "name": "\"Blossom Blazer\"",
-        "description": "Season 52",
-        "achievement_or_tier": "870",
-        "id": 474
+        "title": "\"Blossom Blazer\"",
+        "availability": "Season 52",
+        "id": "870",
+        "placeholder": 474
     },
     {
-        "name": "\"Dewdrop Drifter\"",
-        "description": "Season 52",
-        "achievement_or_tier": "871",
-        "id": 475
+        "title": "\"Dewdrop Drifter\"",
+        "availability": "Season 52",
+        "id": "871",
+        "placeholder": 475
     },
     {
-        "name": "\"RoboCop\"",
-        "description": "N/A",
-        "achievement_or_tier": "872",
-        "id": 476
+        "title": "\"RoboCop\"",
+        "availability": "N/A",
+        "id": "872",
+        "placeholder": 476
     },
     {
-        "name": "\"Shocking\"",
-        "description": "Early Bird Renewal Advantage",
-        "achievement_or_tier": "873",
-        "id": 477
+        "title": "\"Shocking\"",
+        "availability": "Early Bird Renewal Advantage",
+        "id": "873",
+        "placeholder": 477
     },
     {
-        "name": "\"Turbo Tycoon\"",
-        "description": "Nitro Fortune Cash Pack",
-        "achievement_or_tier": "874",
-        "id": 478
+        "title": "\"Turbo Tycoon\"",
+        "availability": "Nitro Fortune Cash Pack",
+        "id": "874",
+        "placeholder": 478
     },
     {
-        "name": "\"Heatwave Hero\"",
-        "description": "Season 53",
-        "achievement_or_tier": "885",
-        "id": 479
+        "title": "\"Heatwave Hero\"",
+        "availability": "Season 53",
+        "id": "885",
+        "placeholder": 479
     },
     {
-        "name": "\"2024 Grad\"",
-        "description": "Shop",
-        "achievement_or_tier": "890",
-        "id": 480
+        "title": "\"2024 Grad\"",
+        "availability": "Shop",
+        "id": "890",
+        "placeholder": 480
     },
     {
-        "name": "\"Learner Leader\"",
-        "description": "Leagues",
-        "achievement_or_tier": "892",
-        "id": 481
+        "title": "\"Learner Leader\"",
+        "availability": "Leagues",
+        "id": "892",
+        "placeholder": 481
     },
     {
-        "name": "\"Novice Navigator\"",
-        "description": "Leagues",
-        "achievement_or_tier": "893",
-        "id": 482
+        "title": "\"Novice Navigator\"",
+        "availability": "Leagues",
+        "id": "893",
+        "placeholder": 482
     },
     {
-        "name": "\"Rookie Racer\"",
-        "description": "Leagues",
-        "achievement_or_tier": "894",
-        "id": 483
+        "title": "\"Rookie Racer\"",
+        "availability": "Leagues",
+        "id": "894",
+        "placeholder": 483
     },
     {
-        "name": "\"Pro Pacer\"",
-        "description": "Leagues",
-        "achievement_or_tier": "895",
-        "id": 484
+        "title": "\"Pro Pacer\"",
+        "availability": "Leagues",
+        "id": "895",
+        "placeholder": 484
     },
     {
-        "name": "\"Ace Acccelerator\"",
-        "description": "Leagues",
-        "achievement_or_tier": "896",
-        "id": 485
+        "title": "\"Ace Acccelerator\"",
+        "availability": "Leagues",
+        "id": "896",
+        "placeholder": 485
     },
     {
-        "name": "\"Expert Extraordinaire\"",
-        "description": "Leagues",
-        "achievement_or_tier": "897",
-        "id": 486
+        "title": "\"Expert Extraordinaire\"",
+        "availability": "Leagues",
+        "id": "897",
+        "placeholder": 486
     },
     {
-        "name": "\"Champion Chaser\"",
-        "description": "Leagues",
-        "achievement_or_tier": "898",
-        "id": 487
+        "title": "\"Champion Chaser\"",
+        "availability": "Leagues",
+        "id": "898",
+        "placeholder": 487
     },
     {
-        "name": "\"Master Motorist\"",
-        "description": "Leagues",
-        "achievement_or_tier": "899",
-        "id": 488
+        "title": "\"Master Motorist\"",
+        "availability": "Leagues",
+        "id": "899",
+        "placeholder": 488
     },
     {
-        "name": "\"Epic Engager\"",
-        "description": "Leagues",
-        "achievement_or_tier": "900",
-        "id": 489
+        "title": "\"Epic Engager\"",
+        "availability": "Leagues",
+        "id": "900",
+        "placeholder": 489
     },
     {
-        "name": "\"Legendary Lapper\"",
-        "description": "Leagues",
-        "achievement_or_tier": "901",
-        "id": 490
+        "title": "\"Legendary Lapper\"",
+        "availability": "Leagues",
+        "id": "901",
+        "placeholder": 490
     },
     {
-        "name": "\"League Champion\"",
-        "description": "Leagues",
-        "achievement_or_tier": "902",
-        "id": 491
+        "title": "\"League Champion\"",
+        "availability": "Leagues",
+        "id": "902",
+        "placeholder": 491
     },
     {
-        "name": "\"404 Not Found\"",
-        "description": "Shop",
-        "achievement_or_tier": "913",
-        "id": 492
+        "title": "\"404 Not Found\"",
+        "availability": "Shop",
+        "id": "913",
+        "placeholder": 492
     },
     {
-        "name": "\"Mechanic\"",
-        "description": "Season 54",
-        "achievement_or_tier": "918",
-        "id": 493
+        "title": "\"Mechanic\"",
+        "availability": "Season 54",
+        "id": "918",
+        "placeholder": 493
     },
     {
-        "name": "\"Gear Grinder\"",
-        "description": "Season 54",
-        "achievement_or_tier": "919",
-        "id": 494
+        "title": "\"Gear Grinder\"",
+        "availability": "Season 54",
+        "id": "919",
+        "placeholder": 494
     },
     {
-        "name": "\"Heavy Hauler\"",
-        "description": "Season 54",
-        "achievement_or_tier": "920",
-        "id": 495
+        "title": "\"Heavy Hauler\"",
+        "availability": "Season 54",
+        "id": "920",
+        "placeholder": 495
     },
     {
-        "name": "\"Hydraulic Hero\"",
-        "description": "Season 54",
-        "achievement_or_tier": "921",
-        "id": 496
+        "title": "\"Hydraulic Hero\"",
+        "availability": "Season 54",
+        "id": "921",
+        "placeholder": 496
     },
     {
-        "name": "\"Son of Corndog\"",
-        "description": "Admins",
-        "achievement_or_tier": "924",
-        "id": 497
+        "title": "\"Son of Corndog\"",
+        "availability": "Admins",
+        "id": "924",
+        "placeholder": 497
     },
     {
-        "name": "\"2icy4u\"",
-        "description": "Season 55",
-        "achievement_or_tier": "925",
-        "id": 498
+        "title": "\"2icy4u\"",
+        "availability": "Season 55",
+        "id": "925",
+        "placeholder": 498
     },
     {
-        "name": "\"Santa's Lil' Helper\"",
-        "description": "Season 55",
-        "achievement_or_tier": "928",
-        "id": 499
+        "title": "\"Santa's Lil' Helper\"",
+        "availability": "Season 55",
+        "id": "928",
+        "placeholder": 499
     },
     {
-        "name": "\"On The Nice List\"",
-        "description": "Season 55",
-        "achievement_or_tier": "929",
-        "id": 500
+        "title": "\"On The Nice List\"",
+        "availability": "Season 55",
+        "id": "929",
+        "placeholder": 500
     },
     {
-        "name": "\"Yuletide Spirit\"",
-        "description": "Season 55",
-        "achievement_or_tier": "930",
-        "id": 501
+        "title": "\"Yuletide Spirit\"",
+        "availability": "Season 55",
+        "id": "930",
+        "placeholder": 501
     },
     {
-        "name": "\"Operation: Typing\"",
-        "description": "N/A",
-        "achievement_or_tier": "934",
-        "id": 502
+        "title": "\"Operation: Typing\"",
+        "availability": "N/A",
+        "id": "934",
+        "placeholder": 502
     },
     {
-        "name": "\"Overdrive\"",
-        "description": "Season 56",
-        "achievement_or_tier": "940",
-        "id": 503
+        "title": "\"Overdrive\"",
+        "availability": "Season 56",
+        "id": "940",
+        "placeholder": 503
     },
     {
-        "name": "\"Encore\"",
-        "description": "Season 56",
-        "achievement_or_tier": "941",
-        "id": 504
+        "title": "\"Encore\"",
+        "availability": "Season 56",
+        "id": "941",
+        "placeholder": 504
     },
     {
-        "name": "\"Spring Speedster\"",
-        "description": "Spring Showdown",
-        "achievement_or_tier": "946",
-        "id": 505
+        "title": "\"Spring Speedster\"",
+        "availability": "Spring Showdown",
+        "id": "946",
+        "placeholder": 505
     },
     {
-        "name": "\"Green Streak\"",
-        "description": "Spring Showdown",
-        "achievement_or_tier": "950",
-        "id": 506
+        "title": "\"Green Streak\"",
+        "availability": "Spring Showdown",
+        "id": "950",
+        "placeholder": 506
     },
     {
-        "name": "\"Eternal Spring\"",
-        "description": "Spring Showdown",
-        "achievement_or_tier": "951",
-        "id": 507
+        "title": "\"Eternal Spring\"",
+        "availability": "Spring Showdown",
+        "id": "951",
+        "placeholder": 507
     },
     {
-        "name": "\"Flora Fury\"",
-        "description": "Spring Showdown",
-        "achievement_or_tier": "952",
-        "id": 508
+        "title": "\"Flora Fury\"",
+        "availability": "Spring Showdown",
+        "id": "952",
+        "placeholder": 508
     },
     {
-        "name": "\"2025 Grad\"",
-        "description": "Shop",
-        "achievement_or_tier": "954",
-        "id": 509
+        "title": "\"2025 Grad\"",
+        "availability": "Shop",
+        "id": "954",
+        "placeholder": 509
     }
 ]
