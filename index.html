@@ -160,21 +160,21 @@ async function fetchAndProcess() {
             return;
         }
 
-        let carsItems = [];
+        const carItems = [];
         for (const category of arrayData) {
             if (category && category.items && Array.isArray(category.items)) {
                 for (const item of category.items) {
                     if (item && item.type === 'car') {
-                        carsItems.push(item);
+                        carItems.push(item);
                         console.log('Found car item:', item);
                     }
                 }
             }
         }
-        console.log('Cars items:', carsItems);
+        console.log('Car items:', carItems);
 
-        if (carsItems.length > 0) {
-            const matchedCars = carsItems.map(shopItem => {
+        if (carItems.length > 0) {
+            const matchedCars = carItems.map(shopItem => {
                 const carData = allCars.find(c => c.id === shopItem.id);
                 const titleEntry = allTitles.find(t => t.id === shopItem.id && t.type === 'loot');
                 if (carData) {
@@ -187,7 +187,7 @@ async function fetchAndProcess() {
                 return null;
             }).filter(c => c !== null);
 
-            console.log('Matched cars with titles:', matchedCars);
+            console.log('Final matched cars with titles:', matchedCars);
             carsPre.textContent = JSON.stringify(matchedCars, null, 2);
         } else {
             console.log('No car items found.');
