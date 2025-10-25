@@ -200,12 +200,10 @@ async function fetchAndProcess() {
                 }
                 console.log('Cars found:', carsFound);
                 if (carsFound.length > 0) {
-                    const matchedCars = carsFound.map(car => {
-                        const matchedCar = allCars.find(c => c.id === car.id);
-                        console.log('Matching car ID:', car.id, 'Found in cars.json:', matchedCar);
+                    const matchedCars = carsFound.map(shopItem => {
+                        const titleEntry = allTitles.find(t => t.id === shopItem.id && t.type === 'loot');
+                        const matchedCar = allCars.find(c => c.id === shopItem.id);
                         if (matchedCar) {
-                            const titleEntry = allTitles.find(t => t.id === matchedCar.id && t.type === 'loot');
-                            console.log('Title entry for ID:', matchedCar.id, 'Title:', titleEntry);
                             if (titleEntry && titleEntry.title) {
                                 return { ...matchedCar, title: titleEntry.title };
                             } else {
