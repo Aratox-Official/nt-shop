@@ -2,385 +2,385 @@
     {
         "title": "\"The ATM Machine\"",
         "availability": "Savings & Earnings",
-        "id": "72",
+        "id": 72,
         "placeholder": 1
     },
     {
         "title": "\"Millionaire\"",
         "availability": "Savings & Earnings",
-        "id": "73",
+        "id": 73,
         "placeholder": 2
     },
     {
         "title": "\"Big Spender\"",
         "availability": "Hey Big Spender",
-        "id": "74",
+        "id": 74,
         "placeholder": 3
     },
     {
         "title": "\"Filthy Rich\"",
         "availability": "Hey Big Spender",
-        "id": "75",
+        "id": 75,
         "placeholder": 4
     },
     {
         "title": "\"Endurance Racer\"",
         "availability": "Hittin' the Track",
-        "id": "76",
+        "id": 76,
         "placeholder": 5
     },
     {
         "title": "\"Crazy About Typing\"",
         "availability": "King of the Race",
-        "id": "77",
+        "id": 77,
         "placeholder": 6
     },
     {
         "title": "\"The Practicer\"",
         "availability": "Endurance Racing",
-        "id": "78",
+        "id": 78,
         "placeholder": 7
     },
     {
         "title": "\"Practice Makes Perfect\"",
         "availability": "Endurance Racing",
-        "id": "79",
+        "id": 79,
         "placeholder": 8
     },
     {
         "title": "\"Lord of the Practice\"",
         "availability": "Endurance Racing",
-        "id": "80",
+        "id": 80,
         "placeholder": 9
     },
     {
         "title": "\"Word Skipper\"",
         "availability": "Nitro Addiction",
-        "id": "81",
+        "id": 81,
         "placeholder": 10
     },
     {
         "title": "\"[SKIPWRD]\"",
         "availability": "Nitro Addiction",
-        "id": "82",
+        "id": 82,
         "placeholder": 11
     },
     {
         "title": "\"I Hate Words\"",
         "availability": "Nitro Addiction",
-        "id": "83",
+        "id": 83,
         "placeholder": 12
     },
     {
         "title": "\"I Love Nitros\"",
         "availability": "Nitro Addiction",
-        "id": "84",
+        "id": 84,
         "placeholder": 13
     },
     {
         "title": "\"Epic Word Skippage\"",
         "availability": "Nitro Addiction",
-        "id": "85",
+        "id": 85,
         "placeholder": 14
     },
     {
         "title": "\"Epic Nitro User\"",
         "availability": "Nitro Addiction",
-        "id": "86",
+        "id": 86,
         "placeholder": 15
     },
     {
         "title": "\"The Mad Hatter\"",
         "availability": "Winning",
-        "id": "87",
+        "id": 87,
         "placeholder": 16
     },
     {
         "title": "\"Mega Winner\"",
         "availability": "Winning",
-        "id": "88",
+        "id": 88,
         "placeholder": 17
     },
     {
         "title": "\"Lucky Number 7\"",
         "availability": "WinningandShop",
-        "id": "89",
+        "id": 89,
         "placeholder": 18
     },
     {
         "title": "\"Unstoppable\"",
         "availability": "Winning",
-        "id": "90",
+        "id": 90,
         "placeholder": 19
     },
     {
         "title": "\"God Mode\"",
         "availability": "Winning",
-        "id": "91",
+        "id": 91,
         "placeholder": 20
     },
     {
         "title": "\"First Trimester\"",
         "availability": "Long Hauling",
-        "id": "92",
+        "id": 92,
         "placeholder": 21
     },
     {
         "title": "\"Olde School\"",
         "availability": "Long Hauling",
-        "id": "93",
+        "id": 93,
         "placeholder": 22
     },
     {
         "title": "\"Original Gangster\"",
         "availability": "Long Hauling",
-        "id": "94",
+        "id": 94,
         "placeholder": 23
     },
     {
         "title": "\"I Have Friends\"",
         "availability": "Popularity Contest",
-        "id": "95",
+        "id": 95,
         "placeholder": 24
     },
     {
         "title": "\"I Like Friends\"",
         "availability": "Popularity Contest",
-        "id": "96",
+        "id": 96,
         "placeholder": 25
     },
     {
         "title": "\"I'm Friendly!\"",
         "availability": "Popularity Contest",
-        "id": "97",
+        "id": 97,
         "placeholder": 26
     },
     {
         "title": "\"Sports Coupe Driver\"",
         "availability": "Movin' On Up",
-        "id": "98",
+        "id": 98,
         "placeholder": 27
     },
     {
         "title": "\"Muscle Car Driver\"",
         "availability": "Movin' On Up",
-        "id": "99",
+        "id": 99,
         "placeholder": 28
     },
     {
         "title": "\"Sports Car Driver\"",
         "availability": "Movin' On Up",
-        "id": "100",
+        "id": 100,
         "placeholder": 29
     },
     {
         "title": "\"Luxury Car Driver\"",
         "availability": "Movin' On Up",
-        "id": "101",
+        "id": 101,
         "placeholder": 30
     },
     {
         "title": "\"Super Luxury Driver\"",
         "availability": "Movin' On Up",
-        "id": "102",
+        "id": 102,
         "placeholder": 31
     },
     {
         "title": "\"Exotic Car Driver\"",
         "availability": "Movin' On Up",
-        "id": "103",
+        "id": 103,
         "placeholder": 32
     },
     {
         "title": "\"Super Sport Driver\"",
         "availability": "Movin' On Up",
-        "id": "104",
+        "id": 104,
         "placeholder": 33
     },
     {
         "title": "\"Race Car Driver\"",
         "availability": "Movin' On Up",
-        "id": "105",
+        "id": 105,
         "placeholder": 34
     },
     {
         "title": "\"Under Achiever\"",
         "availability": "Savings & Earnings",
-        "id": "106",
+        "id": 106,
         "placeholder": 35
     },
     {
         "title": "\"Pilot\"",
         "availability": "Movin' On Up",
-        "id": "107",
+        "id": 107,
         "placeholder": 36
     },
     {
         "title": "\"Used Car Salesman\"",
         "availability": "Savings & Earnings",
-        "id": "108",
+        "id": 108,
         "placeholder": 37
     },
     {
         "title": "\"People Like Me\"",
         "availability": "Popularity Contest",
-        "id": "109",
+        "id": 109,
         "placeholder": 38
     },
     {
         "title": "\"People Love Me\"",
         "availability": "Popularity Contest",
-        "id": "110",
+        "id": 110,
         "placeholder": 39
     },
     {
         "title": "\"Astronaut\"",
         "availability": "Hey Big Spender",
-        "id": "111",
+        "id": 111,
         "placeholder": 40
     },
     {
         "title": "\"In the Spirit\"",
         "availability": "2012,2013,2014,2015,2016,2017and2018 Xmaxx EventsandSeason 25",
-        "id": "112",
+        "id": 112,
         "placeholder": 41
     },
     {
         "title": "\"Merry Christmas!\"",
         "availability": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
-        "id": "113",
+        "id": 113,
         "placeholder": 42
     },
     {
         "title": "\"Happy Hanukkah!\"",
         "availability": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
-        "id": "114",
+        "id": 114,
         "placeholder": 43
     },
     {
         "title": "\"Heri za Kwanzaa!\"",
         "availability": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
-        "id": "115",
+        "id": 115,
         "placeholder": 44
     },
     {
         "title": "\"Joyous Festivus!\"",
         "availability": "2012,2013,2014,2015,2016,2017and2018 Xmaxx Events",
-        "id": "116",
+        "id": 116,
         "placeholder": 45
     },
     {
         "title": "\"Christmas Elf\"",
         "availability": "2012 Xmaxx Event",
-        "id": "117",
+        "id": 117,
         "placeholder": 46
     },
     {
         "title": "\"Holiday Winner\"",
         "availability": "2012 Xmaxx Event",
-        "id": "118",
+        "id": 118,
         "placeholder": 47
     },
     {
         "title": "\"Holiday Hooligan\"",
         "availability": "2012 Xmaxx Event",
-        "id": "119",
+        "id": 119,
         "placeholder": 48
     },
     {
         "title": "\"Holiday Ham\"",
         "availability": "2012 Xmaxx Event",
-        "id": "120",
+        "id": 120,
         "placeholder": 49
     },
     {
         "title": "\"Holiday Hacker\"",
         "availability": "2012 Xmaxx Event",
-        "id": "121",
+        "id": 121,
         "placeholder": 50
     },
     {
         "title": "\"♪ Let It Snow ♪\"",
         "availability": "2012 Xmaxx Event",
-        "id": "122",
+        "id": 122,
         "placeholder": 51
     },
     {
         "title": "\"Oppa Xmaxx Style!\"",
         "availability": "2012 Xmaxx Event",
-        "id": "123",
+        "id": 123,
         "placeholder": 52
     },
     {
         "title": "\"Keyboard Cat\"",
         "availability": "Endurance Racing",
-        "id": "124",
+        "id": 124,
         "placeholder": 53
     },
     {
         "title": "\"Nitro Type Master\"",
         "availability": "Endurance Racing",
-        "id": "125",
+        "id": 125,
         "placeholder": 54
     },
     {
         "title": "\"Emperor\"",
         "availability": "Endurance Racing",
-        "id": "126",
+        "id": 126,
         "placeholder": 55
     },
     {
         "title": "\"Empress\"",
         "availability": "Endurance Racing",
-        "id": "127",
+        "id": 127,
         "placeholder": 56
     },
     {
         "title": "\"Mystery Man\"",
         "availability": "Cruisin' Back",
-        "id": "128",
+        "id": 128,
         "placeholder": 57
     },
     {
         "title": "\"Box Collector\"",
         "availability": "Cruisin' Back",
-        "id": "129",
+        "id": 129,
         "placeholder": 58
     },
     {
         "title": "\"The Caped Crusader\"",
         "availability": "Hey Big Spender",
-        "id": "130",
+        "id": 130,
         "placeholder": 59
     },
     {
         "title": "\"Time Traveler\"",
         "availability": "Hey Big Spender",
-        "id": "131",
+        "id": 131,
         "placeholder": 60
     },
     {
         "title": "\"Celebrity\"",
         "availability": "Movin' On Up",
-        "id": "132",
+        "id": 132,
         "placeholder": 61
     },
     {
         "title": "\"Summer Rider\"",
         "availability": "2013,2014,2015,2016,2017and2018 Summer EventsandShop",
-        "id": "133",
+        "id": 133,
         "placeholder": 62
     },
     {
         "title": "\"California Dreamin'\"",
         "availability": "2013,2014and2015 Summer EventsandShop",
-        "id": "134",
+        "id": 134,
         "placeholder": 63
     },
     {
         "title": "\"Endless Summer\"",
         "availability": "2013 Summer Event",
-        "id": "135",
+        "id": 135,
         "placeholder": 64
     },
     {
@@ -392,253 +392,253 @@
     {
         "title": "\"My Popsicle Melted\"",
         "availability": "2013and2014 Summer EventsandShop",
-        "id": "136",
+        "id": 136,
         "placeholder": 66
     },
     {
         "title": "\"Oppa Sunburn Style!\"",
         "availability": "2013and2014 Summer Events",
-        "id": "137",
+        "id": 137,
         "placeholder": 67
     },
     {
         "title": "\"Summer Hacker\"",
         "availability": "2013 Summer Event",
-        "id": "138",
+        "id": 138,
         "placeholder": 68
     },
     {
         "title": "\"I Have No Tan!\"",
         "availability": "2013 Summer Event",
-        "id": "139",
+        "id": 139,
         "placeholder": 69
     },
     {
         "title": "\"Solid Gold\"",
         "availability": "Nitro Type Gold",
-        "id": "140",
+        "id": 140,
         "placeholder": 70
     },
     {
         "title": "\"Hippie\"",
         "availability": "2013 Summer Event",
-        "id": "141",
+        "id": 141,
         "placeholder": 71
     },
     {
         "title": "\"RIP\"",
         "availability": "Hey Big SpenderandShop",
-        "id": "142",
+        "id": 142,
         "placeholder": 72
     },
     {
         "title": "\"wow. such gifting\"",
         "availability": "2013 Xmaxx EventandShop",
-        "id": "143",
+        "id": 143,
         "placeholder": 73
     },
     {
         "title": "\"The Snow Man\"",
         "availability": "2013 Xmaxx Event",
-        "id": "144",
+        "id": 144,
         "placeholder": 74
     },
     {
         "title": "\"♪ Oh Nitro Tree ♪\"",
         "availability": "2013 Xmaxx Event",
-        "id": "145",
+        "id": 145,
         "placeholder": 75
     },
     {
         "title": "\"Frosty\"",
         "availability": "2013 Xmaxx Event",
-        "id": "146",
+        "id": 146,
         "placeholder": 76
     },
     {
         "title": "\"Cold As Ice\"",
         "availability": "2013 Xmaxx Event",
-        "id": "147",
+        "id": 147,
         "placeholder": 77
     },
     {
         "title": "\"Typing Nightmare\"",
         "availability": "Endurance Racing",
-        "id": "148",
+        "id": 148,
         "placeholder": 78
     },
     {
         "title": "\"Wampus Thwamper\"",
         "availability": "Winning",
-        "id": "149",
+        "id": 149,
         "placeholder": 79
     },
     {
         "title": "\"Catty Wampus\"",
         "availability": "Winning",
-        "id": "150",
+        "id": 150,
         "placeholder": 80
     },
     {
         "title": "\"The Smasher\"",
         "availability": "Hey Big Spender",
-        "id": "151",
+        "id": 151,
         "placeholder": 81
     },
     {
         "title": "\"Typing Demon\"",
         "availability": "Endurance Racing",
-        "id": "152",
+        "id": 152,
         "placeholder": 82
     },
     {
         "title": "\"Summer Champ\"",
         "availability": "2014 Summer Event",
-        "id": "153",
+        "id": 153,
         "placeholder": 83
     },
     {
         "title": "\"Hot Hot Hot!\"",
         "availability": "2014 Summer EventandShop",
-        "id": "154",
+        "id": 154,
         "placeholder": 84
     },
     {
         "title": "\"Grim Reaper\"",
         "availability": "Hey Big Spender",
-        "id": "155",
+        "id": 155,
         "placeholder": 85
     },
     {
         "title": "\"Raw Racing Recruit\"",
         "availability": "So Easy, Why Wait?",
-        "id": "156",
+        "id": 156,
         "placeholder": 86
     },
     {
         "title": "\"Sick Sleigh, Bro\"",
         "availability": "2014 Xmaxx Event",
-        "id": "157",
+        "id": 157,
         "placeholder": 87
     },
     {
         "title": "\"♪ So Delightful ♪\"",
         "availability": "2014 Xmaxx EventandShop",
-        "id": "158",
+        "id": 158,
         "placeholder": 88
     },
     {
         "title": "\"Iced Out\"",
         "availability": "2014 Xmaxx Event",
-        "id": "159",
+        "id": 159,
         "placeholder": 89
     },
     {
         "title": "\"i luv nitrontip!1\"",
         "availability": "2014 Xmaxx Event",
-        "id": "160",
+        "id": 160,
         "placeholder": 90
     },
     {
         "title": "\"#kringled\"",
         "availability": "2014 Xmaxx Event",
-        "id": "161",
+        "id": 161,
         "placeholder": 91
     },
     {
         "title": "\"Huge Baller\"",
         "availability": "Nitro Type Gold",
-        "id": "162",
+        "id": 162,
         "placeholder": 92
     },
     {
         "title": "\"Haulin' Cash\"",
         "availability": "Nitro Type Gold",
-        "id": "163",
+        "id": 163,
         "placeholder": 93
     },
     {
         "title": "\"Ca$h Collector\"",
         "availability": "Nitro Type Gold",
-        "id": "164",
+        "id": 164,
         "placeholder": 94
     },
     {
         "title": "\"Schools Out!\"",
         "availability": "2015 Summer EventandShop",
-        "id": "165",
+        "id": 165,
         "placeholder": 95
     },
     {
         "title": "\"California Roll\"",
         "availability": "2015 Summer Event",
-        "id": "166",
+        "id": 166,
         "placeholder": 96
     },
     {
         "title": "\"Drives Fancy Cars\"",
         "availability": "2015 Summer Event",
-        "id": "167",
+        "id": 167,
         "placeholder": 97
     },
     {
         "title": "\"Burnin' Rubber\"",
         "availability": "2015 Summer EventandShop",
-        "id": "168",
+        "id": 168,
         "placeholder": 98
     },
     {
         "title": "\"2spooky4u\"",
         "availability": "2015 Halloween Event",
-        "id": "169",
+        "id": 169,
         "placeholder": 99
     },
     {
         "title": "\"Fear Me\"",
         "availability": "2015 Halloween Event",
-        "id": "170",
+        "id": 170,
         "placeholder": 100
     },
     {
         "title": "\"3spooky5u\"",
         "availability": "2015 Halloween Event",
-        "id": "171",
+        "id": 171,
         "placeholder": 101
     },
     {
         "title": "\"Boo!\"",
         "availability": "2015 Halloween EventandShop",
-        "id": "172",
+        "id": 172,
         "placeholder": 102
     },
     {
         "title": "\"Reindeer Games\"",
         "availability": "2015 Xmaxx Event",
-        "id": "173",
+        "id": 173,
         "placeholder": 103
     },
     {
         "title": "\"♪ Naughty or Nice ♪\"",
         "availability": "2015and2016 Xmaxx Events",
-        "id": "174",
+        "id": 174,
         "placeholder": 104
     },
     {
         "title": "\"Frozen\"",
         "availability": "2015 Xmaxx Event",
-        "id": "175",
+        "id": 175,
         "placeholder": 105
     },
     {
         "title": "\"Velocity Wrapper\"",
         "availability": "2015 Xmaxx Event",
-        "id": "176",
+        "id": 176,
         "placeholder": 106
     },
     {
         "title": "\"Holiday Hero\"",
         "availability": "2015and2016 Xmaxx Events",
-        "id": "177",
+        "id": 177,
         "placeholder": 107
     },
     {
@@ -650,73 +650,73 @@
     {
         "title": "\"The Codfather\"",
         "availability": "2016 Summer Event",
-        "id": "178",
+        "id": 178,
         "placeholder": 109
     },
     {
         "title": "\"Fairy Codmother\"",
         "availability": "2016 Summer Event",
-        "id": "179",
+        "id": 179,
         "placeholder": 110
     },
     {
         "title": "\"Seaworthy\"",
         "availability": "2016 Summer Event",
-        "id": "180",
+        "id": 180,
         "placeholder": 111
     },
     {
         "title": "\"Sea Captain\"",
         "availability": "2016 Summer Event",
-        "id": "181",
+        "id": 181,
         "placeholder": 112
     },
     {
         "title": "\"Fleet Admiral\"",
         "availability": "2016 Summer EventandShop",
-        "id": "182",
+        "id": 182,
         "placeholder": 113
     },
     {
         "title": "\"Cod Squad\"",
         "availability": "2016 Summer Event",
-        "id": "183",
+        "id": 183,
         "placeholder": 114
     },
     {
         "title": "\"Moar Pumpkins!\"",
         "availability": "2016and2017 Hallowampus Events",
-        "id": "184",
+        "id": 184,
         "placeholder": 115
     },
     {
         "title": "\"Truck Driver\"",
         "availability": "Movin' On Up",
-        "id": "185",
+        "id": 185,
         "placeholder": 116
     },
     {
         "title": "\"Motorcycle Rider\"",
         "availability": "Movin' On Up",
-        "id": "186",
+        "id": 186,
         "placeholder": 117
     },
     {
         "title": "\"Rail Rider\"",
         "availability": "2016 Xmaxx Event",
-        "id": "187",
+        "id": 187,
         "placeholder": 118
     },
     {
         "title": "\"Well Trained\"",
         "availability": "2016 Xmaxx EventandShop",
-        "id": "188",
+        "id": 188,
         "placeholder": 119
     },
     {
         "title": "\"Loco Motive\"",
         "availability": "2016 Xmaxx Event",
-        "id": "189",
+        "id": 189,
         "placeholder": 120
     },
     {
@@ -728,115 +728,115 @@
     {
         "title": "\"Conductor\"",
         "availability": "2016 Xmaxx Event",
-        "id": "190",
+        "id": 190,
         "placeholder": 122
     },
     {
         "title": "\"Nitro Pup\"",
         "availability": "Mascot Love!",
-        "id": "191",
+        "id": 191,
         "placeholder": 123
     },
     {
         "title": "\"Nitro Dog\"",
         "availability": "Mascot Love!",
-        "id": "192",
+        "id": 192,
         "placeholder": 124
     },
     {
         "title": "\"Top Dog\"",
         "availability": "Mascot Love!andShop",
-        "id": "193",
+        "id": 193,
         "placeholder": 125
     },
     {
         "title": "\"Bug Smasher\"",
         "availability": "Special Sauce",
-        "id": "194",
+        "id": 194,
         "placeholder": 126
     },
     {
         "title": "\"Easy Rider\"",
         "availability": "2017 Summer EventandShop",
-        "id": "195",
+        "id": 195,
         "placeholder": 127
     },
     {
         "title": "\"Track Day Rider\"",
         "availability": "2017 Summer Event",
-        "id": "196",
+        "id": 196,
         "placeholder": 128
     },
     {
         "title": "\"Faster 'n You\"",
         "availability": "2017 Summer Event",
-        "id": "197",
+        "id": 197,
         "placeholder": 129
     },
     {
         "title": "\"Two Tired\"",
         "availability": "2017 Summer Event",
-        "id": "198",
+        "id": 198,
         "placeholder": 130
     },
     {
         "title": "\"Hoonigan\"",
         "availability": "2017 Summer Event",
-        "id": "199",
+        "id": 199,
         "placeholder": 131
     },
     {
         "title": "\"Weekend Racer\"",
         "availability": "2017 Summer Event",
-        "id": "200",
+        "id": 200,
         "placeholder": 132
     },
     {
         "title": "\"Hallowampus Fanclub\"",
         "availability": "2017 Hallowampus Event",
-        "id": "201",
+        "id": 201,
         "placeholder": 133
     },
     {
         "title": "\"Sp00ked\"",
         "availability": "2017 Hallowampus Event",
-        "id": "202",
+        "id": 202,
         "placeholder": 134
     },
     {
         "title": "\"Halloweird\"",
         "availability": "2017 Hallowampus Event",
-        "id": "203",
+        "id": 203,
         "placeholder": 135
     },
     {
         "title": "\"Creepin' it Real\"",
         "availability": "2017 Hallowampus Event",
-        "id": "204",
+        "id": 204,
         "placeholder": 136
     },
     {
         "title": "\"Pumpkin Spiced\"",
         "availability": "2017 Hallowampus Event",
-        "id": "205",
+        "id": 205,
         "placeholder": 137
     },
     {
         "title": "\"Snow Baller\"",
         "availability": "2017 Xmaxx Event",
-        "id": "206",
+        "id": 206,
         "placeholder": 138
     },
     {
         "title": "\"#elfie\"",
         "availability": "2017 Xmaxx EventandShop",
-        "id": "207",
+        "id": 207,
         "placeholder": 139
     },
     {
         "title": "\"Up to Snow Good\"",
         "availability": "2017 Xmaxx Event",
-        "id": "208",
+        "id": 208,
         "placeholder": 140
     },
     {
@@ -848,19 +848,19 @@
     {
         "title": "\"Silent Nitro\"",
         "availability": "2017 Xmaxx EventandShop",
-        "id": "209",
+        "id": 209,
         "placeholder": 142
     },
     {
         "title": "\"Acute Tinselitis\"",
         "availability": "2017 Xmaxx Event",
-        "id": "210",
+        "id": 210,
         "placeholder": 143
     },
     {
         "title": "\"Rudolph Racing\"",
         "availability": "2017 Xmaxx Event",
-        "id": "211",
+        "id": 211,
         "placeholder": 144
     },
     {
@@ -872,235 +872,235 @@
     {
         "title": "\"Chocolate Knight\"",
         "availability": "2017 Xmaxx Event",
-        "id": "212",
+        "id": 212,
         "placeholder": 146
     },
     {
         "title": "\"Spring-a-round\"",
         "availability": "2018 Spring Fever Event",
-        "id": "213",
+        "id": 213,
         "placeholder": 147
     },
     {
         "title": "\"Crackin' Up\"",
         "availability": "2018 Spring Fever Event",
-        "id": "214",
+        "id": 214,
         "placeholder": 148
     },
     {
         "title": "\"Eggsecutive\"",
         "availability": "2018 Spring Fever EventandShop",
-        "id": "215",
+        "id": 215,
         "placeholder": 149
     },
     {
         "title": "\"Rocky\"",
         "availability": "2018 PAC Event",
-        "id": "216",
+        "id": 216,
         "placeholder": 150
     },
     {
         "title": "\"PAC-Man\"",
         "availability": "2018 PAC Event",
-        "id": "217",
+        "id": 217,
         "placeholder": 151
     },
     {
         "title": "\"Ms.PAC-Man\"",
         "availability": "2018 PAC Event",
-        "id": "218",
+        "id": 218,
         "placeholder": 152
     },
     {
         "title": "\"PAC Rat\"",
         "availability": "2018 PAC Event",
-        "id": "219",
+        "id": 219,
         "placeholder": 153
     },
     {
         "title": "\"The Force\"",
         "availability": "2018 PAC Event",
-        "id": "220",
+        "id": 220,
         "placeholder": 154
     },
     {
         "title": "\"Y.A.C.H.T.\"",
         "availability": "2018 Surf n' Turf Event",
-        "id": "222",
+        "id": 222,
         "placeholder": 155
     },
     {
         "title": "\"Surf n' Turf\"",
         "availability": "2018 Surf n' Turf Event",
-        "id": "223",
+        "id": 223,
         "placeholder": 156
     },
     {
         "title": "\"Baked Racing Recruit\"",
         "availability": "2018 Surf n' Turf Event",
-        "id": "224",
+        "id": 224,
         "placeholder": 157
     },
     {
         "title": "\"Sweaty Typer\"",
         "availability": "2018 Surf n' Turf Event",
-        "id": "225",
+        "id": 225,
         "placeholder": 158
     },
     {
         "title": "\"Brainfreeze\"",
         "availability": "2018 Surf n' Turf EventandShop",
-        "id": "226",
+        "id": 226,
         "placeholder": 159
     },
     {
         "title": "\"I-Scream\"",
         "availability": "2018 Surf n' Turf Event",
-        "id": "227",
+        "id": 227,
         "placeholder": 160
     },
     {
         "title": "\"Moderator\"",
         "availability": "Special Sauce",
-        "id": "228",
+        "id": 228,
         "placeholder": 161
     },
     {
         "title": "\"B.U.S. Driver\"",
         "availability": "2018and2019 Back 2 School Events",
-        "id": "229",
+        "id": 229,
         "placeholder": 162
     },
     {
         "title": "\"B.U.S. Racer\"",
         "availability": "2018and2019 Back 2 School Events",
-        "id": "230",
+        "id": 230,
         "placeholder": 163
     },
     {
         "title": "\"A+ Typist\"",
         "availability": "2018 Back 2 School Event",
-        "id": "231",
+        "id": 231,
         "placeholder": 164
     },
     {
         "title": "\"Tilted Typist\"",
         "availability": "2018 Back 2 School Event",
-        "id": "232",
+        "id": 232,
         "placeholder": 165
     },
     {
         "title": "\"Extracurricular!\"",
         "availability": "2018 Back 2 School EventandShop",
-        "id": "233",
+        "id": 233,
         "placeholder": 166
     },
     {
         "title": "\"Honor Roller\"",
         "availability": "2018 Back 2 School Event",
-        "id": "234",
+        "id": 234,
         "placeholder": 167
     },
     {
         "title": "\"Typing Class Hero\"",
         "availability": "2018 Back 2 School Event",
-        "id": "235",
+        "id": 235,
         "placeholder": 168
     },
     {
         "title": "\"The Graduate\"",
         "availability": "2018 Back 2 School Event",
-        "id": "236",
+        "id": 236,
         "placeholder": 169
     },
     {
         "title": "\"Three Commas Club\"",
         "availability": "So Easy, Why Wait?",
-        "id": "237",
+        "id": 237,
         "placeholder": 170
     },
     {
         "title": "\"Nitro Type Legend\"",
         "availability": "Special Sauce",
-        "id": "238",
+        "id": 238,
         "placeholder": 171
     },
     {
         "title": "\"The Silent Knight\"",
         "availability": "2018 Xmaxx Event",
-        "id": "239",
+        "id": 239,
         "placeholder": 172
     },
     {
         "title": "\"Jolly Saint Typist\"",
         "availability": "2018 Xmaxx Event",
-        "id": "240",
+        "id": 240,
         "placeholder": 173
     },
     {
         "title": "\"Hygge\"",
         "availability": "2018 Xmaxx Event",
-        "id": "241",
+        "id": 241,
         "placeholder": 174
     },
     {
         "title": "\"Fleece Navidad\"",
         "availability": "2018 Xmaxx Event",
-        "id": "242",
+        "id": 242,
         "placeholder": 175
     },
     {
         "title": "\"Snowtorious\"",
         "availability": "2018 Xmaxx Event",
-        "id": "243",
+        "id": 243,
         "placeholder": 176
     },
     {
         "title": "\"Winter Besties\"",
         "availability": "2018 Xmaxx Event",
-        "id": "244",
+        "id": 244,
         "placeholder": 177
     },
     {
         "title": "\"Makin' it Rein\"",
         "availability": "2018 Xmaxx Event",
-        "id": "245",
+        "id": 245,
         "placeholder": 178
     },
     {
         "title": "\"Momatile\"",
         "availability": "Special Sauce",
-        "id": "246",
+        "id": 246,
         "placeholder": 179
     },
     {
         "title": "\"Goliath\"",
         "availability": "Special Sauce",
-        "id": "247",
+        "id": 247,
         "placeholder": 180
     },
     {
         "title": "\"Soon™\"",
         "availability": "Special Sauce",
-        "id": "248",
+        "id": 248,
         "placeholder": 181
     },
     {
         "title": "\"Record Keeper\"",
         "availability": "Special Sauce",
-        "id": "249",
+        "id": 249,
         "placeholder": 182
     },
     {
         "title": "\"Never Exhausted\"",
         "availability": "Season 21andShop",
-        "id": "250",
+        "id": 250,
         "placeholder": 183
     },
     {
         "title": "\"Nitro Burnout\"",
         "availability": "Season 21",
-        "id": "251",
+        "id": 251,
         "placeholder": 184
     },
     {
@@ -1112,1945 +1112,1945 @@
     {
         "title": "\"Tide Down\"",
         "availability": "Season 22",
-        "id": "252",
+        "id": 252,
         "placeholder": 186
     },
     {
         "title": "\"I Have Fans!\"",
         "availability": "Season 22andShop",
-        "id": "253",
+        "id": 253,
         "placeholder": 187
     },
     {
         "title": "\"Note Taker\"",
         "availability": "2019 Back 2 School Event",
-        "id": "254",
+        "id": 254,
         "placeholder": 188
     },
     {
         "title": "\"Teacher's Pet\"",
         "availability": "2019 Back 2 School Event",
-        "id": "255",
+        "id": 255,
         "placeholder": 189
     },
     {
         "title": "\"eRacer\"",
         "availability": "2019 Back 2 School Event",
-        "id": "256",
+        "id": 256,
         "placeholder": 190
     },
     {
         "title": "\"Valedictorian\"",
         "availability": "2019 Back 2 School Event",
-        "id": "257",
+        "id": 257,
         "placeholder": 191
     },
     {
         "title": "\"Nitro Scholar\"",
         "availability": "2019 Back 2 School Event",
-        "id": "258",
+        "id": 258,
         "placeholder": 192
     },
     {
         "title": "\"Verified YouTuber\"",
         "availability": "Special Sauce",
-        "id": "259",
+        "id": 259,
         "placeholder": 193
     },
     {
         "title": "\"Little Monster\"",
         "availability": "Season 24",
-        "id": "260",
+        "id": 260,
         "placeholder": 194
     },
     {
         "title": "\"Count Track-ula\"",
         "availability": "Season 24",
-        "id": "261",
+        "id": 261,
         "placeholder": 195
     },
     {
         "title": "\"Travis Broke Something\"",
         "availability": "Special Sauce",
-        "id": "262",
+        "id": 262,
         "placeholder": 196
     },
     {
         "title": "\"Red Nosed Typist\"",
         "availability": "Season 25",
-        "id": "263",
+        "id": 263,
         "placeholder": 197
     },
     {
         "title": "\"XMaxxed!\"",
         "availability": "Season 25",
-        "id": "264",
+        "id": 264,
         "placeholder": 198
     },
     {
         "title": "\"Snap, Crackle, Pop\"",
         "availability": "Season 25",
-        "id": "265",
+        "id": 265,
         "placeholder": 199
     },
     {
         "title": "\"X to the Maxx\"",
         "availability": "Season 25",
-        "id": "266",
+        "id": 266,
         "placeholder": 200
     },
     {
         "title": "\"The Snowy Knight\"",
         "availability": "Season 25",
-        "id": "267",
+        "id": 267,
         "placeholder": 201
     },
     {
         "title": "\"Secret Admirer\"",
         "availability": "Season 26andShop",
-        "id": "268",
+        "id": 268,
         "placeholder": 202
     },
     {
         "title": "\"Happy New Year!\"",
         "availability": "Season 26andShop",
-        "id": "269",
+        "id": 269,
         "placeholder": 203
     },
     {
         "title": "\"Valentypist\"",
         "availability": "Season 26andShop",
-        "id": "270",
+        "id": 270,
         "placeholder": 204
     },
     {
         "title": "\"Heart Throb\"",
         "availability": "Season 26",
-        "id": "271",
+        "id": 271,
         "placeholder": 205
     },
     {
         "title": "\"Bionic\"",
         "availability": "Season 27",
-        "id": "272",
+        "id": 272,
         "placeholder": 206
     },
     {
         "title": "\"A E S T H E T I C\"",
         "availability": "Season 27andShop",
-        "id": "273",
+        "id": 273,
         "placeholder": 207
     },
     {
         "title": "\"Shattered\"",
         "availability": "Season 27andShop",
-        "id": "274",
+        "id": 274,
         "placeholder": 208
     },
     {
         "title": "\"NITRO.EXE\"",
         "availability": "Season 27andShop",
-        "id": "275",
+        "id": 275,
         "placeholder": 209
     },
     {
         "title": "\"TypEd1tor\"",
         "availability": "Special Sauce",
-        "id": "276",
+        "id": 276,
         "placeholder": 210
     },
     {
         "title": "\"Nitro Pioneer\"",
         "availability": "Season 27",
-        "id": "277",
+        "id": 277,
         "placeholder": 211
     },
     {
         "title": "\"Gold Rusher\"",
         "availability": "Season 28",
-        "id": "278",
+        "id": 278,
         "placeholder": 212
     },
     {
         "title": "\"Cuts the Line\"",
         "availability": "Season 28andShop",
-        "id": "279",
+        "id": 279,
         "placeholder": 213
     },
     {
         "title": "\"Tornado Typist\"",
         "availability": "Season 28",
-        "id": "280",
+        "id": 280,
         "placeholder": 214
     },
     {
         "title": "\"Exhibit A\"",
         "availability": "Season 28",
-        "id": "281",
+        "id": 281,
         "placeholder": 215
     },
     {
         "title": "\"Full Throttle\"",
         "availability": "Season 28",
-        "id": "282",
+        "id": 282,
         "placeholder": 216
     },
     {
         "title": "\"Olympic Gold Medalist\"",
         "availability": "Nitro Type Olympics",
-        "id": "283",
+        "id": 283,
         "placeholder": 217
     },
     {
         "title": "\"Olympic Silver Medalist\"",
         "availability": "Nitro Type Olympics",
-        "id": "284",
+        "id": 284,
         "placeholder": 218
     },
     {
         "title": "\"Olympic Bronze Medalist\"",
         "availability": "Nitro Type Olympics",
-        "id": "285",
+        "id": 285,
         "placeholder": 219
     },
     {
         "title": "\"International Olympic Committee\"",
         "availability": "Nitro Type Olympics",
-        "id": "286",
+        "id": 286,
         "placeholder": 220
     },
     {
         "title": "\"Comeback Kid\"",
         "availability": "Season 29andShop",
-        "id": "287",
+        "id": 287,
         "placeholder": 221
     },
     {
         "title": "\"Photo Finisher\"",
         "availability": "Season 29andShop",
-        "id": "288",
+        "id": 288,
         "placeholder": 222
     },
     {
         "title": "\"No Nitros Needed\"",
         "availability": "Season 29andShop",
-        "id": "289",
+        "id": 289,
         "placeholder": 223
     },
     {
         "title": "\"Turboducken\"",
         "availability": "Season 29andShop",
-        "id": "290",
+        "id": 290,
         "placeholder": 224
     },
     {
         "title": "\"WPM Wonderkid\"",
         "availability": "Season 29andShop",
-        "id": "291",
+        "id": 291,
         "placeholder": 225
     },
     {
         "title": "\"BUG XPLOSION\"",
         "availability": "Special Sauce",
-        "id": "292",
+        "id": 292,
         "placeholder": 226
     },
     {
         "title": "\"#NitroFurze\"",
         "availability": "#NitroFurze Event",
-        "id": "293",
+        "id": 293,
         "placeholder": 227
     },
     {
         "title": "\"Wampus' Little Helper\"",
         "availability": "Season 30",
-        "id": "294",
+        "id": 294,
         "placeholder": 228
     },
     {
         "title": "\"Sleigh All Day\"",
         "availability": "Season 30",
-        "id": "295",
+        "id": 295,
         "placeholder": 229
     },
     {
         "title": "\"Competitor Team\"",
         "availability": "Seasons 1-12 and 14-18",
-        "id": "297",
+        "id": 297,
         "placeholder": 230
     },
     {
         "title": "\"Has Friends\"",
         "availability": "Popularity Contest",
-        "id": "299",
+        "id": 299,
         "placeholder": 231
     },
     {
         "title": "\"The Founder\"",
         "availability": "Admins",
-        "id": "300",
+        "id": 300,
         "placeholder": 232
     },
     {
         "title": "\"Challenger Team\"",
         "availability": "Seasons 1-12 and 14-18",
-        "id": "301",
+        "id": 301,
         "placeholder": 233
     },
     {
         "title": "\"Rival Team\"",
         "availability": "Seasons 1-12 and 14-18",
-        "id": "302",
+        "id": 302,
         "placeholder": 234
     },
     {
         "title": "\"PAC Contender\"",
         "availability": "Season 13",
-        "id": "304",
+        "id": 304,
         "placeholder": 235
     },
     {
         "title": "\"Contestant\"",
         "availability": "Seasons 1-12 and 14-18",
-        "id": "305",
+        "id": 305,
         "placeholder": 236
     },
     {
         "title": "\"Champion Team\"",
         "availability": "Seasons 1-12 and 14-18",
-        "id": "307",
+        "id": 307,
         "placeholder": 237
     },
     {
         "title": "\"Gamma PAC\"",
         "availability": "Season 13",
-        "id": "311",
+        "id": 311,
         "placeholder": 238
     },
     {
         "title": "\"Competitor\"",
         "availability": "Seasons 1-12 and 14-18",
-        "id": "312",
+        "id": 312,
         "placeholder": 239
     },
     {
         "title": "\"Champion\"",
         "availability": "Seasons 1-12 and 14-18",
-        "id": "313",
+        "id": 313,
         "placeholder": 240
     },
     {
         "title": "\"Rival\"",
         "availability": "Seasons 1-12 and 14-18",
-        "id": "314",
+        "id": 314,
         "placeholder": 241
     },
     {
         "title": "\"Beta PAC\"",
         "availability": "Season 13",
-        "id": "321",
+        "id": 321,
         "placeholder": 242
     },
     {
         "title": "\"Like a Jet PAC\"",
         "availability": "Season 13",
-        "id": "322",
+        "id": 322,
         "placeholder": 243
     },
     {
         "title": "\"Challenger\"",
         "availability": "Seasons 1-12 and 14-18",
-        "id": "326",
+        "id": 326,
         "placeholder": 244
     },
     {
         "title": "\"Alpha PAC\"",
         "availability": "Season 13",
-        "id": "329",
+        "id": 329,
         "placeholder": 245
     },
     {
         "title": "\"PAC Racer\"",
         "availability": "Season 13",
-        "id": "330",
+        "id": 330,
         "placeholder": 246
     },
     {
         "title": "\"2015 Gold Olympian\"",
         "availability": "Nitro Type Olympics",
-        "id": "331",
+        "id": 331,
         "placeholder": 247
     },
     {
         "title": "\"PACking a Punch\"",
         "availability": "Season 13",
-        "id": "332",
+        "id": 332,
         "placeholder": 248
     },
     {
         "title": "\"I Dig Bugs\"",
         "availability": "Nitro Type 2.0Testing",
-        "id": "333",
+        "id": 333,
         "placeholder": 249
     },
     {
         "title": "\"2015 Silver Olympian\"",
         "availability": "Nitro Type Olympics",
-        "id": "334",
+        "id": 334,
         "placeholder": 250
     },
     {
         "title": "\"Nitro Type Moderator\"",
         "availability": "Moderators",
-        "id": "335",
+        "id": 335,
         "placeholder": 251
     },
     {
         "title": "\"2016 Bronze Olympian\"",
         "availability": "Nitro Type Olympics",
-        "id": "336",
+        "id": 336,
         "placeholder": 252
     },
     {
         "title": "\"2016 Gold Olympian\"",
         "availability": "Nitro Type Olympics",
-        "id": "337",
+        "id": 337,
         "placeholder": 253
     },
     {
         "title": "\"The Friendly Helper\"",
         "availability": "Admins",
-        "id": "338",
+        "id": 338,
         "placeholder": 254
     },
     {
         "title": "\"Super Luxury Car Driver\"",
         "availability": "N/A",
-        "id": "339",
+        "id": 339,
         "placeholder": 255
     },
     {
         "title": "\"Super Sport Car Driver\"",
         "availability": "N/A",
-        "id": "340",
+        "id": 340,
         "placeholder": 256
     },
     {
         "title": "\"Security Consultant\"",
         "availability": "Admins",
-        "id": "341",
+        "id": 341,
         "placeholder": 257
     },
     {
         "title": "Nitro Type Olympics",
         "availability": "Nitro Type Olympics",
-        "id": "342",
+        "id": 342,
         "placeholder": 258
     },
     {
         "title": "Nitro Type Olympics",
         "availability": "Nitro Type Olympics",
-        "id": "343",
+        "id": 343,
         "placeholder": 259
     },
     {
         "title": "Nitro Type Olympics",
         "availability": "Nitro Type Olympics",
-        "id": "344",
+        "id": 344,
         "placeholder": 260
     },
     {
         "title": "\"Brace for ImPAC\"",
         "availability": "Season 13",
-        "id": "345",
+        "id": 345,
         "placeholder": 261
     },
     {
         "title": "Nitro Type Olympics",
         "availability": "Nitro Type Olympics",
-        "id": "346",
+        "id": 346,
         "placeholder": 262
     },
     {
         "title": "\"Six Zero Racer\"",
         "availability": "N/A",
-        "id": "347",
+        "id": 347,
         "placeholder": 263
     },
     {
         "title": "\"2016 Silver Olympian\"",
         "availability": "Nitro Type Olympics",
-        "id": "348",
+        "id": 348,
         "placeholder": 264
     },
     {
         "title": "\"Friends Love Me\"",
         "availability": "Popularity Contest",
-        "id": "350",
+        "id": 350,
         "placeholder": 265
     },
     {
         "title": "\"Winner\"",
         "availability": "Custom Car Drawing",
-        "id": "351",
+        "id": 351,
         "placeholder": 266
     },
     {
         "title": "\"2015 Bronze Olympian\"",
         "availability": "Nitro Type Olympics",
-        "id": "352",
+        "id": 352,
         "placeholder": 267
     },
     {
         "title": "\"Ultimate Racer\"",
         "availability": "Season 31andShop",
-        "id": "353",
+        "id": 353,
         "placeholder": 268
     },
     {
         "title": "\"Cupid's Arrow\"",
         "availability": "Season 31andShop",
-        "id": "354",
+        "id": 354,
         "placeholder": 269
     },
     {
         "title": "\"Not a Bot\"",
         "availability": "Season 31andShop",
-        "id": "355",
+        "id": 355,
         "placeholder": 270
     },
     {
         "title": "\"Olympics Founder\"",
         "availability": "Nitro Type Olympics",
-        "id": "356",
+        "id": 356,
         "placeholder": 271
     },
     {
         "title": "\"Ferret Parent\"",
         "availability": "Shop",
-        "id": "357",
+        "id": 357,
         "placeholder": 272
     },
     {
         "title": "\"All your base are belong to Us!!\"",
         "availability": "Special Sauce",
-        "id": "358",
+        "id": 358,
         "placeholder": 273
     },
     {
         "title": "\"All Night Racer\"",
         "availability": "Shop",
-        "id": "359",
+        "id": 359,
         "placeholder": 274
     },
     {
         "title": "\"First!\"",
         "availability": "Shop",
-        "id": "360",
+        "id": 360,
         "placeholder": 275
     },
     {
         "title": "\"Wampus Patrol\"",
         "availability": "Shop",
-        "id": "361",
+        "id": 361,
         "placeholder": 276
     },
     {
         "title": "\"Typing Machine\"",
         "availability": "Shop",
-        "id": "362",
+        "id": 362,
         "placeholder": 277
     },
     {
         "title": "\"Breaker of Winds\"",
         "availability": "Shop",
-        "id": "363",
+        "id": 363,
         "placeholder": 278
     },
     {
         "title": "\"Down to the Wire\"",
         "availability": "Shop",
-        "id": "364",
+        "id": 364,
         "placeholder": 279
     },
     {
         "title": "\"Speeeed!\"",
         "availability": "Shop",
-        "id": "365",
+        "id": 365,
         "placeholder": 280
     },
     {
         "title": "\"Title Collector\"",
         "availability": "Shop",
-        "id": "366",
+        "id": 366,
         "placeholder": 281
     },
     {
         "title": "\"Insert Title Here\"",
         "availability": "Shop",
-        "id": "367",
+        "id": 367,
         "placeholder": 282
     },
     {
         "title": "\"Vroooom?\"",
         "availability": "Shop",
-        "id": "368",
+        "id": 368,
         "placeholder": 283
     },
     {
         "title": "\"Let's Gooooo!\"",
         "availability": "Shop",
-        "id": "369",
+        "id": 369,
         "placeholder": 284
     },
     {
         "title": "\"Neato\"",
         "availability": "Shop",
-        "id": "370",
+        "id": 370,
         "placeholder": 285
     },
     {
         "title": "\"Auto Fashionista\"",
         "availability": "Shop",
-        "id": "371",
+        "id": 371,
         "placeholder": 286
     },
     {
         "title": "\"Auto Avenger\"",
         "availability": "Shop",
-        "id": "372",
+        "id": 372,
         "placeholder": 287
     },
     {
         "title": "\"Oh Em Gee!\"",
         "availability": "Shop",
-        "id": "373",
+        "id": 373,
         "placeholder": 288
     },
     {
         "title": "\"Nitro Hoarder\"",
         "availability": "Shop",
-        "id": "374",
+        "id": 374,
         "placeholder": 289
     },
     {
         "title": "\"Nitro Rich\"",
         "availability": "Shop",
-        "id": "375",
+        "id": 375,
         "placeholder": 290
     },
     {
         "title": "\"I Love Dogs\"",
         "availability": "Shop",
-        "id": "376",
+        "id": 376,
         "placeholder": 291
     },
     {
         "title": "\"I Love Cats\"",
         "availability": "Shop",
-        "id": "377",
+        "id": 377,
         "placeholder": 292
     },
     {
         "title": "\"Top Tier\"",
         "availability": "Shop",
-        "id": "378",
+        "id": 378,
         "placeholder": 293
     },
     {
         "title": "\"Winter Warrior\"",
         "availability": "Season 32andShop",
-        "id": "379",
+        "id": 379,
         "placeholder": 294
     },
     {
         "title": "\"Ice Road Racer\"",
         "availability": "Season 32andShop",
-        "id": "382",
+        "id": 382,
         "placeholder": 295
     },
     {
         "title": "\"Nitro Libre\"",
         "availability": "Season 32andShop",
-        "id": "385",
+        "id": 385,
         "placeholder": 296
     },
     {
         "title": "\"Yo\"",
         "availability": "Shop",
-        "id": "386",
+        "id": 386,
         "placeholder": 297
     },
     {
         "title": "\"Peace, Love, Nitros\"",
         "availability": "Shop",
-        "id": "387",
+        "id": 387,
         "placeholder": 298
     },
     {
         "title": "\"Keyboard Smasher\"",
         "availability": "Shop",
-        "id": "388",
+        "id": 388,
         "placeholder": 299
     },
     {
         "title": "\"Nitro Type Savior\"",
         "availability": "N/A",
-        "id": "389",
+        "id": 389,
         "placeholder": 300
     },
     {
         "title": "\"3-2-1 GO!\"",
         "availability": "Shop",
-        "id": "392",
+        "id": 392,
         "placeholder": 301
     },
     {
         "title": "\"I Like Turtles\"",
         "availability": "N/A",
-        "id": "401",
+        "id": 401,
         "placeholder": 302
     },
     {
         "title": "\"Luck o' the Irish\"",
         "availability": "Shop",
-        "id": "404",
+        "id": 404,
         "placeholder": 303
     },
     {
         "title": "\"Happy Saint Patty's!\"",
         "availability": "Shop",
-        "id": "405",
+        "id": 405,
         "placeholder": 304
     },
     {
         "title": "\"Keep Calm & Shamrock On\"",
         "availability": "Shop",
-        "id": "406",
+        "id": 406,
         "placeholder": 305
     },
     {
         "title": "\"Clutch Typer\"",
         "availability": "Shop",
-        "id": "407",
+        "id": 407,
         "placeholder": 306
     },
     {
         "title": "\"Backseat Driver\"",
         "availability": "Shop",
-        "id": "408",
+        "id": 408,
         "placeholder": 307
     },
     {
         "title": "\"Drift King\"",
         "availability": "Shop",
-        "id": "409",
+        "id": 409,
         "placeholder": 308
     },
     {
         "title": "\"Drift Queen\"",
         "availability": "Shop",
-        "id": "410",
+        "id": 410,
         "placeholder": 309
     },
     {
         "title": "\"Leadfoot\"",
         "availability": "Shop",
-        "id": "411",
+        "id": 411,
         "placeholder": 310
     },
     {
         "title": "\"Speed Demon\"",
         "availability": "Shop",
-        "id": "412",
+        "id": 412,
         "placeholder": 311
     },
     {
         "title": "\"Sunday Driver\"",
         "availability": "Shop",
-        "id": "413",
+        "id": 413,
         "placeholder": 312
     },
     {
         "title": "\"Car Collector\"",
         "availability": "Shop",
-        "id": "414",
+        "id": 414,
         "placeholder": 313
     },
     {
         "title": "\"Verified Twitch Streamer\"",
         "availability": "Special Sauce",
-        "id": "415",
+        "id": 415,
         "placeholder": 314
     },
     {
         "title": "\"I Love Frogs\"",
         "availability": "Shop",
-        "id": "416",
+        "id": 416,
         "placeholder": 315
     },
     {
         "title": "\"✅ Verified Nitro Admin\"",
         "availability": "Special Sauce",
-        "id": "417",
+        "id": 417,
         "placeholder": 316
     },
     {
         "title": "\"Motorcycle Maniac\"",
         "availability": "Shop",
-        "id": "418",
+        "id": 418,
         "placeholder": 317
     },
     {
         "title": "\"Taco Lover\"",
         "availability": "Shop",
-        "id": "420",
+        "id": 420,
         "placeholder": 318
     },
     {
         "title": "\":D\"",
         "availability": "Shop",
-        "id": "421",
+        "id": 421,
         "placeholder": 319
     },
     {
         "title": "\"Happy Vibes :)\"",
         "availability": "Shop",
-        "id": "422",
+        "id": 422,
         "placeholder": 320
     },
     {
         "title": "\"Nitro Booster\"",
         "availability": "Shop",
-        "id": "423",
+        "id": 423,
         "placeholder": 321
     },
     {
         "title": "\"The Prankster\"",
         "availability": "Shop",
-        "id": "424",
+        "id": 424,
         "placeholder": 322
     },
     {
         "title": "\"Potaytoes\"",
         "availability": "Shop",
-        "id": "429",
+        "id": 429,
         "placeholder": 323
     },
     {
         "title": "\"Lightspeed\"",
         "availability": "Shop",
-        "id": "430",
+        "id": 430,
         "placeholder": 324
     },
     {
         "title": "\"Pachycephalosaur\"",
         "availability": "Shop",
-        "id": "431",
+        "id": 431,
         "placeholder": 325
     },
     {
         "title": "\"Unda da Sea\"",
         "availability": "Season 33andShop",
-        "id": "435",
+        "id": 435,
         "placeholder": 326
     },
     {
         "title": "\"Aquarian Conqueror\"",
         "availability": "Season 33andShop",
-        "id": "436",
+        "id": 436,
         "placeholder": 327
     },
     {
         "title": "\"Bubbly!\"",
         "availability": "Season 33andShop",
-        "id": "437",
+        "id": 437,
         "placeholder": 328
     },
     {
         "title": "\"Sea Student\"",
         "availability": "Season 33andShop",
-        "id": "438",
+        "id": 438,
         "placeholder": 329
     },
     {
         "title": "\"Shanty Life 4 Me\"",
         "availability": "Season 33andShop",
-        "id": "439",
+        "id": 439,
         "placeholder": 330
     },
     {
         "title": "\"Cash Packager\"",
         "availability": "Cash Store",
-        "id": "443",
+        "id": 443,
         "placeholder": 331
     },
     {
         "title": "\"Bucket Lister\"",
         "availability": "Cash Store",
-        "id": "444",
+        "id": 444,
         "placeholder": 332
     },
     {
         "title": "\"Lil' Cash Dabbler\"",
         "availability": "Cash Store",
-        "id": "445",
+        "id": 445,
         "placeholder": 333
     },
     {
         "title": "\"Please Subscribe\"",
         "availability": "Special Sauce",
-        "id": "473",
+        "id": 473,
         "placeholder": 334
     },
     {
         "title": "\"Josh!\"",
         "availability": "Shop",
-        "id": "499",
+        "id": 499,
         "placeholder": 335
     },
     {
         "title": "\"Trailblazer\"",
         "availability": "Season 34andShop",
-        "id": "506",
+        "id": 506,
         "placeholder": 336
     },
     {
         "title": "\"Trail Master\"",
         "availability": "Season 34andShop",
-        "id": "507",
+        "id": 507,
         "placeholder": 337
     },
     {
         "title": "\"Trail Angel\"",
         "availability": "Season 34andShop",
-        "id": "508",
+        "id": 508,
         "placeholder": 338
     },
     {
         "title": "\"Bushwacker\"",
         "availability": "Season 34andShop",
-        "id": "509",
+        "id": 509,
         "placeholder": 339
     },
     {
         "title": "\"Single-tracker\"",
         "availability": "Season 34andShop",
-        "id": "512",
+        "id": 512,
         "placeholder": 340
     },
     {
         "title": "\"Captain of the Guard\"",
         "availability": "N/A",
-        "id": "517",
+        "id": 517,
         "placeholder": 341
     },
     {
         "title": "\"For the Win!\"",
         "availability": "Season 35",
-        "id": "536",
+        "id": 536,
         "placeholder": 342
     },
     {
         "title": "\"Bootstrapper\"",
         "availability": "Season 35",
-        "id": "539",
+        "id": 539,
         "placeholder": 343
     },
     {
         "title": "\"Golden Student\"",
         "availability": "Season 35",
-        "id": "540",
+        "id": 540,
         "placeholder": 344
     },
     {
         "title": "\"Oops!\"",
         "availability": "Season 35andShop",
-        "id": "542",
+        "id": 542,
         "placeholder": 345
     },
     {
         "title": "\"The One and Only Zav\"",
         "availability": "N/A",
-        "id": "557",
+        "id": 557,
         "placeholder": 346
     },
     {
         "title": "\"Scaredy-Cat\"",
         "availability": "Shop",
-        "id": "560",
+        "id": 560,
         "placeholder": 347
     },
     {
         "title": "\"Hallow Hunter\"",
         "availability": "Shop",
-        "id": "561",
+        "id": 561,
         "placeholder": 348
     },
     {
         "title": "\"Trick or Typer\"",
         "availability": "Shop",
-        "id": "562",
+        "id": 562,
         "placeholder": 349
     },
     {
         "title": "\"Boo-Ya!\"",
         "availability": "Shop",
-        "id": "563",
+        "id": 563,
         "placeholder": 350
     },
     {
         "title": "\"Ghoul Gamer\"",
         "availability": "Shop",
-        "id": "564",
+        "id": 564,
         "placeholder": 351
     },
     {
         "title": "\"Scare Master\"",
         "availability": "Shop",
-        "id": "565",
+        "id": 565,
         "placeholder": 352
     },
     {
         "title": "\"Equinox Enthusiast\"",
         "availability": "Season 36",
-        "id": "573",
+        "id": 573,
         "placeholder": 353
     },
     {
         "title": "\"A-maize-ing\"",
         "availability": "Season 36",
-        "id": "574",
+        "id": 574,
         "placeholder": 354
     },
     {
         "title": "\"Raking in Wins\"",
         "availability": "Season 36",
-        "id": "575",
+        "id": 575,
         "placeholder": 355
     },
     {
         "title": "\"Un-be-leaf-able!\"",
         "availability": "Season 36andShop",
-        "id": "576",
+        "id": 576,
         "placeholder": 356
     },
     {
         "title": "\"Turkey Roaster\"",
         "availability": "Season 36",
-        "id": "577",
+        "id": 577,
         "placeholder": 357
     },
     {
         "title": "\"Speed Champion\"",
         "availability": "Discord Speed competition",
-        "id": "583",
+        "id": 583,
         "placeholder": 358
     },
     {
         "title": "\"Qwerty Quester\"",
         "availability": "Shop",
-        "id": "584",
+        "id": 584,
         "placeholder": 359
     },
     {
         "title": "\"Colemak Conqueror\"",
         "availability": "Shop",
-        "id": "585",
+        "id": 585,
         "placeholder": 360
     },
     {
         "title": "\"Dvorak Destroyer\"",
         "availability": "Shop",
-        "id": "586",
+        "id": 586,
         "placeholder": 361
     },
     {
         "title": "\"♪ O, Enter Key ♪\"",
         "availability": "Season 37",
-        "id": "591",
+        "id": 591,
         "placeholder": 362
     },
     {
         "title": "\"Breaking the Ice\"",
         "availability": "Season 37",
-        "id": "592",
+        "id": 592,
         "placeholder": 363
     },
     {
         "title": "\"Heart & Solstice\"",
         "availability": "Season 37",
-        "id": "593",
+        "id": 593,
         "placeholder": 364
     },
     {
         "title": "\"Elf-Taught Typist\"",
         "availability": "Season 37andShop",
-        "id": "594",
+        "id": 594,
         "placeholder": 365
     },
     {
         "title": "\"Lighting Up The Night\"",
         "availability": "Season 37",
-        "id": "595",
+        "id": 595,
         "placeholder": 366
     },
     {
         "title": "\"Bon Appéti​t\"",
         "availability": "Season 38",
-        "id": "601",
+        "id": 601,
         "placeholder": 367
     },
     {
         "title": "\"Small Fry\"",
         "availability": "Season 38",
-        "id": "602",
+        "id": 602,
         "placeholder": 368
     },
     {
         "title": "\"Pasta La Vista!\"",
         "availability": "Season 38",
-        "id": "603",
+        "id": 603,
         "placeholder": 369
     },
     {
         "title": "\"What's Cookin'?\"",
         "availability": "Season 38",
-        "id": "604",
+        "id": 604,
         "placeholder": 370
     },
     {
         "title": "\"Executive Chef\"",
         "availability": "Season 38",
-        "id": "605",
+        "id": 605,
         "placeholder": 371
     },
     {
         "title": "\"The One and Only Agu\"",
         "availability": "N/A",
-        "id": "615",
+        "id": 615,
         "placeholder": 372
     },
     {
         "title": "\"Verified TikToker\"",
         "availability": "Special Sauce",
-        "id": "617",
+        "id": 617,
         "placeholder": 373
     },
     {
         "title": "\"The Commentator\"",
         "availability": "N/A",
-        "id": "618",
+        "id": 618,
         "placeholder": 374
     },
     {
         "title": "\"Retro Racer\"",
         "availability": "Season 39 Volume 1",
-        "id": "626",
+        "id": 626,
         "placeholder": 375
     },
     {
         "title": "\"Problem Solver\"",
         "availability": "Season 39 Volume 1andShop",
-        "id": "628",
+        "id": 628,
         "placeholder": 376
     },
     {
         "title": "\"Spring Vibin'\"",
         "availability": "Season 39 Volume 1andShop",
-        "id": "629",
+        "id": 629,
         "placeholder": 377
     },
     {
         "title": "\"Ready Racer One\"",
         "availability": "Season 39 Volume 1",
-        "id": "630",
+        "id": 630,
         "placeholder": 378
     },
     {
         "title": "\"May The 4th Be With You\"",
         "availability": "Shop",
-        "id": "641",
+        "id": 641,
         "placeholder": 379
     },
     {
         "title": "\"2022 Grad\"",
         "availability": "Shop",
-        "id": "643",
+        "id": 643,
         "placeholder": 380
     },
     {
         "title": "\"Speedrunner\"",
         "availability": "Season 39 Volume 2",
-        "id": "646",
+        "id": 646,
         "placeholder": 381
     },
     {
         "title": "\"WASD Warrior\"",
         "availability": "Season 39 Volume 2",
-        "id": "647",
+        "id": 647,
         "placeholder": 382
     },
     {
         "title": "\"Continue?\"",
         "availability": "Season 39 Volume 2andShop",
-        "id": "648",
+        "id": 648,
         "placeholder": 383
     },
     {
         "title": "\"Combo Breaker\"",
         "availability": "Season 39 Volume 2",
-        "id": "649",
+        "id": 649,
         "placeholder": 384
     },
     {
         "title": "\"I Race Friends\"",
         "availability": "Popularity Contest",
-        "id": "653",
+        "id": 653,
         "placeholder": 385
     },
     {
         "title": "\"Bringing the Heat\"",
         "availability": "Season 40",
-        "id": "662",
+        "id": 662,
         "placeholder": 386
     },
     {
         "title": "\"Inferno Racer\"",
         "availability": "Season 40",
-        "id": "663",
+        "id": 663,
         "placeholder": 387
     },
     {
         "title": "\"Vacationer\"",
         "availability": "Season 40andShop",
-        "id": "664",
+        "id": 664,
         "placeholder": 388
     },
     {
         "title": "\"Wave Breaker\"",
         "availability": "Season 40",
-        "id": "665",
+        "id": 665,
         "placeholder": 389
     },
     {
         "title": "\"Yeah, Buoy!\"",
         "availability": "Season 40andShop",
-        "id": "666",
+        "id": 666,
         "placeholder": 390
     },
     {
         "title": "\"Goth Moth\"",
         "availability": "N/A",
-        "id": "671",
+        "id": 671,
         "placeholder": 391
     },
     {
         "title": "\"Tyrannosaurus Typist\"",
         "availability": "Season 41",
-        "id": "673",
+        "id": 673,
         "placeholder": 392
     },
     {
         "title": "\"Barbarian\"",
         "availability": "Season 41",
-        "id": "674",
+        "id": 674,
         "placeholder": 393
     },
     {
         "title": "\"Scallywag\"",
         "availability": "Season 41andShop",
-        "id": "675",
+        "id": 675,
         "placeholder": 394
     },
     {
         "title": "\"Pharaoh\"",
         "availability": "Season 41",
-        "id": "676",
+        "id": 676,
         "placeholder": 395
     },
     {
         "title": "\"Imperator\"",
         "availability": "Season 41",
-        "id": "677",
+        "id": 677,
         "placeholder": 396
     },
     {
         "title": "\"You'll Never Beat Me!\"",
         "availability": "The Wampus",
-        "id": "685",
+        "id": 685,
         "placeholder": 397
     },
     {
         "title": "\"I'm Ready\"",
         "availability": "Season 42",
-        "id": "693",
+        "id": 693,
         "placeholder": 398
     },
     {
         "title": "\"Aye-aye Captain!\"",
         "availability": "Season 42",
-        "id": "694",
+        "id": 694,
         "placeholder": 399
     },
     {
         "title": "\"Broadcaster\"",
         "availability": "Season 42",
-        "id": "695",
+        "id": 695,
         "placeholder": 400
     },
     {
         "title": "\"Where's the remote?\"",
         "availability": "Season 42andShop",
-        "id": "696",
+        "id": 696,
         "placeholder": 401
     },
     {
         "title": "\"Asst to the Regional Manager\"",
         "availability": "N/A",
-        "id": "697",
+        "id": 697,
         "placeholder": 402
     },
     {
         "title": "\"World's Best Boss\"",
         "availability": "Season 42",
-        "id": "698",
+        "id": 698,
         "placeholder": 403
     },
     {
         "title": "\"Turbo Typist\"",
         "availability": "Season 43andShop",
-        "id": "704",
+        "id": 704,
         "placeholder": 404
     },
     {
         "title": "\"Pit Crew\"",
         "availability": "Season 43",
-        "id": "705",
+        "id": 705,
         "placeholder": 405
     },
     {
         "title": "\"On Your Marks\"",
         "availability": "Season 43",
-        "id": "706",
+        "id": 706,
         "placeholder": 406
     },
     {
         "title": "\"Rally Master\"",
         "availability": "Season 43andShop",
-        "id": "707",
+        "id": 707,
         "placeholder": 407
     },
     {
         "title": "\"Need 4 Speed\"",
         "availability": "Season 43",
-        "id": "708",
+        "id": 708,
         "placeholder": 408
     },
     {
         "title": "\"Sp3llchekcer\"",
         "availability": "Spell Checking",
-        "id": "712",
+        "id": 712,
         "placeholder": 409
     },
     {
         "title": "\"Blizzard Blitzer!\"",
         "availability": "Season 44",
-        "id": "722",
+        "id": 722,
         "placeholder": 410
     },
     {
         "title": "\"Red-Nosed Racer\"",
         "availability": "Season 44",
-        "id": "723",
+        "id": 723,
         "placeholder": 411
     },
     {
         "title": "\"♪ Rockin’ Around the XMaxx Tree ♪\"",
         "availability": "Season 44",
-        "id": "724",
+        "id": 724,
         "placeholder": 412
     },
     {
         "title": "\"The Mammoth\"",
         "availability": "Season 44",
-        "id": "725",
+        "id": 725,
         "placeholder": 413
     },
     {
         "title": "\"On Thin Ice\"",
         "availability": "Season 44",
-        "id": "726",
+        "id": 726,
         "placeholder": 414
     },
     {
         "title": "\"Verified Tweeter\"",
         "availability": "Twitter",
-        "id": "727",
+        "id": 727,
         "placeholder": 415
     },
     {
         "title": "\"Galactic Guardian\"",
         "availability": "Shop",
-        "id": "732",
+        "id": 732,
         "placeholder": 416
     },
     {
         "title": "\"Grab the Popcorn!\"",
         "availability": "Season 45",
-        "id": "733",
+        "id": 733,
         "placeholder": 417
     },
     {
         "title": "\"The Wicked Witch\"",
         "availability": "Season 45",
-        "id": "734",
+        "id": 734,
         "placeholder": 418
     },
     {
         "title": "\"Great Scott!\"",
         "availability": "Season 45",
-        "id": "735",
+        "id": 735,
         "placeholder": 419
     },
     {
         "title": "\"Secret Agent\"",
         "availability": "Season 45",
-        "id": "736",
+        "id": 736,
         "placeholder": 420
     },
     {
         "title": "\"Ghost Getter\"",
         "availability": "Season 45",
-        "id": "737",
+        "id": 737,
         "placeholder": 421
     },
     {
         "title": "\"Legendary\"",
         "availability": "Most Deserving",
-        "id": "745",
+        "id": 745,
         "placeholder": 422
     },
     {
         "title": "\"Goblin Mode\"",
         "availability": "Shop",
-        "id": "746",
+        "id": 746,
         "placeholder": 423
     },
     {
         "title": "\"Ninja\"",
         "availability": "Shop",
-        "id": "747",
+        "id": 747,
         "placeholder": 424
     },
     {
         "title": "\"Extraterrestrial\"",
         "availability": "Shop",
-        "id": "748",
+        "id": 748,
         "placeholder": 425
     },
     {
         "title": "\"Petal Pusher\"",
         "availability": "Season 46",
-        "id": "754",
+        "id": 754,
         "placeholder": 426
     },
     {
         "title": "\"Seasonal Racer\"",
         "availability": "Season 46",
-        "id": "755",
+        "id": 755,
         "placeholder": 427
     },
     {
         "title": "\"March Madness Champ\"",
         "availability": "Season 46",
-        "id": "756",
+        "id": 756,
         "placeholder": 428
     },
     {
         "title": "\"Fast Forward\"",
         "availability": "Season 46",
-        "id": "757",
+        "id": 757,
         "placeholder": 429
     },
     {
         "title": "\"Fast and Flora\"",
         "availability": "Season 46",
-        "id": "758",
+        "id": 758,
         "placeholder": 430
     },
     {
         "title": "\"Spring into Speed\"",
         "availability": "Season 46",
-        "id": "759",
+        "id": 759,
         "placeholder": 431
     },
     {
         "title": "\"Extracurricular\"",
         "availability": "N/A",
-        "id": "770",
+        "id": 770,
         "placeholder": 432
     },
     {
         "title": "\"Roar to Victory\"",
         "availability": "Season 47",
-        "id": "780",
+        "id": 780,
         "placeholder": 433
     },
     {
         "title": "\"Leader of the Pack\"",
         "availability": "Season 47",
-        "id": "781",
+        "id": 781,
         "placeholder": 434
     },
     {
         "title": "\"Wild Thang\"",
         "availability": "Season 47",
-        "id": "782",
+        "id": 782,
         "placeholder": 435
     },
     {
         "title": "\"Savanna Speedster\"",
         "availability": "Season 47",
-        "id": "783",
+        "id": 783,
         "placeholder": 436
     },
     {
         "title": "\"Ferocious Finisher\"",
         "availability": "Season 47",
-        "id": "784",
+        "id": 784,
         "placeholder": 437
     },
     {
         "title": "\"Speed Scholar\"",
         "availability": "Season 48",
-        "id": "800",
+        "id": 800,
         "placeholder": 438
     },
     {
         "title": "\"Algebra Ace\"",
         "availability": "Season 48",
-        "id": "801",
+        "id": 801,
         "placeholder": 439
     },
     {
         "title": "\"Race Day Prodigy\"",
         "availability": "Season 48",
-        "id": "802",
+        "id": 802,
         "placeholder": 440
     },
     {
         "title": "\"Fast Track Flyer\"",
         "availability": "Season 48",
-        "id": "803",
+        "id": 803,
         "placeholder": 441
     },
     {
         "title": "\"Field Trip Speedrunner\"",
         "availability": "Season 48",
-        "id": "804",
+        "id": 804,
         "placeholder": 442
     },
     {
         "title": "\"Number Cruncher\"",
         "availability": "Season 48",
-        "id": "805",
+        "id": 805,
         "placeholder": 443
     },
     {
         "title": "\"Batty\"",
         "availability": "Season 49",
-        "id": "812",
+        "id": 812,
         "placeholder": 444
     },
     {
         "title": "\"Spectral Speedster\"",
         "availability": "Season 49",
-        "id": "813",
+        "id": 813,
         "placeholder": 445
     },
     {
         "title": "\"Witchy Wheeler\"",
         "availability": "Season 49",
-        "id": "814",
+        "id": 814,
         "placeholder": 446
     },
     {
         "title": "\"Ghoul's Gold\"",
         "availability": "Season 49",
-        "id": "815",
+        "id": 815,
         "placeholder": 447
     },
     {
         "title": "\"Pumpkin Peddler\"",
         "availability": "Season 49",
-        "id": "816",
+        "id": 816,
         "placeholder": 448
     },
     {
         "title": "\"Square Deal Speedster\"",
         "availability": "Box o' Cash Bundle",
-        "id": "821",
+        "id": 821,
         "placeholder": 449
     },
     {
         "title": "\"Can-Do Dynamo\"",
         "availability": "Trash Can o' Cash Bundle",
-        "id": "822",
+        "id": 822,
         "placeholder": 450
     },
     {
         "title": "\"Loaded Lorry Legend\"",
         "availability": "Truck o' Cash Bundle",
-        "id": "823",
+        "id": 823,
         "placeholder": 451
     },
     {
         "title": "\"Rolling Royalty Racer\"",
         "availability": "Huge Ball o' Cash Bundle",
-        "id": "824",
+        "id": 824,
         "placeholder": 452
     },
     {
         "title": "\"Nitro Wealthy\"",
         "availability": "N/A",
-        "id": "827",
+        "id": 827,
         "placeholder": 453
     },
     {
         "title": "\"Nitro-Opulent\"",
         "availability": "Nitro Fortune Cash Pack",
-        "id": "828",
+        "id": 828,
         "placeholder": 454
     },
     {
         "title": "\"Nitro Prosperous\"",
         "availability": "N/A",
-        "id": "829",
+        "id": 829,
         "placeholder": 455
     },
     {
         "title": "\"Ghostly Gearhead\"",
         "availability": "Season 49",
-        "id": "835",
+        "id": 835,
         "placeholder": 456
     },
     {
         "title": "\"The Diamond Racer\"",
         "availability": "Xmaxx Sale",
-        "id": "836",
+        "id": 836,
         "placeholder": 457
     },
     {
         "title": "\"Jingle Jockey\"",
         "availability": "Season 50",
-        "id": "837",
+        "id": 837,
         "placeholder": 458
     },
     {
         "title": "\"Frosty Flyer\"",
         "availability": "Season 50",
-        "id": "838",
+        "id": 838,
         "placeholder": 459
     },
     {
         "title": "\"Reindeer Racer\"",
         "availability": "Season 50",
-        "id": "839",
+        "id": 839,
         "placeholder": 460
     },
     {
         "title": "\"Festive Flash\"",
         "availability": "Season 50",
-        "id": "840",
+        "id": 840,
         "placeholder": 461
     },
     {
         "title": "\"North Pole Navigator\"",
         "availability": "Season 50",
-        "id": "841",
+        "id": 841,
         "placeholder": 462
     },
     {
         "title": "\"Candy Cane Cruiser\"",
         "availability": "Season 50",
-        "id": "842",
+        "id": 842,
         "placeholder": 463
     },
     {
         "title": "\"Sorcerer of Speed\"",
         "availability": "Season 51",
-        "id": "855",
+        "id": 855,
         "placeholder": 464
     },
     {
         "title": "\"Phantom Fingers\"",
         "availability": "Season 51",
-        "id": "856",
+        "id": 856,
         "placeholder": 465
     },
     {
         "title": "\"Mystic Racer\"",
         "availability": "Season 51",
-        "id": "857",
+        "id": 857,
         "placeholder": 466
     },
     {
         "title": "\"Magical Maestro\"",
         "availability": "Season 51",
-        "id": "858",
+        "id": 858,
         "placeholder": 467
     },
     {
         "title": "\"Dragon Tamer\"",
         "availability": "Season 51",
-        "id": "859",
+        "id": 859,
         "placeholder": 468
     },
     {
         "title": "\"Titan of the Track\"",
         "availability": "Season 51",
-        "id": "860",
+        "id": 860,
         "placeholder": 469
     },
     {
         "title": "\"Spring Streaker\"",
         "availability": "Season 52",
-        "id": "866",
+        "id": 866,
         "placeholder": 470
     },
     {
         "title": "\"April Ace\"",
         "availability": "Season 52",
-        "id": "867",
+        "id": 867,
         "placeholder": 471
     },
     {
         "title": "\"Raindrop Racer\"",
         "availability": "Season 52",
-        "id": "868",
+        "id": 868,
         "placeholder": 472
     },
     {
         "title": "\"Eggstra Speedy\"",
         "availability": "Season 52",
-        "id": "869",
+        "id": 869,
         "placeholder": 473
     },
     {
         "title": "\"Blossom Blazer\"",
         "availability": "Season 52",
-        "id": "870",
+        "id": 870,
         "placeholder": 474
     },
     {
         "title": "\"Dewdrop Drifter\"",
         "availability": "Season 52",
-        "id": "871",
+        "id": 871,
         "placeholder": 475
     },
     {
         "title": "\"RoboCop\"",
         "availability": "N/A",
-        "id": "872",
+        "id": 872,
         "placeholder": 476
     },
     {
         "title": "\"Shocking\"",
         "availability": "Early Bird Renewal Advantage",
-        "id": "873",
+        "id": 873,
         "placeholder": 477
     },
     {
         "title": "\"Turbo Tycoon\"",
         "availability": "Nitro Fortune Cash Pack",
-        "id": "874",
+        "id": 874,
         "placeholder": 478
     },
     {
         "title": "\"Heatwave Hero\"",
         "availability": "Season 53",
-        "id": "885",
+        "id": 885,
         "placeholder": 479
     },
     {
         "title": "\"2024 Grad\"",
         "availability": "Shop",
-        "id": "890",
+        "id": 890,
         "placeholder": 480
     },
     {
         "title": "\"Learner Leader\"",
         "availability": "Leagues",
-        "id": "892",
+        "id": 892,
         "placeholder": 481
     },
     {
         "title": "\"Novice Navigator\"",
         "availability": "Leagues",
-        "id": "893",
+        "id": 893,
         "placeholder": 482
     },
     {
         "title": "\"Rookie Racer\"",
         "availability": "Leagues",
-        "id": "894",
+        "id": 894,
         "placeholder": 483
     },
     {
         "title": "\"Pro Pacer\"",
         "availability": "Leagues",
-        "id": "895",
+        "id": 895,
         "placeholder": 484
     },
     {
         "title": "\"Ace Acccelerator\"",
         "availability": "Leagues",
-        "id": "896",
+        "id": 896,
         "placeholder": 485
     },
     {
         "title": "\"Expert Extraordinaire\"",
         "availability": "Leagues",
-        "id": "897",
+        "id": 897,
         "placeholder": 486
     },
     {
         "title": "\"Champion Chaser\"",
         "availability": "Leagues",
-        "id": "898",
+        "id": 898,
         "placeholder": 487
     },
     {
         "title": "\"Master Motorist\"",
         "availability": "Leagues",
-        "id": "899",
+        "id": 899,
         "placeholder": 488
     },
     {
         "title": "\"Epic Engager\"",
         "availability": "Leagues",
-        "id": "900",
+        "id": 900,
         "placeholder": 489
     },
     {
         "title": "\"Legendary Lapper\"",
         "availability": "Leagues",
-        "id": "901",
+        "id": 901,
         "placeholder": 490
     },
     {
         "title": "\"League Champion\"",
         "availability": "Leagues",
-        "id": "902",
+        "id": 902,
         "placeholder": 491
     },
     {
         "title": "\"404 Not Found\"",
         "availability": "Shop",
-        "id": "913",
+        "id": 913,
         "placeholder": 492
     },
     {
         "title": "\"Mechanic\"",
         "availability": "Season 54",
-        "id": "918",
+        "id": 918,
         "placeholder": 493
     },
     {
         "title": "\"Gear Grinder\"",
         "availability": "Season 54",
-        "id": "919",
+        "id": 919,
         "placeholder": 494
     },
     {
         "title": "\"Heavy Hauler\"",
         "availability": "Season 54",
-        "id": "920",
+        "id": 920,
         "placeholder": 495
     },
     {
         "title": "\"Hydraulic Hero\"",
         "availability": "Season 54",
-        "id": "921",
+        "id": 921,
         "placeholder": 496
     },
     {
         "title": "\"Son of Corndog\"",
         "availability": "Admins",
-        "id": "924",
+        "id": 924,
         "placeholder": 497
     },
     {
         "title": "\"2icy4u\"",
         "availability": "Season 55",
-        "id": "925",
+        "id": 925,
         "placeholder": 498
     },
     {
         "title": "\"Santa's Lil' Helper\"",
         "availability": "Season 55",
-        "id": "928",
+        "id": 928,
         "placeholder": 499
     },
     {
         "title": "\"On The Nice List\"",
         "availability": "Season 55",
-        "id": "929",
+        "id": 929,
         "placeholder": 500
     },
     {
         "title": "\"Yuletide Spirit\"",
         "availability": "Season 55",
-        "id": "930",
+        "id": 930,
         "placeholder": 501
     },
     {
         "title": "\"Operation: Typing\"",
         "availability": "N/A",
-        "id": "934",
+        "id": 934,
         "placeholder": 502
     },
     {
         "title": "\"Overdrive\"",
         "availability": "Season 56",
-        "id": "940",
+        "id": 940,
         "placeholder": 503
     },
     {
         "title": "\"Encore\"",
         "availability": "Season 56",
-        "id": "941",
+        "id": 941,
         "placeholder": 504
     },
     {
         "title": "\"Spring Speedster\"",
         "availability": "Spring Showdown",
-        "id": "946",
+        "id": 946,
         "placeholder": 505
     },
     {
         "title": "\"Green Streak\"",
         "availability": "Spring Showdown",
-        "id": "950",
+        "id": 950,
         "placeholder": 506
     },
     {
         "title": "\"Eternal Spring\"",
         "availability": "Spring Showdown",
-        "id": "951",
+        "id": 951,
         "placeholder": 507
     },
     {
         "title": "\"Flora Fury\"",
         "availability": "Spring Showdown",
-        "id": "952",
+        "id": 952,
         "placeholder": 508
     },
     {
         "title": "\"2025 Grad\"",
         "availability": "Shop",
-        "id": "954",
+        "id": 954,
         "placeholder": 509
     }
 ]
