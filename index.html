@@ -178,12 +178,13 @@ async function fetchAndProcess() {
         console.log('Car items:', carItems);
         console.log('Loot items:', lootItems);
 
-        const matchedCars = [];
+        const matchedObjects = [];
+
         for (const shopItem of carItems) {
             const carData = allCars.find(c => c.id === shopItem.id);
             if (carData) {
-                const titleEntry = allTitles.find(t => t.id === shopItem.id && t.type === 'loot');
-                matchedCars.push({
+                const titleEntry = allTitles.find(t => t.id === shopItem.id);
+                matchedObjects.push({
                     type: 'car',
                     id: shopItem.id,
                     carDetails: carData,
@@ -192,12 +193,11 @@ async function fetchAndProcess() {
             }
         }
 
-        const matchedLoots = [];
         for (const lootItem of lootItems) {
-            const titleData = allTitles.find(t => t.id === lootItem.id && t.type === 'loot');
+            const titleData = allTitles.find(t => t.id === lootItem.id);
             if (titleData) {
                 const carData = allCars.find(c => c.id === lootItem.id);
-                matchedLoots.push({
+                matchedObjects.push({
                     type: 'loot',
                     id: lootItem.id,
                     titleDetails: titleData,
@@ -206,10 +206,8 @@ async function fetchAndProcess() {
             }
         }
 
-        const combinedResults = [...matchedCars, ...matchedLoots];
-
-        console.log('Final matched objects:', combinedResults);
-        document.getElementById('extractedCarsData').textContent = JSON.stringify(combinedResults, null, 2);
+        console.log('Final matched objects:', matchedObjects);
+        document.getElementById('extractedCarsData').textContent = JSON.stringify(matchedObjects, null, 2);
     } catch (err) {
         console.error('Error during fetch and process:', err);
         document.getElementById('result').textContent = 'Error: ' + err.message;
