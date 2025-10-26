@@ -161,37 +161,55 @@ async function fetchAndProcess() {
         }
 
         const carItems = [];
+        const lootItems = [];
         for (const category of arrayData) {
             if (category && category.items && Array.isArray(category.items)) {
                 for (const item of category.items) {
                     if (item && item.type === 'car') {
                         carItems.push(item);
                         console.log('Found car item:', item);
+                    } else if (item && item.type === 'loot') {
+                        lootItems.push(item);
+                        console.log('Found loot item:', item);
                     }
                 }
             }
         }
         console.log('Car items:', carItems);
+        console.log('Loot items:', lootItems);
 
-        if (carItems.length > 0) {
-            const matchedCars = carItems.map(shopItem => {
-                const carData = allCars.find(c => c.id === shopItem.id);
+        const matchedCars = [];
+        for (const shopItem of carItems) {
+            const carData = allCars.find(c => c.id === shopItem.id);
+            if (carData) {
                 const titleEntry = allTitles.find(t => t.id === shopItem.id && t.type === 'loot');
-                if (carData) {
-                    if (titleEntry && titleEntry.title) {
-                        return { ...carData, title: titleEntry.title };
-                    } else {
-                        return { ...carData };
-                    }
-                }
-                return null;
-            }).filter(c => c !== null);
-
-            console.log('Final matched cars with titles:', matchedCars);
-            carsPre.textContent = JSON.stringify(matchedCars, null, 2);
-        } else {
-            console.log('No car items found.');
+                matchedCars.push({
+                    type: 'car',
+                    id: shopItem.id,
+                    carDetails: carData,
+                    title: titleEntry ? titleEntry.title : undefined
+                });
+            }
         }
+
+        const matchedLoots = [];
+        for (const lootItem of lootItems) {
+            const titleData = allTitles.find(t => t.id === lootItem.id && t.type === 'loot');
+            if (titleData) {
+                const carData = allCars.find(c => c.id === lootItem.id);
+                matchedLoots.push({
+                    type: 'loot',
+                    id: lootItem.id,
+                    titleDetails: titleData,
+                    carDetails: carData ? carData : null
+                });
+            }
+        }
+
+        const combinedResults = [...matchedCars, ...matchedLoots];
+
+        console.log('Final matched objects:', combinedResults);
+        document.getElementById('extractedCarsData').textContent = JSON.stringify(combinedResults, null, 2);
     } catch (err) {
         console.error('Error during fetch and process:', err);
         document.getElementById('result').textContent = 'Error: ' + err.message;
