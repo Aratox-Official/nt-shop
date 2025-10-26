@@ -106,7 +106,7 @@ async function findArrayContainingShop(data) {
     }
     let stack = 0;
     let arrayEnd = -1;
-    for (let i = arrayStart; i &lt; data.length; i++) {
+    for (let i = arrayStart; i < data.length; i++) {
         if (data[i] === '[') stack++;
         else if (data[i] === ']') {
             stack--;
