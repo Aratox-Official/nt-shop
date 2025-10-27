@@ -188,7 +188,7 @@ async function fetchAndProcess() {
                     type: 'car',
                     id: shopItem.id,
                     carDetails: carData,
-                    title: (titleEntry && titleEntry.title.toLowerCase() !== 'car') ? titleEntry.title : undefined
+                    ...(titleEntry && titleEntry.title.toLowerCase() !== 'car' ? { title: titleEntry.title } : {})
                 });
             }
         }
