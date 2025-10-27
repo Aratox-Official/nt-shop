@@ -184,12 +184,14 @@ async function fetchAndProcess() {
             const carData = allCars.find(c => c.id === shopItem.id);
             if (carData) {
                 const titleEntry = allTitles.find(t => t.id === shopItem.id);
-                matchedObjects.push({
-                    type: 'car',
-                    id: shopItem.id,
-                    carDetails: carData,
-                    title: titleEntry ? titleEntry.title : undefined
-                });
+                if (titleEntry && titleEntry.title.toLowerCase() !== 'car') {
+                    matchedObjects.push({
+                        type: 'car',
+                        id: shopItem.id,
+                        carDetails: carData,
+                        title: titleEntry ? titleEntry.title : undefined
+                    });
+                }
             }
         }
 
