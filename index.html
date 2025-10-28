@@ -183,7 +183,7 @@ async function fetchAndProcess() {
         for (const shopItem of carItems) {
             const carData = allCars.find(c => c.id === shopItem.id);
             if (carData) {
-                const titleEntry = allTitles.find(t => t.id === shopItem.id);
+                const titleEntry = shopItem.type !== 'car' ? allTitles.find(t => t.id === shopItem.id) : null;
                 matchedObjects.push({
                     type: 'car',
                     id: shopItem.id,
