@@ -184,25 +184,27 @@ async function fetchAndProcess() {
             const carData = allCars.find(c => c.id === shopItem.id);
             if (carData) {
                 const titleEntry = shopItem.type !== 'car' ? allTitles.find(t => t.id === shopItem.id) : null;
-                matchedObjects.push({
+                const obj = {
                     type: 'car',
                     id: shopItem.id,
-                    carDetails: carData,
+                    ...(carData ? { carDetails: carData } : {}),
                     ...(titleEntry && titleEntry.title.toLowerCase() !== 'car' ? { title: titleEntry.title } : {})
-                });
+                };
+                matchedObjects.push(obj);
             }
         }
 
         for (const lootItem of lootItems) {
             const titleData = (lootItem && lootItem.type === 'loot') ? allTitles.find(t => t.id === lootItem.id) : null;
+            const carData = allCars.find(c => c.id === lootItem.id);
             if (titleData) {
-                const carData = allCars.find(c => c.id === lootItem.id);
-                matchedObjects.push({
+                const obj = {
                     type: 'loot',
                     id: lootItem.id,
-                    titleDetails: titleData,
-                    carDetails: carData ? carData : null
-                });
+                    ...(titleData ? { titleDetails: titleData } : {}),
+                    ...(carData ? { carDetails: carData } : {})
+                };
+                matchedObjects.push(obj);
             }
         }
 
