@@ -194,7 +194,7 @@ async function fetchAndProcess() {
         }
 
         for (const lootItem of lootItems) {
-            const titleData = allTitles.find(t => t.id === lootItem.id);
+            const titleData = (lootItem && lootItem.type === 'loot') ? allTitles.find(t => t.id === lootItem.id) : null;
             if (titleData) {
                 const carData = allCars.find(c => c.id === lootItem.id);
                 matchedObjects.push({
