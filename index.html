@@ -165,7 +165,9 @@ async function fetchAndProcess() {
                     if (aOrder !== bOrder) {
                         return aOrder - bOrder;
                     }
-                    return (a.startStamp || 0) - (b.startStamp || 0);
+                    const aStart = a.startStamp || 0;
+                    const bStart = b.startStamp || 0;
+                    return aStart - bStart;
                 });
             }
         }
