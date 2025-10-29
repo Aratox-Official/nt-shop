@@ -92,35 +92,13 @@ async function loadData() {
 
 async function findArrayContainingShop(data) {
     console.log('Searching for array containing "SHOP"...');
-    const pattern = /"SHOP",/;
+    const pattern = /(\[[\s\S]*?"SHOP"[\s\S]*?\])/;
     const match = pattern.exec(data);
     if (!match) {
         console.log('No array containing "SHOP" found.');
         return null;
     }
-    const index = match.index;
-    const arrayStart = data.lastIndexOf('[', index);
-    if (arrayStart === -1) {
-        console.log('No array start "[" found.');
-        return null;
-    }
-    let stack = 0;
-    let arrayEnd = -1;
-    for (let i = arrayStart; i < data.length; i++) {
-        if (data[i] === '[') stack++;
-        else if (data[i] === ']') {
-            stack--;
-            if (stack === 0) {
-                arrayEnd = i + 1;
-                break;
-            }
-        }
-    }
-    if (arrayEnd === -1) {
-        console.log('No closing bracket for array.');
-        return null;
-    }
-    const arrayStr = data.substring(arrayStart, arrayEnd);
+    const arrayStr = match[1];
     console.log('Extracted array:', arrayStr);
     return arrayStr;
 }
@@ -147,83 +125,88 @@ async function fetchAndProcess() {
         try {
             arrayData = JSON.parse(arrayStr);
         } catch (e) {
-            resultPre.textContent += 'Error parsing array JSON: ' + e.message;
+            resultPre.textContent += '\nError parsing array JSON: ' + e.message;
             return;
         }
 
-        if (Array.isArray(arrayData) && arrayData.length > 1) {
-            arrayData = arrayData[1];
-
-            if (Array.isArray(arrayData)) {
-                arrayData.sort((a, b) => {
-                    const categoryOrder = {
-                        'featured': 1,
-                        'daily1': 2
-                    };
-                    const aOrder = categoryOrder[a.category] || 99;
-                    const bOrder = categoryOrder[b.category] || 99;
-                    if (aOrder !== bOrder) {
-                        return aOrder - bOrder;
-                    }
-                    const aStart = a.startStamp || 0;
-                    const bStart = b.startStamp || 0;
-                    return aStart - bStart;
-                });
-            }
-        }
-
         if (Array.isArray(arrayData)) {
-            const carItems = [];
-            const lootItems = [];
-            for (const category of arrayData) {
-                if (category && category.items && Array.isArray(category.items)) {
-                    for (const item of category.items) {
-                        if (item && item.type === 'car') {
-                            carItems.push(item);
-                            console.log('Found car item:', item);
-                        } else if (item && item.type === 'loot') {
-                            lootItems.push(item);
-                            console.log('Found loot item:', item);
+            if (arrayData.length > 1) {
+                arrayData = arrayData[1];
+
+                if (Array.isArray(arrayData)) {
+                    arrayData.sort((a, b) => {
+                        const categoryOrder = {
+                            'featured': 1,
+                            'daily1': 2
+                        };
+                        const aOrder = categoryOrder[a.category] || 99;
+                        const bOrder = categoryOrder[b.category] || 99;
+                        if (aOrder !== bOrder) {
+                            return aOrder - bOrder;
+                        }
+                        const aStart = a.startStamp || 0;
+                        const bStart = b.startStamp || 0;
+                        return aStart - bStart;
+                    });
+
+                    for (const cat of arrayData) {
+                        if (cat.items && Array.isArray(cat.items)) {
+                            cat.items.sort((a, b) => a.id - b.id);
                         }
                     }
                 }
             }
-            console.log('Car items:', carItems);
-            console.log('Loot items:', lootItems);
-
-            const matchedObjects = [];
-
-            for (const shopItem of carItems) {
-                const carData = allCars.find(c => c.id === shopItem.id);
-                if (carData) {
-                    const titleEntry = shopItem.type !== 'car' ? allTitles.find(t => t.id === shopItem.id) : null;
-                    const obj = {
-                        type: 'car',
-                        id: shopItem.id,
-                        ...(carData ? { carDetails: carData } : {}),
-                        ...(titleEntry && titleEntry.title.toLowerCase() !== 'car' ? { title: titleEntry.title } : {})
-                    };
-                    matchedObjects.push(obj);
-                }
-            }
-
-            for (const lootItem of lootItems) {
-                const titleData = (lootItem && lootItem.type === 'loot') ? allTitles.find(t => t.id === lootItem.id) : null;
-                const carData = allCars.find(c => c.id === lootItem.id);
-                if (titleData) {
-                    const obj = {
-                        type: 'loot',
-                        id: lootItem.id,
-                        ...(titleData ? { titleDetails: titleData } : {}),
-                        ...(carData ? { carDetails: carData } : {})
-                    };
-                    matchedObjects.push(obj);
-                }
-            }
-
-            console.log('Final matched objects:', matchedObjects);
-            document.getElementById('extractedCarsData').textContent = JSON.stringify(matchedObjects, null, 2);
         }
+
+        const carItems = [];
+        const lootItems = [];
+
+        for (const category of arrayData) {
+            if (category && category.items && Array.isArray(category.items)) {
+                for (const item of category.items) {
+                    if (item && item.type === 'car') {
+                        carItems.push(item);
+                        console.log('Found car item:', item);
+                    } else if (item && item.type === 'loot') {
+                        lootItems.push(item);
+                        console.log('Found loot item:', item);
+                    }
+                }
+            }
+        }
+
+        const matchedObjects = [];
+
+        for (const shopItem of carItems) {
+            const carData = allCars.find(c => c.id === shopItem.id);
+            if (carData) {
+                const titleEntry = allTitles.find(t => t.id === shopItem.id);
+                const obj = {
+                    type: 'car',
+                    id: shopItem.id,
+                    ...(carData ? { carDetails: carData } : {}),
+                    ...(titleEntry && titleEntry.title.toLowerCase() !== 'car' ? { title: titleEntry.title } : {})
+                };
+                matchedObjects.push(obj);
+            }
+        }
+
+        for (const lootItem of lootItems) {
+            const titleData = allTitles.find(t => t.id === lootItem.id);
+            const carData = allCars.find(c => c.id === lootItem.id);
+            if (titleData) {
+                const obj = {
+                    type: 'loot',
+                    id: lootItem.id,
+                    ...(titleData ? { titleDetails: titleData } : {}),
+                    ...(carData ? { carDetails: carData } : {})
+                };
+                matchedObjects.push(obj);
+            }
+        }
+
+        console.log('Final matched objects:', matchedObjects);
+        document.getElementById('extractedCarsData').textContent = JSON.stringify(matchedObjects, null, 2);
     } catch (err) {
         console.error('Error during fetch and process:', err);
         document.getElementById('result').textContent = 'Error: ' + err.message;
