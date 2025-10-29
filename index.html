@@ -92,13 +92,36 @@ async function loadData() {
 
 async function findArrayContainingShop(data) {
     console.log('Searching for array containing "SHOP"...');
-    const pattern = /(\[[\s\S]*?"SHOP"[\s\S]*?\])/;
-    const match = pattern.exec(data);
-    if (!match) {
-        console.log('No array containing "SHOP" found.');
+    const shopIndex = data.indexOf('"SHOP"');
+    if (shopIndex === -1) {
+        console.log('No "SHOP" string found.');
         return null;
     }
-    const arrayStr = match[1];
+    
+    const arrayStart = data.lastIndexOf('[', shopIndex);
+    if (arrayStart === -1) {
+        console.log('No "[" found before "SHOP".');
+        return null;
+    }
+    
+    let stack = 0;
+    let arrayEnd = -1;
+    for (let i = arrayStart; i < data.length; i++) {
+        if (data[i] === '[') {
+            stack++;
+        } else if (data[i] === ']') {
+            stack--;
+            if (stack === 0) {
+                arrayEnd = i + 1;
+                break;
+            }
+        }
+    }
+    if (arrayEnd === -1) {
+        console.log('No closing "]" found for array.');
+        return null;
+    }
+    const arrayStr = data.substring(arrayStart, arrayEnd);
     console.log('Extracted array:', arrayStr);
     return arrayStr;
 }
