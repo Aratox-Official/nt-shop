@@ -92,19 +92,16 @@ async function loadData() {
 
 async function findArrayContainingShop(data) {
     console.log('Searching for array containing "SHOP"...');
-    
     const shopIndex = data.indexOf('"SHOP"');
     if (shopIndex === -1) {
         console.log('No "SHOP" string found.');
         return null;
     }
-
     const arrayStart = data.lastIndexOf('[', shopIndex);
     if (arrayStart === -1) {
         console.log('No "[" found before "SHOP".');
         return null;
     }
-
     let stack = 0;
     let arrayEnd = -1;
     for (let i = arrayStart; i < data.length; i++) {
@@ -158,15 +155,16 @@ async function fetchAndProcess() {
                 arrayData = arrayData[1];
 
                 if (Array.isArray(arrayData)) {
+                    const categoryPriority = {
+                        'featured': 1,
+                        'daily1': 2
+                    };
+
                     arrayData.sort((a, b) => {
-                        const categoryOrder = {
-                            'featured': 1,
-                            'daily1': 2
-                        };
-                        const aOrder = categoryOrder[a.category] || 99;
-                        const bOrder = categoryOrder[b.category] || 99;
-                        if (aOrder !== bOrder) {
-                            return aOrder - bOrder;
+                        const aPriority = categoryPriority[a.category] || 99;
+                        const bPriority = categoryPriority[b.category] || 99;
+                        if (aPriority !== bPriority) {
+                            return aPriority - bPriority;
                         }
                         const aStart = a.startStamp || 0;
                         const bStart = b.startStamp || 0;
@@ -175,7 +173,11 @@ async function fetchAndProcess() {
 
                     for (const category of arrayData) {
                         if (category.items && Array.isArray(category.items)) {
-                            category.items.sort((a, b) => a.id - b.id);
+                            category.items.sort((a, b) => {
+                                const aStart = a.startStamp || 0;
+                                const bStart = b.startStamp || 0;
+                                return aStart - bStart;
+                            });
                         }
                     }
                 }
